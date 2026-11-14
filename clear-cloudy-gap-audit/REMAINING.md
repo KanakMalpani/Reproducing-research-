@@ -82,3 +82,19 @@ Checklist for the IEEE-CVF CVPR source. It is not a list of new experiments. `re
 - [x] Do not train. The six-epoch candidate missed its 0.9 test-IoU target. Test cloudy IoU fell from `0.7667548616804217` to `0.7390338550118456`. That result is not a paper improvement.
 
 - [x] The flood split stays out until independent flood labels exist. `full_genuine_flood_split` is not identifiable from supplied JRC code 0 pixels.
+
+## Wider data
+
+This is the only open experiment that changes the claim. The paper is what is being built. This run tests that the composition control, the same-tile control, and the aggregator still apply on another dataset. A checkpoint is scored only under those three controls. Do not train. Do not add a model improvement or a new segmenter. Do not train a WorldFloods model. Do not replace a printed WorldFloods number. Do not predict an IoU, a scene count, or an interval. Write new JSON only under `results/`. Each file names `C2S-MS Floods` and stays out of WorldFloods n=8, n=7, n=5, and n=32.
+
+A real-tile constructed-fill figure on WorldFloods stays optional and does not replace this run. Flood labels stay blocked.
+
+- [ ] Get the C2S-MS Floods Sentinel-2 chips and the dataset cloud label `LabelCloud`. Registry: https://registry.opendata.aws/c2smsfloods/ . DOI: `10.34911/rdnt.oz32gz`. List the bucket with `aws s3 ls --no-sign-request s3://radiant-mlhub/c2smsfloods/`. `LabelCloud` is the Sentinel-2 cloud GeoTIFF: 0 background, 1 cloud, 2 cloud shadow, 255 no data. Water is `LabelWater`: 0 not water, 1 water, 255 no data. Sentinel-1 chips have no `LabelCloud`. If the Sentinel-2 tiles or `LabelCloud` are missing, stop. Do not substitute WorldFloods tiles or a WorldFloods cloud fraction.
+
+- [ ] Score `ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL-Sen1Floods11` frozen on those chips. Do not train it. Do not fine-tune it on C2S-MS Floods or on WorldFloods. Do not add a segmenter. Leave `WF2_unetv2_all` unchanged. The checkpoint is only an input to the three controls below.
+
+- [ ] Composition control. On C2S-MS Floods, using `LabelCloud` and `LabelWater`, compute unmatched clear-versus-cloudy water IoU, then the water-fraction match, then water-fraction plus NDVI. Clear and cloudy come from `LabelCloud` codes 0 and 1. Leave cloud shadow (code 2) and no data (255) out of both. Write `results/c2sms_floods_prithvi_composition.json` with `"dataset": "C2S-MS Floods"` and `"doi": "10.34911/rdnt.oz32gz"`. Leave IoU, scene count, and interval unset until this run writes them. Do not copy WorldFloods 39.3, 8.9, 1.4, n=8, n=7, or n=5.
+
+- [ ] Same-tile control. On clear tiles, apply a constructed constant fill. Compare a cloud spectrum with a non-cloud land fill. Take both fills from C2S-MS chips. Score unpainted pixels. The fill is a constructed fill on clear tiles, scored on unpainted pixels. It is not natural cloud. Write `results/c2sms_floods_prithvi_same_tile.json` with `"dataset": "C2S-MS Floods"`. Leave the gaps unset until this run writes them. Do not copy WorldFloods 5.6, 3.8, or n=32. If the tiles or `LabelCloud` are missing, stop.
+
+- [ ] Aggregator. Name the aggregator in `results/c2sms_floods_prithvi_aggregator.json`: the scene mean and the interval. On WorldFloods that aggregator is the unweighted scene mean, named apart from the pixel-pool and the event-weighted mean. Compute that aggregator on C2S-MS event folders. Set `"dataset": "C2S-MS Floods"`. Write the scene count the chips support. Do not set it to WorldFloods n=8, n=7, n=5, or n=32. Do not reuse a printed WorldFloods interval.
