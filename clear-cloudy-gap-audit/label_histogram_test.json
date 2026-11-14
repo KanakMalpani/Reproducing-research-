@@ -1,0 +1,216 @@
+{
+ "split": "test",
+ "prob_bins": [
+  0,
+  10,
+  20,
+  30,
+  40,
+  50,
+  60,
+  70,
+  80,
+  90,
+  100,
+  110
+ ],
+ "bright_bins": [
+  0.0,
+  500.0,
+  1000.0,
+  1500.0,
+  2000.0,
+  2500.0,
+  3000.0,
+  3500.0,
+  4000.0,
+  4500.0,
+  5000.0,
+  5500.0,
+  6000.0,
+  6500.0,
+  7000.0,
+  7500.0,
+  8000.0,
+  8500.0,
+  9000.0,
+  9500.0,
+  10000.0
+ ],
+ "hist": {
+  "gt_cloud": {
+   "prob": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1170724,
+    1216829,
+    1195884,
+    1343990,
+    2303398,
+    473719
+   ],
+   "bright": [
+    472,
+    552488,
+    2767616,
+    3577154,
+    684343,
+    81745,
+    21212,
+    8658,
+    2725,
+    3780,
+    3281,
+    998,
+    45,
+    19,
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "gt_clear": {
+   "prob": [
+    131073790,
+    17381516,
+    6150866,
+    2707776,
+    1806052,
+    231160,
+    35143,
+    15313,
+    5891,
+    4605,
+    5347
+   ],
+   "bright": [
+    623211,
+    93079009,
+    43264190,
+    16610174,
+    5037894,
+    527873,
+    147203,
+    59144,
+    20808,
+    20195,
+    19755,
+    5479,
+    676,
+    544,
+    396,
+    541,
+    286,
+    32,
+    17,
+    4,
+    28
+   ]
+  }
+ },
+ "gt_cloud_px": 7704544,
+ "gt_clear_px": 159417459,
+ "frac_gt_cloud_prob_lt50": 0.0,
+ "frac_gt_cloud_prob_lt20": 0.0,
+ "frac_gt_clear_prob_ge20": 0.06876381714251256,
+ "per_scene": [
+  {
+   "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+   "cloud_px": 1675623,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+   "cloud_px": 782639,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+   "cloud_px": 725585,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+   "cloud_px": 3396398,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+   "cloud_px": 138904,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR347_06MWANZA_DEL_v1",
+   "cloud_px": 802155,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR347_07ZOMBA_DEL_v2",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR419_AOI01_DEL_MONIT01",
+   "cloud_px": 0,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR422_AOI06_DEL_PRODUCT",
+   "cloud_px": 2197,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR438_AOI02_DEL_MONIT03",
+   "cloud_px": 139701,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR438_AOI06_DEL_PRODUCT",
+   "cloud_px": 13551,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR466_AOI01_DEL_PRODUCT",
+   "cloud_px": 27768,
+   "cloud_prob_lt50": 0
+  },
+  {
+   "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+   "cloud_px": 23,
+   "cloud_prob_lt50": 0
+  }
+ ],
+ "thin_class_inside_gt_cloud": false
+}

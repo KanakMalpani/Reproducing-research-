@@ -1,0 +1,871 @@
+{
+ "rule": "revision/rules/EVENT_CLUSTER_RULE.md",
+ "n_draws": 5000,
+ "numpy": "2.5.4",
+ "input_sha256": {
+  "p2_results.json": "ae365a76a0fc3a6a6bfd708b62d3e5e777c241e05b6e473f2acac5b53b32e763",
+  "p2_shuffled_results.json": "18099c049242cbdfdfc783819d4e1eefbb888e27448b9f169d58b47587e43737",
+  "p2_soft_edge_results.json": "4dd0feb7e97b6de73418310e48df240c2549cdcd0b9a283d7e36680d2b6c08d8",
+  "p2_varying_results.json": "da959345e82a4d3336265d2a3100f41a10913c347c6f7baae4ecefbdc1f95a69",
+  "p2_analyze.out.json": "18994f555e725aef9a6a69995ed4d1c1b2c9fbc34cf15e00e5ba13accb77566d",
+  "p2_followup_analyze.out.json": "45f75c23cd1979e9c4208cbd25a91a0a15ac8f83f172b06a1221a2144a9cf856",
+  "p2_soft_edge_analyze.out.json": "7b8d4913cc9ec939fd6fdf82d1c936340d6abeb183c48ebd88406660aecfdf4f",
+  "p2_varying_analyze.out.json": "951b9241a075a19288c263073de18a2fc25ff6c351e2c5e1fa47dffe4d3a14a1",
+  "kill_test_results.json": "7387c7fc9d3b140ffaf37b2b086ba9a3509976152561d2b47d5618e957e41c0b",
+  "method1_results.json": "d2a723c41d802f8f1461da26d57499037c8e58dc35937814c36faf44888467c4",
+  "ndvi_comatch_results.json": "d662866bfe92c2b6f043a6d1cf8915227f40eb98e69c7fd6c91da307ec37a4dc",
+  "method1_tiles.json": "4c2da6db25762ae9aeccd6aecf639332ad123fcf16cc147fb35c5ce13b60d7c7"
+ },
+ "paste": {
+  "hard_all": {
+   "label": "Hard constant paste",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 5.591926866199563,
+   "event_weighted_mean": 6.037313411431875,
+   "scene_bootstrap_ci95": [
+    2.998640579764672,
+    8.514629983818702
+   ],
+   "cluster_bootstrap_ci95": [
+    3.0506096760510557,
+    8.531170317464026
+   ],
+   "event_weighted_ci95": [
+    3.2381600702090605,
+    9.105115029931458
+   ],
+   "committed_ci95": [
+    2.998640579764672,
+    8.514629983818702
+   ]
+  },
+  "hard_val": {
+   "label": "Hard constant paste, validation",
+   "seed": 42,
+   "scenes": 15,
+   "clusters": 13,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 2,
+   "scene_mean": 7.584698511103072,
+   "event_weighted_mean": 7.703741392707359,
+   "scene_bootstrap_ci95": [
+    3.008656987636851,
+    12.418198567845502
+   ],
+   "cluster_bootstrap_ci95": [
+    3.0249971252485346,
+    12.474315166537725
+   ],
+   "event_weighted_ci95": [
+    3.000399892730058,
+    12.78743625838586
+   ],
+   "committed_ci95": [
+    3.008656987636851,
+    12.418198567845502
+   ]
+  },
+  "hard_test": {
+   "label": "Hard constant paste, test",
+   "seed": 42,
+   "scenes": 17,
+   "clusters": 11,
+   "cluster_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 3.8335989442258778,
+   "event_weighted_mean": 4.067898524469939,
+   "scene_bootstrap_ci95": [
+    1.4694386340747394,
+    6.891950167978441
+   ],
+   "cluster_bootstrap_ci95": [
+    1.5309904281895064,
+    6.797456732607672
+   ],
+   "event_weighted_ci95": [
+    1.7576980989978739,
+    6.6263403207795655
+   ],
+   "committed_ci95": [
+    1.4694386340747394,
+    6.891950167978441
+   ]
+  },
+  "own": {
+   "label": "Own mask and spectrum",
+   "seed": 42,
+   "scenes": 8,
+   "clusters": 8,
+   "cluster_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "max_cluster_size": 1,
+   "scene_mean": 1.4739047623604535,
+   "event_weighted_mean": 1.4739047623604535,
+   "scene_bootstrap_ci95": [
+    0.25343532342826197,
+    2.898069453493181
+   ],
+   "cluster_bootstrap_ci95": [
+    0.25343532342826197,
+    2.898069453493181
+   ],
+   "event_weighted_ci95": [
+    0.25343532342826197,
+    2.898069453493181
+   ],
+   "committed_ci95": [
+    0.25343532342826197,
+    2.898069453493181
+   ]
+  },
+  "borrowed": {
+   "label": "Borrowed or frozen",
+   "seed": 42,
+   "scenes": 24,
+   "clusters": 20,
+   "cluster_sizes": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "max_cluster_size": 2,
+   "scene_mean": 6.964600900812599,
+   "event_weighted_mean": 7.011843738320131,
+   "scene_bootstrap_ci95": [
+    3.6553348567211237,
+    10.498834802431588
+   ],
+   "cluster_bootstrap_ci95": [
+    3.722885981470942,
+    10.350258389897027
+   ],
+   "event_weighted_ci95": [
+    3.652503583339562,
+    10.643664752644755
+   ],
+   "committed_ci95": [
+    3.6553348567211237,
+    10.498834802431588
+   ]
+  },
+  "shuffled": {
+   "label": "Shuffled 16 px blocks",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 8.114786673955528,
+   "event_weighted_mean": 8.668004836284002,
+   "scene_bootstrap_ci95": [
+    4.0485214128816995,
+    12.796049156527245
+   ],
+   "cluster_bootstrap_ci95": [
+    3.9994409006290725,
+    12.882621466324261
+   ],
+   "event_weighted_ci95": [
+    4.1448263014224125,
+    13.604059385628863
+   ],
+   "committed_ci95": [
+    4.0485214128816995,
+    12.796049156527245
+   ]
+  },
+  "paired_diff": {
+   "label": "Real minus shuffled",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": -2.5228598077559665,
+   "event_weighted_mean": -2.630691424852127,
+   "scene_bootstrap_ci95": [
+    -4.477149059483677,
+    -0.5884659598958064
+   ],
+   "cluster_bootstrap_ci95": [
+    -4.593536380844225,
+    -0.567500314768202
+   ],
+   "event_weighted_ci95": [
+    -4.840579372422346,
+    -0.29748061491367916
+   ],
+   "committed_ci95": [
+    -4.477149059483677,
+    -0.5884659598958064
+   ]
+  },
+  "bin_0_8": {
+   "label": "Hard paste, within 8 px",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 9.384180638884898,
+   "event_weighted_mean": 10.280378292919742,
+   "scene_bootstrap_ci95": [
+    5.379032097825685,
+    13.732038109382241
+   ],
+   "cluster_bootstrap_ci95": [
+    5.3340356401673805,
+    13.925689564514395
+   ],
+   "event_weighted_ci95": [
+    5.6385054425367755,
+    15.127080144808062
+   ],
+   "committed_ci95": [
+    5.379032097825685,
+    13.732038109382241
+   ]
+  },
+  "bin_8_32": {
+   "label": "Hard paste, 8 to 32 px",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 0.2225220455694411,
+   "event_weighted_mean": 0.16626220492633267,
+   "scene_bootstrap_ci95": [
+    -0.3597799593472989,
+    0.8306456480920683
+   ],
+   "cluster_bootstrap_ci95": [
+    -0.3552751880025038,
+    0.7605728113988166
+   ],
+   "event_weighted_ci95": [
+    -0.46842046707952223,
+    0.7594872943380299
+   ],
+   "committed_ci95": [
+    -0.3597799593472989,
+    0.8306456480920683
+   ]
+  },
+  "bin_gt_32": {
+   "label": "Hard paste, beyond 32 px",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": -0.011136587045640182,
+   "event_weighted_mean": -0.011621048020799241,
+   "scene_bootstrap_ci95": [
+    -0.025591543329032247,
+    -0.0006554337380248525
+   ],
+   "cluster_bootstrap_ci95": [
+    -0.02552807118690522,
+    -0.00023527294023602228
+   ],
+   "event_weighted_ci95": [
+    -0.029316441261643,
+    0.0006560624621287377
+   ],
+   "committed_ci95": [
+    -0.025591543329032247,
+    -0.0006554337380248525
+   ]
+  },
+  "soft": {
+   "label": "Soft edge",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 4.403111497940953,
+   "event_weighted_mean": 4.642562426977055,
+   "scene_bootstrap_ci95": [
+    2.2871066698088725,
+    6.83737558787819
+   ],
+   "cluster_bootstrap_ci95": [
+    2.2897085158811414,
+    6.872047023549563
+   ],
+   "event_weighted_ci95": [
+    2.341545690762506,
+    7.405662787324548
+   ],
+   "committed_ci95": [
+    2.2871066698088725,
+    6.83737558787819
+   ]
+  },
+  "varying": {
+   "label": "Per-pixel spectrum, soft edge",
+   "seed": 42,
+   "scenes": 32,
+   "clusters": 24,
+   "cluster_sizes": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "max_cluster_size": 3,
+   "scene_mean": 1.6525996621244565,
+   "event_weighted_mean": 1.9484690555238826,
+   "scene_bootstrap_ci95": [
+    0.5147536841116491,
+    2.701154809636991
+   ],
+   "cluster_bootstrap_ci95": [
+    0.566642868882456,
+    2.7672660923772545
+   ],
+   "event_weighted_ci95": [
+    0.547466594102109,
+    3.2169666070323615
+   ],
+   "committed_ci95": [
+    0.5147536841116491,
+    2.701154809636991
+   ]
+  }
+ },
+ "matches": {
+  "unmatched": {
+   "label": "Unmatched clear versus cloudy",
+   "seed": 0,
+   "scenes": 8,
+   "clusters": 8,
+   "cluster_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "max_cluster_size": 1,
+   "scene_mean": 39.33500362691749,
+   "event_weighted_mean": 39.33500362691749,
+   "scene_bootstrap_ci95": [
+    22.442475796323194,
+    57.577351767791185
+   ],
+   "cluster_bootstrap_ci95": [
+    22.442475796323194,
+    57.577351767791185
+   ],
+   "event_weighted_ci95": [
+    22.442475796323194,
+    57.577351767791185
+   ],
+   "committed_ci95": [
+    22.442475796323194,
+    57.577351767791185
+   ]
+  },
+  "water": {
+   "label": "Water-fraction match",
+   "seed": 0,
+   "scenes": 7,
+   "clusters": 7,
+   "cluster_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "max_cluster_size": 1,
+   "scene_mean": 8.85265409524217,
+   "event_weighted_mean": 8.85265409524217,
+   "scene_bootstrap_ci95": [
+    -0.6602105460346197,
+    17.779281558034725
+   ],
+   "cluster_bootstrap_ci95": [
+    -0.6602105460346197,
+    17.779281558034725
+   ],
+   "event_weighted_ci95": [
+    -0.6602105460346197,
+    17.779281558034725
+   ],
+   "committed_ci95": [
+    -0.6602105460346197,
+    17.779281558034725
+   ]
+  },
+  "ndvi": {
+   "label": "NDVI co-match",
+   "seed": 0,
+   "scenes": 5,
+   "clusters": 5,
+   "cluster_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "max_cluster_size": 1,
+   "scene_mean": 1.4267416020135386,
+   "event_weighted_mean": 1.4267416020135386,
+   "scene_bootstrap_ci95": [
+    -24.530884072876667,
+    24.514781606884664
+   ],
+   "cluster_bootstrap_ci95": [
+    -24.530884072876667,
+    24.514781606884664
+   ],
+   "event_weighted_ci95": [
+    -24.530884072876667,
+    24.514781606884664
+   ],
+   "committed_ci95": [
+    -24.530884072876667,
+    24.514781606884664
+   ]
+  }
+ },
+ "reading": {
+  "hard_cluster_lower": 3.0506096760510557,
+  "hard_cluster_lower_at_most_0": false,
+  "scene_mean": 5.591926866199563,
+  "event_weighted_mean": 6.037313411431875,
+  "margin_scene_minus_event": -0.4453865452323127,
+  "margin_threshold": 2.791926866199563,
+  "pixel_pool_print": 2.8,
+  "move_aggregator_caveat": false
+ },
+ "water_accounting": [
+  {
+   "scene": "EMSR274_05TOAMASINA_DEL_v1",
+   "cloudy_available": 13,
+   "cloudy_matched": 0,
+   "cloudy_discarded": 13,
+   "clear_available": 3,
+   "clear_used": 0,
+   "in_mean": false,
+   "gap": null
+  },
+  {
+   "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+   "cloudy_available": 18,
+   "cloudy_matched": 17,
+   "cloudy_discarded": 1,
+   "clear_available": 27,
+   "clear_used": 17,
+   "in_mean": true,
+   "gap": 18.545081179481272
+  },
+  {
+   "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+   "cloudy_available": 3,
+   "cloudy_matched": 3,
+   "cloudy_discarded": 0,
+   "clear_available": 19,
+   "clear_used": 3,
+   "in_mean": true,
+   "gap": -7.749665916669157
+  },
+  {
+   "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+   "cloudy_available": 22,
+   "cloudy_matched": 5,
+   "cloudy_discarded": 17,
+   "clear_available": 14,
+   "clear_used": 5,
+   "in_mean": true,
+   "gap": -10.10242029960965
+  },
+  {
+   "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+   "cloudy_available": 11,
+   "cloudy_matched": 4,
+   "cloudy_discarded": 7,
+   "clear_available": 6,
+   "clear_used": 4,
+   "in_mean": true,
+   "gap": 17.934528964562666
+  },
+  {
+   "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+   "cloudy_available": 34,
+   "cloudy_matched": 27,
+   "cloudy_discarded": 7,
+   "clear_available": 42,
+   "clear_used": 27,
+   "in_mean": true,
+   "gap": 10.394423135152564
+  },
+  {
+   "scene": "EMSR347_06MWANZA_DEL_v1",
+   "cloudy_available": 11,
+   "cloudy_matched": 11,
+   "cloudy_discarded": 0,
+   "clear_available": 117,
+   "clear_used": 11,
+   "in_mean": true,
+   "gap": 6.699931199027148
+  },
+  {
+   "scene": "EMSR438_AOI02_DEL_MONIT03",
+   "cloudy_available": 3,
+   "cloudy_matched": 3,
+   "cloudy_discarded": 0,
+   "clear_available": 41,
+   "clear_used": 3,
+   "in_mean": true,
+   "gap": 26.24670040475035
+  }
+ ],
+ "ndvi_accounting": [
+  {
+   "scene": "EMSR274_05TOAMASINA_DEL_v1",
+   "cloudy_available": 13,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 0,
+   "cloudy_discarded": 13,
+   "clear_used": 0,
+   "in_mean": false,
+   "gap": null
+  },
+  {
+   "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+   "cloudy_available": 18,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 11,
+   "cloudy_discarded": 7,
+   "clear_used": 11,
+   "in_mean": true,
+   "gap": 7.25255635477332
+  },
+  {
+   "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+   "cloudy_available": 3,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 2,
+   "cloudy_discarded": 1,
+   "clear_used": 2,
+   "in_mean": true,
+   "gap": 38.97036479015309
+  },
+  {
+   "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+   "cloudy_available": 22,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 5,
+   "cloudy_discarded": 17,
+   "clear_used": 5,
+   "in_mean": true,
+   "gap": -8.24709492825445
+  },
+  {
+   "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+   "cloudy_available": 11,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 2,
+   "cloudy_discarded": 9,
+   "clear_used": 2,
+   "in_mean": false,
+   "gap": null
+  },
+  {
+   "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+   "cloudy_available": 34,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 18,
+   "cloudy_discarded": 16,
+   "clear_used": 18,
+   "in_mean": true,
+   "gap": 14.877726151372384
+  },
+  {
+   "scene": "EMSR347_06MWANZA_DEL_v1",
+   "cloudy_available": 11,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 9,
+   "cloudy_discarded": 2,
+   "clear_used": 9,
+   "in_mean": true,
+   "gap": -45.719844357976655
+  },
+  {
+   "scene": "EMSR438_AOI02_DEL_MONIT03",
+   "cloudy_available": 3,
+   "cloudy_skipped_missing_ndvi": 0,
+   "cloudy_matched": 2,
+   "cloudy_discarded": 1,
+   "clear_used": 2,
+   "in_mean": false,
+   "gap": null
+  }
+ ],
+ "sensitivity": {
+  "ok": false,
+  "error": "EMSR264: HTTP Error 403: Forbidden"
+ },
+ "sensitivity_note": "The sensitivity grouping was not computed. EMSR264: HTTP Error 403: Forbidden."
+}

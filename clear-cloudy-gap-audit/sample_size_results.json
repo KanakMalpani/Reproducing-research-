@@ -1,0 +1,160 @@
+{
+  "draws": 5000,
+  "hypothetical_n": [
+    20,
+    50
+  ],
+  "note": "n=20 and n=50 resample the committed per-scene gaps with replacement. They are extrapolations, not measurements on more scenes, and they are not point estimates.",
+  "inventory": {
+    "method1_tiles": 1291,
+    "method1_scenes": 34,
+    "method1_scenes_by_split": {
+      "test": 18,
+      "val": 16
+    },
+    "cloud_iou_tiles": 1291,
+    "cloud_iou_scenes": 34,
+    "same_scene_ids": true,
+    "paste_scenes": 32,
+    "paste_by_split": {
+      "val": 15,
+      "test": 17
+    },
+    "scenes_with_tiles_and_no_paste_gap": [
+      {
+        "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+        "tiles": 4
+      },
+      {
+        "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+        "tiles": 25
+      }
+    ]
+  },
+  "families": [
+    {
+      "label": "Unmatched",
+      "n_observed": 8,
+      "seed": 0,
+      "draws": 5000,
+      "stored_ci95": [
+        22.442475796323194,
+        57.577351767791185
+      ],
+      "stored_width": 35.13487597146799,
+      "reproduced_ci95": [
+        22.442475796323194,
+        57.577351767791185
+      ],
+      "hypothetical": {
+        "20": {
+          "n": 20,
+          "lo": 28.083065538206135,
+          "hi": 50.37245431015148,
+          "width": 22.289388771945347,
+          "label": "extrapolation"
+        },
+        "50": {
+          "n": 50,
+          "lo": 32.31425151475353,
+          "hi": 46.537562796715264,
+          "width": 14.223311281961735,
+          "label": "extrapolation"
+        }
+      }
+    },
+    {
+      "label": "Water fraction",
+      "n_observed": 7,
+      "seed": 0,
+      "draws": 5000,
+      "stored_ci95": [
+        -0.6602105460346197,
+        17.779281558034725
+      ],
+      "stored_width": 18.439492104069345,
+      "reproduced_ci95": [
+        -0.6602105460346197,
+        17.779281558034725
+      ],
+      "hypothetical": {
+        "20": {
+          "n": 20,
+          "lo": 3.1336762855538858,
+          "hi": 14.199924922014763,
+          "width": 11.066248636460877,
+          "label": "extrapolation"
+        },
+        "50": {
+          "n": 50,
+          "lo": 5.3148084343754425,
+          "hi": 12.244291102217565,
+          "width": 6.929482667842122,
+          "label": "extrapolation"
+        }
+      }
+    },
+    {
+      "label": "NDVI co-match",
+      "n_observed": 5,
+      "seed": 0,
+      "draws": 5000,
+      "stored_ci95": [
+        -24.530884072876667,
+        24.514781606884664
+      ],
+      "stored_width": 49.04566567976133,
+      "reproduced_ci95": [
+        -24.530884072876667,
+        24.514781606884664
+      ],
+      "hypothetical": {
+        "20": {
+          "n": 20,
+          "lo": -10.7545270946421,
+          "hi": 13.50965831264362,
+          "width": 24.26418540728572,
+          "label": "extrapolation"
+        },
+        "50": {
+          "n": 50,
+          "lo": -6.30496959931627,
+          "hi": 8.988942554348407,
+          "width": 15.293912153664678,
+          "label": "extrapolation"
+        }
+      }
+    },
+    {
+      "label": "Hard paste",
+      "n_observed": 32,
+      "seed": 42,
+      "draws": 5000,
+      "stored_ci95": [
+        2.998640579764672,
+        8.514629983818702
+      ],
+      "stored_width": 5.5159894040540305,
+      "reproduced_ci95": [
+        2.998640579764672,
+        8.514629983818702
+      ],
+      "hypothetical": {
+        "20": {
+          "n": 20,
+          "lo": 2.4019614431295846,
+          "hi": 9.308263728668162,
+          "width": 6.906302285538578,
+          "label": "extrapolation"
+        },
+        "50": {
+          "n": 50,
+          "lo": 3.4772749193962493,
+          "hi": 7.881855783275669,
+          "width": 4.40458086387942,
+          "label": "extrapolation"
+        }
+      }
+    }
+  ]
+}

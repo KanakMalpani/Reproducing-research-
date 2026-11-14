@@ -1,0 +1,883 @@
+{
+ "frozen_val_spectrum": [
+  2157.0,
+  2231.75,
+  2082.75,
+  1969.5,
+  2121.5,
+  2727.0,
+  3047.0,
+  3032.0,
+  3279.5,
+  804.0,
+  13.5,
+  2515.25,
+  1645.5
+ ],
+ "rows": [
+  {
+   "split": "val",
+   "scene": "EMSR271_02FARKADONA_DEL_v1",
+   "n_clear_tiles": 20,
+   "clear_water_px": 101039,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.8441733731504446,
+   "iou_paint_unpainted": 0.5999810395089232,
+   "gap_pts": 24.419233364152138,
+   "iou_painted_px": 0.2229734014891107,
+   "painted_cm": [
+    35158,
+    111551,
+    10969
+   ],
+   "orig_cm": [
+    50035,
+    4359,
+    4877
+   ],
+   "paint_cm": [
+    50630,
+    29474,
+    4282
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR274_05TOAMASINA_DEL_v1",
+   "n_clear_tiles": 3,
+   "clear_water_px": 166057,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.982095401969219,
+   "iou_paint_unpainted": 0.9807449856733524,
+   "gap_pts": 0.1350416295866519,
+   "iou_painted_px": 0.37770883205241274,
+   "painted_cm": [
+    23983,
+    330,
+    39183
+   ],
+   "orig_cm": [
+    102737,
+    1718,
+    155
+   ],
+   "paint_cm": [
+    102684,
+    1808,
+    208
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+   "n_clear_tiles": 87,
+   "clear_water_px": 155270,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.5558408944638643,
+   "iou_paint_unpainted": 0.3173568548605031,
+   "gap_pts": 23.848403960336125,
+   "iou_painted_px": 0.11110908567979551,
+   "painted_cm": [
+    54857,
+    426551,
+    12314
+   ],
+   "orig_cm": [
+    88093,
+    70387,
+    6
+   ],
+   "paint_cm": [
+    88077,
+    189434,
+    22
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR279_11TORTOSA_DEL_v1",
+   "n_clear_tiles": 113,
+   "clear_water_px": 2794881,
+   "own_mask": false,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.959995376237492,
+   "iou_paint_unpainted": 0.9352863350855783,
+   "gap_pts": 2.4709041151913635,
+   "iou_painted_px": 0.4269228834671669,
+   "painted_cm": [
+    577169,
+    143341,
+    631418
+   ],
+   "orig_cm": [
+    1586233,
+    66038,
+    63
+   ],
+   "paint_cm": [
+    1584925,
+    108292,
+    1371
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+   "n_clear_tiles": 27,
+   "clear_water_px": 288111,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.8897704306693113,
+   "iou_paint_unpainted": 0.8380061570399028,
+   "gap_pts": 5.176427362940849,
+   "iou_painted_px": 0.26260555821381926,
+   "painted_cm": [
+    40613,
+    13529,
+    100512
+   ],
+   "orig_cm": [
+    142204,
+    12740,
+    4877
+   ],
+   "paint_cm": [
+    142094,
+    22481,
+    4987
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR293_03OZUN_GRA_v1",
+   "n_clear_tiles": 12,
+   "clear_water_px": 22449,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.2979256783326779,
+   "iou_paint_unpainted": 0.3518585675430644,
+   "gap_pts": -5.393288921038647,
+   "iou_painted_px": 0.1302610759493671,
+   "painted_cm": [
+    3293,
+    17974,
+    4013
+   ],
+   "orig_cm": [
+    12122,
+    25545,
+    3021
+   ],
+   "paint_cm": [
+    11643,
+    17947,
+    3500
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+   "n_clear_tiles": 19,
+   "clear_water_px": 370603,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.9409197147366108,
+   "iou_paint_unpainted": 0.9307872482063168,
+   "gap_pts": 1.0132466530294093,
+   "iou_painted_px": 0.5268090787716956,
+   "painted_cm": [
+    98645,
+    8898,
+    79707
+   ],
+   "orig_cm": [
+    188406,
+    7256,
+    4574
+   ],
+   "paint_cm": [
+    188759,
+    9815,
+    4221
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR329_05CASTIADAS_GRA_v3",
+   "n_clear_tiles": 4,
+   "clear_water_px": 5545,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.37704430567945285,
+   "iou_paint_unpainted": 0.3421483097055616,
+   "gap_pts": 3.489599597389126,
+   "iou_painted_px": 0.11466470154753132,
+   "painted_cm": [
+    778,
+    4058,
+    1949
+   ],
+   "orig_cm": [
+    1268,
+    522,
+    1573
+   ],
+   "paint_cm": [
+    1255,
+    827,
+    1586
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR358_AOI01_FEP_PRODUCT",
+   "n_clear_tiles": 2,
+   "clear_water_px": 16853,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.6273579512975878,
+   "iou_paint_unpainted": 0.6323954028194531,
+   "gap_pts": -0.5037451521865299,
+   "iou_painted_px": 0.5503411781088985,
+   "painted_cm": [
+    3952,
+    2886,
+    343
+   ],
+   "orig_cm": [
+    10975,
+    4698,
+    1821
+   ],
+   "paint_cm": [
+    11170,
+    4867,
+    1626
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR427_AOI03_DEL_MONIT02",
+   "n_clear_tiles": 172,
+   "clear_water_px": 1043658,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.8819513310842271,
+   "iou_paint_unpainted": 0.6779897871530499,
+   "gap_pts": 20.396154393117715,
+   "iou_painted_px": 0.17806965548951068,
+   "painted_cm": [
+    321446,
+    1334847,
+    148877
+   ],
+   "orig_cm": [
+    539838,
+    38760,
+    33497
+   ],
+   "paint_cm": [
+    541444,
+    225267,
+    31891
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR442_AOI03_DEL_PRODUCT",
+   "n_clear_tiles": 1,
+   "clear_water_px": 1140,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.2627599243856333,
+   "iou_paint_unpainted": 0.21428571428571427,
+   "gap_pts": 4.8474210099919,
+   "iou_painted_px": 0.022950819672131147,
+   "painted_cm": [
+    28,
+    606,
+    586
+   ],
+   "orig_cm": [
+    139,
+    3,
+    387
+   ],
+   "paint_cm": [
+    159,
+    216,
+    367
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR629_AOI01_DEL_PRODUCT",
+   "n_clear_tiles": 35,
+   "clear_water_px": 1567743,
+   "own_mask": false,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.7948349542157246,
+   "iou_paint_unpainted": 0.7962374035901734,
+   "gap_pts": -0.14024493744487776,
+   "iou_painted_px": 0.6681644961322626,
+   "painted_cm": [
+    616643,
+    217107,
+    89141
+   ],
+   "orig_cm": [
+    861338,
+    221538,
+    793
+   ],
+   "paint_cm": [
+    860782,
+    218931,
+    1349
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "EMSR629_AOI02_DEL_PRODUCT",
+   "n_clear_tiles": 35,
+   "clear_water_px": 1720423,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.8309450534796889,
+   "iou_paint_unpainted": 0.8202988936335068,
+   "gap_pts": 1.0646159846182113,
+   "iou_painted_px": 0.6385504360811133,
+   "painted_cm": [
+    590110,
+    154669,
+    179361
+   ],
+   "orig_cm": [
+    947171,
+    188621,
+    4080
+   ],
+   "paint_cm": [
+    948592,
+    205147,
+    2659
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+   "n_clear_tiles": 4,
+   "clear_water_px": 20536,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.8495543672014261,
+   "iou_paint_unpainted": 0.69082335872325,
+   "gap_pts": 15.87310084781761,
+   "iou_painted_px": 0.25195167691569625,
+   "painted_cm": [
+    5777,
+    12095,
+    5057
+   ],
+   "orig_cm": [
+    9532,
+    1518,
+    170
+   ],
+   "paint_cm": [
+    9523,
+    4083,
+    179
+   ]
+  },
+  {
+   "split": "val",
+   "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+   "n_clear_tiles": 14,
+   "clear_water_px": 33296,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.8309098717712743,
+   "iou_paint_unpainted": 0.660173794180824,
+   "gap_pts": 17.07360775904503,
+   "iou_painted_px": 0.25804599586627736,
+   "painted_cm": [
+    15731,
+    41335,
+    3896
+   ],
+   "orig_cm": [
+    13543,
+    2630,
+    126
+   ],
+   "paint_cm": [
+    13523,
+    6815,
+    146
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+   "n_clear_tiles": 14,
+   "clear_water_px": 760463,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.9201251456917025,
+   "iou_paint_unpainted": 0.9208228830765556,
+   "gap_pts": -0.06977373848531254,
+   "iou_painted_px": 0.6123719494303902,
+   "painted_cm": [
+    192008,
+    13448,
+    108092
+   ],
+   "orig_cm": [
+    462615,
+    40024,
+    135
+   ],
+   "paint_cm": [
+    462603,
+    39630,
+    147
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+   "n_clear_tiles": 9,
+   "clear_water_px": 77621,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.5826693227091634,
+   "iou_paint_unpainted": 0.4643993401284393,
+   "gap_pts": 11.826998258072408,
+   "iou_painted_px": 0.22642930585112742,
+   "painted_cm": [
+    18939,
+    45379,
+    19324
+   ],
+   "orig_cm": [
+    31005,
+    13854,
+    8353
+   ],
+   "paint_cm": [
+    31529,
+    28534,
+    7829
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+   "n_clear_tiles": 4,
+   "clear_water_px": 92998,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.9256124150314223,
+   "iou_paint_unpainted": 0.9261333777669543,
+   "gap_pts": -0.052096273553192685,
+   "iou_painted_px": 0.7978949725674617,
+   "painted_cm": [
+    14252,
+    1085,
+    2525
+   ],
+   "orig_cm": [
+    72170,
+    1749,
+    4051
+   ],
+   "paint_cm": [
+    72256,
+    1798,
+    3965
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+   "n_clear_tiles": 6,
+   "clear_water_px": 53626,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.9269891252608838,
+   "iou_paint_unpainted": 0.8873732074151801,
+   "gap_pts": 3.961591784570373,
+   "iou_painted_px": 0.3592254689294373,
+   "painted_cm": [
+    11261,
+    4067,
+    16020
+   ],
+   "orig_cm": [
+    25317,
+    966,
+    1028
+   ],
+   "paint_cm": [
+    25370,
+    2245,
+    975
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+   "n_clear_tiles": 6,
+   "clear_water_px": 89068,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.9150324046797408,
+   "iou_paint_unpainted": 0.8835446806782964,
+   "gap_pts": 3.1487724001444395,
+   "iou_painted_px": 0.4153216575091575,
+   "painted_cm": [
+    14513,
+    11500,
+    8931
+   ],
+   "orig_cm": [
+    65229,
+    5662,
+    395
+   ],
+   "paint_cm": [
+    65286,
+    8267,
+    338
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+   "n_clear_tiles": 8,
+   "clear_water_px": 24316,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.6895454304354744,
+   "iou_paint_unpainted": 0.48268290955450105,
+   "gap_pts": 20.68625208809734,
+   "iou_painted_px": 0.3145780887305064,
+   "painted_cm": [
+    9622,
+    20242,
+    723
+   ],
+   "orig_cm": [
+    13000,
+    4882,
+    971
+   ],
+   "paint_cm": [
+    13630,
+    14267,
+    341
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+   "n_clear_tiles": 42,
+   "clear_water_px": 806651,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.8157541467400622,
+   "iou_paint_unpainted": 0.7967604664186425,
+   "gap_pts": 1.8993680321419681,
+   "iou_painted_px": 0.32049729562607315,
+   "painted_cm": [
+    348303,
+    737990,
+    465
+   ],
+   "orig_cm": [
+    447247,
+    89168,
+    11847
+   ],
+   "paint_cm": [
+    446742,
+    101604,
+    12352
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+   "n_clear_tiles": 103,
+   "clear_water_px": 4359748,
+   "own_mask": false,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.6956651696644075,
+   "iou_paint_unpainted": 0.7033160863989285,
+   "gap_pts": -0.7650916734521007,
+   "iou_painted_px": 0.7280663857666472,
+   "painted_cm": [
+    1848720,
+    659417,
+    31082
+   ],
+   "orig_cm": [
+    2234304,
+    730531,
+    246917
+   ],
+   "paint_cm": [
+    2226544,
+    684559,
+    254677
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR347_06MWANZA_DEL_v1",
+   "n_clear_tiles": 117,
+   "clear_water_px": 169971,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.6040527037783461,
+   "iou_paint_unpainted": 0.6029991431019709,
+   "gap_pts": 0.1053560676375187,
+   "iou_painted_px": 0.2556315053596396,
+   "painted_cm": [
+    19746,
+    16091,
+    41407
+   ],
+   "orig_cm": [
+    71335,
+    9276,
+    37483
+   ],
+   "paint_cm": [
+    77407,
+    19552,
+    31411
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+   "n_clear_tiles": 41,
+   "clear_water_px": 948214,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.834290823314564,
+   "iou_paint_unpainted": 0.8361532104413255,
+   "gap_pts": -0.18623871267615666,
+   "iou_painted_px": 0.6316334881978574,
+   "painted_cm": [
+    310247,
+    65292,
+    115643
+   ],
+   "orig_cm": [
+    482427,
+    55924,
+    39897
+   ],
+   "paint_cm": [
+    483626,
+    56070,
+    38698
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR347_07ZOMBA_DEL_v2",
+   "n_clear_tiles": 4,
+   "clear_water_px": 16729,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.7418648766963374,
+   "iou_paint_unpainted": 0.7125185886170069,
+   "gap_pts": 2.9346288079330485,
+   "iou_painted_px": 0.3143286573146293,
+   "painted_cm": [
+    3137,
+    6508,
+    335
+   ],
+   "orig_cm": [
+    10168,
+    449,
+    3089
+   ],
+   "paint_cm": [
+    10541,
+    1537,
+    2716
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR419_AOI01_DEL_MONIT01",
+   "n_clear_tiles": 14,
+   "clear_water_px": 272912,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.8744803743834058,
+   "iou_paint_unpainted": 0.7845466712784035,
+   "gap_pts": 8.993370310500225,
+   "iou_painted_px": 0.22303608161449937,
+   "painted_cm": [
+    48141,
+    49620,
+    118083
+   ],
+   "orig_cm": [
+    103709,
+    11907,
+    2979
+   ],
+   "paint_cm": [
+    104340,
+    26306,
+    2348
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR422_AOI06_DEL_PRODUCT",
+   "n_clear_tiles": 4,
+   "clear_water_px": 175686,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.9761284386917345,
+   "iou_paint_unpainted": 0.9709711458500758,
+   "gap_pts": 0.5157292841658667,
+   "iou_painted_px": 0.597616002702507,
+   "painted_cm": [
+    24767,
+    6039,
+    10637
+   ],
+   "orig_cm": [
+    138988,
+    2066,
+    1333
+   ],
+   "paint_cm": [
+    138945,
+    2778,
+    1376
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR438_AOI02_DEL_MONIT03",
+   "n_clear_tiles": 41,
+   "clear_water_px": 1229119,
+   "own_mask": true,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.9303230877504342,
+   "iou_paint_unpainted": 0.9346232846758125,
+   "gap_pts": -0.4300196925378308,
+   "iou_painted_px": 0.5190617023862577,
+   "painted_cm": [
+    140932,
+    18235,
+    112346
+   ],
+   "orig_cm": [
+    972917,
+    69595,
+    3272
+   ],
+   "paint_cm": [
+    972383,
+    64212,
+    3806
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR438_AOI06_DEL_PRODUCT",
+   "n_clear_tiles": 3,
+   "clear_water_px": 97627,
+   "own_mask": false,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.9268103605520763,
+   "iou_paint_unpainted": 0.9193394004770659,
+   "gap_pts": 0.7470960075010469,
+   "iou_painted_px": 0.7402601312699464,
+   "painted_cm": [
+    24587,
+    392,
+    8235
+   ],
+   "orig_cm": [
+    60973,
+    977,
+    3838
+   ],
+   "paint_cm": [
+    60510,
+    1008,
+    4301
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR466_AOI01_DEL_PRODUCT",
+   "n_clear_tiles": 10,
+   "clear_water_px": 179984,
+   "own_mask": false,
+   "own_spectrum": true,
+   "iou_orig_unpainted": 0.8667105419511705,
+   "iou_paint_unpainted": 0.8448838727730622,
+   "gap_pts": 2.182666917810827,
+   "iou_painted_px": 0.1279839182511098,
+   "painted_cm": [
+    10696,
+    744,
+    72133
+   ],
+   "orig_cm": [
+    94819,
+    11987,
+    2595
+   ],
+   "paint_cm": [
+    90580,
+    9796,
+    6834
+   ]
+  },
+  {
+   "split": "test",
+   "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+   "n_clear_tiles": 12,
+   "clear_water_px": 93184,
+   "own_mask": false,
+   "own_spectrum": false,
+   "iou_orig_unpainted": 0.7969942033581761,
+   "iou_paint_unpainted": 0.7002684815184815,
+   "gap_pts": 9.672572183969452,
+   "iou_painted_px": 0.15407412572783374,
+   "painted_cm": [
+    17676,
+    69723,
+    27325
+   ],
+   "orig_cm": [
+    45235,
+    8573,
+    2949
+   ],
+   "paint_cm": [
+    44862,
+    15880,
+    3322
+   ]
+  }
+ ]
+}

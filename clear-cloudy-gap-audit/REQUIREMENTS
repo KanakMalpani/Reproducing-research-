@@ -1,0 +1,7 @@
+These inputs are not in this folder. They are not on this checkout. This file does not supply substitutes, and this folder has no placeholder result JSON for a non-cloud paste, a permanent-water split, or a second model.
+
+- WorldFloods v2 validation and test tiles: not included
+- WF2_unetv2_all weights: not included
+- PERMANENTWATERJRC rasters: not included
+
+The activation-clustered intervals do not use these files. They are recomputed from the committed JSON already in the repository.

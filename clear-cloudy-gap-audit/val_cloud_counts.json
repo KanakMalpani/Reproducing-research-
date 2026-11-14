@@ -1,0 +1,174 @@
+{
+ "split": "val",
+ "thr": 50,
+ "totals": {
+  "clear_px": 122244444,
+  "flood_clear_px": 35361776,
+  "thin_px": 27920175,
+  "flood_thin_px": 651862,
+  "thick_px": 3054955,
+  "flood_thick_px": 249461
+ },
+ "per_scene": [
+  {
+   "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+   "cloudprob_max": 99,
+   "clear_px": 791512,
+   "flood_clear_px": 8234,
+   "thin_px": 322042,
+   "flood_thin_px": 1342,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "EMSR271_02FARKADONA_DEL_v1",
+   "cloudprob_max": 100,
+   "clear_px": 5121905,
+   "flood_clear_px": 690683,
+   "thin_px": 397777,
+   "flood_thin_px": 28668,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "EMSR274_05TOAMASINA_DEL_v1",
+   "cloudprob_max": 100,
+   "clear_px": 4370920,
+   "flood_clear_px": 1407947,
+   "thin_px": 608086,
+   "flood_thin_px": 52729,
+   "thick_px": 679633,
+   "flood_thick_px": 51976
+  },
+  {
+   "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+   "cloudprob_max": 100,
+   "clear_px": 10296610,
+   "flood_clear_px": 518054,
+   "thin_px": 9375365,
+   "flood_thin_px": 43261,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "EMSR279_11TORTOSA_DEL_v1",
+   "cloudprob_max": 100,
+   "clear_px": 27227970,
+   "flood_clear_px": 10602955,
+   "thin_px": 183311,
+   "flood_thin_px": 10222,
+   "thick_px": 16813,
+   "flood_thick_px": 17
+  },
+  {
+   "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+   "cloudprob_max": 100,
+   "clear_px": 10311564,
+   "flood_clear_px": 1859358,
+   "thin_px": 2358687,
+   "flood_thin_px": 222124,
+   "thick_px": 2176612,
+   "flood_thick_px": 181130
+  },
+  {
+   "scene": "EMSR293_03OZUN_GRA_v1",
+   "cloudprob_max": 100,
+   "clear_px": 2591937,
+   "flood_clear_px": 114536,
+   "thin_px": 21129,
+   "flood_thin_px": 8870,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+   "cloudprob_max": 100,
+   "clear_px": 6236319,
+   "flood_clear_px": 1533829,
+   "thin_px": 292752,
+   "flood_thin_px": 46999,
+   "thick_px": 160732,
+   "flood_thick_px": 8265
+  },
+  {
+   "scene": "EMSR329_05CASTIADAS_GRA_v3",
+   "cloudprob_max": 78,
+   "clear_px": 907277,
+   "flood_clear_px": 111651,
+   "thin_px": 5929,
+   "flood_thin_px": 1066,
+   "thick_px": 183,
+   "flood_thick_px": 142
+  },
+  {
+   "scene": "EMSR358_AOI01_FEP_PRODUCT",
+   "cloudprob_max": 92,
+   "clear_px": 427781,
+   "flood_clear_px": 40004,
+   "thin_px": 25603,
+   "flood_thin_px": 9011,
+   "thick_px": 2807,
+   "flood_thick_px": 711
+  },
+  {
+   "scene": "EMSR427_AOI03_DEL_MONIT02",
+   "cloudprob_max": 99,
+   "clear_px": 32200196,
+   "flood_clear_px": 4638904,
+   "thin_px": 13261387,
+   "flood_thin_px": 96075,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "EMSR442_AOI03_DEL_PRODUCT",
+   "cloudprob_max": 89,
+   "clear_px": 233651,
+   "flood_clear_px": 29082,
+   "thin_px": 3196,
+   "flood_thin_px": 839,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "EMSR629_AOI01_DEL_PRODUCT",
+   "cloudprob_max": 100,
+   "clear_px": 9284167,
+   "flood_clear_px": 6508015,
+   "thin_px": 326738,
+   "flood_thin_px": 33926,
+   "thick_px": 15069,
+   "flood_thick_px": 6334
+  },
+  {
+   "scene": "EMSR629_AOI02_DEL_PRODUCT",
+   "cloudprob_max": 99,
+   "clear_px": 9450423,
+   "flood_clear_px": 7170672,
+   "thin_px": 181071,
+   "flood_thin_px": 68802,
+   "thick_px": 3106,
+   "flood_thick_px": 886
+  },
+  {
+   "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+   "cloudprob_max": 100,
+   "clear_px": 608178,
+   "flood_clear_px": 58608,
+   "thin_px": 139325,
+   "flood_thin_px": 13858,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  },
+  {
+   "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+   "cloudprob_max": 100,
+   "clear_px": 2184034,
+   "flood_clear_px": 69244,
+   "thin_px": 417777,
+   "flood_thin_px": 14070,
+   "thick_px": 0,
+   "flood_thick_px": 0
+  }
+ ]
+}
