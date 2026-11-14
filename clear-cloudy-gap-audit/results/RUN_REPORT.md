@@ -47,7 +47,7 @@ The following scenes remain separate. Their intervals use 5,000 within-scene til
 
 ## Reproduction and limitations
 
-- Frozen checkpoints; no additional training, threshold tuning, paper changes or replacement of committed JSON.
+- The released WF2 and Prithvi checkpoints stayed frozen for this audit; no audit threshold tuning or replacement of committed JSON occurred. A separate authorized candidate was subsequently trained for six epochs and selected/calibrated on validation data only, as recorded in `finetune_v1/`. It missed the 90% test-IoU target and reduced cloudy-test IoU. Model improvement is stopped; that candidate does not replace any frozen audit result.
 - Prithvi uses six official bands, reflectance scaling and Sen1Floods11 means/stds, native 256px inputs, no metadata as configured, and two-class argmax.
 - Prithvi was trained on Sen1Floods11 and is evaluated across datasets; differences cannot be attributed solely to cloud robustness.
 - Prithvi runs in isolated Python 3.11 with TerraTorch 0.99.8 because the current Colab Python 3.13 runtime conflicts with its old NumPy pin. Exact installed packages are included.

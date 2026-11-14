@@ -1,0 +1,7 @@
+# Corrected-paste event-cluster follow-up
+
+This rule is written before the new intervals are computed. It reads only the existing WF2 pooled-median/placebo and frozen Prithvi same-protocol result JSON. It does not train, load tiles, alter weights, replace any existing JSON or recompute a new point-estimate mean.
+
+For each model, split (validation+test, validation, test) and statistic (cloud fill, noncloud placebo, paired cloud-minus-placebo), retain the exact stored scene-mean point estimate. Define an activation by the leading EMSR plus digits; non-EMSR scene IDs form individual clusters. Preserve input scene order and include all scenes in each sampled cluster, including repeated clusters. Use 5,000 cluster-bootstrap draws, seed42, with replacement, and the percentile2.5/97.5 interval using NumPy's default linear percentile. Each draw averages its included scene gaps. Do not calculate an event-weighted point estimate.
+
+Before writing, verify the scene count and independently reproduce each stored scene-bootstrap interval at absolute tolerance1e-6; singleton-cluster intervals must equal the scene-bootstrap interval at tolerance1e-9. Both models must use identical ordered scene/split keys. Stop on missing paths or failed checks. Write a new result JSON under results/ only. Record input SHA256 before and after and retain stored means verbatim. These new intervals never replace the original printed hard-paste interval, its original event interval [3.1,8.5], or the original event-weighted6.0.

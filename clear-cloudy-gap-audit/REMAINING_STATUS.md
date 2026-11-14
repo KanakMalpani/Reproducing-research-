@@ -30,3 +30,15 @@ Unknown GT-water coverage: 9,479,612 pixels, 45.0618% of labelled water.
 | permanent | 27 | 0.997507 | [0.994613863041197, 0.9995048042461155] | 0.999230 |
 
 Scene gate: at least200 GT-water pixels; confusion pooled within scenes, unweighted scene means; 5,000 scene-bootstrap draws, seed42. The table describes binary water detection inside JRC spatial strata, not an independently validated multiclass flood model.
+
+## New checklist pass — 2026-11-15
+
+- Added the corrected-rule WF2 placebo comparison beside printed hard-paste values in NOTE.md, keeping printed5.6 and test3.8 unchanged.
+- Added the frozen Prithvi comparison beside this UNet's NDVI result; no model-improvement claim.
+- Added every requested brightness bin count and the explicit non-thin-class qualification.
+- Prepared equivalent Markdown/LaTeX additions in results/paper_additions_2026-11-15.md and .tex; no PDF required. Canonical paper/main.tex is not in this repository; only the available narrative was edited.
+- Verified all five separation checks, every original NOTE line, all existing JSON, all new full-precision additions and counts.
+- Fixed results/RUN_REPORT.md to distinguish the frozen audit checkpoints from the separately trained six-epoch candidate. Training remains stopped.
+- Optional event bootstrap: rule and script prepared; Colab unavailable, so no new intervals yet.
+- Optional qualitative figure: not produced; real tiles unavailable locally and disconnected Colab cannot supply verified inputs. Stop at this missing-input boundary.
+- Full genuine flood split remains blocked exactly as before.
