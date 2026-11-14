@@ -47,7 +47,7 @@ Check each line while editing. These quantities stay separate.
 
 These are still real. They are optional. They are not a reason to train.
 
-- [ ] Event-cluster the new paste and placebo scene gaps from the existing JSON. Do not compute a new mean. The stored intervals are scene bootstraps.
+- [x] Event-cluster the new paste and placebo scene gaps from the existing JSON. Do not compute a new mean. The stored intervals are scene bootstraps.
 
 - [ ] Make a qualitative paste figure from real tiles. Caption it as a constructed fill on clear tiles, scored on unpainted pixels. It is not natural cloud. If the tiles are missing, stop.
 
@@ -61,4 +61,6 @@ Permanent-versus-flood stays blocked. `full_genuine_flood_split` is not identifi
 
 The three additions are inserted beside the corresponding frozen results in `NOTE.md`; the PDF is not a required input. Markdown and LaTeX insertion text is also available under `results/paper_additions_2026-11-15.*`. The separately referenced `paper/main.tex` is absent, so no edit to that file is claimed. All pre-existing NOTE lines and JSON files were verified unchanged.
 
-The optional event-bootstrap rule and executable script are prepared (`CORRECTED_PASTE_EVENT_RULE.md`, `corrected_paste_event_cluster.py`), but no new interval is claimed until execution passes the stored-scene-interval checks. Colab was disconnected and did not reconnect during this pass. The qualitative figure is not produced: the real rasters are not preserved locally and their availability in the disconnected runtime could not be verified. No substitute imagery, flood labels, or further training was introduced.
+The optional event bootstrap has now executed in the reconnected Colab session using the saved JSON inputs uploaded into a separate follow-up folder. All stored scene intervals and source hashes passed verification, and point estimates were copied unchanged. See `results/EVENT_BOOTSTRAP_FOLLOWUP.md` and `results/corrected_paste_event_cluster_2026_11_15.json` for the separately labelled activation-clustered intervals. The original event interval and event-weighted point were not recomputed.
+
+The qualitative figure remains stopped at the missing-input boundary: the reconnected runtime is fresh, and a file preflight found the original audit folder, /content/worldfloods rasters and /content/wf-models/model.pt absent. Local storage contains the weights and manifests but not the raw satellite rasters. No substitute imagery, invented flood labels, or further training was introduced.

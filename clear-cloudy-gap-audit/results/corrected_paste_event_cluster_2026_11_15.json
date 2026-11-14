@@ -1,0 +1,1279 @@
+{
+  "rule": "CORRECTED_PASTE_EVENT_RULE.md",
+  "seed": 42,
+  "bootstrap_draws": 5000,
+  "point_estimates": "Copied verbatim from source summaries; no new scene or event-weighted point estimate",
+  "input_sha256": {
+    "WF2_UNet": "077327eccc8f20081e233c3797cba50523e409cd3ab71099091160736c8480b3",
+    "Prithvi_Sen1Floods11": "6be6213788daff7cf88c70d8c52be6dc459079356542f963fc08e82879c022e1"
+  },
+  "input_unchanged": true,
+  "python": "3.13.16",
+  "numpy": "2.4.6",
+  "results": {
+    "WF2_UNet": {
+      "val_test": {
+        "gap_cloud_pts": {
+          "scenes": 32,
+          "activations": 24,
+          "scene_mean_pts_stored": 5.401824562730654,
+          "scene_bootstrap_ci95_stored": [
+            3.0395970810675137,
+            8.131108851983626
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            3.075068940840618,
+            8.185912766151164
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ],
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "gap_placebo_pts": {
+          "scenes": 32,
+          "activations": 24,
+          "scene_mean_pts_stored": 1.875462012891159,
+          "scene_bootstrap_ci95_stored": [
+            0.7947312280281873,
+            3.0859464397899936
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            0.8578320052262586,
+            2.825463389330167
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ],
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "cloud_minus_placebo_pts": {
+          "scenes": 32,
+          "activations": 24,
+          "scene_mean_pts_stored": 3.5263625498394946,
+          "scene_bootstrap_ci95_stored": [
+            1.4732143046767636,
+            5.72402744697899
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            1.4415350645592608,
+            5.984003104125222
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ],
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        }
+      },
+      "val": {
+        "gap_cloud_pts": {
+          "scenes": 15,
+          "activations": 13,
+          "scene_mean_pts_stored": 6.487147269718036,
+          "scene_bootstrap_ci95_stored": [
+            2.943540377089716,
+            10.089569003886693
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            2.8600579506522243,
+            10.314043187560811
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "gap_placebo_pts": {
+          "scenes": 15,
+          "activations": 13,
+          "scene_mean_pts_stored": 1.363475977077431,
+          "scene_bootstrap_ci95_stored": [
+            0.07172685021986815,
+            2.7249512104839693
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            0.015133459907284324,
+            2.5559841767224207
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "cloud_minus_placebo_pts": {
+          "scenes": 15,
+          "activations": 13,
+          "scene_mean_pts_stored": 5.123671292640606,
+          "scene_bootstrap_ci95_stored": [
+            2.1676402497145424,
+            8.239488780857338
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            2.0699164028581816,
+            8.547435665409953
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        }
+      },
+      "test": {
+        "gap_cloud_pts": {
+          "scenes": 17,
+          "activations": 11,
+          "scene_mean_pts_stored": 4.444186880094727,
+          "scene_bootstrap_ci95_stored": [
+            1.6715664311563256,
+            8.530741356636542
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            1.7629735767540933,
+            8.48763821902546
+          ],
+          "cluster_members": {
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "gap_placebo_pts": {
+          "scenes": 17,
+          "activations": 11,
+          "scene_mean_pts_stored": 2.3272143974326833,
+          "scene_bootstrap_ci95_stored": [
+            0.7203564862910251,
+            4.1754992673787115
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            0.8586044477051036,
+            3.7938914642936723
+          ],
+          "cluster_members": {
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "cloud_minus_placebo_pts": {
+          "scenes": 17,
+          "activations": 11,
+          "scene_mean_pts_stored": 2.1169724826620437,
+          "scene_bootstrap_ci95_stored": [
+            -0.3760086187473995,
+            5.187757191515272
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            -0.38313817636896463,
+            5.5367285405207305
+          ],
+          "cluster_members": {
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        }
+      }
+    },
+    "Prithvi_Sen1Floods11": {
+      "val_test": {
+        "gap_cloud_pts": {
+          "scenes": 32,
+          "activations": 24,
+          "scene_mean_pts_stored": 1.48590782566094,
+          "scene_bootstrap_ci95_stored": [
+            0.4696010095725278,
+            2.557471004375826
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            0.4381431424840803,
+            2.567300236473625
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ],
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "gap_placebo_pts": {
+          "scenes": 32,
+          "activations": 24,
+          "scene_mean_pts_stored": 2.6482709365569335,
+          "scene_bootstrap_ci95_stored": [
+            1.8216041771839329,
+            3.552474710682945
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            1.8182504010485954,
+            3.482509904674464
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ],
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "cloud_minus_placebo_pts": {
+          "scenes": 32,
+          "activations": 24,
+          "scene_mean_pts_stored": -1.1623631108959933,
+          "scene_bootstrap_ci95_stored": [
+            -2.2004243456862635,
+            -0.15842118822902607
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            -2.2810409443819806,
+            -0.09384501825098725
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ],
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        }
+      },
+      "val": {
+        "gap_cloud_pts": {
+          "scenes": 15,
+          "activations": 13,
+          "scene_mean_pts_stored": 1.1903907340651296,
+          "scene_bootstrap_ci95_stored": [
+            -0.5163359028575772,
+            2.783117705234394
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            -0.5994160805628322,
+            2.7657223642295983
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "gap_placebo_pts": {
+          "scenes": 15,
+          "activations": 13,
+          "scene_mean_pts_stored": 2.7917169159318913,
+          "scene_bootstrap_ci95_stored": [
+            1.5176708486903525,
+            4.109407018092079
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            1.5322593415465233,
+            4.229170731480474
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "cloud_minus_placebo_pts": {
+          "scenes": 15,
+          "activations": 13,
+          "scene_mean_pts_stored": -1.6013261818667626,
+          "scene_bootstrap_ci95_stored": [
+            -3.423324123740324,
+            0.17406009074473885
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            -3.617012450972485,
+            0.13842277829705535
+          ],
+          "cluster_members": {
+            "EMSR271": [
+              "EMSR271_02FARKADONA_DEL_v1"
+            ],
+            "EMSR274": [
+              "EMSR274_05TOAMASINA_DEL_v1"
+            ],
+            "EMSR279": [
+              "EMSR279_05ZARAGOZA_DEL_v2",
+              "EMSR279_11TORTOSA_DEL_v1"
+            ],
+            "EMSR280": [
+              "EMSR280_03FALUN_DEL_MONIT06_v2"
+            ],
+            "EMSR293": [
+              "EMSR293_03OZUN_GRA_v1"
+            ],
+            "EMSR312": [
+              "EMSR312_08CANDON_DEL_MONIT01_v1"
+            ],
+            "EMSR329": [
+              "EMSR329_05CASTIADAS_GRA_v3"
+            ],
+            "EMSR358": [
+              "EMSR358_AOI01_FEP_PRODUCT"
+            ],
+            "EMSR427": [
+              "EMSR427_AOI03_DEL_MONIT02"
+            ],
+            "EMSR442": [
+              "EMSR442_AOI03_DEL_PRODUCT"
+            ],
+            "EMSR629": [
+              "EMSR629_AOI01_DEL_PRODUCT",
+              "EMSR629_AOI02_DEL_PRODUCT"
+            ],
+            "RS2_20161008_Water_Extent_Corail_Pestel": [
+              "RS2_20161008_Water_Extent_Corail_Pestel"
+            ],
+            "ST1_20161014_WaterExtent_BinhDinh_Lake": [
+              "ST1_20161014_WaterExtent_BinhDinh_Lake"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        }
+      },
+      "test": {
+        "gap_cloud_pts": {
+          "scenes": 17,
+          "activations": 11,
+          "scene_mean_pts_stored": 1.7466582005984197,
+          "scene_bootstrap_ci95_stored": [
+            0.6032659401982077,
+            3.2256792473749116
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            0.5432280657644778,
+            3.1987667236368367
+          ],
+          "cluster_members": {
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "gap_placebo_pts": {
+          "scenes": 17,
+          "activations": 11,
+          "scene_mean_pts_stored": 2.521700954755499,
+          "scene_bootstrap_ci95_stored": [
+            1.4933153892050481,
+            3.852256809807996
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            1.4742079008856361,
+            3.5152387892620003
+          ],
+          "cluster_members": {
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        },
+        "cloud_minus_placebo_pts": {
+          "scenes": 17,
+          "activations": 11,
+          "scene_mean_pts_stored": -0.7750427541570797,
+          "scene_bootstrap_ci95_stored": [
+            -1.785079626910426,
+            0.1376059740370137
+          ],
+          "activation_cluster_bootstrap_ci95": [
+            -1.9813404199835527,
+            0.39864262910528836
+          ],
+          "cluster_members": {
+            "EMSR264": [
+              "EMSR264_08VATOMANDRY_DEL_v2",
+              "EMSR264_18MIANDRIVAZODETAIL_DEL_v2"
+            ],
+            "EMSR273": [
+              "EMSR273_01GRILE_DEL_MONIT04_v2"
+            ],
+            "EMSR286": [
+              "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1"
+            ],
+            "EMSR333": [
+              "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+              "EMSR333_02PORTOPALO_DEL_MONIT01_v1"
+            ],
+            "EMSR342": [
+              "EMSR342_06NORTHNORMANTON_DEL_v1",
+              "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2"
+            ],
+            "EMSR347": [
+              "EMSR347_06MWANZA_DEL_v1",
+              "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+              "EMSR347_07ZOMBA_DEL_v2"
+            ],
+            "EMSR419": [
+              "EMSR419_AOI01_DEL_MONIT01"
+            ],
+            "EMSR422": [
+              "EMSR422_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR438": [
+              "EMSR438_AOI02_DEL_MONIT03",
+              "EMSR438_AOI06_DEL_PRODUCT"
+            ],
+            "EMSR466": [
+              "EMSR466_AOI01_DEL_PRODUCT"
+            ],
+            "EMSR9284": [
+              "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+            ]
+          },
+          "stored_scene_interval_reproduced": true
+        }
+      }
+    }
+  }
+}

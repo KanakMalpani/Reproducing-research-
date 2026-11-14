@@ -39,6 +39,6 @@ Scene gate: at least200 GT-water pixels; confusion pooled within scenes, unweigh
 - Prepared equivalent Markdown/LaTeX additions in results/paper_additions_2026-11-15.md and .tex; no PDF required. Canonical paper/main.tex is not in this repository; only the available narrative was edited.
 - Verified all five separation checks, every original NOTE line, all existing JSON, all new full-precision additions and counts.
 - Fixed results/RUN_REPORT.md to distinguish the frozen audit checkpoints from the separately trained six-epoch candidate. Training remains stopped.
-- Optional event bootstrap: rule and script prepared; Colab unavailable, so no new intervals yet.
-- Optional qualitative figure: not produced; real tiles unavailable locally and disconnected Colab cannot supply verified inputs. Stop at this missing-input boundary.
+- Optional event bootstrap: completed in reconnected Colab using uploaded saved JSON; all source hashes and stored scene intervals verified, means unchanged. See results/EVENT_BOOTSTRAP_FOLLOWUP.md and results/corrected_paste_event_cluster_2026_11_15.json.
+- Optional qualitative figure: not produced. The fresh reconnected Colab runtime explicitly reports the old raster and checkpoint paths absent. No raw rasters are stored locally. Stopped at this missing-input boundary; no substitute imagery used.
 - Full genuine flood split remains blocked exactly as before.
