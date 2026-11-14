@@ -1,0 +1,14 @@
+[
+  {
+    "script": "kill_test.py",
+    "exact_json_match": true
+  },
+  {
+    "script": "ndvi_comatch_analyze.py",
+    "exact_json_match": true
+  },
+  {
+    "script": "p2_analyze.py",
+    "exact_json_match": true
+  }
+]

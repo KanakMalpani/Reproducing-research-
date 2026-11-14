@@ -1,0 +1,1127 @@
+{
+  "status": "descriptive secondary comparison; no parameter tuning",
+  "scene_gate": ">=200 GT-water pixels in selected tile group",
+  "aggregator": "unweighted scene mean of paired accuracy differences",
+  "seed": 42,
+  "n_bootstrap": 5000,
+  "comparisons": {
+    "val_test": {
+      "all": {
+        "scenes": 33,
+        "mean_prithvi_minus_wf2_pts": -5.898772959894051,
+        "ci95": [
+          -11.039671311877484,
+          -1.4201558036081283
+        ],
+        "per_scene": [
+          {
+            "split": "test",
+            "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+            "wf2_iou": 0.8907048628360104,
+            "prithvi_iou": 0.8857238174669367,
+            "prithvi_minus_wf2_pts": -0.4981045369073622
+          },
+          {
+            "split": "test",
+            "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+            "wf2_iou": 0.636644587266124,
+            "prithvi_iou": 0.520640565090654,
+            "prithvi_minus_wf2_pts": -11.600402217547002
+          },
+          {
+            "split": "test",
+            "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+            "wf2_iou": 0.9171716323079993,
+            "prithvi_iou": 0.9079910586590108,
+            "prithvi_minus_wf2_pts": -0.9180573648988499
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.8178489253044503,
+            "prithvi_iou": 0.8358216029195696,
+            "prithvi_minus_wf2_pts": 1.7972677615119337
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.7203674344866176,
+            "prithvi_iou": 0.7544891830606116,
+            "prithvi_minus_wf2_pts": 3.412174857399408
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+            "wf2_iou": 0.9065858419808898,
+            "prithvi_iou": 0.9109889269044522,
+            "prithvi_minus_wf2_pts": 0.44030849235624503
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+            "wf2_iou": 0.6832698941358392,
+            "prithvi_iou": 0.6231327800829876,
+            "prithvi_minus_wf2_pts": -6.013711405285161
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+            "wf2_iou": 0.8162693654927691,
+            "prithvi_iou": 0.735928356228325,
+            "prithvi_minus_wf2_pts": -8.03410092644441
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+            "wf2_iou": 0.695407462629981,
+            "prithvi_iou": 0.6120255844090174,
+            "prithvi_minus_wf2_pts": -8.338187822096355
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_06MWANZA_DEL_v1",
+            "wf2_iou": 0.5657195011781361,
+            "prithvi_iou": 0.3986318094219496,
+            "prithvi_minus_wf2_pts": -16.70876917561865
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+            "wf2_iou": 0.8426611946155774,
+            "prithvi_iou": 0.8166422574074327,
+            "prithvi_minus_wf2_pts": -2.6018937208144743
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_v2",
+            "wf2_iou": 0.7452140619561434,
+            "prithvi_iou": 0.5548591212989494,
+            "prithvi_minus_wf2_pts": -19.035494065719394
+          },
+          {
+            "split": "test",
+            "scene": "EMSR419_AOI01_DEL_MONIT01",
+            "wf2_iou": 0.8761210743705535,
+            "prithvi_iou": 0.8888023290687382,
+            "prithvi_minus_wf2_pts": 1.2681254698184707
+          },
+          {
+            "split": "test",
+            "scene": "EMSR422_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9717123670956911,
+            "prithvi_iou": 0.9783594242040818,
+            "prithvi_minus_wf2_pts": 0.6647057108390753
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI02_DEL_MONIT03",
+            "wf2_iou": 0.9163887608860081,
+            "prithvi_iou": 0.9718595082253315,
+            "prithvi_minus_wf2_pts": 5.5470747339323445
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9294664028847638,
+            "prithvi_iou": 0.9215913788227104,
+            "prithvi_minus_wf2_pts": -0.7875024062053426
+          },
+          {
+            "split": "test",
+            "scene": "EMSR466_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.6761730901129963,
+            "prithvi_iou": 0.34109182834870455,
+            "prithvi_minus_wf2_pts": -33.50812617642917
+          },
+          {
+            "split": "test",
+            "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+            "wf2_iou": 0.7820460221191581,
+            "prithvi_iou": 0.766433024980643,
+            "prithvi_minus_wf2_pts": -1.561299713851505
+          },
+          {
+            "split": "val",
+            "scene": "EMSR271_02FARKADONA_DEL_v1",
+            "wf2_iou": 0.866683339354026,
+            "prithvi_iou": 0.5978239088001068,
+            "prithvi_minus_wf2_pts": -26.885943055391913
+          },
+          {
+            "split": "val",
+            "scene": "EMSR274_05TOAMASINA_DEL_v1",
+            "wf2_iou": 0.9049616255042803,
+            "prithvi_iou": 0.8990964001906411,
+            "prithvi_minus_wf2_pts": -0.58652253136392
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+            "wf2_iou": 0.5499224333954339,
+            "prithvi_iou": 0.788385129516124,
+            "prithvi_minus_wf2_pts": 23.846269612069015
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_11TORTOSA_DEL_v1",
+            "wf2_iou": 0.9620768439275754,
+            "prithvi_iou": 0.9912660102590061,
+            "prithvi_minus_wf2_pts": 2.918916633143065
+          },
+          {
+            "split": "val",
+            "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+            "wf2_iou": 0.8455579624347451,
+            "prithvi_iou": 0.7664231554414284,
+            "prithvi_minus_wf2_pts": -7.913480699331677
+          },
+          {
+            "split": "val",
+            "scene": "EMSR293_03OZUN_GRA_v1",
+            "wf2_iou": 0.284134803346626,
+            "prithvi_iou": 0.34491337183474013,
+            "prithvi_minus_wf2_pts": 6.077856848811414
+          },
+          {
+            "split": "val",
+            "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+            "wf2_iou": 0.9473767262993635,
+            "prithvi_iou": 0.9295115137878688,
+            "prithvi_minus_wf2_pts": -1.7865212511494755
+          },
+          {
+            "split": "val",
+            "scene": "EMSR329_05CASTIADAS_GRA_v3",
+            "wf2_iou": 0.5379310344827586,
+            "prithvi_iou": 0.5190032269630692,
+            "prithvi_minus_wf2_pts": -1.8927807519689366
+          },
+          {
+            "split": "val",
+            "scene": "EMSR358_AOI01_FEP_PRODUCT",
+            "wf2_iou": 0.661372384196788,
+            "prithvi_iou": 0.0976293355132547,
+            "prithvi_minus_wf2_pts": -56.374304868353335
+          },
+          {
+            "split": "val",
+            "scene": "EMSR427_AOI03_DEL_MONIT02",
+            "wf2_iou": 0.8857314584314517,
+            "prithvi_iou": 0.8614460740200963,
+            "prithvi_minus_wf2_pts": -2.4285384411355415
+          },
+          {
+            "split": "val",
+            "scene": "EMSR442_AOI03_DEL_PRODUCT",
+            "wf2_iou": 0.1216097987751531,
+            "prithvi_iou": 0.03070175438596491,
+            "prithvi_minus_wf2_pts": -9.090804438918818
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.7914181835817028,
+            "prithvi_iou": 0.8992542343890774,
+            "prithvi_minus_wf2_pts": 10.783605080737457
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI02_DEL_PRODUCT",
+            "wf2_iou": 0.8324244820327089,
+            "prithvi_iou": 0.7987720128556344,
+            "prithvi_minus_wf2_pts": -3.365246917707454
+          },
+          {
+            "split": "val",
+            "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+            "wf2_iou": 0.8786247612432714,
+            "prithvi_iou": 0.6330719333914222,
+            "prithvi_minus_wf2_pts": -24.555282785184918
+          },
+          {
+            "split": "val",
+            "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+            "wf2_iou": 0.8256631832797428,
+            "prithvi_iou": 0.7563558072317584,
+            "prithvi_minus_wf2_pts": -6.9307376047984315
+          }
+        ]
+      },
+      "clear": {
+        "scenes": 32,
+        "mean_prithvi_minus_wf2_pts": -6.254473066997678,
+        "ci95": [
+          -12.06356465636519,
+          -1.2679073656094058
+        ],
+        "per_scene": [
+          {
+            "split": "test",
+            "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+            "wf2_iou": 0.9342102039716409,
+            "prithvi_iou": 0.9946164585910062,
+            "prithvi_minus_wf2_pts": 6.040625461936533
+          },
+          {
+            "split": "test",
+            "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+            "wf2_iou": 0.636644587266124,
+            "prithvi_iou": 0.520640565090654,
+            "prithvi_minus_wf2_pts": -11.600402217547002
+          },
+          {
+            "split": "test",
+            "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+            "wf2_iou": 0.9171716323079993,
+            "prithvi_iou": 0.9079910586590108,
+            "prithvi_minus_wf2_pts": -0.9180573648988499
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.9354033672712806,
+            "prithvi_iou": 0.8770773372945874,
+            "prithvi_minus_wf2_pts": -5.832602997669323
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+            "wf2_iou": 0.9065858419808898,
+            "prithvi_iou": 0.9109889269044522,
+            "prithvi_minus_wf2_pts": 0.44030849235624503
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+            "wf2_iou": 0.6832698941358392,
+            "prithvi_iou": 0.6231327800829876,
+            "prithvi_minus_wf2_pts": -6.013711405285161
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+            "wf2_iou": 0.8013245644824593,
+            "prithvi_iou": 0.8367920110473284,
+            "prithvi_minus_wf2_pts": 3.546744656486911
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+            "wf2_iou": 0.7229173947192844,
+            "prithvi_iou": 0.6257545523955791,
+            "prithvi_minus_wf2_pts": -9.716284232370532
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_06MWANZA_DEL_v1",
+            "wf2_iou": 0.6166385213099266,
+            "prithvi_iou": 0.4471614237101507,
+            "prithvi_minus_wf2_pts": -16.947709759977585
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+            "wf2_iou": 0.8426611946155774,
+            "prithvi_iou": 0.8166422574074327,
+            "prithvi_minus_wf2_pts": -2.6018937208144743
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_v2",
+            "wf2_iou": 0.7452140619561434,
+            "prithvi_iou": 0.5548591212989494,
+            "prithvi_minus_wf2_pts": -19.035494065719394
+          },
+          {
+            "split": "test",
+            "scene": "EMSR419_AOI01_DEL_MONIT01",
+            "wf2_iou": 0.8761210743705535,
+            "prithvi_iou": 0.8888023290687382,
+            "prithvi_minus_wf2_pts": 1.2681254698184707
+          },
+          {
+            "split": "test",
+            "scene": "EMSR422_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9717123670956911,
+            "prithvi_iou": 0.9783594242040818,
+            "prithvi_minus_wf2_pts": 0.6647057108390753
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI02_DEL_MONIT03",
+            "wf2_iou": 0.9276485533798884,
+            "prithvi_iou": 0.9798320225523928,
+            "prithvi_minus_wf2_pts": 5.218346917250438
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9470547232520785,
+            "prithvi_iou": 0.9376882472458471,
+            "prithvi_minus_wf2_pts": -0.9366476006231417
+          },
+          {
+            "split": "test",
+            "scene": "EMSR466_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.8530608664291598,
+            "prithvi_iou": 0.32970372657684743,
+            "prithvi_minus_wf2_pts": -52.33571398523124
+          },
+          {
+            "split": "test",
+            "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+            "wf2_iou": 0.7820460221191581,
+            "prithvi_iou": 0.766433024980643,
+            "prithvi_minus_wf2_pts": -1.561299713851505
+          },
+          {
+            "split": "val",
+            "scene": "EMSR271_02FARKADONA_DEL_v1",
+            "wf2_iou": 0.866683339354026,
+            "prithvi_iou": 0.5978239088001068,
+            "prithvi_minus_wf2_pts": -26.885943055391913
+          },
+          {
+            "split": "val",
+            "scene": "EMSR274_05TOAMASINA_DEL_v1",
+            "wf2_iou": 0.9843613681280527,
+            "prithvi_iou": 0.9932769073773936,
+            "prithvi_minus_wf2_pts": 0.8915539249340854
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+            "wf2_iou": 0.5499224333954339,
+            "prithvi_iou": 0.788385129516124,
+            "prithvi_minus_wf2_pts": 23.846269612069015
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_11TORTOSA_DEL_v1",
+            "wf2_iou": 0.9620768439275754,
+            "prithvi_iou": 0.991266718978174,
+            "prithvi_minus_wf2_pts": 2.9189875050598557
+          },
+          {
+            "split": "val",
+            "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+            "wf2_iou": 0.8978909232063143,
+            "prithvi_iou": 0.882326569863145,
+            "prithvi_minus_wf2_pts": -1.5564353343169302
+          },
+          {
+            "split": "val",
+            "scene": "EMSR293_03OZUN_GRA_v1",
+            "wf2_iou": 0.284134803346626,
+            "prithvi_iou": 0.34491337183474013,
+            "prithvi_minus_wf2_pts": 6.077856848811414
+          },
+          {
+            "split": "val",
+            "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+            "wf2_iou": 0.9479463883954233,
+            "prithvi_iou": 0.9353426227708163,
+            "prithvi_minus_wf2_pts": -1.2603765624607077
+          },
+          {
+            "split": "val",
+            "scene": "EMSR329_05CASTIADAS_GRA_v3",
+            "wf2_iou": 0.5379310344827586,
+            "prithvi_iou": 0.5190032269630692,
+            "prithvi_minus_wf2_pts": -1.8927807519689366
+          },
+          {
+            "split": "val",
+            "scene": "EMSR358_AOI01_FEP_PRODUCT",
+            "wf2_iou": 0.661372384196788,
+            "prithvi_iou": 0.0976293355132547,
+            "prithvi_minus_wf2_pts": -56.374304868353335
+          },
+          {
+            "split": "val",
+            "scene": "EMSR427_AOI03_DEL_MONIT02",
+            "wf2_iou": 0.8857314584314517,
+            "prithvi_iou": 0.8614460740200963,
+            "prithvi_minus_wf2_pts": -2.4285384411355415
+          },
+          {
+            "split": "val",
+            "scene": "EMSR442_AOI03_DEL_PRODUCT",
+            "wf2_iou": 0.1216097987751531,
+            "prithvi_iou": 0.03070175438596491,
+            "prithvi_minus_wf2_pts": -9.090804438918818
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.7914181835817028,
+            "prithvi_iou": 0.8992542343890774,
+            "prithvi_minus_wf2_pts": 10.783605080737457
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI02_DEL_PRODUCT",
+            "wf2_iou": 0.8324244820327089,
+            "prithvi_iou": 0.7987720128556344,
+            "prithvi_minus_wf2_pts": -3.365246917707454
+          },
+          {
+            "split": "val",
+            "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+            "wf2_iou": 0.8786247612432714,
+            "prithvi_iou": 0.6330719333914222,
+            "prithvi_minus_wf2_pts": -24.555282785184918
+          },
+          {
+            "split": "val",
+            "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+            "wf2_iou": 0.8256631832797428,
+            "prithvi_iou": 0.7563558072317584,
+            "prithvi_minus_wf2_pts": -6.9307376047984315
+          }
+        ]
+      },
+      "cloudy": {
+        "scenes": 8,
+        "mean_prithvi_minus_wf2_pts": -15.2168790085341,
+        "ci95": [
+          -29.103670523277284,
+          -3.135720262173285
+        ],
+        "per_scene": [
+          {
+            "split": "test",
+            "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+            "wf2_iou": 0.770082502154907,
+            "prithvi_iou": 0.23862016418424029,
+            "prithvi_minus_wf2_pts": -53.14623379706668
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.3956696350619871,
+            "prithvi_iou": 0.5440892807936071,
+            "prithvi_minus_wf2_pts": 14.841964573161997
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+            "wf2_iou": 0.7802022446154796,
+            "prithvi_iou": 0.5460347122844657,
+            "prithvi_minus_wf2_pts": -23.416753233101396
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_06MWANZA_DEL_v1",
+            "wf2_iou": 0.2548345509239364,
+            "prithvi_iou": 0.19749835418038184,
+            "prithvi_minus_wf2_pts": -5.733619674355459
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI02_DEL_MONIT03",
+            "wf2_iou": 0.28731942215088285,
+            "prithvi_iou": 0.0018264840182648401,
+            "prithvi_minus_wf2_pts": -28.5492938132618
+          },
+          {
+            "split": "val",
+            "scene": "EMSR274_05TOAMASINA_DEL_v1",
+            "wf2_iou": 0.6182004857148499,
+            "prithvi_iou": 0.5230890932463166,
+            "prithvi_minus_wf2_pts": -9.511139246853329
+          },
+          {
+            "split": "val",
+            "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+            "wf2_iou": 0.7022552861325005,
+            "prithvi_iou": 0.6153896216591461,
+            "prithvi_minus_wf2_pts": -8.686566447335442
+          },
+          {
+            "split": "val",
+            "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+            "wf2_iou": 0.09005947323704333,
+            "prithvi_iou": 0.014725568942436412,
+            "prithvi_minus_wf2_pts": -7.533390429460692
+          }
+        ]
+      }
+    },
+    "val": {
+      "all": {
+        "scenes": 15,
+        "mean_prithvi_minus_wf2_pts": -6.545567678036232,
+        "ci95": [
+          -16.225892938022213,
+          1.7774723594793578
+        ],
+        "per_scene": [
+          {
+            "split": "val",
+            "scene": "EMSR271_02FARKADONA_DEL_v1",
+            "wf2_iou": 0.866683339354026,
+            "prithvi_iou": 0.5978239088001068,
+            "prithvi_minus_wf2_pts": -26.885943055391913
+          },
+          {
+            "split": "val",
+            "scene": "EMSR274_05TOAMASINA_DEL_v1",
+            "wf2_iou": 0.9049616255042803,
+            "prithvi_iou": 0.8990964001906411,
+            "prithvi_minus_wf2_pts": -0.58652253136392
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+            "wf2_iou": 0.5499224333954339,
+            "prithvi_iou": 0.788385129516124,
+            "prithvi_minus_wf2_pts": 23.846269612069015
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_11TORTOSA_DEL_v1",
+            "wf2_iou": 0.9620768439275754,
+            "prithvi_iou": 0.9912660102590061,
+            "prithvi_minus_wf2_pts": 2.918916633143065
+          },
+          {
+            "split": "val",
+            "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+            "wf2_iou": 0.8455579624347451,
+            "prithvi_iou": 0.7664231554414284,
+            "prithvi_minus_wf2_pts": -7.913480699331677
+          },
+          {
+            "split": "val",
+            "scene": "EMSR293_03OZUN_GRA_v1",
+            "wf2_iou": 0.284134803346626,
+            "prithvi_iou": 0.34491337183474013,
+            "prithvi_minus_wf2_pts": 6.077856848811414
+          },
+          {
+            "split": "val",
+            "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+            "wf2_iou": 0.9473767262993635,
+            "prithvi_iou": 0.9295115137878688,
+            "prithvi_minus_wf2_pts": -1.7865212511494755
+          },
+          {
+            "split": "val",
+            "scene": "EMSR329_05CASTIADAS_GRA_v3",
+            "wf2_iou": 0.5379310344827586,
+            "prithvi_iou": 0.5190032269630692,
+            "prithvi_minus_wf2_pts": -1.8927807519689366
+          },
+          {
+            "split": "val",
+            "scene": "EMSR358_AOI01_FEP_PRODUCT",
+            "wf2_iou": 0.661372384196788,
+            "prithvi_iou": 0.0976293355132547,
+            "prithvi_minus_wf2_pts": -56.374304868353335
+          },
+          {
+            "split": "val",
+            "scene": "EMSR427_AOI03_DEL_MONIT02",
+            "wf2_iou": 0.8857314584314517,
+            "prithvi_iou": 0.8614460740200963,
+            "prithvi_minus_wf2_pts": -2.4285384411355415
+          },
+          {
+            "split": "val",
+            "scene": "EMSR442_AOI03_DEL_PRODUCT",
+            "wf2_iou": 0.1216097987751531,
+            "prithvi_iou": 0.03070175438596491,
+            "prithvi_minus_wf2_pts": -9.090804438918818
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.7914181835817028,
+            "prithvi_iou": 0.8992542343890774,
+            "prithvi_minus_wf2_pts": 10.783605080737457
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI02_DEL_PRODUCT",
+            "wf2_iou": 0.8324244820327089,
+            "prithvi_iou": 0.7987720128556344,
+            "prithvi_minus_wf2_pts": -3.365246917707454
+          },
+          {
+            "split": "val",
+            "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+            "wf2_iou": 0.8786247612432714,
+            "prithvi_iou": 0.6330719333914222,
+            "prithvi_minus_wf2_pts": -24.555282785184918
+          },
+          {
+            "split": "val",
+            "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+            "wf2_iou": 0.8256631832797428,
+            "prithvi_iou": 0.7563558072317584,
+            "prithvi_minus_wf2_pts": -6.9307376047984315
+          }
+        ]
+      },
+      "clear": {
+        "scenes": 15,
+        "mean_prithvi_minus_wf2_pts": -5.988145185908343,
+        "ci95": [
+          -15.71187048251037,
+          2.2892512956541218
+        ],
+        "per_scene": [
+          {
+            "split": "val",
+            "scene": "EMSR271_02FARKADONA_DEL_v1",
+            "wf2_iou": 0.866683339354026,
+            "prithvi_iou": 0.5978239088001068,
+            "prithvi_minus_wf2_pts": -26.885943055391913
+          },
+          {
+            "split": "val",
+            "scene": "EMSR274_05TOAMASINA_DEL_v1",
+            "wf2_iou": 0.9843613681280527,
+            "prithvi_iou": 0.9932769073773936,
+            "prithvi_minus_wf2_pts": 0.8915539249340854
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+            "wf2_iou": 0.5499224333954339,
+            "prithvi_iou": 0.788385129516124,
+            "prithvi_minus_wf2_pts": 23.846269612069015
+          },
+          {
+            "split": "val",
+            "scene": "EMSR279_11TORTOSA_DEL_v1",
+            "wf2_iou": 0.9620768439275754,
+            "prithvi_iou": 0.991266718978174,
+            "prithvi_minus_wf2_pts": 2.9189875050598557
+          },
+          {
+            "split": "val",
+            "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+            "wf2_iou": 0.8978909232063143,
+            "prithvi_iou": 0.882326569863145,
+            "prithvi_minus_wf2_pts": -1.5564353343169302
+          },
+          {
+            "split": "val",
+            "scene": "EMSR293_03OZUN_GRA_v1",
+            "wf2_iou": 0.284134803346626,
+            "prithvi_iou": 0.34491337183474013,
+            "prithvi_minus_wf2_pts": 6.077856848811414
+          },
+          {
+            "split": "val",
+            "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+            "wf2_iou": 0.9479463883954233,
+            "prithvi_iou": 0.9353426227708163,
+            "prithvi_minus_wf2_pts": -1.2603765624607077
+          },
+          {
+            "split": "val",
+            "scene": "EMSR329_05CASTIADAS_GRA_v3",
+            "wf2_iou": 0.5379310344827586,
+            "prithvi_iou": 0.5190032269630692,
+            "prithvi_minus_wf2_pts": -1.8927807519689366
+          },
+          {
+            "split": "val",
+            "scene": "EMSR358_AOI01_FEP_PRODUCT",
+            "wf2_iou": 0.661372384196788,
+            "prithvi_iou": 0.0976293355132547,
+            "prithvi_minus_wf2_pts": -56.374304868353335
+          },
+          {
+            "split": "val",
+            "scene": "EMSR427_AOI03_DEL_MONIT02",
+            "wf2_iou": 0.8857314584314517,
+            "prithvi_iou": 0.8614460740200963,
+            "prithvi_minus_wf2_pts": -2.4285384411355415
+          },
+          {
+            "split": "val",
+            "scene": "EMSR442_AOI03_DEL_PRODUCT",
+            "wf2_iou": 0.1216097987751531,
+            "prithvi_iou": 0.03070175438596491,
+            "prithvi_minus_wf2_pts": -9.090804438918818
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.7914181835817028,
+            "prithvi_iou": 0.8992542343890774,
+            "prithvi_minus_wf2_pts": 10.783605080737457
+          },
+          {
+            "split": "val",
+            "scene": "EMSR629_AOI02_DEL_PRODUCT",
+            "wf2_iou": 0.8324244820327089,
+            "prithvi_iou": 0.7987720128556344,
+            "prithvi_minus_wf2_pts": -3.365246917707454
+          },
+          {
+            "split": "val",
+            "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+            "wf2_iou": 0.8786247612432714,
+            "prithvi_iou": 0.6330719333914222,
+            "prithvi_minus_wf2_pts": -24.555282785184918
+          },
+          {
+            "split": "val",
+            "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+            "wf2_iou": 0.8256631832797428,
+            "prithvi_iou": 0.7563558072317584,
+            "prithvi_minus_wf2_pts": -6.9307376047984315
+          }
+        ]
+      },
+      "cloudy": {
+        "scenes": 3,
+        "mean_prithvi_minus_wf2_pts": -8.577032041216487,
+        "ci95": [
+          -9.511139246853329,
+          -7.533390429460692
+        ],
+        "per_scene": [
+          {
+            "split": "val",
+            "scene": "EMSR274_05TOAMASINA_DEL_v1",
+            "wf2_iou": 0.6182004857148499,
+            "prithvi_iou": 0.5230890932463166,
+            "prithvi_minus_wf2_pts": -9.511139246853329
+          },
+          {
+            "split": "val",
+            "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+            "wf2_iou": 0.7022552861325005,
+            "prithvi_iou": 0.6153896216591461,
+            "prithvi_minus_wf2_pts": -8.686566447335442
+          },
+          {
+            "split": "val",
+            "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+            "wf2_iou": 0.09005947323704333,
+            "prithvi_iou": 0.014725568942436412,
+            "prithvi_minus_wf2_pts": -7.533390429460692
+          }
+        ]
+      }
+    },
+    "test": {
+      "all": {
+        "scenes": 18,
+        "mean_prithvi_minus_wf2_pts": -5.359777361442234,
+        "ci95": [
+          -9.883572165763796,
+          -1.2864336063656687
+        ],
+        "per_scene": [
+          {
+            "split": "test",
+            "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+            "wf2_iou": 0.8907048628360104,
+            "prithvi_iou": 0.8857238174669367,
+            "prithvi_minus_wf2_pts": -0.4981045369073622
+          },
+          {
+            "split": "test",
+            "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+            "wf2_iou": 0.636644587266124,
+            "prithvi_iou": 0.520640565090654,
+            "prithvi_minus_wf2_pts": -11.600402217547002
+          },
+          {
+            "split": "test",
+            "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+            "wf2_iou": 0.9171716323079993,
+            "prithvi_iou": 0.9079910586590108,
+            "prithvi_minus_wf2_pts": -0.9180573648988499
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.8178489253044503,
+            "prithvi_iou": 0.8358216029195696,
+            "prithvi_minus_wf2_pts": 1.7972677615119337
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.7203674344866176,
+            "prithvi_iou": 0.7544891830606116,
+            "prithvi_minus_wf2_pts": 3.412174857399408
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+            "wf2_iou": 0.9065858419808898,
+            "prithvi_iou": 0.9109889269044522,
+            "prithvi_minus_wf2_pts": 0.44030849235624503
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+            "wf2_iou": 0.6832698941358392,
+            "prithvi_iou": 0.6231327800829876,
+            "prithvi_minus_wf2_pts": -6.013711405285161
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+            "wf2_iou": 0.8162693654927691,
+            "prithvi_iou": 0.735928356228325,
+            "prithvi_minus_wf2_pts": -8.03410092644441
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+            "wf2_iou": 0.695407462629981,
+            "prithvi_iou": 0.6120255844090174,
+            "prithvi_minus_wf2_pts": -8.338187822096355
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_06MWANZA_DEL_v1",
+            "wf2_iou": 0.5657195011781361,
+            "prithvi_iou": 0.3986318094219496,
+            "prithvi_minus_wf2_pts": -16.70876917561865
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+            "wf2_iou": 0.8426611946155774,
+            "prithvi_iou": 0.8166422574074327,
+            "prithvi_minus_wf2_pts": -2.6018937208144743
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_v2",
+            "wf2_iou": 0.7452140619561434,
+            "prithvi_iou": 0.5548591212989494,
+            "prithvi_minus_wf2_pts": -19.035494065719394
+          },
+          {
+            "split": "test",
+            "scene": "EMSR419_AOI01_DEL_MONIT01",
+            "wf2_iou": 0.8761210743705535,
+            "prithvi_iou": 0.8888023290687382,
+            "prithvi_minus_wf2_pts": 1.2681254698184707
+          },
+          {
+            "split": "test",
+            "scene": "EMSR422_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9717123670956911,
+            "prithvi_iou": 0.9783594242040818,
+            "prithvi_minus_wf2_pts": 0.6647057108390753
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI02_DEL_MONIT03",
+            "wf2_iou": 0.9163887608860081,
+            "prithvi_iou": 0.9718595082253315,
+            "prithvi_minus_wf2_pts": 5.5470747339323445
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9294664028847638,
+            "prithvi_iou": 0.9215913788227104,
+            "prithvi_minus_wf2_pts": -0.7875024062053426
+          },
+          {
+            "split": "test",
+            "scene": "EMSR466_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.6761730901129963,
+            "prithvi_iou": 0.34109182834870455,
+            "prithvi_minus_wf2_pts": -33.50812617642917
+          },
+          {
+            "split": "test",
+            "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+            "wf2_iou": 0.7820460221191581,
+            "prithvi_iou": 0.766433024980643,
+            "prithvi_minus_wf2_pts": -1.561299713851505
+          }
+        ]
+      },
+      "clear": {
+        "scenes": 17,
+        "mean_prithvi_minus_wf2_pts": -6.48946825619415,
+        "ci95": [
+          -13.471181776403318,
+          -1.194273724028915
+        ],
+        "per_scene": [
+          {
+            "split": "test",
+            "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+            "wf2_iou": 0.9342102039716409,
+            "prithvi_iou": 0.9946164585910062,
+            "prithvi_minus_wf2_pts": 6.040625461936533
+          },
+          {
+            "split": "test",
+            "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+            "wf2_iou": 0.636644587266124,
+            "prithvi_iou": 0.520640565090654,
+            "prithvi_minus_wf2_pts": -11.600402217547002
+          },
+          {
+            "split": "test",
+            "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+            "wf2_iou": 0.9171716323079993,
+            "prithvi_iou": 0.9079910586590108,
+            "prithvi_minus_wf2_pts": -0.9180573648988499
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.9354033672712806,
+            "prithvi_iou": 0.8770773372945874,
+            "prithvi_minus_wf2_pts": -5.832602997669323
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+            "wf2_iou": 0.9065858419808898,
+            "prithvi_iou": 0.9109889269044522,
+            "prithvi_minus_wf2_pts": 0.44030849235624503
+          },
+          {
+            "split": "test",
+            "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+            "wf2_iou": 0.6832698941358392,
+            "prithvi_iou": 0.6231327800829876,
+            "prithvi_minus_wf2_pts": -6.013711405285161
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+            "wf2_iou": 0.8013245644824593,
+            "prithvi_iou": 0.8367920110473284,
+            "prithvi_minus_wf2_pts": 3.546744656486911
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+            "wf2_iou": 0.7229173947192844,
+            "prithvi_iou": 0.6257545523955791,
+            "prithvi_minus_wf2_pts": -9.716284232370532
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_06MWANZA_DEL_v1",
+            "wf2_iou": 0.6166385213099266,
+            "prithvi_iou": 0.4471614237101507,
+            "prithvi_minus_wf2_pts": -16.947709759977585
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+            "wf2_iou": 0.8426611946155774,
+            "prithvi_iou": 0.8166422574074327,
+            "prithvi_minus_wf2_pts": -2.6018937208144743
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_07ZOMBA_DEL_v2",
+            "wf2_iou": 0.7452140619561434,
+            "prithvi_iou": 0.5548591212989494,
+            "prithvi_minus_wf2_pts": -19.035494065719394
+          },
+          {
+            "split": "test",
+            "scene": "EMSR419_AOI01_DEL_MONIT01",
+            "wf2_iou": 0.8761210743705535,
+            "prithvi_iou": 0.8888023290687382,
+            "prithvi_minus_wf2_pts": 1.2681254698184707
+          },
+          {
+            "split": "test",
+            "scene": "EMSR422_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9717123670956911,
+            "prithvi_iou": 0.9783594242040818,
+            "prithvi_minus_wf2_pts": 0.6647057108390753
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI02_DEL_MONIT03",
+            "wf2_iou": 0.9276485533798884,
+            "prithvi_iou": 0.9798320225523928,
+            "prithvi_minus_wf2_pts": 5.218346917250438
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI06_DEL_PRODUCT",
+            "wf2_iou": 0.9470547232520785,
+            "prithvi_iou": 0.9376882472458471,
+            "prithvi_minus_wf2_pts": -0.9366476006231417
+          },
+          {
+            "split": "test",
+            "scene": "EMSR466_AOI01_DEL_PRODUCT",
+            "wf2_iou": 0.8530608664291598,
+            "prithvi_iou": 0.32970372657684743,
+            "prithvi_minus_wf2_pts": -52.33571398523124
+          },
+          {
+            "split": "test",
+            "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+            "wf2_iou": 0.7820460221191581,
+            "prithvi_iou": 0.766433024980643,
+            "prithvi_minus_wf2_pts": -1.561299713851505
+          }
+        ]
+      },
+      "cloudy": {
+        "scenes": 5,
+        "mean_prithvi_minus_wf2_pts": -19.200787188924668,
+        "ci95": [
+          -38.74432297576346,
+          2.0485960463737465
+        ],
+        "per_scene": [
+          {
+            "split": "test",
+            "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+            "wf2_iou": 0.770082502154907,
+            "prithvi_iou": 0.23862016418424029,
+            "prithvi_minus_wf2_pts": -53.14623379706668
+          },
+          {
+            "split": "test",
+            "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+            "wf2_iou": 0.3956696350619871,
+            "prithvi_iou": 0.5440892807936071,
+            "prithvi_minus_wf2_pts": 14.841964573161997
+          },
+          {
+            "split": "test",
+            "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+            "wf2_iou": 0.7802022446154796,
+            "prithvi_iou": 0.5460347122844657,
+            "prithvi_minus_wf2_pts": -23.416753233101396
+          },
+          {
+            "split": "test",
+            "scene": "EMSR347_06MWANZA_DEL_v1",
+            "wf2_iou": 0.2548345509239364,
+            "prithvi_iou": 0.19749835418038184,
+            "prithvi_minus_wf2_pts": -5.733619674355459
+          },
+          {
+            "split": "test",
+            "scene": "EMSR438_AOI02_DEL_MONIT03",
+            "wf2_iou": 0.28731942215088285,
+            "prithvi_iou": 0.0018264840182648401,
+            "prithvi_minus_wf2_pts": -28.5492938132618
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "chosen": {
+    "source": {
+      "name": "best_eligible",
+      "epoch": 2,
+      "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+      "validation": {
+        "all": 0.9162587023504096,
+        "clear": 0.9187518608710733,
+        "cloudy": 0.7663126308361057
+      }
+    },
+    "threshold": 0.5,
+    "validation": {
+      "all": 0.9162587023504096,
+      "clear": 0.9187518608710733,
+      "cloudy": 0.7663126308361057
+    },
+    "eligible": true,
+    "scene_mean_iou": 0.718205389481352,
+    "confusions": {
+      "all": [
+        8423355,
+        378208,
+        391643
+      ],
+      "clear": [
+        7967429,
+        362793,
+        341792
+      ],
+      "cloudy": [
+        129221,
+        9602,
+        29804
+      ]
+    }
+  },
+  "checkpoint": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/calibrated_selected_model.pt",
+  "checkpoint_sha256": "f8ed2fb50a788279e38c3f0d0c6f895aafe8cc3afb7bd018a5f608050a2bcdce",
+  "source_sha256": "d303b6e6305dc18aaa767ee24486b19e090a2bc61524b2d4d9cd59633cee9a1b",
+  "water_bias_before": -0.06642302125692368,
+  "water_bias_shift": -0.0,
+  "water_bias_after": -0.06642302125692368,
+  "prediction_threshold": 0.5,
+  "test_opened": false,
+  "target_test_iou": 0.9
+}

@@ -1,0 +1,1045 @@
+{
+  "rule": "Same corrected cloud/noncloud spectra, masks and unpainted-pixel scoring as frozen audit; candidate selected only on validation.",
+  "rows": [
+    {
+      "split": "val",
+      "scene": "EMSR271_02FARKADONA_DEL_v1",
+      "n_clear_tiles": 20,
+      "confusions": {
+        "original": [
+          53255,
+          582,
+          15834
+        ],
+        "cloud": [
+          51867,
+          5470,
+          17222
+        ],
+        "placebo": [
+          46784,
+          457,
+          22305
+        ]
+      },
+      "iou": {
+        "original": 0.7643782922593332,
+        "cloud": 0.6956504244960366,
+        "placebo": 0.6727058349869152
+      },
+      "gap_cloud_pts": 6.8727867763296535,
+      "gap_placebo_pts": 9.167245727241802,
+      "cloud_minus_placebo_pts": -2.2944589509121487
+    },
+    {
+      "split": "val",
+      "scene": "EMSR274_05TOAMASINA_DEL_v1",
+      "n_clear_tiles": 3,
+      "confusions": {
+        "original": [
+          102729,
+          1483,
+          163
+        ],
+        "cloud": [
+          98744,
+          1376,
+          4148
+        ],
+        "placebo": [
+          101906,
+          1446,
+          986
+        ]
+      },
+      "iou": {
+        "original": 0.9842299401197605,
+        "cloud": 0.9470211378371121,
+        "placebo": 0.9766911384155341
+      },
+      "gap_cloud_pts": 3.7208802282648445,
+      "gap_placebo_pts": 0.7538801704226383,
+      "cloud_minus_placebo_pts": 2.967000057842206
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+      "n_clear_tiles": 87,
+      "confusions": {
+        "original": [
+          93008,
+          36222,
+          156
+        ],
+        "cloud": [
+          91893,
+          44783,
+          1271
+        ],
+        "placebo": [
+          91661,
+          37092,
+          1503
+        ]
+      },
+      "iou": {
+        "original": 0.7188412965854111,
+        "cloud": 0.6661471434681435,
+        "placebo": 0.7036988699177005
+      },
+      "gap_cloud_pts": 5.269415311726755,
+      "gap_placebo_pts": 1.5142426667710596,
+      "cloud_minus_placebo_pts": 3.7551726449556955
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_11TORTOSA_DEL_v1",
+      "n_clear_tiles": 113,
+      "confusions": {
+        "original": [
+          1742005,
+          18789,
+          2340
+        ],
+        "cloud": [
+          1713789,
+          40071,
+          30556
+        ],
+        "placebo": [
+          1723435,
+          18496,
+          20910
+        ]
+      },
+      "iou": {
+        "original": 0.9880162256527297,
+        "cloud": 0.9604201038322903,
+        "placebo": 0.9776463106996036
+      },
+      "gap_cloud_pts": 2.7596121820439468,
+      "gap_placebo_pts": 1.0369914953126114,
+      "cloud_minus_placebo_pts": 1.7226206867313354
+    },
+    {
+      "split": "val",
+      "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+      "n_clear_tiles": 27,
+      "confusions": {
+        "original": [
+          137275,
+          4564,
+          9806
+        ],
+        "cloud": [
+          135524,
+          9883,
+          11557
+        ],
+        "placebo": [
+          133202,
+          4172,
+          13879
+        ]
+      },
+      "iou": {
+        "original": 0.9052392099970326,
+        "cloud": 0.863408170026248,
+        "placebo": 0.8806569125901635
+      },
+      "gap_cloud_pts": 4.183103997078453,
+      "gap_placebo_pts": 2.4582297406869014,
+      "cloud_minus_placebo_pts": 1.7248742563915513
+    },
+    {
+      "split": "val",
+      "scene": "EMSR293_03OZUN_GRA_v1",
+      "n_clear_tiles": 12,
+      "confusions": {
+        "original": [
+          7941,
+          1297,
+          6609
+        ],
+        "cloud": [
+          7062,
+          931,
+          7488
+        ],
+        "placebo": [
+          7525,
+          914,
+          7025
+        ]
+      },
+      "iou": {
+        "original": 0.501104309964031,
+        "cloud": 0.45617208190685354,
+        "placebo": 0.4866140713916192
+      },
+      "gap_cloud_pts": 4.493222805717744,
+      "gap_placebo_pts": 1.4490238572411773,
+      "cloud_minus_placebo_pts": 3.0441989484765672
+    },
+    {
+      "split": "val",
+      "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+      "n_clear_tiles": 19,
+      "confusions": {
+        "original": [
+          186031,
+          2699,
+          6949
+        ],
+        "cloud": [
+          175323,
+          2284,
+          17657
+        ],
+        "placebo": [
+          182517,
+          2338,
+          10463
+        ]
+      },
+      "iou": {
+        "original": 0.9506947602961994,
+        "cloud": 0.897876720747296,
+        "placebo": 0.9344607255859675
+      },
+      "gap_cloud_pts": 5.281803954890341,
+      "gap_placebo_pts": 1.6234034710231882,
+      "cloud_minus_placebo_pts": 3.658400483867153
+    },
+    {
+      "split": "val",
+      "scene": "EMSR329_05CASTIADAS_GRA_v3",
+      "n_clear_tiles": 4,
+      "confusions": {
+        "original": [
+          2014,
+          44,
+          1460
+        ],
+        "cloud": [
+          1612,
+          18,
+          1862
+        ],
+        "placebo": [
+          1855,
+          47,
+          1619
+        ]
+      },
+      "iou": {
+        "original": 0.572484366117112,
+        "cloud": 0.4616265750286369,
+        "placebo": 0.5268389662027833
+      },
+      "gap_cloud_pts": 11.085779108847504,
+      "gap_placebo_pts": 4.56453999143287,
+      "cloud_minus_placebo_pts": 6.521239117414634
+    },
+    {
+      "split": "val",
+      "scene": "EMSR358_AOI01_FEP_PRODUCT",
+      "n_clear_tiles": 2,
+      "confusions": {
+        "original": [
+          2689,
+          111,
+          4899
+        ],
+        "cloud": [
+          2384,
+          94,
+          5204
+        ],
+        "placebo": [
+          2410,
+          85,
+          5178
+        ]
+      },
+      "iou": {
+        "original": 0.3492661384595402,
+        "cloud": 0.31033585003905234,
+        "placebo": 0.3140883617880881
+      },
+      "gap_cloud_pts": 3.8930288420487846,
+      "gap_placebo_pts": 3.517777667145211,
+      "cloud_minus_placebo_pts": 0.37525117490357385
+    },
+    {
+      "split": "val",
+      "scene": "EMSR427_AOI03_DEL_MONIT02",
+      "n_clear_tiles": 172,
+      "confusions": {
+        "original": [
+          593591,
+          15242,
+          41182
+        ],
+        "cloud": [
+          567613,
+          46399,
+          67160
+        ],
+        "placebo": [
+          588364,
+          16374,
+          46409
+        ]
+      },
+      "iou": {
+        "original": 0.913195849326554,
+        "cloud": 0.8332888022408437,
+        "placebo": 0.9035809118371121
+      },
+      "gap_cloud_pts": 7.9907047085710285,
+      "gap_placebo_pts": 0.9614937489441866,
+      "cloud_minus_placebo_pts": 7.029210959626842
+    },
+    {
+      "split": "val",
+      "scene": "EMSR442_AOI03_DEL_PRODUCT",
+      "n_clear_tiles": 1,
+      "confusions": {
+        "original": [
+          7,
+          0,
+          869
+        ],
+        "cloud": [
+          0,
+          13,
+          876
+        ],
+        "placebo": [
+          6,
+          0,
+          870
+        ]
+      },
+      "iou": {
+        "original": 0.007990867579908675,
+        "cloud": 0.0,
+        "placebo": 0.00684931506849315
+      },
+      "gap_cloud_pts": 0.7990867579908676,
+      "gap_placebo_pts": 0.1141552511415525,
+      "cloud_minus_placebo_pts": 0.6849315068493151
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI01_DEL_PRODUCT",
+      "n_clear_tiles": 35,
+      "confusions": {
+        "original": [
+          931708,
+          106094,
+          13533
+        ],
+        "cloud": [
+          901748,
+          90280,
+          43493
+        ],
+        "placebo": [
+          935370,
+          137072,
+          9871
+        ]
+      },
+      "iou": {
+        "original": 0.8862141943338707,
+        "cloud": 0.8708157536158128,
+        "placebo": 0.8642324355338983
+      },
+      "gap_cloud_pts": 1.539844071805796,
+      "gap_placebo_pts": 2.198175879997244,
+      "cloud_minus_placebo_pts": -0.658331808191448
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI02_DEL_PRODUCT",
+      "n_clear_tiles": 35,
+      "confusions": {
+        "original": [
+          939117,
+          33097,
+          93015
+        ],
+        "cloud": [
+          914058,
+          37444,
+          118074
+        ],
+        "placebo": [
+          941419,
+          41073,
+          90713
+        ]
+      },
+      "iou": {
+        "original": 0.8816104330618111,
+        "cloud": 0.8545984577066053,
+        "placebo": 0.877203330211842
+      },
+      "gap_cloud_pts": 2.701197535520583,
+      "gap_placebo_pts": 0.44071028499690357,
+      "cloud_minus_placebo_pts": 2.2604872505236795
+    },
+    {
+      "split": "val",
+      "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+      "n_clear_tiles": 4,
+      "confusions": {
+        "original": [
+          11414,
+          112,
+          3435
+        ],
+        "cloud": [
+          10659,
+          537,
+          4190
+        ],
+        "placebo": [
+          10945,
+          107,
+          3904
+        ]
+      },
+      "iou": {
+        "original": 0.7629169173183611,
+        "cloud": 0.6927726504614584,
+        "placebo": 0.7318133190692698
+      },
+      "gap_cloud_pts": 7.0144266856902675,
+      "gap_placebo_pts": 3.1103598249091258,
+      "cloud_minus_placebo_pts": 3.9040668607811417
+    },
+    {
+      "split": "val",
+      "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+      "n_clear_tiles": 14,
+      "confusions": {
+        "original": [
+          21200,
+          412,
+          1975
+        ],
+        "cloud": [
+          20381,
+          603,
+          2794
+        ],
+        "placebo": [
+          20047,
+          221,
+          3128
+        ]
+      },
+      "iou": {
+        "original": 0.898800186543435,
+        "cloud": 0.8571368491883253,
+        "placebo": 0.8568558727987691
+      },
+      "gap_cloud_pts": 4.166333735510963,
+      "gap_placebo_pts": 4.194431374466589,
+      "cloud_minus_placebo_pts": -0.028097638955626003
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+      "n_clear_tiles": 14,
+      "confusions": {
+        "original": [
+          461078,
+          5117,
+          1672
+        ],
+        "cloud": [
+          458586,
+          5636,
+          4164
+        ],
+        "placebo": [
+          454436,
+          7126,
+          8314
+        ]
+      },
+      "iou": {
+        "original": 0.9854894660234639,
+        "cloud": 0.9790770859931766,
+        "placebo": 0.9671402667937924
+      },
+      "gap_cloud_pts": 0.6412380030287324,
+      "gap_placebo_pts": 1.8349199229671487,
+      "cloud_minus_placebo_pts": -1.1936819199384163
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+      "n_clear_tiles": 9,
+      "confusions": {
+        "original": [
+          28640,
+          2232,
+          17826
+        ],
+        "cloud": [
+          26467,
+          2729,
+          19999
+        ],
+        "placebo": [
+          25543,
+          1678,
+          20923
+        ]
+      },
+      "iou": {
+        "original": 0.5881145016222432,
+        "cloud": 0.5380018294542128,
+        "placebo": 0.5305541708208708
+      },
+      "gap_cloud_pts": 5.01126721680304,
+      "gap_placebo_pts": 5.756033080137247,
+      "cloud_minus_placebo_pts": -0.7447658633342069
+    },
+    {
+      "split": "test",
+      "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+      "n_clear_tiles": 4,
+      "confusions": {
+        "original": [
+          71555,
+          1030,
+          4666
+        ],
+        "cloud": [
+          70848,
+          1029,
+          5373
+        ],
+        "placebo": [
+          71081,
+          941,
+          5140
+        ]
+      },
+      "iou": {
+        "original": 0.9262663266494933,
+        "cloud": 0.917126213592233,
+        "placebo": 0.9211917783364869
+      },
+      "gap_cloud_pts": 0.9140113057260257,
+      "gap_placebo_pts": 0.5074548313006355,
+      "cloud_minus_placebo_pts": 0.4065564744253902
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+      "n_clear_tiles": 6,
+      "confusions": {
+        "original": [
+          23892,
+          397,
+          2453
+        ],
+        "cloud": [
+          23412,
+          452,
+          2933
+        ],
+        "placebo": [
+          23649,
+          230,
+          2696
+        ]
+      },
+      "iou": {
+        "original": 0.8934260713484407,
+        "cloud": 0.8736798895398739,
+        "placebo": 0.8898965192850423
+      },
+      "gap_cloud_pts": 1.9746181808566798,
+      "gap_placebo_pts": 0.35295520633983335,
+      "cloud_minus_placebo_pts": 1.6216629745168465
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "n_clear_tiles": 6,
+      "confusions": {
+        "original": [
+          64917,
+          1918,
+          707
+        ],
+        "cloud": [
+          63811,
+          1902,
+          1813
+        ],
+        "placebo": [
+          64359,
+          1726,
+          1265
+        ]
+      },
+      "iou": {
+        "original": 0.9611352935950964,
+        "cloud": 0.9449841542516957,
+        "placebo": 0.9555902004454343
+      },
+      "gap_cloud_pts": 1.6151139343400733,
+      "gap_placebo_pts": 0.5545093149662117,
+      "cloud_minus_placebo_pts": 1.0606046193738616
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "n_clear_tiles": 8,
+      "confusions": {
+        "original": [
+          11750,
+          1425,
+          2221
+        ],
+        "cloud": [
+          12197,
+          6021,
+          1774
+        ],
+        "placebo": [
+          10875,
+          2473,
+          3096
+        ]
+      },
+      "iou": {
+        "original": 0.763185242920239,
+        "cloud": 0.610094037615046,
+        "placebo": 0.6613354414984188
+      },
+      "gap_cloud_pts": 15.309120530519305,
+      "gap_placebo_pts": 10.18498014218202,
+      "cloud_minus_placebo_pts": 5.124140388337285
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+      "n_clear_tiles": 42,
+      "confusions": {
+        "original": [
+          423003,
+          26118,
+          36091
+        ],
+        "cloud": [
+          428102,
+          32054,
+          30992
+        ],
+        "placebo": [
+          413187,
+          22510,
+          45907
+        ]
+      },
+      "iou": {
+        "original": 0.8717900629003404,
+        "cloud": 0.8716354337185532,
+        "placebo": 0.8579393028297108
+      },
+      "gap_cloud_pts": 0.015462918178721363,
+      "gap_placebo_pts": 1.3850760070629686,
+      "cloud_minus_placebo_pts": -1.3696130888842473
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+      "n_clear_tiles": 103,
+      "confusions": {
+        "original": [
+          2140983,
+          327598,
+          560485
+        ],
+        "cloud": [
+          2117629,
+          320207,
+          583839
+        ],
+        "placebo": [
+          2103234,
+          286608,
+          598234
+        ]
+      },
+      "iou": {
+        "original": 0.7068129251723139,
+        "cloud": 0.7008129596995044,
+        "placebo": 0.7038756711676678
+      },
+      "gap_cloud_pts": 0.5999965472809454,
+      "gap_placebo_pts": 0.29372540046460616,
+      "cloud_minus_placebo_pts": 0.30627114681633927
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_06MWANZA_DEL_v1",
+      "n_clear_tiles": 117,
+      "confusions": {
+        "original": [
+          50704,
+          2385,
+          58114
+        ],
+        "cloud": [
+          55333,
+          5196,
+          53485
+        ],
+        "placebo": [
+          47452,
+          2155,
+          61366
+        ]
+      },
+      "iou": {
+        "original": 0.45595892197152954,
+        "cloud": 0.48531759257635027,
+        "placebo": 0.4275995061861894
+      },
+      "gap_cloud_pts": -2.9358670604820727,
+      "gap_placebo_pts": 2.8359415785340127,
+      "cloud_minus_placebo_pts": -5.771808639016085
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+      "n_clear_tiles": 41,
+      "confusions": {
+        "original": [
+          465932,
+          4420,
+          69853
+        ],
+        "cloud": [
+          467978,
+          6930,
+          67807
+        ],
+        "placebo": [
+          465504,
+          5076,
+          70281
+        ]
+      },
+      "iou": {
+        "original": 0.8625096028359605,
+        "cloud": 0.862290520807422,
+        "placebo": 0.8606721505155669
+      },
+      "gap_cloud_pts": 0.021908202853848646,
+      "gap_placebo_pts": 0.18374523203935622,
+      "cloud_minus_placebo_pts": -0.16183702918550757
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_v2",
+      "n_clear_tiles": 4,
+      "confusions": {
+        "original": [
+          4802,
+          15,
+          8455
+        ],
+        "cloud": [
+          5335,
+          166,
+          7922
+        ],
+        "placebo": [
+          4055,
+          14,
+          9202
+        ]
+      },
+      "iou": {
+        "original": 0.3618143459915612,
+        "cloud": 0.39745213439618565,
+        "placebo": 0.30555346243689246
+      },
+      "gap_cloud_pts": -3.5637788404624446,
+      "gap_placebo_pts": 5.626088355466874,
+      "cloud_minus_placebo_pts": -9.189867195929319
+    },
+    {
+      "split": "test",
+      "scene": "EMSR419_AOI01_DEL_MONIT01",
+      "n_clear_tiles": 14,
+      "confusions": {
+        "original": [
+          156709,
+          3459,
+          9452
+        ],
+        "cloud": [
+          154279,
+          6145,
+          11882
+        ],
+        "placebo": [
+          157277,
+          3319,
+          8884
+        ]
+      },
+      "iou": {
+        "original": 0.9238827968399953,
+        "cloud": 0.8953779903195478,
+        "placebo": 0.92799740382346
+      },
+      "gap_cloud_pts": 2.850480652044751,
+      "gap_placebo_pts": -0.41146069834646637,
+      "cloud_minus_placebo_pts": 3.2619413503912176
+    },
+    {
+      "split": "test",
+      "scene": "EMSR422_AOI06_DEL_PRODUCT",
+      "n_clear_tiles": 4,
+      "confusions": {
+        "original": [
+          138022,
+          156,
+          2299
+        ],
+        "cloud": [
+          135281,
+          122,
+          5040
+        ],
+        "placebo": [
+          138201,
+          959,
+          2120
+        ]
+      },
+      "iou": {
+        "original": 0.9825238295236943,
+        "cloud": 0.9632448751450766,
+        "placebo": 0.9782063986409966
+      },
+      "gap_cloud_pts": 1.9278954378617708,
+      "gap_placebo_pts": 0.4317430882697759,
+      "cloud_minus_placebo_pts": 1.4961523495919948
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI02_DEL_MONIT03",
+      "n_clear_tiles": 41,
+      "confusions": {
+        "original": [
+          969385,
+          21245,
+          6804
+        ],
+        "cloud": [
+          959329,
+          21359,
+          16860
+        ],
+        "placebo": [
+          963911,
+          17934,
+          12278
+        ]
+      },
+      "iou": {
+        "original": 0.9718788411062788,
+        "cloud": 0.9616870566629375,
+        "placebo": 0.9696093944109532
+      },
+      "gap_cloud_pts": 1.0191784443341234,
+      "gap_placebo_pts": 0.22694466953255832,
+      "cloud_minus_placebo_pts": 0.7922337748015651
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI06_DEL_PRODUCT",
+      "n_clear_tiles": 3,
+      "confusions": {
+        "original": [
+          59501,
+          514,
+          5310
+        ],
+        "cloud": [
+          55602,
+          377,
+          9209
+        ],
+        "placebo": [
+          59387,
+          1859,
+          5424
+        ]
+      },
+      "iou": {
+        "original": 0.9108457711442786,
+        "cloud": 0.8529483954101982,
+        "placebo": 0.8907604619769012
+      },
+      "gap_cloud_pts": 5.789737573408038,
+      "gap_placebo_pts": 2.0085309167377385,
+      "cloud_minus_placebo_pts": 3.7812066566702995
+    },
+    {
+      "split": "test",
+      "scene": "EMSR466_AOI01_DEL_PRODUCT",
+      "n_clear_tiles": 10,
+      "confusions": {
+        "original": [
+          76791,
+          7591,
+          12475
+        ],
+        "cloud": [
+          56537,
+          6938,
+          32729
+        ],
+        "placebo": [
+          55639,
+          6676,
+          33627
+        ]
+      },
+      "iou": {
+        "original": 0.7928286029920398,
+        "cloud": 0.5876782670159245,
+        "placebo": 0.5799232869858874
+      },
+      "gap_cloud_pts": 20.51503359761153,
+      "gap_placebo_pts": 21.290531600615246,
+      "cloud_minus_placebo_pts": -0.7754980030037153
+    },
+    {
+      "split": "test",
+      "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+      "n_clear_tiles": 12,
+      "confusions": {
+        "original": [
+          52185,
+          5800,
+          9342
+        ],
+        "cloud": [
+          50081,
+          6361,
+          11446
+        ],
+        "placebo": [
+          53407,
+          6552,
+          8120
+        ]
+      },
+      "iou": {
+        "original": 0.7750976577004768,
+        "cloud": 0.7377003299552204,
+        "placebo": 0.7844856710586231
+      },
+      "gap_cloud_pts": 3.7397327745256392,
+      "gap_placebo_pts": -0.9388013358146319,
+      "cloud_minus_placebo_pts": 4.678534110340271
+    }
+  ],
+  "summary": {
+    "val_test": {
+      "gap_cloud_pts": {
+        "scenes": 32,
+        "mean_gap_pts": 3.97551175376457,
+        "ci95": [
+          2.4616476010443096,
+          5.648417247119556
+        ]
+      },
+      "gap_placebo_pts": {
+        "scenes": 32,
+        "mean_gap_pts": 2.788361827005881,
+        "ci95": [
+          1.551000986302436,
+          4.390196010141051
+        ]
+      },
+      "cloud_minus_placebo_pts": {
+        "scenes": 32,
+        "mean_gap_pts": 1.187149926758689,
+        "ci95": [
+          0.043293802233021365,
+          2.2415092832957297
+        ]
+      }
+    },
+    "val": {
+      "gap_cloud_pts": {
+        "scenes": 15,
+        "mean_gap_pts": 4.784748446802502,
+        "ci95": [
+          3.6091586611595288,
+          6.132307103265001
+        ]
+      },
+      "gap_placebo_pts": {
+        "scenes": 15,
+        "mean_gap_pts": 2.4736440767822043,
+        "ci95": [
+          1.5007012848244017,
+          3.694855533661821
+        ]
+      },
+      "cloud_minus_placebo_pts": {
+        "scenes": 15,
+        "mean_gap_pts": 2.311104370020298,
+        "ci95": [
+          1.0984154898078022,
+          3.5860933170754157
+        ]
+      }
+    },
+    "test": {
+      "gap_cloud_pts": {
+        "scenes": 17,
+        "mean_gap_pts": 3.2614793775546302,
+        "ci95": [
+          0.7855829742587261,
+          6.198176539041322
+        ]
+      },
+      "gap_placebo_pts": {
+        "scenes": 17,
+        "mean_gap_pts": 3.066053959556184,
+        "ci95": [
+          1.0644350173908632,
+          5.869008760655979
+        ]
+      },
+      "cloud_minus_placebo_pts": {
+        "scenes": 17,
+        "mean_gap_pts": 0.19542541799844546,
+        "ci95": [
+          -1.5775222577062888,
+          1.7107177870868793
+        ]
+      }
+    }
+  }
+}

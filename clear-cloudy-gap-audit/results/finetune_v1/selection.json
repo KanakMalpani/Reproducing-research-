@@ -1,0 +1,26 @@
+{
+  "run": "finetune_v1",
+  "selected": {
+    "epoch": 2,
+    "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+    "validation": {
+      "all": 0.9162587023504096,
+      "clear": 0.9187518608710733,
+      "cloudy": 0.7663126308361057
+    }
+  },
+  "baseline_validation": {
+    "all": 0.8651451103384014,
+    "clear": 0.8671038269617226,
+    "cloudy": 0.6746440927636234
+  },
+  "best_any_validation_iou": 0.9162587023504096,
+  "best_any_epoch": 2,
+  "best_any_weights": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_validation_model.pt",
+  "test_opened": false,
+  "epochs_completed": 6,
+  "released_checkpoint_sha256": "ef52e243cea1c659895d05440932b7ec0ef473f63a52283b1c9bd459bf1982b7",
+  "released_checkpoint_unchanged": true,
+  "training_seconds": 1333.161036491394,
+  "target": 0.9
+}

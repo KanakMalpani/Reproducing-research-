@@ -1,0 +1,33 @@
+{
+  "aggregator": "pixel pooled; secondary to scene-level controls",
+  "comparison": {
+    "val": {
+      "all": {
+        "wf2_iou": 0.8651451103384014,
+        "prithvi_iou": 0.8856595016283385
+      },
+      "clear": {
+        "wf2_iou": 0.8671038269617226,
+        "prithvi_iou": 0.8947489243659092
+      },
+      "cloudy": {
+        "wf2_iou": 0.6746440927636234,
+        "prithvi_iou": 0.5920874492303064
+      }
+    },
+    "test": {
+      "all": {
+        "wf2_iou": 0.7836493970690738,
+        "prithvi_iou": 0.7321194330554324
+      },
+      "clear": {
+        "wf2_iou": 0.7955315465347755,
+        "prithvi_iou": 0.749228753563583
+      },
+      "cloudy": {
+        "wf2_iou": 0.7667548616804217,
+        "prithvi_iou": 0.4949335049051748
+      }
+    }
+  }
+}

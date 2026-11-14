@@ -1,0 +1,72 @@
+{
+  "original_json_unchanged": true,
+  "original_json_count": 19,
+  "released_checkpoint_unchanged": true,
+  "candidate_hash_verified": true,
+  "jrc_scene_confusion_conservation": true,
+  "jrc_original_known_strata_match": true,
+  "tiles": 1291,
+  "scenes": 34,
+  "followup_scripts_compile": true,
+  "scripts": [
+    "download_inputs.py",
+    "frozen_gpu_reproduce.py",
+    "pooled_placebo_followup.py",
+    "jrc_brightness_followup.py",
+    "prithvi_evaluate.py",
+    "prithvi_smoke.py",
+    "train_candidate_v1.py",
+    "calibrate_candidate_v1.py",
+    "evaluate_candidate_v1.py",
+    "permanent_flood_completion.py"
+  ],
+  "artifacts": [
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+      "bytes": 31165177,
+      "sha256": "d303b6e6305dc18aaa767ee24486b19e090a2bc61524b2d4d9cd59633cee9a1b"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/best_validation_model.pt",
+      "bytes": 31165249,
+      "sha256": "4496d37100231d932537a1a84c50a6cd002bfc7af0416d7792b653c8c4cf99f4"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/calibrated_selected_model.pt",
+      "bytes": 31165457,
+      "sha256": "f8ed2fb50a788279e38c3f0d0c6f895aafe8cc3afb7bd018a5f608050a2bcdce"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/last_training_state.pt",
+      "bytes": 93505847,
+      "sha256": "d0e18e1a8524b32553a2e294a83c9825914c61fcc96eed0cad05b71684fe00e2"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/released_frozen/model.pt",
+      "bytes": 31160841,
+      "sha256": "ef52e243cea1c659895d05440932b7ec0ef473f63a52283b1c9bd459bf1982b7"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_assets/config.yaml",
+      "bytes": 3668,
+      "sha256": "ca2fa45885b85afac9400c57f7ca3b711526cbad3af285f8b67de74ba2db404a"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_assets/Prithvi-EO-V2-300M-TL-Sen1Floods11.pt",
+      "bytes": 1276843350,
+      "sha256": "76eed77d8bd543ae441308b80e8408502243a871cb8a338ddc8220ed96dfc270"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_assets/requirements.txt",
+      "bytes": 57,
+      "sha256": "d947c9669e63f8702ef501afb345ad4218f9d0f07033e8c62ac9e49f3d14e158"
+    },
+    {
+      "path": "clear-cloudy-gap-audit/notebooks/WorldFloods_controlled_audit.ipynb",
+      "bytes": 212945,
+      "sha256": "3642924fe1440f59a9ef0258a69786829ecffe3c8a17ab88ced36d8a388d06d4"
+    }
+  ],
+  "model_improvement": "stopped; no v2 trained",
+  "raw_rasters_preserved_locally": false
+}

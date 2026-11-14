@@ -1,0 +1,1044 @@
+{
+  "baseline": {
+    "all": 0.8651451103384014,
+    "clear": 0.8671038269617226,
+    "cloudy": 0.6746440927636234
+  },
+  "rows": [
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.2,
+      "validation": {
+        "all": 0.798293155847836,
+        "clear": 0.8038109268767275,
+        "cloudy": 0.5174142687650986
+      },
+      "eligible": false,
+      "scene_mean_iou": 0.5852222203544999,
+      "confusions": {
+        "all": [
+          8727399,
+          2117576,
+          87599
+        ],
+        "clear": [
+          8242057,
+          1944505,
+          67164
+        ],
+        "cloudy": [
+          144787,
+          120803,
+          14238
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.25,
+      "validation": {
+        "all": 0.8169574181080892,
+        "clear": 0.8212306789459448,
+        "cloudy": 0.5597437581873379
+      },
+      "eligible": false,
+      "scene_mean_iou": 0.617834350003553,
+      "confusions": {
+        "all": [
+          8720585,
+          1859469,
+          94413
+        ],
+        "clear": [
+          8236777,
+          1720576,
+          72444
+        ],
+        "cloudy": [
+          143998,
+          98232,
+          15027
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.3,
+      "validation": {
+        "all": 0.8305551965492697,
+        "clear": 0.8339944394947036,
+        "cloudy": 0.5931099043571549
+      },
+      "eligible": false,
+      "scene_mean_iou": 0.6418880694975649,
+      "confusions": {
+        "all": [
+          8714122,
+          1676926,
+          100876
+        ],
+        "clear": [
+          8231797,
+          1561105,
+          77424
+        ],
+        "cloudy": [
+          143188,
+          82394,
+          15837
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.35,
+      "validation": {
+        "all": 0.8412697262456533,
+        "clear": 0.844140914247811,
+        "cloudy": 0.61945893231865
+      },
+      "eligible": false,
+      "scene_mean_iou": 0.6592136722868773,
+      "confusions": {
+        "all": [
+          8706965,
+          1534792,
+          108033
+        ],
+        "clear": [
+          8226241,
+          1435883,
+          82980
+        ],
+        "cloudy": [
+          142286,
+          70669,
+          16739
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.4,
+      "validation": {
+        "all": 0.8502675924150253,
+        "clear": 0.8527269522678965,
+        "cloudy": 0.6407248355017028
+      },
+      "eligible": false,
+      "scene_mean_iou": 0.6726353970362993,
+      "confusions": {
+        "all": [
+          8698967,
+          1415860,
+          116031
+        ],
+        "clear": [
+          8219922,
+          1330350,
+          89299
+        ],
+        "cloudy": [
+          141292,
+          61494,
+          17733
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.45,
+      "validation": {
+        "all": 0.858041073532069,
+        "clear": 0.8602143340827642,
+        "cloudy": 0.6586056470963895
+      },
+      "eligible": false,
+      "scene_mean_iou": 0.6837494046506545,
+      "confusions": {
+        "all": [
+          8689974,
+          1312692,
+          125024
+        ],
+        "clear": [
+          8212677,
+          1238024,
+          96544
+        ],
+        "cloudy": [
+          140256,
+          53934,
+          18769
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.5,
+      "validation": {
+        "all": 0.8651451103384014,
+        "clear": 0.8671038269617226,
+        "cloudy": 0.6746440927636234
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6933378554345184,
+      "confusions": {
+        "all": [
+          8679333,
+          1217230,
+          135665
+        ],
+        "clear": [
+          8203854,
+          1151992,
+          105367
+        ],
+        "cloudy": [
+          139229,
+          47349,
+          19796
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.55,
+      "validation": {
+        "all": 0.8716746579138088,
+        "clear": 0.8734980315256532,
+        "cloudy": 0.6886237397660527
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7008088624895473,
+      "confusions": {
+        "all": [
+          8667028,
+          1127964,
+          147970
+        ],
+        "clear": [
+          8193505,
+          1070886,
+          115716
+        ],
+        "cloudy": [
+          138109,
+          41533,
+          20916
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.6,
+      "validation": {
+        "all": 0.8780719087536251,
+        "clear": 0.8797954019203492,
+        "cloudy": 0.7030337551443497
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7087211403026639,
+      "confusions": {
+        "all": [
+          8652388,
+          1038851,
+          162610
+        ],
+        "clear": [
+          8180884,
+          989400,
+          128337
+        ],
+        "cloudy": [
+          137003,
+          35849,
+          22022
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.65,
+      "validation": {
+        "all": 0.8843589350708516,
+        "clear": 0.8860375447813006,
+        "cloudy": 0.7167344398559095
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7173021425610435,
+      "confusions": {
+        "all": [
+          8634442,
+          948506,
+          180556
+        ],
+        "clear": [
+          8165139,
+          906121,
+          144082
+        ],
+        "cloudy": [
+          135895,
+          30578,
+          23130
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.7,
+      "validation": {
+        "all": 0.890568150534979,
+        "clear": 0.8922549291659542,
+        "cloudy": 0.7294656438961278
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7220860997405147,
+      "confusions": {
+        "all": [
+          8611550,
+          854728,
+          203448
+        ],
+        "clear": [
+          8144652,
+          818946,
+          164569
+        ],
+        "cloudy": [
+          134752,
+          25702,
+          24273
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.75,
+      "validation": {
+        "all": 0.896617028237179,
+        "clear": 0.8983314637381162,
+        "cloudy": 0.7433418490874785
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7208456796371061,
+      "confusions": {
+        "all": [
+          8581171,
+          755611,
+          233827
+        ],
+        "clear": [
+          8117165,
+          726603,
+          192056
+        ],
+        "cloudy": [
+          133554,
+          20642,
+          25471
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.8,
+      "validation": {
+        "all": 0.9027240003315453,
+        "clear": 0.904604043976775,
+        "cloudy": 0.7557666525341187
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7194709526184425,
+      "confusions": {
+        "all": [
+          8538628,
+          643738,
+          276370
+        ],
+        "clear": [
+          8078760,
+          621493,
+          230461
+        ],
+        "cloudy": [
+          131910,
+          15513,
+          27115
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.85,
+      "validation": {
+        "all": 0.9091509559559414,
+        "clear": 0.9115103556571781,
+        "cloudy": 0.76171320675056
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6924229031253909,
+      "confusions": {
+        "all": [
+          8474657,
+          506509,
+          340341
+        ],
+        "clear": [
+          8020386,
+          489786,
+          288835
+        ],
+        "cloudy": [
+          129898,
+          11509,
+          29127
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "released",
+        "path": "/content/wf-models/model.pt",
+        "epoch": 0
+      },
+      "threshold": 0.9,
+      "validation": {
+        "all": 0.912145681905834,
+        "clear": 0.9151879222251872,
+        "cloudy": 0.7599408694819496
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6530141228518663,
+      "confusions": {
+        "all": [
+          8351158,
+          340511,
+          463840
+        ],
+        "clear": [
+          7905407,
+          328794,
+          403814
+        ],
+        "cloudy": [
+          126977,
+          8063,
+          32048
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.2,
+      "validation": {
+        "all": 0.9078575898291693,
+        "clear": 0.9097999656834104,
+        "cloudy": 0.7618626163421458
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7363872944421732,
+      "confusions": {
+        "all": [
+          8578616,
+          634299,
+          236382
+        ],
+        "clear": [
+          8112659,
+          607749,
+          196562
+        ],
+        "cloudy": [
+          133425,
+          16105,
+          25600
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.25,
+      "validation": {
+        "all": 0.9109331814328501,
+        "clear": 0.9129856750187575,
+        "cloudy": 0.764672640671672
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7374689008486157,
+      "confusions": {
+        "all": [
+          8552390,
+          573605,
+          262608
+        ],
+        "clear": [
+          8088267,
+          549918,
+          220954
+        ],
+        "cloudy": [
+          132608,
+          14393,
+          26417
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.3,
+      "validation": {
+        "all": 0.9130200911715698,
+        "clear": 0.9151802431322603,
+        "cloudy": 0.7660330679303796
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7333171124262003,
+      "confusions": {
+        "all": [
+          8527583,
+          524975,
+          287415
+        ],
+        "clear": [
+          8065165,
+          503431,
+          244056
+        ],
+        "cloudy": [
+          131904,
+          13166,
+          27121
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.35,
+      "validation": {
+        "all": 0.9145032905315077,
+        "clear": 0.9167514685536137,
+        "cloudy": 0.7670613261024556
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7305708702209358,
+      "confusions": {
+        "all": [
+          8502951,
+          482892,
+          312047
+        ],
+        "clear": [
+          8042117,
+          463186,
+          267104
+        ],
+        "cloudy": [
+          131258,
+          12093,
+          27767
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.4,
+      "validation": {
+        "all": 0.9154848662047993,
+        "clear": 0.917821210083749,
+        "cloudy": 0.7672866167180843
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7276690644500707,
+      "confusions": {
+        "all": [
+          8477605,
+          445237,
+          337393
+        ],
+        "clear": [
+          8018411,
+          427133,
+          290810
+        ],
+        "cloudy": [
+          130573,
+          11150,
+          28452
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.45,
+      "validation": {
+        "all": 0.9160517363115624,
+        "clear": 0.9184726401240187,
+        "cloudy": 0.767067727766495
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7245491782265117,
+      "confusions": {
+        "all": [
+          8451224,
+          410708,
+          363774
+        ],
+        "clear": [
+          7993652,
+          393980,
+          315569
+        ],
+        "cloudy": [
+          129929,
+          10359,
+          29096
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.5,
+      "validation": {
+        "all": 0.9162587023504096,
+        "clear": 0.9187518608710733,
+        "cloudy": 0.7663126308361057
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.718205389481352,
+      "confusions": {
+        "all": [
+          8423355,
+          378208,
+          391643
+        ],
+        "clear": [
+          7967429,
+          362793,
+          341792
+        ],
+        "cloudy": [
+          129221,
+          9602,
+          29804
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.55,
+      "validation": {
+        "all": 0.9161213434145417,
+        "clear": 0.9186832392662116,
+        "cloudy": 0.7654833521948895
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7120880889968213,
+      "confusions": {
+        "all": [
+          8393501,
+          346999,
+          421497
+        ],
+        "clear": [
+          7939312,
+          332835,
+          369909
+        ],
+        "cloudy": [
+          128517,
+          8865,
+          30508
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.6,
+      "validation": {
+        "all": 0.9155179333587028,
+        "clear": 0.9181467714025374,
+        "cloudy": 0.7639706234151477
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.7033334018967632,
+      "confusions": {
+        "all": [
+          8360258,
+          316727,
+          454740
+        ],
+        "clear": [
+          7907910,
+          303683,
+          401311
+        ],
+        "cloudy": [
+          127742,
+          8183,
+          31283
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.65,
+      "validation": {
+        "all": 0.9144778178313118,
+        "clear": 0.9171958054782499,
+        "cloudy": 0.7613759154760475
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6936546184256394,
+      "confusions": {
+        "all": [
+          8322295,
+          285600,
+          492703
+        ],
+        "clear": [
+          7872121,
+          273593,
+          437100
+        ],
+        "cloudy": [
+          126830,
+          7555,
+          32195
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.7,
+      "validation": {
+        "all": 0.9127685857999049,
+        "clear": 0.9155663915364903,
+        "cloudy": 0.7580416714381287
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6843000236794565,
+      "confusions": {
+        "all": [
+          8277033,
+          253054,
+          537965
+        ],
+        "clear": [
+          7829325,
+          242125,
+          479896
+        ],
+        "cloudy": [
+          125772,
+          6892,
+          33253
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.75,
+      "validation": {
+        "all": 0.9100100168586122,
+        "clear": 0.9129003193326208,
+        "cloudy": 0.7530507910578698
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6729929730641935,
+      "confusions": {
+        "all": [
+          8219913,
+          217774,
+          595085
+        ],
+        "clear": [
+          7775298,
+          207917,
+          533923
+        ],
+        "cloudy": [
+          124468,
+          6260,
+          34557
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.8,
+      "validation": {
+        "all": 0.9055351362724423,
+        "clear": 0.9084822444872382,
+        "cloudy": 0.7465101156508475
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6558912518149091,
+      "confusions": {
+        "all": [
+          8142859,
+          177319,
+          672139
+        ],
+        "clear": [
+          7701998,
+          168653,
+          607223
+        ],
+        "cloudy": [
+          122836,
+          5522,
+          36189
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.85,
+      "validation": {
+        "all": 0.8970202137462059,
+        "clear": 0.8999343744092926,
+        "cloudy": 0.7357944484472505
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6366258757336445,
+      "confusions": {
+        "all": [
+          8024602,
+          130845,
+          790396
+        ],
+        "clear": [
+          7588864,
+          123465,
+          720357
+        ],
+        "cloudy": [
+          120504,
+          4749,
+          38521
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.9,
+      "validation": {
+        "all": 0.8784512488478227,
+        "clear": 0.8810650545306441,
+        "cloudy": 0.716161417564728
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.6144435774667514,
+      "confusions": {
+        "all": [
+          7814878,
+          81202,
+          1000120
+        ],
+        "clear": [
+          7387497,
+          75514,
+          921724
+        ],
+        "cloudy": [
+          116561,
+          3733,
+          42464
+        ]
+      }
+    }
+  ]
+}

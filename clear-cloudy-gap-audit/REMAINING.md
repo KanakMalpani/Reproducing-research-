@@ -15,3 +15,6 @@ These steps are not done. Write every new JSON file under `clear-cloudy-gap-audi
 6. After the steps above, run `ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL-Sen1Floods11` on the same protocol.
 
 7. Frozen means no extra training of `WF2_unetv2_all`. The paste stays a constructed fill.
+<!-- EXECUTION STATUS 2026-11-15 -->
+
+Execution update: see [REMAINING_STATUS.md](REMAINING_STATUS.md) for item-by-item evidence. Items1–3 and5–7 are complete. Item4 has completed brightness/JRC-supported analysis; a complete genuine flood split remains blocked by missing independent labels for unknown JRC regions. Model improvement is stopped.

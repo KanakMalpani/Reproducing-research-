@@ -1,0 +1,625 @@
+{
+  "date": "2026-11-15",
+  "model_improvement": "stopped",
+  "raw_data_root": "/content/worldfloods",
+  "raw_data_in_archive": false,
+  "environment_cache_in_archive": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 24
+    },
+    {
+      "path": ".git/packed-refs",
+      "bytes": 112
+    },
+    {
+      "path": ".git/description",
+      "bytes": 73
+    },
+    {
+      "path": ".git/config",
+      "bytes": 278
+    },
+    {
+      "path": ".git/HEAD",
+      "bytes": 21
+    },
+    {
+      "path": ".git/index",
+      "bytes": 6530
+    },
+    {
+      "path": "clear-cloudy-gap-audit/PRITHVI_SAME_PROTOCOL_RULE.md",
+      "bytes": 811
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_soft_edge_analyze.out.json",
+      "bytes": 1009
+    },
+    {
+      "path": "clear-cloudy-gap-audit/ndvi_comatch_analyze.py",
+      "bytes": 4861
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_varying_analyze.py",
+      "bytes": 1473
+    },
+    {
+      "path": "clear-cloudy-gap-audit/README.md",
+      "bytes": 1404
+    },
+    {
+      "path": "clear-cloudy-gap-audit/method1_analyze.py",
+      "bytes": 3418
+    },
+    {
+      "path": "clear-cloudy-gap-audit/ndvi_comatch_results.json",
+      "bytes": 2581
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_analyze.py",
+      "bytes": 1050
+    },
+    {
+      "path": "clear-cloudy-gap-audit/val_cloud_counts.json",
+      "bytes": 3801
+    },
+    {
+      "path": "clear-cloudy-gap-audit/cloud_iou_pilot.py",
+      "bytes": 3160
+    },
+    {
+      "path": "clear-cloudy-gap-audit/FOLLOWUP_POOLED_PLACEBO_RULE.md",
+      "bytes": 965
+    },
+    {
+      "path": "clear-cloudy-gap-audit/FINETUNE_V1_RULE.md",
+      "bytes": 1282
+    },
+    {
+      "path": "clear-cloudy-gap-audit/kill_test_results.json",
+      "bytes": 2716
+    },
+    {
+      "path": "clear-cloudy-gap-audit/method1_results.json",
+      "bytes": 5213
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_analyze.out.json",
+      "bytes": 969
+    },
+    {
+      "path": "clear-cloudy-gap-audit/NOTE.md",
+      "bytes": 17636
+    },
+    {
+      "path": "clear-cloudy-gap-audit/P2_SHUFFLED_MASK_RULE.md",
+      "bytes": 1566
+    },
+    {
+      "path": "clear-cloudy-gap-audit/SELECTION_RULE_method2.md",
+      "bytes": 1431
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_varying_spectrum.py",
+      "bytes": 5702
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_shuffled_control.py",
+      "bytes": 3975
+    },
+    {
+      "path": "clear-cloudy-gap-audit/EVENT_CLUSTER_RULE.md",
+      "bytes": 6054
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_soft_edge_analyze.py",
+      "bytes": 1435
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_followup_analyze.py",
+      "bytes": 1223
+    },
+    {
+      "path": "clear-cloudy-gap-audit/P2_EDGE_DISTANCE_RULE.md",
+      "bytes": 606
+    },
+    {
+      "path": "clear-cloudy-gap-audit/label_histogram_test.py",
+      "bytes": 1424
+    },
+    {
+      "path": "clear-cloudy-gap-audit/cloud_iou_results.json",
+      "bytes": 1400
+    },
+    {
+      "path": "clear-cloudy-gap-audit/calibrate_candidate_v1.py",
+      "bytes": 4360
+    },
+    {
+      "path": "clear-cloudy-gap-audit/val_cloud_counts.py",
+      "bytes": 1485
+    },
+    {
+      "path": "clear-cloudy-gap-audit/REQUIREMENTS",
+      "bytes": 491
+    },
+    {
+      "path": "clear-cloudy-gap-audit/pooled_placebo_followup.py",
+      "bytes": 6270
+    },
+    {
+      "path": "clear-cloudy-gap-audit/FINETUNE_V1_CALIBRATION_RULE.md",
+      "bytes": 977
+    },
+    {
+      "path": "clear-cloudy-gap-audit/P2_OWN_CLOUD_ONLY_RULE.md",
+      "bytes": 389
+    },
+    {
+      "path": "clear-cloudy-gap-audit/LABEL_HISTOGRAM_RULE.md",
+      "bytes": 748
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_results.json",
+      "bytes": 16217
+    },
+    {
+      "path": "clear-cloudy-gap-audit/P2_SOFT_EDGE_RULE.md",
+      "bytes": 4123
+    },
+    {
+      "path": "clear-cloudy-gap-audit/m2_cache.py",
+      "bytes": 1697
+    },
+    {
+      "path": "clear-cloudy-gap-audit/wf_data.py",
+      "bytes": 1479
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_evaluate.py",
+      "bytes": 8433
+    },
+    {
+      "path": "clear-cloudy-gap-audit/cloud_iou_tiles.json",
+      "bytes": 231007
+    },
+    {
+      "path": "clear-cloudy-gap-audit/label_histogram_test.json",
+      "bytes": 3155
+    },
+    {
+      "path": "clear-cloudy-gap-audit/PURPOSE.md",
+      "bytes": 997
+    },
+    {
+      "path": "clear-cloudy-gap-audit/LAPTOP_RUNBOOK.md",
+      "bytes": 6980
+    },
+    {
+      "path": "clear-cloudy-gap-audit/event_cluster_results.json",
+      "bytes": 15874
+    },
+    {
+      "path": "clear-cloudy-gap-audit/kill_test.py",
+      "bytes": 1944
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_soft_edge.py",
+      "bytes": 5383
+    },
+    {
+      "path": "clear-cloudy-gap-audit/sample_size_results.json",
+      "bytes": 3764
+    },
+    {
+      "path": "clear-cloudy-gap-audit/SELECTION_RULE_method1.md",
+      "bytes": 1305
+    },
+    {
+      "path": "clear-cloudy-gap-audit/NDVI_COMATCH_RULE.md",
+      "bytes": 2405
+    },
+    {
+      "path": "clear-cloudy-gap-audit/download_inputs.py",
+      "bytes": 3037
+    },
+    {
+      "path": "clear-cloudy-gap-audit/REMAINING.md",
+      "bytes": 1184
+    },
+    {
+      "path": "clear-cloudy-gap-audit/P2_VARYING_SPECTRUM_RULE.md",
+      "bytes": 2989
+    },
+    {
+      "path": "clear-cloudy-gap-audit/P2_CLOUD_PAINT_RULE.md",
+      "bytes": 2098
+    },
+    {
+      "path": "clear-cloudy-gap-audit/JRC_BRIGHTNESS_SCENE_RULE.md",
+      "bytes": 907
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_shuffled_results.json",
+      "bytes": 12981
+    },
+    {
+      "path": "clear-cloudy-gap-audit/WORK_LOG.md",
+      "bytes": 1799
+    },
+    {
+      "path": "clear-cloudy-gap-audit/jrc_brightness_followup.py",
+      "bytes": 7232
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_soft_edge_results.json",
+      "bytes": 10159
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_varying_analyze.out.json",
+      "bytes": 1711
+    },
+    {
+      "path": "clear-cloudy-gap-audit/m2_results.json",
+      "bytes": 1364
+    },
+    {
+      "path": "clear-cloudy-gap-audit/evaluate_candidate_v1.py",
+      "bytes": 7371
+    },
+    {
+      "path": "clear-cloudy-gap-audit/method1_pass.py",
+      "bytes": 2315
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_followup_analyze.out.json",
+      "bytes": 1533
+    },
+    {
+      "path": "clear-cloudy-gap-audit/event_cluster.py",
+      "bytes": 27993
+    },
+    {
+      "path": "clear-cloudy-gap-audit/CITE_AND_RUN.md",
+      "bytes": 505
+    },
+    {
+      "path": "clear-cloudy-gap-audit/method1_tiles.json",
+      "bytes": 792483
+    },
+    {
+      "path": "clear-cloudy-gap-audit/m2_train_eval.py",
+      "bytes": 5299
+    },
+    {
+      "path": "clear-cloudy-gap-audit/sample_size.py",
+      "bytes": 10102
+    },
+    {
+      "path": "clear-cloudy-gap-audit/train_candidate_v1.py",
+      "bytes": 10931
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_cloud_paint.py",
+      "bytes": 3446
+    },
+    {
+      "path": "clear-cloudy-gap-audit/p2_varying_results.json",
+      "bytes": 16965
+    },
+    {
+      "path": "clear-cloudy-gap-audit/frozen_gpu_reproduce.py",
+      "bytes": 2130
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_smoke.py",
+      "bytes": 1842
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_assets/Prithvi-EO-V2-300M-TL-Sen1Floods11.pt",
+      "bytes": 1276843350
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_assets/requirements.txt",
+      "bytes": 57
+    },
+    {
+      "path": "clear-cloudy-gap-audit/prithvi_assets/config.yaml",
+      "bytes": 3668
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/cloud_iou_gpu_tiles.json",
+      "bytes": 231007
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/separate_scene_measurements.json",
+      "bytes": 1715
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/cloud_iou_gpu_results.json",
+      "bytes": 1400
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/ndvi_comatch_results.json",
+      "bytes": 2581
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/pooled_cloud_noncloud_placebo.json",
+      "bytes": 42545
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/kill_test_results.json",
+      "bytes": 2716
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_download_manifest.json",
+      "bytes": 850
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_requirements.txt",
+      "bytes": 2931
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/permanent_nonpermanent_water.json",
+      "bytes": 25409
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/p2_analyze.out.json",
+      "bytes": 969
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_wf2_pooled_comparison.json",
+      "bytes": 769
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/brightness_census.json",
+      "bytes": 35636
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/pooled_placebo_progress.json",
+      "bytes": 35316
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/reproduction_checks.json",
+      "bytes": 218
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/runtime_provenance.json",
+      "bytes": 321
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_method1_tiles.json",
+      "bytes": 290597
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/paired_model_accuracy_comparison.json",
+      "bytes": 39394
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/.gitkeep",
+      "bytes": 0
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_kill_test_results.json",
+      "bytes": 2714
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_data_preflight.json",
+      "bytes": 13692
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_same_protocol.json",
+      "bytes": 23800
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_ndvi_comatch_results.json",
+      "bytes": 2582
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/download_manifest.json",
+      "bytes": 21160
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_cloud_iou_tiles.json",
+      "bytes": 230562
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/gpu_inference_comparison.json",
+      "bytes": 147
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/prithvi_paste_progress.json",
+      "bytes": 19174
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/RUN_REPORT.md",
+      "bytes": 5731
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/released_frozen/model.pt",
+      "bytes": 31160841
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/calibrated_selected_model.pt",
+      "bytes": 31165457
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/best_validation_model.pt",
+      "bytes": 31165249
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/last_training_state.pt",
+      "bytes": 93505847
+    },
+    {
+      "path": "clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+      "bytes": 31165177
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/history.json",
+      "bytes": 2944
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/candidate_comparison.json",
+      "bytes": 9895
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/train_index.json",
+      "bytes": 5460701
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/baseline_validation.json",
+      "bytes": 201351
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/candidate_ndvi_comatch_results.json",
+      "bytes": 2581
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/candidate_kill_test_results.json",
+      "bytes": 2701
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/candidate_cloud_iou_tiles.json",
+      "bytes": 230264
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/final_selection.json",
+      "bytes": 1309
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/config.json",
+      "bytes": 814
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/train_stdout.log",
+      "bytes": 6135
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/training_download_manifest.json",
+      "bytes": 155483
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/calibration_curve.json",
+      "bytes": 22848
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/selection.json",
+      "bytes": 885
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/calibration_rule.json",
+      "bytes": 1017
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/candidate_method1_tiles.json",
+      "bytes": 290414
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/rule.json",
+      "bytes": 15904
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/candidate_same_protocol.json",
+      "bytes": 23032
+    },
+    {
+      "path": "clear-cloudy-gap-audit/results/finetune_v1/selected_validation_tiles.json",
+      "bytes": 106231
+    },
+    {
+      "path": ".git/logs/HEAD",
+      "bytes": 201
+    },
+    {
+      "path": ".git/info/exclude",
+      "bytes": 240
+    },
+    {
+      "path": ".git/hooks/pre-receive.sample",
+      "bytes": 544
+    },
+    {
+      "path": ".git/hooks/push-to-checkout.sample",
+      "bytes": 2783
+    },
+    {
+      "path": ".git/hooks/sendemail-validate.sample",
+      "bytes": 2308
+    },
+    {
+      "path": ".git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492
+    },
+    {
+      "path": ".git/hooks/pre-commit.sample",
+      "bytes": 1643
+    },
+    {
+      "path": ".git/hooks/update.sample",
+      "bytes": 3650
+    },
+    {
+      "path": ".git/hooks/pre-merge-commit.sample",
+      "bytes": 416
+    },
+    {
+      "path": ".git/hooks/pre-push.sample",
+      "bytes": 1374
+    },
+    {
+      "path": ".git/hooks/pre-rebase.sample",
+      "bytes": 4898
+    },
+    {
+      "path": ".git/hooks/post-update.sample",
+      "bytes": 189
+    },
+    {
+      "path": ".git/hooks/commit-msg.sample",
+      "bytes": 896
+    },
+    {
+      "path": ".git/hooks/applypatch-msg.sample",
+      "bytes": 478
+    },
+    {
+      "path": ".git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726
+    },
+    {
+      "path": ".git/hooks/pre-applypatch.sample",
+      "bytes": 424
+    },
+    {
+      "path": ".git/objects/pack/pack-7c21f4282d2b4ade0a6eb7b38b57afa895e623aa.pack",
+      "bytes": 247326
+    },
+    {
+      "path": ".git/objects/pack/pack-7c21f4282d2b4ade0a6eb7b38b57afa895e623aa.idx",
+      "bytes": 2892
+    },
+    {
+      "path": ".git/objects/pack/pack-7c21f4282d2b4ade0a6eb7b38b57afa895e623aa.rev",
+      "bytes": 312
+    },
+    {
+      "path": ".git/refs/heads/main",
+      "bytes": 41
+    },
+    {
+      "path": ".git/refs/remotes/origin/HEAD",
+      "bytes": 30
+    },
+    {
+      "path": ".git/logs/refs/heads/main",
+      "bytes": 201
+    },
+    {
+      "path": ".git/logs/refs/remotes/origin/HEAD",
+      "bytes": 201
+    }
+  ]
+}

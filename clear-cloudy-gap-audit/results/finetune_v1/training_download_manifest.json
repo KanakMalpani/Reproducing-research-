@@ -1,0 +1,3887 @@
+{
+  "dataset_revision": "1f3faa2989e69930ac31d5c0a79fd224461123f8",
+  "complete": true,
+  "files": [
+    {
+      "path": "/content/worldfloods/train/S2/01042016_Choctawhatchee_River_near_Bellwood_AL.tif",
+      "bytes": 910423808,
+      "sha256": "482cd551ffe780c86f0844ea4dd6ee168149e93f602d568350231cb830deab40"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/01042016_Holmes_Creek_at_Vernon_FL.tif",
+      "bytes": 58473567,
+      "sha256": "4fb4a56a17b5c54f051952195aed79fe5cd4e50093939490aee0e322c7c79d4d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/01042016_Pea_River_near_Samson_AL.tif",
+      "bytes": 147773842,
+      "sha256": "c2046954491086c44942c010272111680773c46034136eb60f0cb7b03daf0698"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/08162016_Mississippi_River_at_Baton_Rouge_LA.tif",
+      "bytes": 655648591,
+      "sha256": "050006ab16f6b25fcfae3dc3e111857ef933ffc5a623cde33f3e6d1fe2d0eeb8"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/10132016_Ashley_River_near_North_Charleston_SC.tif",
+      "bytes": 493150423,
+      "sha256": "93727502a482338b9d4bc3bb8e78622d2106ccb3bfd113f7466bacd7819f3d55"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/10132016_Cooper_River_at_Monks_Corner_SC.tif",
+      "bytes": 472315762,
+      "sha256": "2b70cc25cdbeaafc2f0c35aab5aca6d51e778d1ad95255ac9d1709c69d9ea70d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR249_03GALWAY_DEL_v2.tif",
+      "bytes": 28696413,
+      "sha256": "edec4233ba1605a3764643af529c3ab66d5b7d0d5e1ad53db74a6853ec7e97e2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR249_07KILRUSHTARBERT_DEL_v2.tif",
+      "bytes": 27846003,
+      "sha256": "822775124ffff00b58cc23ef6037e372fbe7ee17a649c5fd032ac6f961ce874a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR249_14WATERVILLE_DEL_v2.tif",
+      "bytes": 17736709,
+      "sha256": "ed6d14cba4a6517d8eb784bb8060b23b94ebb14f334f7f38a5bce6d9a37d6e8c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR249_15LAHINCH_DEL_v1.tif",
+      "bytes": 10000571,
+      "sha256": "c9468dd4f43b84f11eeea9907f6f520d60240ef8634ed97f364adba33078b391"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR251_03KRAGERO_DEL_MONIT01_v1.tif",
+      "bytes": 465842168,
+      "sha256": "f29433d52608d849f6d2969c308883f734e0df00a315cf5bd62ddb1fe72de532"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR255_03SCHONECK_DEL_v1.tif",
+      "bytes": 12260296,
+      "sha256": "a1c9072d826fd3cea55016b7ee8249532ae097a37ae6f96c6bee4e0df350a9ff"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_01DIVJAKE_DEL_v2.tif",
+      "bytes": 66778879,
+      "sha256": "12d82f9f072b1baab625de662f5a2d34997257494d553f199395ebb32fc761e0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_03KOLONJE_DEL_v2.tif",
+      "bytes": 45627599,
+      "sha256": "93b7647bddeabcf15a1b931e2b1d43a1d7c5f00adcd73a68b7929e9d5cb056b1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_05PATOS_DEL_v3.tif",
+      "bytes": 46104018,
+      "sha256": "41638f4cd7d7b28b6dab0033bc7483529b23874839adb1f42a95bbeaa38b937d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_06VLORE_DEL_v2.tif",
+      "bytes": 42735470,
+      "sha256": "14d8ca45b180021bd44231ce56bdb9e32c5ed2b7b9b8993fd1eaaddb28546e64"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_07ARMEN_DEL_v2.tif",
+      "bytes": 40201747,
+      "sha256": "093bfb10730a331c049b2c42ed1bf4d635a3bed43ec6616968a858e6da585097"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_08BELSH_DEL_MONIT01_v3.tif",
+      "bytes": 34893641,
+      "sha256": "e31b3208496b031bd820523542ccfec75d0fcf35be8a15298986e600ced2b63f"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_09GRAMSCH_DEL_v3.tif",
+      "bytes": 50507022,
+      "sha256": "b3f82ff86214cc07d06e2a36afc9b42b2931e40d2c3482b7ab940e19baa1f11d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_10URAVAJGURORE_DEL_v3.tif",
+      "bytes": 50276248,
+      "sha256": "7d613ecd24484b0f8c956e9c34e07c601e7cdf145e92fc6493c9a1f1c000427d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_12SEVASTER_DEL_v2.tif",
+      "bytes": 33010326,
+      "sha256": "8464c3a8957dcccbbeeed7c9939c0319ab60d743b9bf581919498e7501504a9d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR258_13TEPELENE_DEL_v3.tif",
+      "bytes": 101740462,
+      "sha256": "9b97519c94d29680ee8e6c411c81f49d91c3e5d30fe4c354297011053c76fad0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_04ESBLY_DEL_MONIT01_v1.tif",
+      "bytes": 22851748,
+      "sha256": "aabf895cb1559ec4c63bb562bff746fa7e0e7e91f84f17df356334fae935f89d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_04ESBLY_DEL_MONIT02_v2.tif",
+      "bytes": 22851748,
+      "sha256": "aabf895cb1559ec4c63bb562bff746fa7e0e7e91f84f17df356334fae935f89d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_04ESBLY_DEL_v1.tif",
+      "bytes": 22851748,
+      "sha256": "aabf895cb1559ec4c63bb562bff746fa7e0e7e91f84f17df356334fae935f89d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_07DAMMARIELESLYS_DEL_MONIT01_v1.tif",
+      "bytes": 61382822,
+      "sha256": "422cf33f7579a1269d8d18d9af8a13e2a6e655b1f4f2fa13d22c87c152aa87bc"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_07DAMMARIELESLYS_DEL_v1.tif",
+      "bytes": 61382822,
+      "sha256": "422cf33f7579a1269d8d18d9af8a13e2a6e655b1f4f2fa13d22c87c152aa87bc"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_08FONTAINEBLEAU_DEL_MONIT04_v2.tif",
+      "bytes": 65740816,
+      "sha256": "3e1e0cf223d2903a17b9e9a383323d16ebae88e41df5d781f20cfc898d59d290"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_09VOULX_DEL_MONIT04_v2.tif",
+      "bytes": 60748288,
+      "sha256": "90afd4a953867fd0fe36a91688de89289996b48015b8bced38ae1bc963526efe"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_13AUXERRE_DEL_v1.tif",
+      "bytes": 49002581,
+      "sha256": "f3f42a50566c72bb8e279c9224b47306e4eef00a82fc26449fd18129a54ee2ba"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_22LESMUREAUX_DEL_MONIT03_v1.tif",
+      "bytes": 118847648,
+      "sha256": "00b3d06d918410b901498ccd8a621e5e9b4cf0414f9cbcbd26c5dc14e2fa5e18"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_22LESMUREAUX_DEL_MONIT04_v1.tif",
+      "bytes": 118847648,
+      "sha256": "00b3d06d918410b901498ccd8a621e5e9b4cf0414f9cbcbd26c5dc14e2fa5e18"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR265_24HONFLEUR_DEL_MONIT01_v1.tif",
+      "bytes": 120427430,
+      "sha256": "60ae8a4f201348447a64d6f5c4b4cac35abfa5e8d094f3996dde108206fbd66b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR267_01RUSNE_DEL_v1.tif",
+      "bytes": 109787345,
+      "sha256": "e7a33d086ba08281b9a0aee6c7ffa61fb461f5b91db2450aa724f65058341f03"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR269_02FAHEFA_GRA_v1.tif",
+      "bytes": 4764933,
+      "sha256": "71fc80414539ce7f760c2b92f448638dace614cb4218db3dd637c64a4450a042"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR269_06VEITONGO_GRA_MONIT01_v1.tif",
+      "bytes": 4399057,
+      "sha256": "7ada91c2c1628dc300db83a4756fba555784895b5cef96cfa4fcf67108ee92e9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR269_06VEITONGO_GRA_v2.tif",
+      "bytes": 4399057,
+      "sha256": "7ada91c2c1628dc300db83a4756fba555784895b5cef96cfa4fcf67108ee92e9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR275_01LIJEVIDOBROVCAK_DEL_MONIT01_v1.tif",
+      "bytes": 141210020,
+      "sha256": "c8b8769ed53e3f440e185d443468ca3a740c73e6e9f7fe394b29a865819a7db1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR275_01LIJEVIDOBROVCAK_DEL_v1.tif",
+      "bytes": 141210020,
+      "sha256": "c8b8769ed53e3f440e185d443468ca3a740c73e6e9f7fe394b29a865819a7db1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR275_02KUTINA_DEL_MONIT01_v1.tif",
+      "bytes": 138485611,
+      "sha256": "00446f5eedb85c2d6816bdb49cf336fb6144c66b75c15e4d03c2643d5dc52e46"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_01JORDET_DEL_MONIT01_v2.tif",
+      "bytes": 30931226,
+      "sha256": "c0ad94cd74e6b461ec4f4e01697cf01d04f8808f90d47afb1379e3110a231a9d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_01JORDET_DEL_MONIT02_v1.tif",
+      "bytes": 25225332,
+      "sha256": "5caaa8542aab2f0415540d6a9d66ef2210393977596833da46f7602a32a639bd"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_01JORDET_DEL_v1.tif",
+      "bytes": 30931226,
+      "sha256": "c0ad94cd74e6b461ec4f4e01697cf01d04f8808f90d47afb1379e3110a231a9d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_02TRYSIL_DEL_MONIT01_v1.tif",
+      "bytes": 31020860,
+      "sha256": "d1d7f663e0b12e138455a14edb25d75df21ad89d95d238da3681946844e0ef50"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_02TRYSIL_DEL_MONIT02_v1.tif",
+      "bytes": 30065447,
+      "sha256": "c0d57a04dfaeb840787498d9a8f5d1cdc01064d864b096237b81d632ea5a88ff"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_02TRYSIL_DEL_v2.tif",
+      "bytes": 31020860,
+      "sha256": "d1d7f663e0b12e138455a14edb25d75df21ad89d95d238da3681946844e0ef50"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_03ELVERUM_DEL_MONIT01_v1.tif",
+      "bytes": 48371846,
+      "sha256": "a6933d7219d65fe7003192d6f816bba047f6427b854c492d981ced2158c4eb5d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_03ELVERUM_DEL_MONIT02_v1.tif",
+      "bytes": 45556339,
+      "sha256": "4e4284e86212ca032110480a572dfb4421521b0f252ffc4e7aee7bac61de8243"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_04BRASKEREIDFOSS_DEL_MONIT02_v1.tif",
+      "bytes": 26753542,
+      "sha256": "b50485b4f2b45950aab2deb6323d0960df5b55aa115c6cd895cfeeb8bf495477"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_05FLISA_DEL_MONIT01_v1.tif",
+      "bytes": 36399452,
+      "sha256": "1104acfa785c04eef5d18047f564bdecb5544cb6968bb19f70dc75a11b1292a4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_06GRINDER_DEL_MONIT01_v1.tif",
+      "bytes": 39065869,
+      "sha256": "ea9616eaf2ca6a124190aaeaa33f7f9933f3c398aa69f539a81ad293406fb161"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_07KONGSVINGER_DEL_MONIT01_v1.tif",
+      "bytes": 36464660,
+      "sha256": "8b14bb5ebb02339f09cb187194ceed285f67470e9e9929ca5955e64076665e63"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_07KONGSVINGER_DEL_v1.tif",
+      "bytes": 39289201,
+      "sha256": "def31501ea5f53a85f900c71b65f69ee0b613b5758e5c353b9809b7b2d5d0d23"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_08SKARNES_DEL_MONIT01_v1.tif",
+      "bytes": 34696418,
+      "sha256": "bd48998b9372eb3937f5255e56c62019b1d8f195261ae6cc03bad88231be3f2b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_08SKARNES_DEL_v1.tif",
+      "bytes": 34696418,
+      "sha256": "bd48998b9372eb3937f5255e56c62019b1d8f195261ae6cc03bad88231be3f2b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_09LILLESTROM_DEL_MONIT01_v2.tif",
+      "bytes": 29086118,
+      "sha256": "cb2e4b74c94e956821301ad8e7552deaecdbbe7c6a268c437635dc2cdd73272d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_09LILLESTROM_DEL_MONIT02_v1.tif",
+      "bytes": 28123361,
+      "sha256": "aa99f13d77e6775cfc01cee91e207a73430e326a4b21179adb77a87c945efdbc"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_09LILLESTROM_DEL_v1.tif",
+      "bytes": 29086118,
+      "sha256": "cb2e4b74c94e956821301ad8e7552deaecdbbe7c6a268c437635dc2cdd73272d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_10OTTA_DEL_MONIT01_v2.tif",
+      "bytes": 33662024,
+      "sha256": "9f1174080766273ea5d94970b4229196e88f6a3832173eb94b6b732897c372b9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR283_10OTTA_DEL_MONIT02_v2.tif",
+      "bytes": 33662024,
+      "sha256": "9f1174080766273ea5d94970b4229196e88f6a3832173eb94b6b732897c372b9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR292_01CHRISOUPOLI_DEL_v1.tif",
+      "bytes": 122244371,
+      "sha256": "6a799e390f3f716a72b40b12515d581a9a780b0cf2f09828d51ef17d82cea749"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR292_01CHRISOUPOLI_GRA_v2.tif",
+      "bytes": 122244371,
+      "sha256": "6a799e390f3f716a72b40b12515d581a9a780b0cf2f09828d51ef17d82cea749"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR294_01MANDRAMAGOULA_GRA_v1.tif",
+      "bytes": 5125493,
+      "sha256": "31b98ca2a510636497a04eef9a2c60cc359aaf43aa11f204059f2fb66a4ae46c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR311_04WILMINGTON_DEL_MONIT01_v1.tif",
+      "bytes": 629649380,
+      "sha256": "2441264c926155b2d4afddad9cc06f04df963a23ac1c629942c0bc57515ffec7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR311_05JACKSONVILLE_DEL_MONIT03_v1.tif",
+      "bytes": 358012241,
+      "sha256": "6dd72eb769a3363b75195467ac2a4f7108a9539a3834fa99240c088732d21c42"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR314_01PATEGI_DEL_v1.tif",
+      "bytes": 108957293,
+      "sha256": "8bb370ca7c84e2fd0307373582533fdd216b920b7654e966f17297d345820225"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR314_02LOKOJA_DEL_v1.tif",
+      "bytes": 114590814,
+      "sha256": "a5b5dcbb35cc8faea40f8625be9749a54e9d42827e3a9378ed9867dfce97a30b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR314_03ENUGUOTU_DEL_v1.tif",
+      "bytes": 50992923,
+      "sha256": "7904f51a964839f84aafa69a7470eb7f26c08ba40ee79913386b3ace2edfd9cf"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR314_04OTUOCHAAGULERI_DEL_v1.tif",
+      "bytes": 39930294,
+      "sha256": "5793c3907cc91992bd1587f884dc34afb981feeb7239e5f941bd71f5969209f9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR314_05ONITSHA_DEL_v1.tif",
+      "bytes": 107829659,
+      "sha256": "bca093ea4235ffd79c954db6e397d24ac9ea71db02cbae65a228eac8345e36b5"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR319_01TAKLISAH_DEL_v2.tif",
+      "bytes": 62056203,
+      "sha256": "0dc41d53df01d7dd31839040fd427f21cee9c08cd9719862a0e7861cd91ea9be"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR319_03KORBA_DEL_v1.tif",
+      "bytes": 66539544,
+      "sha256": "34d322b2e73767301260a05b3eb9e39c6f396b8da4c6b18a323e81bcae38c889"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR319_05SOMAA_DEL_v2.tif",
+      "bytes": 36793832,
+      "sha256": "4127067806403aea3fa6b3229e5ece3ea6975d020c1d4a989843bb43b5836099"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR321_02CHOLUTECA_DEL_MONIT01_v1.tif",
+      "bytes": 75468892,
+      "sha256": "265fd4c35d9c5c287dde15438b76be9d1ecb045d6cfcb9d1ea38efd402de55f9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR322_17MARIANNA_DEL_v1.tif",
+      "bytes": 430932580,
+      "sha256": "e548a35b609ab0d81bd6167628299dc6d19917c3b8e45c2fa4267b5d7f2c4728"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR323_08MANACOR_GRA_v1.tif",
+      "bytes": 13358640,
+      "sha256": "a6b8ca8052bb668e313a4bb8796513be961019559a98f5c9ff2c934d1d41850d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR323_09CALAMILLOR_GRA_v1.tif",
+      "bytes": 7709181,
+      "sha256": "c3282407429e9ce29481ec03226160bf0b690ce07cd08dc1b5de67f7f5730993"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR324_03MOUSSAN_DEL_MONIT01_v1.tif",
+      "bytes": 48613016,
+      "sha256": "cea8b1ed90557379b175304287dc32fd4479300638db0480deea6702af1f57eb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR324_03MOUSSAN_DEL_MONIT02_v1.tif",
+      "bytes": 48613016,
+      "sha256": "cea8b1ed90557379b175304287dc32fd4479300638db0480deea6702af1f57eb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR324_03MOUSSAN_DEL_MONIT03_v1.tif",
+      "bytes": 48613016,
+      "sha256": "cea8b1ed90557379b175304287dc32fd4479300638db0480deea6702af1f57eb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR324_04LESPIGNAN_MANUAL_LABEL.tif",
+      "bytes": 47235456,
+      "sha256": "1fe4829fb8ba2ee395e3bbf79369570be1eff80d43e220624083cdea300d1ed3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR324_06TREBES_GRA_v1.tif",
+      "bytes": 4932775,
+      "sha256": "c52720431b32e967e7feb573805cbe474874b298c9bbd934b6ef9e3b2896b743"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR324_08COURSAN_GRA_v1.tif",
+      "bytes": 5420491,
+      "sha256": "55d0641c270f3a36e6e58baee071356a6a747c91b5784bba61212ef547bd888a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR326_02ANTEQUERA_DEL_MONIT01_v1.tif",
+      "bytes": 240956668,
+      "sha256": "a3fe1c016e2be22e8078dbba5996bfbbcb7f63faa7aae106ec91ee3afaa5c2bb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR326_02ANTEQUERA_DEL_v1.tif",
+      "bytes": 240956668,
+      "sha256": "a3fe1c016e2be22e8078dbba5996bfbbcb7f63faa7aae106ec91ee3afaa5c2bb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR326_03RONDA_DEL_MONIT01_v1.tif",
+      "bytes": 377459548,
+      "sha256": "1edfcaa3d26fee43b6eeb07eeb6ab28d757882197e7501724b4aa69cb6156c3a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR326_03RONDA_DEL_v1.tif",
+      "bytes": 377459548,
+      "sha256": "1edfcaa3d26fee43b6eeb07eeb6ab28d757882197e7501724b4aa69cb6156c3a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR330_03LENTINI_DEL_MONIT01_v1.tif",
+      "bytes": 74378446,
+      "sha256": "d8c3b664a5e8e7f6895c4a3368658125c144446caffd1106b7942b2e760558ee"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR330_05LENTINIDETAIL_GRA_v1.tif",
+      "bytes": 6172587,
+      "sha256": "29d379bc14fde4848587c135363bb78eed9d899f63a729436d57e02a7c001038"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR339_01QUELIMANE_DEL_v1.tif",
+      "bytes": 8944515,
+      "sha256": "f5c2cdbd09533bc39dcbfb5a053ebde2fdaf1e3f4a510d16a73bf26039c93bd2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR339_03BEIRANW_DEL_v1.tif",
+      "bytes": 9812325,
+      "sha256": "15dab60a666d7465334de83caa0309d0fab9578b9094cc725852d075d8481f3a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR339_04BEIRANE_DEL_v1.tif",
+      "bytes": 9628753,
+      "sha256": "e8fbb85601fd67a80d0b0bcd29d0158c1a82cfbc4464ae3bd30562d6d142519b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR339_05BEIRASE_DEL_v1.tif",
+      "bytes": 9331009,
+      "sha256": "6696084410ae80a88690ab4855a62ab074872464e77d825ba05a2a3e2e4063bc"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR339_06BEIRASW_DEL_v1.tif",
+      "bytes": 8801484,
+      "sha256": "c2de2d8ed8a74dab35052be9e5fe43139379b65d8610ef0aaeee33c08866383e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR346_03BEIRA_DEL_v1.tif",
+      "bytes": 100654655,
+      "sha256": "4c646ffceb40e2e7a02541fb75daaf28d3f3b57beeab66f222dd03aaea7a439c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_02CHINDE_DEL_v1.tif",
+      "bytes": 28291889,
+      "sha256": "2c5c64b39b7bb134303908899e34b50e38c59cb21ac47c241179ea074f3b7ec4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_03BEIRA_DEL_MONIT01_v2.tif",
+      "bytes": 105748366,
+      "sha256": "73bf5af8e5d411871972c4e55e31f8bc3500a7ee8b45d0b474cd84775c98204d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_03BEIRA_DEL_MONIT02_v2.tif",
+      "bytes": 105748366,
+      "sha256": "73bf5af8e5d411871972c4e55e31f8bc3500a7ee8b45d0b474cd84775c98204d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_03BEIRA_DEL_v1.tif",
+      "bytes": 105748366,
+      "sha256": "73bf5af8e5d411871972c4e55e31f8bc3500a7ee8b45d0b474cd84775c98204d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_05MAFAMBISSE_DEL_MONIT02_v4.tif",
+      "bytes": 81043787,
+      "sha256": "400f5644c32e865bfb43a79a486c0460fcd67cba568f36633fbf7cf37cc6f567"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_05MAFAMBISSE_DEL_v1.tif",
+      "bytes": 81043787,
+      "sha256": "400f5644c32e865bfb43a79a486c0460fcd67cba568f36633fbf7cf37cc6f567"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_06LAMEGO_DEL_MONIT01_v1.tif",
+      "bytes": 93925537,
+      "sha256": "e46889b25e34a6c6bec23216438a300a3b15970e674f8d541575f5f9d6cb5889"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_08TICA_DEL_MONIT02_v3.tif",
+      "bytes": 90527534,
+      "sha256": "c8cb0ea0ee9292798e6298bd463ada50c317324af14e9cd66e41f8fca718d3ec"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_08TICA_DEL_MONIT03_v2.tif",
+      "bytes": 90527534,
+      "sha256": "c8cb0ea0ee9292798e6298bd463ada50c317324af14e9cd66e41f8fca718d3ec"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_12MACORREIA_DEL_v1.tif",
+      "bytes": 104092933,
+      "sha256": "f7c8066c7cc2d0d6e3b4d44746e13a28e6aa1a137b2f8c2860313b6a6e80d89d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_13NHANTAZE_DEL_MONIT01_v1.tif",
+      "bytes": 113882146,
+      "sha256": "c8f949610a045d1129bd3be443ea6c6e1961671689df4c850eb91e41c3eb73f4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_13NHANTAZE_DEL_v1.tif",
+      "bytes": 113882146,
+      "sha256": "c8f949610a045d1129bd3be443ea6c6e1961671689df4c850eb91e41c3eb73f4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR348_14MAVUNA_DEL_MONIT01_v1.tif",
+      "bytes": 112556592,
+      "sha256": "2e30b53b6ed4ab7b54b496e92e468caa8e74a245ffca93a931802e1d20968db5"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR349_01MURAMBINDANW_GRA_v1.tif",
+      "bytes": 18420801,
+      "sha256": "6a14854d91f1a92380bc8dc3e08ec2d1dcc7b198eb27017141f4281e860104ae"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR349_02MURAMBINDANE_GRA_MONIT01_v1.tif",
+      "bytes": 23879751,
+      "sha256": "131bd22aa670e682ba9db392fa44aeae470d3331fab82de95c9161d0b38bebfc"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR349_02MURAMBINDANE_GRA_v1.tif",
+      "bytes": 23879751,
+      "sha256": "131bd22aa670e682ba9db392fa44aeae470d3331fab82de95c9161d0b38bebfc"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR349_03MURAMBINDASW_GRA_v1.tif",
+      "bytes": 21702896,
+      "sha256": "3bd2cd39bfb64d8adc575469de92f154ff185b3585b42e8eb4862c0ececd0326"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR349_07RUSITUVALLEYSE_GRA_v1.tif",
+      "bytes": 19958403,
+      "sha256": "de064db364c669c5c8d74d8ebcf72c2b4599f62a695d2d240e2fcabb73fe420e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR349_09CHIMANIMANI_GRA_v2.tif",
+      "bytes": 83017834,
+      "sha256": "0988c6604086e81e9a3c1f6811ce4cfe83de93f45550f9e81fa9e1db46059e08"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR350_02PORTHEDLAND_DEL_v2.tif",
+      "bytes": 318980024,
+      "sha256": "d644701947a34203b10212ab13a4869d8b85114b33ead1ae02d1519f4a16d8ed"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR350_05LONGREACH_DEL_v1.tif",
+      "bytes": 121674775,
+      "sha256": "eb6d64b61a7193e1d9820fe94b115b150f6b7f6ad89c910bcd13b5e8f1a98b88"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI03_GRA_PRODUCT.tif",
+      "bytes": 9620851,
+      "sha256": "dfbc7c6977f0a6de3ce46ff30c3062a7195d2aff3d694ecc4e2c17895640b5b4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI04_GRA_PRODUCT.tif",
+      "bytes": 7103530,
+      "sha256": "60d469f15b125fbac86cee4a379fe2e32a80f0d3d20cade281eb9dea5f7278d9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI05_GRA_PRODUCT.tif",
+      "bytes": 4158034,
+      "sha256": "676bd2a69602eb31620b8dbbaa77e1a1bcbb0d93a0ab60c24def5be928158d1c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI06_GRA_PRODUCT.tif",
+      "bytes": 3258022,
+      "sha256": "d39df928b6a3912b39e06098e820081775ec097441e1b97dfd1612f00d907570"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI07_GRA_PRODUCT.tif",
+      "bytes": 26401124,
+      "sha256": "36d417ae83e7085b54befbfcc0c6a1a38edf2911574e0736d81a9561e28f2684"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI08_GRA_PRODUCT.tif",
+      "bytes": 61019236,
+      "sha256": "163ebf30e5de5c25b50bc3df4280d33c4597646426eb3384d3fc97563c41a859"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI09_GRA_PRODUCT.tif",
+      "bytes": 81102357,
+      "sha256": "d78ed6789d25c41304167205891adda5cf11c8a4b36849ccf43183fddffb6779"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI11_GRA_PRODUCT.tif",
+      "bytes": 42311940,
+      "sha256": "7f02b2047792e00d56296e1e57afec8b09ccb130199cdd5eb6d920b6a99024c9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR352_AOI13_GRA_PRODUCT.tif",
+      "bytes": 17877237,
+      "sha256": "ad76fd3aec5abb2d615cca4443b916016ad1bf3aa92e0488cc865d19678ea1c3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR354_AOI03_GRA_PRODUCT.tif",
+      "bytes": 28017011,
+      "sha256": "2ec9d252a21fba698b32d7331c17844c0bd862128c52b25772391684638f3da7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR354_AOI06_GRA_PRODUCT.tif",
+      "bytes": 4856396,
+      "sha256": "cc683b27a3b34b0811aa30b374d556626d39d88b9af2066b26e921ebd0d43de2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR354_AOI19_DEL_PRODUCT.tif",
+      "bytes": 35814617,
+      "sha256": "c4b4cacfdb03869e03e03115821a6a970339fde0642ceadc88bf59d69acd93c2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR354_AOI22_DEL_PRODUCT.tif",
+      "bytes": 49171939,
+      "sha256": "335a9eca0ce1639e646c5280b2ab7764d5201cb0e29f02ec736169f20414fc75"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR357_AOI03_FEP_PRODUCT.tif",
+      "bytes": 102065673,
+      "sha256": "511daf3e266fca9c699b8c7dee0210c84661be35f593a5b1c1999bb441786808"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR357_AOI05_GRA_PRODUCT.tif",
+      "bytes": 7315219,
+      "sha256": "c3ee8e64e33ccb1aae83940bea025f9ada458e2dbbca819cdd4b0de9abc0861b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR357_AOI06_GRA_PRODUCT.tif",
+      "bytes": 2290757,
+      "sha256": "6120fdd7aa3d8d882f180bbca5aaa83c55aec18fa7c313b1d2b9af41c01041b1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR357_AOI08_GRA_PRODUCT.tif",
+      "bytes": 11572666,
+      "sha256": "4717739dd21c948aed3531af6debea0b05f62978d3186c73621d1cb20b475314"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR359_AOI02_DEL_PRODUCT.tif",
+      "bytes": 35212764,
+      "sha256": "4a92f550c7f360370e6e45942f1f284b74205145b91046892b79c5d73a66f253"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI01_FEP_PRODUCT.tif",
+      "bytes": 878469751,
+      "sha256": "01253e3c2cbb5fe05a75c1aea9f6290b16c6b7ca9e98cf11ec5fa13dd6b9db99"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI03_FEP_PRODUCT.tif",
+      "bytes": 335602440,
+      "sha256": "01060361cad233face7fdbf19afe0551ba9c6c9b5e1463e82a174b646a9d812b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI07_GRA_PRODUCT.tif",
+      "bytes": 10810366,
+      "sha256": "b4200ed81deabe5ec204692c81b60706816b48c62e7c872fc4eb89dd139e7b6c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI08_GRA_PRODUCT.tif",
+      "bytes": 1987594,
+      "sha256": "e9d89eea2e42d8e834edf046ae1625cfb17c4a96c39715a19938e782c5526031"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI09_GRA_PRODUCT.tif",
+      "bytes": 12797589,
+      "sha256": "43c31cf275d26ea7c521a8265cd653445a80d0180e5c4c2a133d430474391409"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI12_GRA_PRODUCT.tif",
+      "bytes": 10200042,
+      "sha256": "616703b1c94c965fd0138a0839a49f59c045828cade4125887f547b4a4fcf7be"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR385_AOI15_GRA_PRODUCT.tif",
+      "bytes": 4634954,
+      "sha256": "34e9dfe50402462d7d8a7a1ecc2a0b992c6bcf5825dc2d4de13df53f19a952d2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR388_AOI01_DEL_MONIT01.tif",
+      "bytes": 473020778,
+      "sha256": "e1c406606ba3e1a051699488c6f78513eae7d6d93ed2ff9e616233ba1fe6aeda"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR388_AOI02_DEL_MONIT02.tif",
+      "bytes": 468954823,
+      "sha256": "04a15bc52f7167fd7d566371214bdae74a4fd0b0d8f66df307b848af41de7616"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR388_AOI06_GRA_PRODUCT.tif",
+      "bytes": 7841139,
+      "sha256": "b6211f07dc44b9079d30c8e3935cc12b3b4bdfa246e181726e3d05fad59c827e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR388_AOI07_GRA_PRODUCT.tif",
+      "bytes": 11635864,
+      "sha256": "a20ea7871e503efe56d8e82fbca5db3cd8133cfc6be703b592148fa01d2abdd8"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR392_AOI01_DEL_MONIT03.tif",
+      "bytes": 8996613,
+      "sha256": "335ba79f60d6d5ccc36bc3ab1bb4b00bbe305356f8f5be0ed74043db09f50f48"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR395_AOI01_GRA_PRODUCT.tif",
+      "bytes": 1960892,
+      "sha256": "2dad75dc1527c5aa723eee27257ebffcb3a8b2c4e66fd2a6abb5399e7fdc9cf8"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR395_AOI02_GRA_PRODUCT.tif",
+      "bytes": 1481827,
+      "sha256": "857710033d9415053978aa890ec52b38209de6b8bd748ed1696053305898a4e0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR399_AOI01_DEL_PRODUCT.tif",
+      "bytes": 27812105,
+      "sha256": "ed26257eb45061faa2de30ee7b9344c701237f7f0603b4bc6983c4c509a1fb28"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR405_AOI01_FEP_PRODUCT.tif",
+      "bytes": 23636287,
+      "sha256": "dbf9b6c1781cd9234591bd656f43bf5784047eda05508bfb0e0c463c9bc0c562"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR405_AOI02_DEL_MONIT01.tif",
+      "bytes": 35891234,
+      "sha256": "8abfed7818c6f84597e7a3c8b0636cda1fef48e562c79c1dfcbbe377aa376c9e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR405_AOI03_DEL_PRODUCT.tif",
+      "bytes": 120904387,
+      "sha256": "448230cea1e4627cea75e394e16eb1a4af8e7af55a8e27e678f90078195c43c6"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR410_AOI01_DEL_MONIT01.tif",
+      "bytes": 16231378,
+      "sha256": "83f81b1de44d4f6a537ecb0e100728f841ff4e22cd189037a274faa402f920ce"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR410_AOI01_DEL_PRODUCT.tif",
+      "bytes": 16231378,
+      "sha256": "83f81b1de44d4f6a537ecb0e100728f841ff4e22cd189037a274faa402f920ce"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR410_AOI02_GRA_PRODUCT.tif",
+      "bytes": 2348086,
+      "sha256": "bad4110bd612313fdc92fdc58a4396c0fc550efaedfb178ac6388550d803d06e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR411_AOI01_DEL_PRODUCT.tif",
+      "bytes": 32175867,
+      "sha256": "9d422a064654daf8c5085a568823ad32070fbbaf593b573d069ae54d027e68b4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR413_AOI01_FEP_PRODUCT.tif",
+      "bytes": 39316783,
+      "sha256": "f0cc3fb20e85ddeea5488ef09f1a512396163cec851db218e650c977dab33e2b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR413_AOI03_GRA_PRODUCT.tif",
+      "bytes": 6343718,
+      "sha256": "7effed57fb539072a9b22dfbcc1f0b6f89b2d52d083f4936a59694d25c1014f7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR416_AOI01_DEL_PRODUCT.tif",
+      "bytes": 145347665,
+      "sha256": "0c9f20a64d750c7a43aadd1cf1c8990ee1c42d8c204384a4248bbe1b8543034a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR421_AOI05_DEL_PRODUCT.tif",
+      "bytes": 54571116,
+      "sha256": "04aa7ba187892d85414067c94c1053fc52e67696307bf5b309fc96a53e8fcf2f"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR424_AOI02_DEL_MONIT02.tif",
+      "bytes": 601929181,
+      "sha256": "fbd82a421293c9f239cd378dc89dc32563dfe1e50908f0054a59c288a1bb336d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR424_AOI02_DEL_PRODUCT.tif",
+      "bytes": 640619418,
+      "sha256": "c8fd42d42b33e983d30373c1dcb36d14332f9c94001bcbf752a554d9e10a2227"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR424_AOI02_FEP_PRODUCT.tif",
+      "bytes": 640619418,
+      "sha256": "c8fd42d42b33e983d30373c1dcb36d14332f9c94001bcbf752a554d9e10a2227"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR424_AOI03_DEL_PRODUCT.tif",
+      "bytes": 482500829,
+      "sha256": "c1538978e44085c193f1e3baf672d80e60bada3cc13c0a652f65f13d049abbeb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR424_AOI04_DEL_PRODUCT.tif",
+      "bytes": 61622083,
+      "sha256": "784a9f033aafcf55dce0ced6c3e2960717fe31893285cddfada686ea2c5e8fbd"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR424_AOI05_DEL_PRODUCT.tif",
+      "bytes": 78386466,
+      "sha256": "e2be4754135bff4c8cde3afe22bff3f46f802cd86f4a029575c0210af9f6e7ef"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI01_DEL_MONIT01.tif",
+      "bytes": 25282219,
+      "sha256": "df95d900f07ab5449793725d3aad2042d3c3509b30d79c9c969e5ff603bdedc1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI01_DEL_MONIT02.tif",
+      "bytes": 25673496,
+      "sha256": "98d16ef24dc6610d49e310e77a2f31f697931bee9df8b1c07950bf27e9befcf4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI01_DEL_PRODUCT.tif",
+      "bytes": 25282219,
+      "sha256": "df95d900f07ab5449793725d3aad2042d3c3509b30d79c9c969e5ff603bdedc1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI03_DEL_PRODUCT.tif",
+      "bytes": 325981509,
+      "sha256": "c2d43719a953b2d309ed1ae0e74c0ca540182cb1037ec5455cc408fc43a58a21"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI04_DEL_PRODUCT.tif",
+      "bytes": 152246805,
+      "sha256": "ede21034b415bf1596d62c10bfe303249dda8f05936ecad0f0e227513e627ee1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI05_DEL_PRODUCT.tif",
+      "bytes": 316148351,
+      "sha256": "9041c09ebba81337bcad29e2a3f25325b356f8378324f3c2edc77fb2459b87b3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI06_DEL_PRODUCT.tif",
+      "bytes": 1296740676,
+      "sha256": "50e9de11c97ebdd2feda498126252340843d1a9e1d741598da22bc6a541f2fc2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI07_DEL_PRODUCT.tif",
+      "bytes": 909045268,
+      "sha256": "ca78e187fea3f55f0662c6a0c7c9bec05daed9ec6571be91d6a59999717dc50d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI08_DEL_PRODUCT.tif",
+      "bytes": 80042705,
+      "sha256": "ec353daf8eb4d9cc4c6bbb496fba3a5f5543cc41d6b502687ae9e7247c38e2a7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI09_DEL_MONIT01.tif",
+      "bytes": 2619157,
+      "sha256": "e4e0ebc28beb07cb2dce6eef9972987cba335f76918beeaeeae027ff092697ea"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR429_AOI09_DEL_PRODUCT.tif",
+      "bytes": 2619157,
+      "sha256": "e4e0ebc28beb07cb2dce6eef9972987cba335f76918beeaeeae027ff092697ea"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR431_AOI03_FEP_PRODUCT.tif",
+      "bytes": 110087510,
+      "sha256": "92e70bbdf4937fb45f402757cbad0f00397daf3b97ccab7cea311079a707cbfe"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR431_AOI04_FEP_PRODUCT.tif",
+      "bytes": 11731911,
+      "sha256": "9c1f697b7f5e9ec21afaabf766b4e0318c9def5830a2886487a7bdabd8ea25d4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR431_AOI05_FEP_PRODUCT.tif",
+      "bytes": 117298523,
+      "sha256": "398dca75ce0e65e6ba9665e276052533600fca9eb1dbc4bf92aedcdeda1aee06"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR431_AOI06_GRA_PRODUCT.tif",
+      "bytes": 14856601,
+      "sha256": "6ece85959beba3a972dae4785cefdf52a50a455a027705a84950532311246ce2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR431_AOI07_GRA_PRODUCT.tif",
+      "bytes": 1495917,
+      "sha256": "95e924ba3d0a644c424ea7182b9bb92aee5fc2efd3ff3c86e053ad511da4ef29"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR431_AOI08_GRA_PRODUCT.tif",
+      "bytes": 22795561,
+      "sha256": "9974173bbd3f0d8652d1fb6ef50fca4ff7657e197352b1ed0aa016815692d16d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR434_AOI05_GRA_PRODUCT.tif",
+      "bytes": 25752853,
+      "sha256": "fb47ca6f2ba906865e571058d0fcbf9f4982b351a00f21de43a31d95f165a57c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI02_DEL_MONIT03.tif",
+      "bytes": 11965364,
+      "sha256": "f5d20bd92af67ead124529e50c20351963da576fb3a3c1b518913a0ee8782395"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI02_DEL_MONIT04.tif",
+      "bytes": 11300754,
+      "sha256": "983d2675da4f0096173cc2a67ebdf08c4eb87954926ada6ebdf9799ad9b2c043"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI05_DEL_MONIT01.tif",
+      "bytes": 15174444,
+      "sha256": "e8724e831b3f9389718f4b3867f22e68f429bb0da50f74f5e9456041a4a2f028"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI05_DEL_PRODUCT.tif",
+      "bytes": 14423661,
+      "sha256": "5bb5750746321de40cf80eac149699c4c7012a0214069ba396382261ecd1964b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI06_DEL_PRODUCT.tif",
+      "bytes": 14410867,
+      "sha256": "28f936a24859d621d335d4776410be0a2bc08cab30f5c72c8be97f82be0efadd"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI07_DEL_MONIT01.tif",
+      "bytes": 14031577,
+      "sha256": "e87847811797eb9177440836daa7d113084294a66aa59b1d8d50e32e7b0e70fd"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI07_DEL_PRODUCT.tif",
+      "bytes": 13870733,
+      "sha256": "f4f7c7b8e661190ea436c511e932cf8fc8c62e36a53dc0f7e8992209e0abd3d3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI08_DEL_MONIT01.tif",
+      "bytes": 2751384,
+      "sha256": "196a3563f958dd0cf67daa2455c5608b6f44c6ff30d2040a9ce471a94d0f4c6c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI08_DEL_PRODUCT.tif",
+      "bytes": 2751384,
+      "sha256": "196a3563f958dd0cf67daa2455c5608b6f44c6ff30d2040a9ce471a94d0f4c6c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR441_AOI09_DEL_PRODUCT.tif",
+      "bytes": 4513727,
+      "sha256": "0ba0d9f850a308a02273b28b97488a8d68b0a77ff1d21ffbb6bf89c2aad07fe6"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR444_AOI02_DEL_PRODUCT.tif",
+      "bytes": 348358562,
+      "sha256": "895dff44b55c5a66d61bdd14f9c726f46184837378dbffb53e222993020a32d7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR444_AOI03_DEL_PRODUCT.tif",
+      "bytes": 97898847,
+      "sha256": "64cd9802deb9605e9ab558156d3e60b78d0bac96fa1b15d9359877e819394044"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR444_AOI03_FEP_PRODUCT.tif",
+      "bytes": 142293506,
+      "sha256": "810c31433d160cc6d962d1babf7987ff89e6e844fb005407ca7dcd329044f9c3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR444_AOI04_DEL_PRODUCT.tif",
+      "bytes": 111887899,
+      "sha256": "67a43981992da48cc853731952b52a04bad2f477f0c4183ac8718488e3234655"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR445_AOI01_FEP_PRODUCT.tif",
+      "bytes": 362982675,
+      "sha256": "a655820a5a0cd6a3b3c190e277ff75f31709b0f4593c92dd52d37c93d98bc5a2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR445_AOI02_DEL_PRODUCT.tif",
+      "bytes": 578637637,
+      "sha256": "0e879671472e24968ec11aa44e24670ffc1f5122dd0b25d3b311fba43dae2f0b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR446_AOI01_DEL_MONIT04.tif",
+      "bytes": 855356606,
+      "sha256": "a8d638fe61a29f68c0ac648b1670c0907d4f1a403676ff2233eda344a679f1dd"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR446_AOI01_DEL_MONIT05.tif",
+      "bytes": 884965420,
+      "sha256": "890ddfb58d6ea022dc21a1ffe5291bef222b35ec435ef88705bb1cef949fe35a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR446_AOI01_DEL_MONIT06.tif",
+      "bytes": 906014163,
+      "sha256": "b4bdb174eed020eecf54c2df3de042356b993291420c861d928cef4e51dd19a9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR446_AOI01_DEL_MONIT07.tif",
+      "bytes": 893019257,
+      "sha256": "a80a782f108880784a76b8f3bfac9715f73865ce0df124686393543620871e9e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR446_AOI01_DEL_PRODUCT.tif",
+      "bytes": 863814010,
+      "sha256": "8f4ed1b19089ae0e5a61adf8f8f04053988f80de5ef232bf750189964b0cc7b1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR446_AOI03_DEL_PRODUCT.tif",
+      "bytes": 374446435,
+      "sha256": "bb7e602b1b8e70c5496bdba20009eee3ef91822d9bc765621916da22ea7c9c66"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR456_AOI03_DEL_PRODUCT.tif",
+      "bytes": 9161728,
+      "sha256": "0da63292eca14ed91aba79c1733aa85ec0f2ded0eba39e6529ff181417d91a2b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR456_AOI05_DEL_PRODUCT.tif",
+      "bytes": 11192644,
+      "sha256": "04bd5dbb6e03a6ae1cddf56bd302136a2194c41d57c243083d5197a8258283ae"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR456_AOI08_DEL_PRODUCT.tif",
+      "bytes": 10423846,
+      "sha256": "e287dd447284ed5e90374c43f218f6aadcc3aaf548aa75e25c31f0a7f90b827e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR456_AOI09_DEL_PRODUCT.tif",
+      "bytes": 10909417,
+      "sha256": "1f010c8465d5ea61b159f2bc03b1b29a51c3bfa8f2e044117c171f6b03d83f71"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR464_AOI01_DEL_PRODUCT.tif",
+      "bytes": 9595456,
+      "sha256": "7a4e7a406bb0b7074753fa0d458476f273bfb347f431f1b67c4b167295b46304"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR464_AOI04_DEL_PRODUCT.tif",
+      "bytes": 33253826,
+      "sha256": "802825f7ed803310a9ddb367f7bcff41c6613288c9c9ad7cd62d8493d05c2417"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR464_AOI05_DEL_PRODUCT.tif",
+      "bytes": 109881112,
+      "sha256": "51baba6b36ecfac847e12248eadf439eddb89130cc55e8545166919b2506fb98"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR465_AOI01_DEL_MONIT01.tif",
+      "bytes": 485124185,
+      "sha256": "68c24ce4c52552a0d8f61979d023f8f6e81848ef0e0420f310cc6a714eec4c1a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR465_AOI02_GRA_PRODUCT.tif",
+      "bytes": 25567811,
+      "sha256": "836a20674177fd996c2427a3bdbaad9774f2cf515692ad5cf82a927daf11b26c"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR465_AOI04_GRA_PRODUCT.tif",
+      "bytes": 13006205,
+      "sha256": "89fdc9ca4e8dcc099cd367147dc819a74244affaf8743adffa9473f2ee9b987e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR465_AOI05_GRA_PRODUCT.tif",
+      "bytes": 11245039,
+      "sha256": "5c764b3cf17c1c65a206dbabfc8a6635eaa7dcdb9a8ec6188fcea0f8b341f8be"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR465_AOI08_GRA_PRODUCT.tif",
+      "bytes": 2662287,
+      "sha256": "c7621396922cf4b85718d924f369c80e8f78080d0f2557ea119f32aba5deff3a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR467_AOI02_DEL_PRODUCT.tif",
+      "bytes": 58154881,
+      "sha256": "d8d5b289ba940f4eb9f46adeb5c0b2bce5918ced1f100b3267bc15098a3ddc82"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR467_AOI02_FEP_PRODUCT.tif",
+      "bytes": 58733763,
+      "sha256": "f62b9a9efbbc721cc039fb9e0a5a3451a575a4b6c3a1bf44f8776bc74eddf8fe"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR467_AOI03_DEL_PRODUCT.tif",
+      "bytes": 138880742,
+      "sha256": "2edf745a303bc7e06d28f2e0545a6f5eaaa6b70562cd3a94862d5e71035255e4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR467_AOI04_GRA_PRODUCT.tif",
+      "bytes": 3216820,
+      "sha256": "b6479682e9e875b433e6fb778cd1d7cb75442fdd0b6e9788be54161510252a82"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR467_AOI05_GRA_PRODUCT.tif",
+      "bytes": 2775362,
+      "sha256": "cd63665f41a2889ee3854443da13cc33b7aa1c4cd73111f4961d72bce349927b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR468_AOI01_FEP_PRODUCT.tif",
+      "bytes": 358630961,
+      "sha256": "548d67dc9029f94d21bf5665344de1bb5c984993532da1dcbeb1184566bda758"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR468_AOI02_DEL_PRODUCT.tif",
+      "bytes": 238364548,
+      "sha256": "08b7a81d38cf8caec34a402332d86e08c054e7214a0d638f8b3c132398d41547"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR468_AOI04_GRA_PRODUCT.tif",
+      "bytes": 3187339,
+      "sha256": "ca28df8b5e72f0d67f2f959ad455fdbc41bb4c6499f51af1cda78256ef3e6032"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR468_AOI05_DEL_PRODUCT.tif",
+      "bytes": 113816626,
+      "sha256": "d4f4a9a58dda22779adb87aae058eec53ddb32ae2e17087015f55398ecc02aae"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR468_AOI06_GRA_PRODUCT.tif",
+      "bytes": 2007836,
+      "sha256": "4d7e99008911a4b7da1dc070fab3edf9d60ab6df25a921a456e30dd1cb3df575"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR470_AOI01_DEL_MONIT01.tif",
+      "bytes": 1361224985,
+      "sha256": "7490b16eb31e74c7054fd117f9456e1be7e22c55692ce329efcb7748f03beda5"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR470_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1443404028,
+      "sha256": "a1c53d59701f5a5738b6fc81f87840b11f38f40b228cd9d4be4bf37d06fc2bf8"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR470_AOI04_GRA_PRODUCT.tif",
+      "bytes": 1762323,
+      "sha256": "00aec352bfc1053b9b4d03342f962cce5237e9bacb278daa8b566bec9c775495"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR472_AOI03_DEL_MONIT01.tif",
+      "bytes": 609635433,
+      "sha256": "2609aeb6188ffac0be96089f15b3278e7ea133c08d2030deadaf87fbd02d5173"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR472_AOI03_DEL_MONIT02.tif",
+      "bytes": 609635433,
+      "sha256": "2609aeb6188ffac0be96089f15b3278e7ea133c08d2030deadaf87fbd02d5173"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR472_AOI04_DEL_MONIT01.tif",
+      "bytes": 675288226,
+      "sha256": "5b0446d810df40f96c152794ef1fdafa3370fd8d21d912731e301b61ae4ce031"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI01_DEL_PRODUCT.tif",
+      "bytes": 28274144,
+      "sha256": "a08cb0a3cca8e8ff53826d54055b322ef680a5e7b430720aedd7ff1008fe2690"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI02_DEL_PRODUCT.tif",
+      "bytes": 9137209,
+      "sha256": "235c85863b3e70dce8516fbf8909718abce897576038de8c20d5d338674b8058"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI05_DEL_PRODUCT.tif",
+      "bytes": 134884883,
+      "sha256": "577fd6dd464e5a9a8743cd2c5fa9e27b39c6e6bd22049d2653ece95d5c15d9f6"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI06_DEL_MONIT01.tif",
+      "bytes": 135376674,
+      "sha256": "e138909af8dfe6f5884bb977002628f59c87accc52e69fc5d6ecc00bcbcf61fe"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI06_DEL_PRODUCT.tif",
+      "bytes": 140475276,
+      "sha256": "fdb5e4c65d792765c5433ab85dee41fd8fca3e0a093be67d2c0317da19175026"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI07_DEL_MONIT01.tif",
+      "bytes": 88696908,
+      "sha256": "e7230c1da6fe288e2d29dbd08539ead1e72ae207edc78a4d349698fba2f016da"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI07_DEL_PRODUCT.tif",
+      "bytes": 89830846,
+      "sha256": "10e34885d8567bdc3c348e4259e80991d0c3586a0a9b1e402edb2949ca362430"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI08_DEL_PRODUCT.tif",
+      "bytes": 25260848,
+      "sha256": "3d41b795658b8e6163e9d5a0bafdfc1969f8d17d22bcc168acdd7f8fadcf3761"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR475_AOI09_DEL_PRODUCT.tif",
+      "bytes": 24447421,
+      "sha256": "37053c8264fefcc499745d4213dbdd27667db16f8c95bdef42afd8601fd5a1c1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR478_AOI01_GRA_PRODUCT.tif",
+      "bytes": 996821,
+      "sha256": "080757c28357b0aac95193d925feeb4320fdeba0009fe6978ae9e7413702dd66"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR478_AOI03_GRA_PRODUCT.tif",
+      "bytes": 1743842,
+      "sha256": "6b5ed10ad45ba2edddd9aaf96482371db55af903bd76ab52872ae88e54ddcdf9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR479_AOI01_DEL_PRODUCT.tif",
+      "bytes": 668996597,
+      "sha256": "4a02d936f20279c0b1e31dad1e68a2a2a6ff24760aeb3c69d18619e6fdb88576"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR480_AOI01_GRA_PRODUCT.tif",
+      "bytes": 30315269,
+      "sha256": "ece4a7a7f91804338e72985beebcb8d34fb6022b315c7e5d8d651c2d70b37e8b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR480_AOI03_GRA_PRODUCT.tif",
+      "bytes": 4465699,
+      "sha256": "5f65af60ca2ba29a0a55640da555ea00e71abb5b6d3da07a38c906158c7bb6eb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR480_AOI04_GRA_PRODUCT.tif",
+      "bytes": 3141910,
+      "sha256": "e380ad8b6aa895b0714da263095c631a667589a1b32ba6c608ff584a6a7e8198"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR481_AOI01_DEL_PRODUCT.tif",
+      "bytes": 632259139,
+      "sha256": "4600c20b1be460c80a055d99c2332a28dbb628f91fe7eb8a1380aa6bae4779a3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR481_AOI02_DEL_PRODUCT.tif",
+      "bytes": 93193304,
+      "sha256": "f8bc9898686eadbe8b6853a262c956f005ba564b176b23773f457087e26f7f2a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI02_DEL_PRODUCT.tif",
+      "bytes": 79555954,
+      "sha256": "108bb09ccd3b3cccaf223ed5be1be323413e4a756e0b547bfbc619c3acff379b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI03_DEL_PRODUCT.tif",
+      "bytes": 642020823,
+      "sha256": "622c656a470976757ec933a1697166143c48b087b5b9d3e4443902af2d89c25b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI03_FEP_PRODUCT.tif",
+      "bytes": 642020823,
+      "sha256": "622c656a470976757ec933a1697166143c48b087b5b9d3e4443902af2d89c25b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI04_FEP_PRODUCT.tif",
+      "bytes": 179850162,
+      "sha256": "29dd659645279e709db9015f5d566d858b202cace82250f56c6a870b43e86571"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI05_DEL_PRODUCT.tif",
+      "bytes": 435648815,
+      "sha256": "216e98021e225b413ae734ce59cf4062eb72c63674a9c0e3ada9d80f84caee87"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI05_FEP_PRODUCT.tif",
+      "bytes": 435648815,
+      "sha256": "216e98021e225b413ae734ce59cf4062eb72c63674a9c0e3ada9d80f84caee87"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI06_DEL_PRODUCT.tif",
+      "bytes": 1352360257,
+      "sha256": "1489120050415a6df0c90509fa34ac0bc0eb654bd14dc52838e5a86b0bce8d30"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI06_FEP_PRODUCT.tif",
+      "bytes": 1352360257,
+      "sha256": "1489120050415a6df0c90509fa34ac0bc0eb654bd14dc52838e5a86b0bce8d30"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI07_DEL_PRODUCT.tif",
+      "bytes": 1028707647,
+      "sha256": "ce50649a1e5a9a52659635999612ddc9b8adba524740459fdef0e48148be62d2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI07_FEP_PRODUCT.tif",
+      "bytes": 1028707647,
+      "sha256": "ce50649a1e5a9a52659635999612ddc9b8adba524740459fdef0e48148be62d2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI08_DEL_PRODUCT.tif",
+      "bytes": 465937365,
+      "sha256": "18b6b1f1fa527e1157da8202bdc56741c6b6ec861843da4d6de6bb106c41e45a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI08_FEP_PRODUCT.tif",
+      "bytes": 465937365,
+      "sha256": "18b6b1f1fa527e1157da8202bdc56741c6b6ec861843da4d6de6bb106c41e45a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI09_DEL_PRODUCT.tif",
+      "bytes": 242731018,
+      "sha256": "0cf283638cf0c0ac8591be2639bb8ce19b08c4bcc71f26f862edf6a7ae2cd04d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI09_FEP_PRODUCT.tif",
+      "bytes": 242731018,
+      "sha256": "0cf283638cf0c0ac8591be2639bb8ce19b08c4bcc71f26f862edf6a7ae2cd04d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR482_AOI12_DEL_PRODUCT.tif",
+      "bytes": 171492708,
+      "sha256": "544f213b5a53e706149162855e2164b1fbf2773a3ff5b849548fb62b63f3fd40"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR483_AOI03_GRA_PRODUCT.tif",
+      "bytes": 146890111,
+      "sha256": "0b02d055b6f4edb005369fd947b00c0249563f5ccf32a990746245baf00161a0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR485_AOI02_GRA_PRODUCT.tif",
+      "bytes": 3022016,
+      "sha256": "1cb36c5c811f872f421b9e6d86c70065e57292657620479d81ce07baecd39bd7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR485_AOI03_GRA_PRODUCT.tif",
+      "bytes": 1501467,
+      "sha256": "ad9e1da3fd09f69397ccc9af73fe1f8644c5f1f630998acf91cc68ed067aa506"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR486_AOI02_DEL_PRODUCT.tif",
+      "bytes": 179648697,
+      "sha256": "069b5801f5babde29f57048c3919de099f90565e61c9f25fac3b96a17ac6a688"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR495_AOI02_DEL_PRODUCT.tif",
+      "bytes": 429187294,
+      "sha256": "f08194de18db048c50dc6ad05f283ce475c2dd4f0535ef070c636b0ea056922e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_MONIT01.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_MONIT02.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_MONIT03.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_MONIT04.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_MONIT05.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_MONIT06.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_DEL_PRODUCT.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR497_AOI01_FEP_PRODUCT.tif",
+      "bytes": 922115661,
+      "sha256": "854f0855209145c71f84ea3fa9f61ff9308ba003898ad5ae8c6fcd90c39b9718"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR501_AOI01_DEL_MONIT01.tif",
+      "bytes": 169932844,
+      "sha256": "57cb72cb77517fa8c42100880278844506bf19d69b27144bb3929d0efd5423e9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR501_AOI01_DEL_MONIT02.tif",
+      "bytes": 169932844,
+      "sha256": "57cb72cb77517fa8c42100880278844506bf19d69b27144bb3929d0efd5423e9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR501_AOI01_DEL_PRODUCT.tif",
+      "bytes": 169932844,
+      "sha256": "57cb72cb77517fa8c42100880278844506bf19d69b27144bb3929d0efd5423e9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR502_AOI04_DEL_MONIT01.tif",
+      "bytes": 25633359,
+      "sha256": "0ff62290b046135bbe215d6124086b3ee281d9f8b5ca90c5a26b916da08dec14"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR502_AOI04_DEL_PRODUCT.tif",
+      "bytes": 25633359,
+      "sha256": "0ff62290b046135bbe215d6124086b3ee281d9f8b5ca90c5a26b916da08dec14"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI01_DEL_MONIT02.tif",
+      "bytes": 12092882,
+      "sha256": "a7be3bd5b625e31033d7fb145e63fa4725560c4472fe088f47cf3491a4b00c41"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI01_DEL_PRODUCT.tif",
+      "bytes": 12092882,
+      "sha256": "a7be3bd5b625e31033d7fb145e63fa4725560c4472fe088f47cf3491a4b00c41"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI01_GRA_PRODUCT.tif",
+      "bytes": 12092882,
+      "sha256": "a7be3bd5b625e31033d7fb145e63fa4725560c4472fe088f47cf3491a4b00c41"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI02_GRA_PRODUCT.tif",
+      "bytes": 77662419,
+      "sha256": "a85130555b07525fe2ffb89becb8712513ccd65b9cb45110676699e46d9ebce5"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI04_DEL_MONIT01.tif",
+      "bytes": 14796318,
+      "sha256": "9a434c0cba6c1cb9f7720ae89fad6bb954ca1c53bfe7e11010f2440cf8e029ae"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI04_DEL_PRODUCT.tif",
+      "bytes": 14796318,
+      "sha256": "9a434c0cba6c1cb9f7720ae89fad6bb954ca1c53bfe7e11010f2440cf8e029ae"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI04_GRA_PRODUCT.tif",
+      "bytes": 14796318,
+      "sha256": "9a434c0cba6c1cb9f7720ae89fad6bb954ca1c53bfe7e11010f2440cf8e029ae"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI05_DEL_MONIT01.tif",
+      "bytes": 60037307,
+      "sha256": "3b598f69a653441967073ae38f64330ce19d9a5f9dc58f24a65af466ac69f564"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI05_DEL_MONIT02.tif",
+      "bytes": 60037307,
+      "sha256": "3b598f69a653441967073ae38f64330ce19d9a5f9dc58f24a65af466ac69f564"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI05_DEL_MONIT03.tif",
+      "bytes": 60037307,
+      "sha256": "3b598f69a653441967073ae38f64330ce19d9a5f9dc58f24a65af466ac69f564"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI06_DEL_MONIT01.tif",
+      "bytes": 190490824,
+      "sha256": "5436c57f7ac2cdd4feb933dc6ab751da25a0e615d8d81ab2754858fd18081f5f"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI06_DEL_MONIT02.tif",
+      "bytes": 190490824,
+      "sha256": "5436c57f7ac2cdd4feb933dc6ab751da25a0e615d8d81ab2754858fd18081f5f"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI06_DEL_PRODUCT.tif",
+      "bytes": 190490824,
+      "sha256": "5436c57f7ac2cdd4feb933dc6ab751da25a0e615d8d81ab2754858fd18081f5f"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI07_GRA_PRODUCT.tif",
+      "bytes": 13808578,
+      "sha256": "beac15f75f5007ef25075cb02b68be0a52bd91b43725c7b3708f3730d471bbc0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI08_DEL_PRODUCT.tif",
+      "bytes": 86989773,
+      "sha256": "a7e3bcbda6095526e8a7667b6cb047ed70f4b94f84d33145fa5c39565327b9d1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI09_DEL_PRODUCT.tif",
+      "bytes": 21278536,
+      "sha256": "08a8c324242e984969ca5f18d96429dec0d2cf890b1fa5f11bce53008e035223"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR504_AOI12_GRA_PRODUCT.tif",
+      "bytes": 56167370,
+      "sha256": "5b866d74e564cb55809197d23d7657dfba0e16c45b3515d4a41f102c2b6a719e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR507_AOI01_DEL_PRODUCT.tif",
+      "bytes": 4748729,
+      "sha256": "b620a4e4fca3191ab0d74284ea5d1c046b0479a713a201c7fce67287455195be"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR507_AOI02_DEL_PRODUCT.tif",
+      "bytes": 47780954,
+      "sha256": "aeeb65461c2ec76c5729272008c914b02b40f61521b5c387eb73837a62ece439"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR507_AOI03_DEL_PRODUCT.tif",
+      "bytes": 100261153,
+      "sha256": "874f42934ea5f1d4341795ec6f213c37f4e0f82d6cf212c8eac61c1f76532a7b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR507_AOI05_DEL_PRODUCT.tif",
+      "bytes": 108226236,
+      "sha256": "f97292c6c3fa8f389f2662724ae387d3fe423ef7600e0a6d5109851a43302b01"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR507_AOI07_GRA_PRODUCT.tif",
+      "bytes": 1766394,
+      "sha256": "09b037edba1d99177f37ac007ed434bc61e0a34028b90de582926875b3a55903"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR511_AOI03_DEL_MONIT01.tif",
+      "bytes": 37937045,
+      "sha256": "60cc188fdc0b037cf210b20ccb7edc03f5f0284b6a70c49ba85286863c385c56"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR511_AOI03_DEL_PRODUCT.tif",
+      "bytes": 37937045,
+      "sha256": "60cc188fdc0b037cf210b20ccb7edc03f5f0284b6a70c49ba85286863c385c56"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR514_AOI01_DEL_MONIT01.tif",
+      "bytes": 438034367,
+      "sha256": "a5ca09c950d5b520dcb3de116744850f81429352bea8bc31e397edff59c84d18"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR514_AOI01_DEL_PRODUCT.tif",
+      "bytes": 438034367,
+      "sha256": "a5ca09c950d5b520dcb3de116744850f81429352bea8bc31e397edff59c84d18"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR514_AOI02_DEL_PRODUCT.tif",
+      "bytes": 119695119,
+      "sha256": "c20265f30c6d3bfb2f0ab36fb8e982a9366ced96823338d853434383283a095a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR514_AOI03_DEL_PRODUCT.tif",
+      "bytes": 177252974,
+      "sha256": "ed41737392fce9bce37533ca4471e17c6770d931cb35ffad03e529a52b025531"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI01_DEL_MONIT01.tif",
+      "bytes": 938532481,
+      "sha256": "0e043e6e779bd20756e91b49c1907e3784f0cbdbadd8cc8f7dfb6e53add6dc34"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI01_DEL_PRODUCT.tif",
+      "bytes": 938532481,
+      "sha256": "0e043e6e779bd20756e91b49c1907e3784f0cbdbadd8cc8f7dfb6e53add6dc34"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI05_DEL_MONIT01.tif",
+      "bytes": 305248151,
+      "sha256": "55f9463d668ccbe46f31af352a02bd6111c0063a09a527ee75aeefaf33e72d0b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI05_DEL_PRODUCT.tif",
+      "bytes": 305248151,
+      "sha256": "55f9463d668ccbe46f31af352a02bd6111c0063a09a527ee75aeefaf33e72d0b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI06_DEL_MONIT01.tif",
+      "bytes": 278704178,
+      "sha256": "3172000a15b29971369ca6e59bc5b2febc257f7261eed631a4a157ac566789e3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI06_DEL_PRODUCT.tif",
+      "bytes": 278704178,
+      "sha256": "3172000a15b29971369ca6e59bc5b2febc257f7261eed631a4a157ac566789e3"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI11_GRA_PRODUCT.tif",
+      "bytes": 9858949,
+      "sha256": "bfb71922ae610e4202281da25ba0b19d23422d46ea34f59c3460f758859fcaff"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI14_GRA_PRODUCT.tif",
+      "bytes": 17867389,
+      "sha256": "0a5720badbda7d49c563076a95b952ffb5ee6283d5d05b07fbd652671ff3385b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR517_AOI15_GRA_PRODUCT.tif",
+      "bytes": 42827792,
+      "sha256": "bd0d75f04153d717c6104b17fefc29ee86ec4204732e36732c25428f76f7b726"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR518_AOI01_DEL_MONIT01.tif",
+      "bytes": 372318573,
+      "sha256": "d0b677bfe1b4a55f8ce6cc06741bd6683e2fd2a39d471e6c9b062e76ae2e1080"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR518_AOI01_DEL_PRODUCT.tif",
+      "bytes": 372318573,
+      "sha256": "d0b677bfe1b4a55f8ce6cc06741bd6683e2fd2a39d471e6c9b062e76ae2e1080"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR520_AOI01_DEL_PRODUCT.tif",
+      "bytes": 120527220,
+      "sha256": "7de04f79734ca2c72efaa46446b76dd3dfbb1ae47f59d4405a82ef4f80457de7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR548_AOI01_DEL_MONIT01.tif",
+      "bytes": 189752984,
+      "sha256": "bbb2aae3e2f4674c18b89956baabe702b081d69d311fe2fdce545a3ace810b0e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR548_AOI02_DEL_MONIT01.tif",
+      "bytes": 94538235,
+      "sha256": "8c2e3fb0bc4bc937c8d1c7dd06f5e982882b56edeb54b2b8021c15309861dbbb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR548_AOI02_DEL_MONIT02.tif",
+      "bytes": 94538235,
+      "sha256": "8c2e3fb0bc4bc937c8d1c7dd06f5e982882b56edeb54b2b8021c15309861dbbb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR548_AOI02_DEL_MONIT04.tif",
+      "bytes": 94538235,
+      "sha256": "8c2e3fb0bc4bc937c8d1c7dd06f5e982882b56edeb54b2b8021c15309861dbbb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR548_AOI02_DEL_MONIT05.tif",
+      "bytes": 94538235,
+      "sha256": "8c2e3fb0bc4bc937c8d1c7dd06f5e982882b56edeb54b2b8021c15309861dbbb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR548_AOI02_FEP_PRODUCT.tif",
+      "bytes": 90495025,
+      "sha256": "ba147c71a85e37193f788c7cf327995ce54946e62c44be6a1f6afaff64c4fd9e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR550_AOI11_DEL_MONIT01.tif",
+      "bytes": 8917375,
+      "sha256": "8f030ab3bf0692cafb6867cb828a512d98e008ab6c0094f77c5d33b63738668b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR554_AOI02_DEL_MONIT03.tif",
+      "bytes": 256830776,
+      "sha256": "3f47b2d6bc0df185f7e77aa65d529b4434cc3192f967372b1924f6bd6f214561"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR554_AOI03_DEL_MONIT01.tif",
+      "bytes": 73208439,
+      "sha256": "adb55f57a492bdb2291058232df68417d4110002b61ae0f0e849526fd72bd617"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR559_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1024540462,
+      "sha256": "beef7ac9dcf7e307f953aeb39d3e0193d9fe2d6e7d566aef5898c8d818b45a2a"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR561_AOI02_DEL_PRODUCT.tif",
+      "bytes": 90481176,
+      "sha256": "e0d9dd2085d169f0ba5ca623dc5db885e8297909e849e17c95fe3c61109533a0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR561_AOI02_GRA_PRODUCT.tif",
+      "bytes": 90481176,
+      "sha256": "e0d9dd2085d169f0ba5ca623dc5db885e8297909e849e17c95fe3c61109533a0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR561_AOI03_DEL_PRODUCT.tif",
+      "bytes": 57517067,
+      "sha256": "66357400d3c1eca13357c9243e09bbd149451910bfdaa803fc4a7374b77a5337"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR561_AOI03_GRA_PRODUCT.tif",
+      "bytes": 57517067,
+      "sha256": "66357400d3c1eca13357c9243e09bbd149451910bfdaa803fc4a7374b77a5337"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR564_AOI07_GRA_MONIT01.tif",
+      "bytes": 7867463,
+      "sha256": "c1e1be48a450b4985d063d439b4f7685d2b74c6cc9184a4d76a2085c25071035"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR564_AOI08_GRA_PRODUCT.tif",
+      "bytes": 4428528,
+      "sha256": "0327a0fad77afdf1278933e8383506c43ffcb35d89fd871fe3ff5fe5637d2c28"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR565_AOI02_DEL_PRODUCT.tif",
+      "bytes": 23710749,
+      "sha256": "611827e7015ddbf25009c25d4ddacef8145abcbbb0b441ec6867e54ff529d21b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR565_AOI04_DEL_MONIT01.tif",
+      "bytes": 71029043,
+      "sha256": "c3c3b2444b0d908033348758df652378978ceea90c91178e44b02d4ef3c3551e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR565_AOI04_DEL_PRODUCT.tif",
+      "bytes": 69615488,
+      "sha256": "54c204151c31f66d3df60b25824d8816a82f21a368245d4804e7a36e64bbe67e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR565_AOI05_DEL_PRODUCT.tif",
+      "bytes": 55792278,
+      "sha256": "4703bcbd4c1554e94e5a2e80c2baf6dcc674ce626a8300ae30ebfda4bd85c2c8"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR565_AOI06_DEL_MONIT01.tif",
+      "bytes": 35453881,
+      "sha256": "c07080e312947f4a4d0386218de576b768b020a9d0bbe3f40815e4a668907dbf"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR565_AOI06_DEL_PRODUCT.tif",
+      "bytes": 35212681,
+      "sha256": "a5f2b17e4c1eb41af2c55a465424ff159a38a12ad7a741401300136af869bd96"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI01_DEL_PRODUCT.tif",
+      "bytes": 13132477,
+      "sha256": "ede754eae4a67a81a44dbfb190204e4321c27df3dea9b4d826acee04322eb51e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI02_DEL_PRODUCT.tif",
+      "bytes": 11887610,
+      "sha256": "06acfa5802c7d62cc22b8d3bbad1573580c938763e74ff367516ca570de61852"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI05_DEL_PRODUCT.tif",
+      "bytes": 11314620,
+      "sha256": "fd1fbdf31706be71aee7d587b002a7d56ad6d4d5f442b9f5439da94274458fb6"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI07_DEL_MONIT01.tif",
+      "bytes": 12944631,
+      "sha256": "db976e8e135010b93e9ffb8058e5148bf2444d3bb3878dfcfd6621296c69b149"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI07_DEL_PRODUCT.tif",
+      "bytes": 12944631,
+      "sha256": "db976e8e135010b93e9ffb8058e5148bf2444d3bb3878dfcfd6621296c69b149"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI08_DEL_PRODUCT.tif",
+      "bytes": 94818422,
+      "sha256": "88ff844f9719d08ee730dd637c974775836baadc68b0bf887cd13061e830c116"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI09_DEL_PRODUCT.tif",
+      "bytes": 14028081,
+      "sha256": "a3d68d8cdd96ac55f5a702532cd28370e383c27a0b01082f1bd36c538966c080"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI12_DEL_MONIT01.tif",
+      "bytes": 63194531,
+      "sha256": "966c42104609e954306c44f7d88cae59e887a5cf964d58446d3066aa7a9b3312"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI13_DEL_MONIT01.tif",
+      "bytes": 393324783,
+      "sha256": "7aac91a61081c01337a80d57e6bddcd525903d7d044eecce93c0bab59c8a70eb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR567_AOI13_DEL_PRODUCT.tif",
+      "bytes": 393324783,
+      "sha256": "7aac91a61081c01337a80d57e6bddcd525903d7d044eecce93c0bab59c8a70eb"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR568_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1416747348,
+      "sha256": "21562642174343053a0158b7474184a3f43a2d3cde0f36b71066704ea24ffd4d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR570_AOI01_DEL_MONIT01.tif",
+      "bytes": 49787561,
+      "sha256": "b6821f14532179f2754fc7664ea3dabdd86ecf660f424d262a3c8b0af25030e1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR570_AOI01_DEL_MONIT02.tif",
+      "bytes": 49787561,
+      "sha256": "b6821f14532179f2754fc7664ea3dabdd86ecf660f424d262a3c8b0af25030e1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR570_AOI01_DEL_PRODUCT.tif",
+      "bytes": 49787561,
+      "sha256": "b6821f14532179f2754fc7664ea3dabdd86ecf660f424d262a3c8b0af25030e1"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR570_AOI02_DEL_MONIT01.tif",
+      "bytes": 64855994,
+      "sha256": "ee502716d4bfc68f266d47773e53e61df65f90ef21d10511fd35f0f137cdb431"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR570_AOI02_DEL_MONIT02.tif",
+      "bytes": 64855994,
+      "sha256": "ee502716d4bfc68f266d47773e53e61df65f90ef21d10511fd35f0f137cdb431"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR570_AOI02_DEL_PRODUCT.tif",
+      "bytes": 64855994,
+      "sha256": "ee502716d4bfc68f266d47773e53e61df65f90ef21d10511fd35f0f137cdb431"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR586_AOI02_DEL_PRODUCT.tif",
+      "bytes": 180766411,
+      "sha256": "91761ab8e40f6a589b6cfd3f782347f3f0417ee24be76fb0acc81058fb864284"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR631_AOI01_GRA_PRODUCT.tif",
+      "bytes": 2955933,
+      "sha256": "889ba7da40db06f9002910787a32b05563ccd96ded006ea7e757ea380b90d380"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR631_AOI02_GRA_PRODUCT.tif",
+      "bytes": 17348269,
+      "sha256": "de1fbb5bf086047ed3c837477653f6e7774fa5dd46d773f802de54851303103e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR636_AOI05_GRA_PRODUCT.tif",
+      "bytes": 2831446,
+      "sha256": "e6a9809c1049c5f4035b2a7a1d1b2d44e8f42555c7677a357ecc4adf1f3b81f7"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR636_AOI07_GRA_PRODUCT.tif",
+      "bytes": 4607969,
+      "sha256": "b445d2f0f8fbee8486a4d59b0bfc24d8ed30c88ccea883856b2d0ff11af25a33"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR636_AOI09_GRA_PRODUCT.tif",
+      "bytes": 28339324,
+      "sha256": "7d9cbb218d695a109c3bda08a0b6e7ece62d609369706c31452d18e33c98891e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR637_AOI04_DEL_PRODUCT.tif",
+      "bytes": 12910926,
+      "sha256": "592f787b18b9b163543be1ad4d48e314e996a1f5df8671ce0b1493758ba8e535"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR645_AOI04_DEL_PRODUCT.tif",
+      "bytes": 29265564,
+      "sha256": "04ae54d6165c649303311019764f81f683376ae56f00f30fe67e3a852d10d47d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR645_AOI04_GRA_PRODUCT.tif",
+      "bytes": 29265564,
+      "sha256": "04ae54d6165c649303311019764f81f683376ae56f00f30fe67e3a852d10d47d"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR645_AOI06_DEL_PRODUCT.tif",
+      "bytes": 119586850,
+      "sha256": "fb110470b137f15c3929e03d1165060a57f27591a0f961cf438f86022053acd2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR645_AOI06_FEP_PRODUCT.tif",
+      "bytes": 119586850,
+      "sha256": "fb110470b137f15c3929e03d1165060a57f27591a0f961cf438f86022053acd2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR645_AOI08_DEL_PRODUCT.tif",
+      "bytes": 379696136,
+      "sha256": "86bed429791c448bc23fe52da52f735dfdf5b9ddf0cb5f77fe74bdfc1aeb75f0"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR649_AOI01_GRA_PRODUCT.tif",
+      "bytes": 62915473,
+      "sha256": "552699f64bf8efc4fd5555ff2e8ed539eb1129ca04eebd9050e694fd997d4c9e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR649_AOI02_GRA_PRODUCT.tif",
+      "bytes": 11821469,
+      "sha256": "b12437d035212f039ed2225c88fa4a95adbdfb7c0021bce39669e56ddf6019a2"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/EMSR650_AOI03_DEL_PRODUCT.tif",
+      "bytes": 22950739,
+      "sha256": "d3ce160ad4a4da7e4da4727b9aadd1480cc77e35ff32bf6de2bd47e61d97077f"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/LS20170416_SouthUrmiaLake_SatelliteDetectedWaterExtent.tif",
+      "bytes": 25196510,
+      "sha256": "adb67c04f74629f168b198e1270065b11bde398a613174c5472bd09ae63e34f9"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/RS2_20170122_WaterExtent_SaveRiver.tif",
+      "bytes": 916958135,
+      "sha256": "af8485f34b8bba5229b274c1636e93d8a33abaf70c9163d0db5b83dbe3147381"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/ST20180507_WaterExtent_Moibalo_Somali.tif",
+      "bytes": 1378164741,
+      "sha256": "b08346e80b2d7a7c14cf25cc6e20b386807d71469d48f2ea11e23a4a9659e3c8"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/ST20180522_WaterExtent_Teknaf.tif",
+      "bytes": 5276837,
+      "sha256": "a324a295c1fbb663b51fb72efd1fa2a605a66b9b292996c4ba01c94704685e55"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/ST_20170426_WaterExtent_LesCayes_Cavaillon.tif",
+      "bytes": 41851797,
+      "sha256": "fca8a6956c4d306ec9bdcac0bfa017aec71c862563677cc8d1aa97588ff678d4"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/ST_20170811_WaterExtent_Khamkeuth.tif",
+      "bytes": 366411685,
+      "sha256": "47d50a09694c276e285990116a17ca5ae96db1da6140ee2ab660bba3c923649e"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/ST_20170823_WaterExtent_AmuruAndAdjumaniDistricts.tif",
+      "bytes": 341047461,
+      "sha256": "ef4ea8107eda5c31c7bddc54c0881dbb1c2eded88ccc6205de46889ccccbed71"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/ST_20170826_WaterExtent_Niamey.tif",
+      "bytes": 507627163,
+      "sha256": "f2e7b9bb1ec972d26999ad8b5bcb34bb316fbf2dd2c5c80c06b7845fb3e58dff"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/TSX_20170308_WaterExtent_Maroantsetra.tif",
+      "bytes": 298906598,
+      "sha256": "27573fa66d1e6ed401541bf6aa721db74e3f0841dcaac5e47d95d00c02838e8b"
+    },
+    {
+      "path": "/content/worldfloods/train/S2/TX_20160811_WaterExtent_WetSoil_Khartoum.tif",
+      "bytes": 235966474,
+      "sha256": "f929349b131019849eb5e52ce4f2d8ba613773668342fcf493c260ad7f312ec7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/01042016_Choctawhatchee_River_near_Bellwood_AL.tif",
+      "bytes": 1573477,
+      "sha256": "68c14370280deb18a2dbf9dbb091963c3fddcc70c8df11600626db4b3d5a7682"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/01042016_Holmes_Creek_at_Vernon_FL.tif",
+      "bytes": 91955,
+      "sha256": "672035954a8c5c68ef4288da39471100907b26862158c4c88ae54521d07af687"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/01042016_Pea_River_near_Samson_AL.tif",
+      "bytes": 212439,
+      "sha256": "629e970718f240e380a4e5cf1cdf8d6ee30c52602c4d2af804a251913248c736"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/08162016_Mississippi_River_at_Baton_Rouge_LA.tif",
+      "bytes": 2028240,
+      "sha256": "3f8265797e9986922238662db1ec6ed18cacb6fb0e7bbeac28067ba84cb45d63"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/10132016_Ashley_River_near_North_Charleston_SC.tif",
+      "bytes": 853146,
+      "sha256": "12c5789b2b91a7dc2a2308921871143415b957e2041a1b41095f8f0fe3a9b7a3"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/10132016_Cooper_River_at_Monks_Corner_SC.tif",
+      "bytes": 916252,
+      "sha256": "beff655b08ab0483a2d716004b540b46626a2bff85dac41153e246f23de96178"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR249_03GALWAY_DEL_v2.tif",
+      "bytes": 122877,
+      "sha256": "7f72f72d19e3163cac691122d457529a0d7e34567fa158196ec3b8dc3ddce230"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR249_07KILRUSHTARBERT_DEL_v2.tif",
+      "bytes": 119389,
+      "sha256": "e8572e205dafb0f133f4124f13a5baf222a348ce0b45310aeb76ca0d602914b8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR249_14WATERVILLE_DEL_v2.tif",
+      "bytes": 77062,
+      "sha256": "9cd1ea8f151baebd730e53ab1e76e8c577ec1d08ee39ec2d0a2786c07bcec3bc"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR249_15LAHINCH_DEL_v1.tif",
+      "bytes": 25456,
+      "sha256": "669eff9799297e3ceda58fc4422e8e30e28afafe39ba8c6a1d2ec5fc39a0a042"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR251_03KRAGERO_DEL_MONIT01_v1.tif",
+      "bytes": 1242968,
+      "sha256": "ebbb96d5144e72b064ca0a650f2e64d9e5bc86c6a4c80a124e6127f599cb920e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR255_03SCHONECK_DEL_v1.tif",
+      "bytes": 76266,
+      "sha256": "0f2ad5e7e9485f00f0bdf86b0b908f9500ada2a150fded8ef2ae3ff38c32ee99"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_01DIVJAKE_DEL_v2.tif",
+      "bytes": 530360,
+      "sha256": "829a28f94946d2f356edd3dfd0f256e07293ec5288efdcfdefc03b2052eb3a70"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_03KOLONJE_DEL_v2.tif",
+      "bytes": 296999,
+      "sha256": "57b18d6841db0858eec98e91b913df92ff959f3cc031906bcbc54498a9b3f5c0"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_05PATOS_DEL_v3.tif",
+      "bytes": 179915,
+      "sha256": "b32e41f6c2cee94c87aa4d5bee39dc15b1ada8d39f46a88ae244f410b0d47a64"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_06VLORE_DEL_v2.tif",
+      "bytes": 211783,
+      "sha256": "ccbae2fb6589b0848dfa86a8649aae2cc3c6e2db16e13da75a3b0435b3a9e032"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_07ARMEN_DEL_v2.tif",
+      "bytes": 76087,
+      "sha256": "b9bc3932810a5687660b71bf797df43bd18df68a4ad222b073cc00a298a02239"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_08BELSH_DEL_MONIT01_v3.tif",
+      "bytes": 79522,
+      "sha256": "4787827a00d9af6b839e6ee62c1be8254f9fd091ee62beb02c20b57102dca874"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_09GRAMSCH_DEL_v3.tif",
+      "bytes": 103072,
+      "sha256": "c68f3009eabbaea1505bc25196d2b44158499094b288bfbfd7635c776ee9188f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_10URAVAJGURORE_DEL_v3.tif",
+      "bytes": 108908,
+      "sha256": "7ae877a7241ccd06377d02ab1c121a4a9505ff1afc9fa17106ce29e5ca230580"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_12SEVASTER_DEL_v2.tif",
+      "bytes": 66186,
+      "sha256": "047232e62dc31b3466cbdf2ace9862a4601685f8836f5bfbb43127f8a84f8720"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR258_13TEPELENE_DEL_v3.tif",
+      "bytes": 337504,
+      "sha256": "ea5ecc6af0767ac521bfe4c7e6f9e42e0c1010351c6581c12d074056a8215153"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_04ESBLY_DEL_MONIT01_v1.tif",
+      "bytes": 133781,
+      "sha256": "8f7bf7370f91ecdee310a03b8ef188d0c2dbcc673cb475d7a8b4bbfa4b9f288c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_04ESBLY_DEL_MONIT02_v2.tif",
+      "bytes": 133525,
+      "sha256": "ec720810183ca3698aa632439854543d7609e2720ce2fd4eb054345b36e109fc"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_04ESBLY_DEL_v1.tif",
+      "bytes": 130988,
+      "sha256": "7443d38e43531b0ff0565e72796cda3b25c637aa1fe96bfa35fa4cca7b2ee090"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_07DAMMARIELESLYS_DEL_MONIT01_v1.tif",
+      "bytes": 437832,
+      "sha256": "0927bcb9953e5baf7173bef7fbb553abac5de01cf040ea91e751867c3f15a906"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_07DAMMARIELESLYS_DEL_v1.tif",
+      "bytes": 437438,
+      "sha256": "a4b8f40fde9b8f9e8a8ae3022bc28be3638ea0f52e62bd2a62a30c45b14a019a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_08FONTAINEBLEAU_DEL_MONIT04_v2.tif",
+      "bytes": 89430,
+      "sha256": "deacb1cf554c00f86e354aa53b1411ba00968cb02057b7b6ceafa6e7117d7fa4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_09VOULX_DEL_MONIT04_v2.tif",
+      "bytes": 152981,
+      "sha256": "375e20acee2db8eee2cfbdfc396f264cf881ccf0418c9ce8657855572fd08033"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_13AUXERRE_DEL_v1.tif",
+      "bytes": 203932,
+      "sha256": "742cb5c112ebabdcb3517271ddb883f65d71745645f74d8b0f7c3ed7407d3f23"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_22LESMUREAUX_DEL_MONIT03_v1.tif",
+      "bytes": 423889,
+      "sha256": "98da6be8eddb16e05cbdd55f5baedf4e890adeb9b101d97dacb5cf6cbbb99378"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_22LESMUREAUX_DEL_MONIT04_v1.tif",
+      "bytes": 422024,
+      "sha256": "0d7cf5ed80415d049bcfba70169ab6928d61a74069ee1413bdea72423fb1fd5c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR265_24HONFLEUR_DEL_MONIT01_v1.tif",
+      "bytes": 759463,
+      "sha256": "4674665e6bab02b5ca7e085273fed22d923416d8b06ecce8a4d689edf831cf90"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR267_01RUSNE_DEL_v1.tif",
+      "bytes": 576773,
+      "sha256": "7bd017c6e24b46f2b61286f12a55c73ed0c126ccdb9c4cebddbcc5fce9ae9ebc"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR269_02FAHEFA_GRA_v1.tif",
+      "bytes": 24699,
+      "sha256": "b8a6a0799454ee3758da9dd87c7a56cf3398d6d1c55b8e45a5b36f058bde50d7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR269_06VEITONGO_GRA_MONIT01_v1.tif",
+      "bytes": 34895,
+      "sha256": "a9cc5996c93fdf5fe51b327b5f114decb28100d3c1a228fa174351829b8361a8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR269_06VEITONGO_GRA_v2.tif",
+      "bytes": 34904,
+      "sha256": "13dd50b328d506fc3564b389d3a7b1efdadadf3777441b0e5f569bad06f56314"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR275_01LIJEVIDOBROVCAK_DEL_MONIT01_v1.tif",
+      "bytes": 725566,
+      "sha256": "573894a2f5f965bb6f12f58c1df988abdc0862ed5a8dfd8fb1b3f2c903a00648"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR275_01LIJEVIDOBROVCAK_DEL_v1.tif",
+      "bytes": 709895,
+      "sha256": "37b1c8dd529ab8a0fbaf40fc4f9d007fdc5821c2544eb0d9f1e809064f57aab1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR275_02KUTINA_DEL_MONIT01_v1.tif",
+      "bytes": 575329,
+      "sha256": "87c6d29d708efc2d4c220446225dedf63cec731ef48b7c871137fafabc84df55"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_01JORDET_DEL_MONIT01_v2.tif",
+      "bytes": 185074,
+      "sha256": "dd06689e8dde9aad7d1a052b349cbae78dc4aa379566b3d51f280efdc3c466e0"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_01JORDET_DEL_MONIT02_v1.tif",
+      "bytes": 43530,
+      "sha256": "ff9550601d095b385d9eec0bd4fd78d8e3549752172a162553125775c054088b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_01JORDET_DEL_v1.tif",
+      "bytes": 185054,
+      "sha256": "9a0ce35a5b8a6e2182049cfc62a8f9a945dced4ebebeb31fbb8701dd36245d5c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_02TRYSIL_DEL_MONIT01_v1.tif",
+      "bytes": 228308,
+      "sha256": "ce4536e8fc266910e0ee73b92295b6c61fb0b44a82e47657225c575a3ce0a839"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_02TRYSIL_DEL_MONIT02_v1.tif",
+      "bytes": 47861,
+      "sha256": "3e1fcaa96679e586fab8f27659422f323b158522be06921ee1843d2503698c03"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_02TRYSIL_DEL_v2.tif",
+      "bytes": 228256,
+      "sha256": "610266c4c59c38217424380a91c38da39d44b236748a4fcc01fac74c3a2a33dd"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_03ELVERUM_DEL_MONIT01_v1.tif",
+      "bytes": 293391,
+      "sha256": "07fdb7d21739b0d12c31ddcb951dd6dfb90f1b83786c2fea20253084cab44bd4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_03ELVERUM_DEL_MONIT02_v1.tif",
+      "bytes": 77572,
+      "sha256": "8abbf97fe83b2035f3b6edd51d135e3684a453ee3b30c487764acb69b45935df"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_04BRASKEREIDFOSS_DEL_MONIT02_v1.tif",
+      "bytes": 53131,
+      "sha256": "572ba4ee1ead3fec877c24eb56800f543611c8d32399e3cab5050573f4506097"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_05FLISA_DEL_MONIT01_v1.tif",
+      "bytes": 78190,
+      "sha256": "3f9ae9c27b9965ce0957d2718a6c98474f1ed6c655eae332e3fbb25102000d50"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_06GRINDER_DEL_MONIT01_v1.tif",
+      "bytes": 291544,
+      "sha256": "e38e3e92341d3e232fd285752d550ff19e78ba74ca735bc7ea4b885dcd88b708"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_07KONGSVINGER_DEL_MONIT01_v1.tif",
+      "bytes": 73662,
+      "sha256": "b8365a6785648b9c58682591b2d1cdcb21d45ca2a64d73ef8a9f1525e680f67d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_07KONGSVINGER_DEL_v1.tif",
+      "bytes": 249246,
+      "sha256": "16fa7a86e8dd6d3a3cda8d2a6a4702992618461efda582ace36892a3118446f7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_08SKARNES_DEL_MONIT01_v1.tif",
+      "bytes": 61572,
+      "sha256": "65f09ad84d86ff8bba5e7f8d719420136f22733f53ec4e52545a1d795754c0c4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_08SKARNES_DEL_v1.tif",
+      "bytes": 60912,
+      "sha256": "17661a5295efb8fe3d0ef3837cc2da9ddc96709853fa702fbdbd8bd77c572b8e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_09LILLESTROM_DEL_MONIT01_v2.tif",
+      "bytes": 201116,
+      "sha256": "a10f293672cb4e0a979c88e9048286193c6999e6b5666c56a904a75d3fc99f7c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_09LILLESTROM_DEL_MONIT02_v1.tif",
+      "bytes": 129767,
+      "sha256": "6901183df481beec114019b6eaf585d660cc5fc644ba76393bf44c321a0eca09"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_09LILLESTROM_DEL_v1.tif",
+      "bytes": 200546,
+      "sha256": "501a1dfe37731bc9113c955db6b874e7ffa26a87f86aad89d862fc1e5d451fc4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_10OTTA_DEL_MONIT01_v2.tif",
+      "bytes": 176732,
+      "sha256": "2a312573ec27b68704a403c8cb22d1a46fda3e8428c9d0c7bcbe314dd7b013de"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR283_10OTTA_DEL_MONIT02_v2.tif",
+      "bytes": 176411,
+      "sha256": "f81446963f85e4d9885a207183d6e0943457eda9c22445fc0492835037d57604"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR292_01CHRISOUPOLI_DEL_v1.tif",
+      "bytes": 409991,
+      "sha256": "e77a6b51fba4aa9e77528ad9f3843852301934b154355d456d1766cc0c18bf79"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR292_01CHRISOUPOLI_GRA_v2.tif",
+      "bytes": 393399,
+      "sha256": "b49733a49765e3914a19cf13d34330b40ac972a05b3f2ed81e1067368bb4b2b4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR294_01MANDRAMAGOULA_GRA_v1.tif",
+      "bytes": 18535,
+      "sha256": "4111c476112f6d47aaf184a6be093677833a6248d163cf2d02661cc4e93ff730"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR311_04WILMINGTON_DEL_MONIT01_v1.tif",
+      "bytes": 2659354,
+      "sha256": "e6abfe578ca61f8a7fd5e7c8557f9dfd547b6a54a5dd871e633f8994548868a6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR311_05JACKSONVILLE_DEL_MONIT03_v1.tif",
+      "bytes": 1598617,
+      "sha256": "922ddfdc4e6ef49444468ee0e80743175a1088c4d690b74b51cdec62376c277a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR314_01PATEGI_DEL_v1.tif",
+      "bytes": 409957,
+      "sha256": "0691daf7cd6d06d6ae341408b7066ac9e18ecbffe541142fa1cd3defa144998a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR314_02LOKOJA_DEL_v1.tif",
+      "bytes": 362400,
+      "sha256": "f0c8029688e9c2d6f0f5a879455210f5a4c2673d830fde78bca1dc0d8c889c35"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR314_03ENUGUOTU_DEL_v1.tif",
+      "bytes": 172993,
+      "sha256": "3e1c7614a00cba57c1af42ade012daaae08d5162f0b322b7d8a8ba41fab315ae"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR314_04OTUOCHAAGULERI_DEL_v1.tif",
+      "bytes": 74428,
+      "sha256": "31735c658ad32198bb7c14380eb55d116c12e4b2d20a50679caf1c58e62ac1ec"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR314_05ONITSHA_DEL_v1.tif",
+      "bytes": 280143,
+      "sha256": "ba6cae552af785177381d54440803479ec62d4837ef69b261de5aa4b0807bb0d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR319_01TAKLISAH_DEL_v2.tif",
+      "bytes": 128424,
+      "sha256": "d1b431982c72f478f9f53747aa39f1ddf20faed5f3d8fbe748fe9533b402a19b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR319_03KORBA_DEL_v1.tif",
+      "bytes": 145823,
+      "sha256": "a2662d7b8f00311eaecd7302d1d5455c6a515ac84f83dedab435f738b1e99aae"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR319_05SOMAA_DEL_v2.tif",
+      "bytes": 93571,
+      "sha256": "4b1957a21f49eb592a49f38b6ec3673761b72e382b1e55c8246d4ebba0108e6c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR321_02CHOLUTECA_DEL_MONIT01_v1.tif",
+      "bytes": 359451,
+      "sha256": "3a6928b1a1bc6dde5337bc9fe318c42c66f3ed772ec4859c39c0bb10dd53dc61"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR322_17MARIANNA_DEL_v1.tif",
+      "bytes": 558939,
+      "sha256": "a3c5141bf5ccd2bc80fe0e463d3d76d4c2577b8902cf4bd2a444d256d23f9e98"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR323_08MANACOR_GRA_v1.tif",
+      "bytes": 39222,
+      "sha256": "cbd452d54d7112f5bbcb260b72199be0b8a6ea5da23c65736edef30867b5d6c7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR323_09CALAMILLOR_GRA_v1.tif",
+      "bytes": 49100,
+      "sha256": "c4953016b771b75161988033ca288f3ad96c29f6a592ce3e8dc11aefc5cb9c98"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR324_03MOUSSAN_DEL_MONIT01_v1.tif",
+      "bytes": 110751,
+      "sha256": "a329a951fe1ec1329c4c012fe6f76a225017880574a019585ea6d70502a18ea3"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR324_03MOUSSAN_DEL_MONIT02_v1.tif",
+      "bytes": 98055,
+      "sha256": "069696032d4faa8bddd7857c8f9de94e040a3728dd6ea2275267a31b67fa1581"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR324_03MOUSSAN_DEL_MONIT03_v1.tif",
+      "bytes": 94211,
+      "sha256": "c1985749ebd9884d2326b4f898f5f5b0baefefdda180d1ee42399b1735b61a29"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR324_04LESPIGNAN_MANUAL_LABEL.tif",
+      "bytes": 75329,
+      "sha256": "7d8a98ffd182b3858e739cdf8bd15bbaab006ddd1d67ee1c082638be6e3513ee"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR324_06TREBES_GRA_v1.tif",
+      "bytes": 20681,
+      "sha256": "3cd633d683af00fec70f233c70f76dd0a4bfb2b423258c2312db1b43da0aa623"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR324_08COURSAN_GRA_v1.tif",
+      "bytes": 21390,
+      "sha256": "af2923d5e8ff6218fc729e9b770d039dd8f927f04ad291ea082afe15152f9fc9"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR326_02ANTEQUERA_DEL_MONIT01_v1.tif",
+      "bytes": 392213,
+      "sha256": "48bfc421b91bb771bc43378940d40ec4dd55fd5cb8679ec05824beea5c413bb1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR326_02ANTEQUERA_DEL_v1.tif",
+      "bytes": 391752,
+      "sha256": "f3745b3120601db03b270e82f641209b601aede1b1648ede63a2b33eaf560d19"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR326_03RONDA_DEL_MONIT01_v1.tif",
+      "bytes": 669265,
+      "sha256": "4dec42139ee8574427842d24dda01e9671004d79d9017b43117fe42fc84a3d03"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR326_03RONDA_DEL_v1.tif",
+      "bytes": 665087,
+      "sha256": "1281ca66dab7912440c8c5590a5733e1a6fe4c7813786450524e5321227b35e6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR330_03LENTINI_DEL_MONIT01_v1.tif",
+      "bytes": 204067,
+      "sha256": "592bec9d8d7911594c495e0c1b65b2d2c9aa29ccb9320ac652f5cfd2703478cc"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR330_05LENTINIDETAIL_GRA_v1.tif",
+      "bytes": 18873,
+      "sha256": "11c3a8689ab3640ad76de7f427ce629ee6cd5f2e399c95f161cf9ddf2d1bc8aa"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR339_01QUELIMANE_DEL_v1.tif",
+      "bytes": 71310,
+      "sha256": "b309d2794f70e8ca55b7f9ce6b9805458dc234671e946848c7b10f2739d64aa7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR339_03BEIRANW_DEL_v1.tif",
+      "bytes": 84385,
+      "sha256": "5d54938ed053cee4c47a7c17bdd5f4fc2ee1f29d30e6b760f2fe188fc9667622"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR339_04BEIRANE_DEL_v1.tif",
+      "bytes": 90430,
+      "sha256": "c85e451b6007780af19bdf981bd23f86265b56db21bdd3ce647a21d41530a304"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR339_05BEIRASE_DEL_v1.tif",
+      "bytes": 83753,
+      "sha256": "14d12c3b317fbbb5be8f064103458779189323b802b5dfaf582f7aca021da09b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR339_06BEIRASW_DEL_v1.tif",
+      "bytes": 60182,
+      "sha256": "6502a7d118ae3cc89931a078b557a059c23dcdd2091541e586e056dca4688db8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR346_03BEIRA_DEL_v1.tif",
+      "bytes": 230834,
+      "sha256": "68747a014825cb2c6601b8f4d7458b0a9dc80e385bbca832f1078deb7d1d6a17"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_02CHINDE_DEL_v1.tif",
+      "bytes": 214352,
+      "sha256": "02538d3022cdf7722c5533c82278fcc06fd687390ab6ab24b2e248bf2ef5b37d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_03BEIRA_DEL_MONIT01_v2.tif",
+      "bytes": 622949,
+      "sha256": "d2ca86a89b4e343b0c06800858b926bc114edce4be283ce3e99db3dce3b8f516"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_03BEIRA_DEL_MONIT02_v2.tif",
+      "bytes": 647929,
+      "sha256": "3ef21a215fb1a5f3e6d20c138391b9685c75d7ede74c5bf5a61377516dcb52dd"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_03BEIRA_DEL_v1.tif",
+      "bytes": 609572,
+      "sha256": "0d494035b0c1614f8b31023a3f33fe3173522d528da7b8f3398e98127ee52220"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_05MAFAMBISSE_DEL_MONIT02_v4.tif",
+      "bytes": 298232,
+      "sha256": "111f42bea9404f1cdb6008cdee84b9243c97c7c0c6c3f6caa28fdcc9f6ede974"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_05MAFAMBISSE_DEL_v1.tif",
+      "bytes": 169566,
+      "sha256": "dec543b502ea0f9f5d08cc6f14b928514568150f1ebc8bfbefb2487038afde8b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_06LAMEGO_DEL_MONIT01_v1.tif",
+      "bytes": 115355,
+      "sha256": "4532b44c84a31a8ac9ae540dedd58352d194389a024714b005740a9ea6e06cab"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_08TICA_DEL_MONIT02_v3.tif",
+      "bytes": 178110,
+      "sha256": "21a26fcbcbf98d4fee55f65a9ccb4f72ba6939059b451b4cba5f9a8939ac24ed"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_08TICA_DEL_MONIT03_v2.tif",
+      "bytes": 178174,
+      "sha256": "0da7bafc5a8c43723e66ad31b31fa83233eefb9fd631a7768cfbf1277b0ac4f5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_12MACORREIA_DEL_v1.tif",
+      "bytes": 543378,
+      "sha256": "d49f75ce1594990ab649d740fab5f741ebea20789f8aecbe954e9dec3538026b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_13NHANTAZE_DEL_MONIT01_v1.tif",
+      "bytes": 479345,
+      "sha256": "71de2a0df533292b056bb136a1cebdea4a496f7fcc579dc63be279c078ac6af8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_13NHANTAZE_DEL_v1.tif",
+      "bytes": 485031,
+      "sha256": "43efe6da665fecbffca2815e9bc3945f535ce2c31a1c850fe728b3d9f27b295b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR348_14MAVUNA_DEL_MONIT01_v1.tif",
+      "bytes": 294815,
+      "sha256": "f13357eeff3fce4831196caf4b8dba574c5bcf1c76c827d3ee4c8bfaa43ea65f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR349_01MURAMBINDANW_GRA_v1.tif",
+      "bytes": 113790,
+      "sha256": "e92042ac98d0cb9c31d674d1bd241fddd6f12b6c2146eb2dffc0eec8953ef549"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR349_02MURAMBINDANE_GRA_MONIT01_v1.tif",
+      "bytes": 169105,
+      "sha256": "99d045341d3956644553e94dcaa364bb923c5ed2efaa56469785b05583c9f2ad"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR349_02MURAMBINDANE_GRA_v1.tif",
+      "bytes": 163377,
+      "sha256": "a4680285caf5e071ca632effb746f92860a08b12ccb62a26539d9285f60c4499"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR349_03MURAMBINDASW_GRA_v1.tif",
+      "bytes": 129588,
+      "sha256": "1506b2bbb55011ce1dfc91fe2c00574aade1ff394507ff59e2cf7335fa58c743"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR349_07RUSITUVALLEYSE_GRA_v1.tif",
+      "bytes": 44906,
+      "sha256": "37ec4f801628e2ecfb63e7608c05272b86cd63999eabb37984573548bafc3a1a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR349_09CHIMANIMANI_GRA_v2.tif",
+      "bytes": 108836,
+      "sha256": "30ab1ba062aff64f7e4f65b09b1c3148d591cae886fbfba0e45e36aa60eecc35"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR350_02PORTHEDLAND_DEL_v2.tif",
+      "bytes": 650564,
+      "sha256": "647ca8d5d1ea0c6eafab9c312ccb4dd9ee144af1ede50e6d592a8eb52697f236"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR350_05LONGREACH_DEL_v1.tif",
+      "bytes": 240604,
+      "sha256": "5f1f156a808798a262476ee9f5bb74290a20fa978828f99200ff9ad9146e4900"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI03_GRA_PRODUCT.tif",
+      "bytes": 33603,
+      "sha256": "79caf71754427c8547dac442f65b9807bd1f0aae8525fa3ea5af2d70882984e6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI04_GRA_PRODUCT.tif",
+      "bytes": 49125,
+      "sha256": "b697da1fff434ebfbfc89ed05f03fb89f8915d7e48cb513351fae53a598b5070"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI05_GRA_PRODUCT.tif",
+      "bytes": 10946,
+      "sha256": "f5e98d293bb7f34c99270d4b38dff61267b47e4ea6deab3f7b0d58d123907bb5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI06_GRA_PRODUCT.tif",
+      "bytes": 10381,
+      "sha256": "59f6e9f270d363f6e4eda102c47b21ec82d7551f5f946df389fc4f4379358c7a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI07_GRA_PRODUCT.tif",
+      "bytes": 67735,
+      "sha256": "78a39bcb0cf5c4da2445644b7ea583161c87da0208a85311d2ebc30b331092af"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI08_GRA_PRODUCT.tif",
+      "bytes": 149915,
+      "sha256": "8352e02ba78b1c3c226b5f3a025ebc527e05daaf5392f22ba83ce9ce8c7c4c6a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI09_GRA_PRODUCT.tif",
+      "bytes": 180982,
+      "sha256": "bac1a6f33072972eea35577d37a06185505854403e6b6f74e6623f87eb3af4cf"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI11_GRA_PRODUCT.tif",
+      "bytes": 108234,
+      "sha256": "33530a51d03f40d58192177217866708859377605bbd0639042f82bc27897381"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR352_AOI13_GRA_PRODUCT.tif",
+      "bytes": 112378,
+      "sha256": "39f687807a61d368c33aaf2c621c2144889189469a1e61edbb48cb904ce6a13b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR354_AOI03_GRA_PRODUCT.tif",
+      "bytes": 111020,
+      "sha256": "d743caaf66ac9d8b67fe8b1352770462f6a182307a612e9db6589e3654c44fe2"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR354_AOI06_GRA_PRODUCT.tif",
+      "bytes": 13290,
+      "sha256": "d7988ef03cb05fffe97f1fa9d01e89b80fcbb7117992e433ff002944f657b24a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR354_AOI19_DEL_PRODUCT.tif",
+      "bytes": 201737,
+      "sha256": "e1c643b7f80b9324189886ed9d5c09acd974a27dc67246d4278aea4f5385780c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR354_AOI22_DEL_PRODUCT.tif",
+      "bytes": 148241,
+      "sha256": "5bb44b1fb9438d15374249598cc52953510e9f1da826dc1af8cfa2ddf2f64695"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR357_AOI03_FEP_PRODUCT.tif",
+      "bytes": 540269,
+      "sha256": "8d39ce64e615591a4a64afa8990bf5e683e394e1390e61ece490e30d1bf5ff15"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR357_AOI05_GRA_PRODUCT.tif",
+      "bytes": 15572,
+      "sha256": "25eed39546d3e59560f10e153785f4d847274b376bf948610375d1c128729bbf"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR357_AOI06_GRA_PRODUCT.tif",
+      "bytes": 7427,
+      "sha256": "e8fa88a8f0e4f42a6faf41bedba7e82f4074ce3f9cdecf818abce9f8ee7277ca"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR357_AOI08_GRA_PRODUCT.tif",
+      "bytes": 37364,
+      "sha256": "7d2f034a786b1c77f8e1d077ca4ae5bf092381ebee0e39359b1274eb18dacd5f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR359_AOI02_DEL_PRODUCT.tif",
+      "bytes": 187055,
+      "sha256": "dafb9baaf90f4e5cd55db5800524986f2a23b30033476fbbcc76f5b282ce96b5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI01_FEP_PRODUCT.tif",
+      "bytes": 1066228,
+      "sha256": "5cbdc82a690a8b5f228ca416473112aaa506d7f413fe06f92ebcdaa8caeab0f2"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI03_FEP_PRODUCT.tif",
+      "bytes": 674241,
+      "sha256": "1df8bfebe6ee6a454188c7848828a7844108a023830e839a28e9c463a299810e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI07_GRA_PRODUCT.tif",
+      "bytes": 27175,
+      "sha256": "df35e24ea7692704cbd6d258069633c9a0fec6ff0a69fb46a5ccd36b0b067d26"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI08_GRA_PRODUCT.tif",
+      "bytes": 15639,
+      "sha256": "a20d16bd64bde6b6064fd612e33cec40435740c6713f9f043bf652e36a851dfd"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI09_GRA_PRODUCT.tif",
+      "bytes": 43356,
+      "sha256": "302988280291f04d884ec4477769864bae249c73d67e6ae683b181c537886cea"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI12_GRA_PRODUCT.tif",
+      "bytes": 91189,
+      "sha256": "e91cdd8894e5bfe74e8d1da4245c36349778041e0186acf389173e6e71d8703b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR385_AOI15_GRA_PRODUCT.tif",
+      "bytes": 21160,
+      "sha256": "6828db5f34fd4b9763478c4cfcdfface65ae01037aadf67f3dbf1d3305afa75f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR388_AOI01_DEL_MONIT01.tif",
+      "bytes": 616108,
+      "sha256": "7e7f8723368d0d826b6e2463e06b032fcef631df863dc7c8eb20c3fa77a95a4d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR388_AOI02_DEL_MONIT02.tif",
+      "bytes": 230993,
+      "sha256": "4deaa4b8d5f32a1dba18e42653988b7545ddab10896f9c88ca2f716f6ce2bd71"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR388_AOI06_GRA_PRODUCT.tif",
+      "bytes": 28701,
+      "sha256": "dcea31285cc7043502225392353dc02b7850c88a3ab133adbd14049bf9f64420"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR388_AOI07_GRA_PRODUCT.tif",
+      "bytes": 43032,
+      "sha256": "d01b9f562ed63406908cdd390547fd7d3f9ee0d57bd6119c0188673a7503395d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR392_AOI01_DEL_MONIT03.tif",
+      "bytes": 50492,
+      "sha256": "ab7bcf4747b4257a0d9664179f675bc849f7cf5684ddd7f84fc1e9db0075fb2a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR395_AOI01_GRA_PRODUCT.tif",
+      "bytes": 9626,
+      "sha256": "4b4b925f29483900bf68bf033ab39b4e4a5c327003b5e0e043ac55f0f4374e5e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR395_AOI02_GRA_PRODUCT.tif",
+      "bytes": 6643,
+      "sha256": "2053d5753a7aac9c26c6fbd1d09603c8cf88213ea2fa4ab093a94ce0dbcf5952"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR399_AOI01_DEL_PRODUCT.tif",
+      "bytes": 126508,
+      "sha256": "fcf1765f7204bf5e29eda03f616acfbbdb844007b12372bb04133b702dd4e7a8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR405_AOI01_FEP_PRODUCT.tif",
+      "bytes": 159752,
+      "sha256": "f4c76fabf82e99330d74d6a695496328351f438988c6202967b7a5edee9db87b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR405_AOI02_DEL_MONIT01.tif",
+      "bytes": 163997,
+      "sha256": "7b087d85346d1adbb83b979f989029fe762004142131b09d19990a989f77d62f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR405_AOI03_DEL_PRODUCT.tif",
+      "bytes": 571458,
+      "sha256": "a6ae1aa50fde689974f9d1f5ee634372d5aabe93de110d3007b58af4188ec989"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR410_AOI01_DEL_MONIT01.tif",
+      "bytes": 35186,
+      "sha256": "b220d49e679b41432fae016f1799036380c808f61c1d204de2897552c6be1592"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR410_AOI01_DEL_PRODUCT.tif",
+      "bytes": 35186,
+      "sha256": "b220d49e679b41432fae016f1799036380c808f61c1d204de2897552c6be1592"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR410_AOI02_GRA_PRODUCT.tif",
+      "bytes": 10244,
+      "sha256": "18e6da4151af25e5b7372de20fa1a94c4f78fe395c3314a7a9de78e1cdc34db9"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR411_AOI01_DEL_PRODUCT.tif",
+      "bytes": 141014,
+      "sha256": "e41424b4e67fe5c6c12f74e26357cd0acfbe982cf463ea3a15a5e343c690405b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR413_AOI01_FEP_PRODUCT.tif",
+      "bytes": 57727,
+      "sha256": "27ac43dd2f581a180a35e9d2b5afa84df717ecfbfd1f4efb46b3b0275ed74759"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR413_AOI03_GRA_PRODUCT.tif",
+      "bytes": 24286,
+      "sha256": "0dd02f059b8304f63ba5db32ff7f48e38a3bdc2367bd9878123da1bf6f2f3bf5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR416_AOI01_DEL_PRODUCT.tif",
+      "bytes": 290117,
+      "sha256": "ffe2bc02a505741ffad5992d7a97955b381e9f5b85e4b5c301598c2ebcb0f4c4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR421_AOI05_DEL_PRODUCT.tif",
+      "bytes": 151376,
+      "sha256": "f9262f31c4b3e41ad12b5e08ced9e078d7ed8b300cb06c11f4b5dbe60611cac4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR424_AOI02_DEL_MONIT02.tif",
+      "bytes": 805646,
+      "sha256": "e9bc884ead40f44d4bc2e701bbc8a227ce1399194d3be8370b2e51450e546c58"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR424_AOI02_DEL_PRODUCT.tif",
+      "bytes": 1852802,
+      "sha256": "f3bcf62086924d1bb310bb21a183db5c154c0cf834023c2b211fbd71a0bc437e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR424_AOI02_FEP_PRODUCT.tif",
+      "bytes": 1677321,
+      "sha256": "3542c1d185f16185d5e5f70969992d8a536f11da27bdf65890b5503517963daa"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR424_AOI03_DEL_PRODUCT.tif",
+      "bytes": 965373,
+      "sha256": "6c4af76f0d3cb779bffe7b5f06c91036a2017544d242c21cba50f59063ebe138"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR424_AOI04_DEL_PRODUCT.tif",
+      "bytes": 98558,
+      "sha256": "05607fe65b7ed95b5f320cd1fad418040d78411e13bb46fef4e28d52205f0a11"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR424_AOI05_DEL_PRODUCT.tif",
+      "bytes": 250777,
+      "sha256": "a98b2f47e40b4376302a8c43101cfe9cab4fa9694b5483dbb5a043fc669ce60c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI01_DEL_MONIT01.tif",
+      "bytes": 140006,
+      "sha256": "15c59fbbdf7f6f4e28bbc1ac30cf2129516030b95f9fa7884db3d1907b7ee78a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI01_DEL_MONIT02.tif",
+      "bytes": 98293,
+      "sha256": "1e857ab7cba63d317025af0f68c2d40fb0110ef350f97c6fc85b790167c4c25d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI01_DEL_PRODUCT.tif",
+      "bytes": 138036,
+      "sha256": "81e955071d781f4c64623fb40271c4dc5e8c7474537fb436dbf419b684d8d0c7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI03_DEL_PRODUCT.tif",
+      "bytes": 1870907,
+      "sha256": "1b37f3135a9278f5cd8a96e8557d80cb6278bfbc45c385d6499d124b61d66a93"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI04_DEL_PRODUCT.tif",
+      "bytes": 324238,
+      "sha256": "2fe9aee97883b97b7a64918a10c1e99f591020fb415ad6b4ef128b66b8e9c319"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI05_DEL_PRODUCT.tif",
+      "bytes": 1123026,
+      "sha256": "6aada03d011417430586aebf02b5c776c00e122a1bfc3c3fef34b372373c1932"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI06_DEL_PRODUCT.tif",
+      "bytes": 3583334,
+      "sha256": "3b77e6e3da985a078b76fd5f8b078a28ba6ba1ba12efe5c495d7946fe726dabf"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI07_DEL_PRODUCT.tif",
+      "bytes": 2218438,
+      "sha256": "b90a059dc1d0b7e8c9a1e4e7f80aa759c40a169d70fa916f7a413d82c1d24557"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI08_DEL_PRODUCT.tif",
+      "bytes": 147240,
+      "sha256": "daa96eeacf13bebcfd31d378cad339f58dc4965e872c37712ac697a6977b99fa"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI09_DEL_MONIT01.tif",
+      "bytes": 11763,
+      "sha256": "80276c0bb39ea65433338647932298b8592f96a5c12c8f0b9965e1c87f6aaeab"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR429_AOI09_DEL_PRODUCT.tif",
+      "bytes": 11341,
+      "sha256": "b11b75cd5475c57fbb9a2b80ca61c4c2bbcc352738ef836e3218b8b2b74c761e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR431_AOI03_FEP_PRODUCT.tif",
+      "bytes": 198029,
+      "sha256": "21b3461f09734d8a73667a23d054a9adade5dea55c1c91f1890d4c29e37e9205"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR431_AOI04_FEP_PRODUCT.tif",
+      "bytes": 39236,
+      "sha256": "3b55178febef6b145d8539d5186636a1d93c69d2c0d7397eec90ba52ed2c41de"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR431_AOI05_FEP_PRODUCT.tif",
+      "bytes": 102399,
+      "sha256": "d2b1c844f1f01c01103b95b209afa71e3faedd1780d021d554e11cdf76cdbda6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR431_AOI06_GRA_PRODUCT.tif",
+      "bytes": 52956,
+      "sha256": "05ce7fd4e0d66ae7fa66d2ed7cd044f86e40d4eead2576c30d7449f751c54986"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR431_AOI07_GRA_PRODUCT.tif",
+      "bytes": 4167,
+      "sha256": "f5ab4dfa59bd01e91f2bfa8772136ea9fc118755ad7fb86592819f2a6225b64b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR431_AOI08_GRA_PRODUCT.tif",
+      "bytes": 51224,
+      "sha256": "a7df1bd8da17a47a73f02ab3f98834992c86317f950c2f0c8144f1b7f40b0067"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR434_AOI05_GRA_PRODUCT.tif",
+      "bytes": 64001,
+      "sha256": "01e78472632c017c06a789a52f902874e50ef13b56db67bb30fcd7b177c84efa"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI02_DEL_MONIT03.tif",
+      "bytes": 77563,
+      "sha256": "cf9bcb1dd8bf64f30d6eee259933e4d27fe3f73a792ca1d140d8359350548fe3"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI02_DEL_MONIT04.tif",
+      "bytes": 48496,
+      "sha256": "f4c9553348dbfccc73cf99de8accfa26db119488c07906aadbdccdbafb3d9399"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI05_DEL_MONIT01.tif",
+      "bytes": 96282,
+      "sha256": "cb5efc1d844847f71acec28dca051deb852f43bd458b1a310b1d4a3166e7315f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI05_DEL_PRODUCT.tif",
+      "bytes": 34675,
+      "sha256": "0187b952d9b5d279913a392b073f0e647e5fc2c478089acb7e02081cd2a58c52"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI06_DEL_PRODUCT.tif",
+      "bytes": 47431,
+      "sha256": "d7d0c2ba55b14e28a89b59548af92340020505658841bedfbe21184dca75991e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI07_DEL_MONIT01.tif",
+      "bytes": 49029,
+      "sha256": "6ccadf9ef4398548d6fedf4e1d2977b317e3ee210338e594339be303d804cbdf"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI07_DEL_PRODUCT.tif",
+      "bytes": 47711,
+      "sha256": "857b79a77decf44be4767cd2eb84ccb6d1e6c50b924ba667206ef63ed314917e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI08_DEL_MONIT01.tif",
+      "bytes": 25109,
+      "sha256": "c7ee5114959dd95c44a6141fb53d9d94e58e0bf3bd6cc603dddf90dfb5fa2848"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI08_DEL_PRODUCT.tif",
+      "bytes": 25102,
+      "sha256": "118a57015bce9b6bc028173dfc473951f8c9ffe02aaa3e7bd64ce0a7381021a8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR441_AOI09_DEL_PRODUCT.tif",
+      "bytes": 39017,
+      "sha256": "12460c54ce94d7289304c040a34bd29ea7cbe2080ab91e46564f92b045cf2661"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR444_AOI02_DEL_PRODUCT.tif",
+      "bytes": 597429,
+      "sha256": "67545338a6718c1d04fb6634e3ebac8c8dcb3d5fc6767a0733ae99bd297c9ee9"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR444_AOI03_DEL_PRODUCT.tif",
+      "bytes": 248844,
+      "sha256": "a9cd3eabddda1ca642047f8eb13d4a0badc0d4dd502729ec0fffbc795300b54a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR444_AOI03_FEP_PRODUCT.tif",
+      "bytes": 308983,
+      "sha256": "118ef70655f655baf833b1bb03cb6a7bd8c06134b07b35a7d082e59a7ff49bc1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR444_AOI04_DEL_PRODUCT.tif",
+      "bytes": 202474,
+      "sha256": "d74606d764a4ea1ec5e7e267ef7543daab8607422ffbc93b0b11db387b497735"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR445_AOI01_FEP_PRODUCT.tif",
+      "bytes": 400201,
+      "sha256": "ab91300a1230214dc0ed1a58952f1abbb617156adc9828f20d03ba4cf8f5b05c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR445_AOI02_DEL_PRODUCT.tif",
+      "bytes": 977830,
+      "sha256": "8915ece31adbee61a92909c29ec41f473f7ab96f02fb7f1be86820d22b83f390"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR446_AOI01_DEL_MONIT04.tif",
+      "bytes": 812133,
+      "sha256": "bfb6c4e981509c1a5a8ab00f20d58c547b16960ffe2bb2351b3e5b040fc12fb5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR446_AOI01_DEL_MONIT05.tif",
+      "bytes": 929002,
+      "sha256": "6ac770608f251d0624870cb68b629ceed511d9547e9277448ce668f14ab47674"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR446_AOI01_DEL_MONIT06.tif",
+      "bytes": 855226,
+      "sha256": "4edda55826fe9221bc4f48992073ecfa1b233f8c0860213d473bb41709107385"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR446_AOI01_DEL_MONIT07.tif",
+      "bytes": 764594,
+      "sha256": "930fce4b7e53bd7fc71ab5c7ac73d8861cce0fb27a9b53b07daba935ceb44214"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR446_AOI01_DEL_PRODUCT.tif",
+      "bytes": 842567,
+      "sha256": "84ecf0502308a6d399e3b50dfff665cb2ad4c20bd760b9409dc1f21efa07423e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR446_AOI03_DEL_PRODUCT.tif",
+      "bytes": 777570,
+      "sha256": "7b2a4cb3f1f7a2ceca4012cf0573dde2fd93d7e37549a578645e1fe68a45b481"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR456_AOI03_DEL_PRODUCT.tif",
+      "bytes": 47341,
+      "sha256": "975f75d7c2ddc55483d98bb426ca5b895f07268f33d91ebd1859b191b9d8899c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR456_AOI05_DEL_PRODUCT.tif",
+      "bytes": 73165,
+      "sha256": "56d4558a8da99d3d9fee013139c32d6dfb988c3e8cef7c27f8f6b23bf04412b7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR456_AOI08_DEL_PRODUCT.tif",
+      "bytes": 54128,
+      "sha256": "3ddbfe4a59c607725cfe68da3aa8dbdc4d5ddbe65a33c621b5f849c3bd1dce56"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR456_AOI09_DEL_PRODUCT.tif",
+      "bytes": 57762,
+      "sha256": "14dfce758ea0db66756d6ef9474905fc29b34e4e40bd5737b2af2b83f320153c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR464_AOI01_DEL_PRODUCT.tif",
+      "bytes": 83026,
+      "sha256": "07d1c4e956f767858aebd2de974a6db172476a2af2fd853829464f70929e5032"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR464_AOI04_DEL_PRODUCT.tif",
+      "bytes": 165279,
+      "sha256": "f0ac785cf681d36cd9a021cfa8f442f5dde56f1067d2025ce6bd000d17398d2a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR464_AOI05_DEL_PRODUCT.tif",
+      "bytes": 360792,
+      "sha256": "1f24161d16e615c289d09c37be453956df4ef13d36604fa9f528f0e7d35f71f9"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR465_AOI01_DEL_MONIT01.tif",
+      "bytes": 2940695,
+      "sha256": "a739ebb9b1aa2357624c3d10a62b5bab02d453d6ab3b47cf41d59b3f59c40258"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR465_AOI02_GRA_PRODUCT.tif",
+      "bytes": 44596,
+      "sha256": "af9b5b9528ee5c5569ab3742b8b0fd25c355e7aab672c4d3d5341a3765fe0629"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR465_AOI04_GRA_PRODUCT.tif",
+      "bytes": 31801,
+      "sha256": "686cb236f2d84bd16c4721726c9e8cf0151a097516998c73888168d6854ed1f4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR465_AOI05_GRA_PRODUCT.tif",
+      "bytes": 32632,
+      "sha256": "77c2946c10bcac00daf76cb3224c9f4d181de14a2655409a7d6eb3ec045193d6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR465_AOI08_GRA_PRODUCT.tif",
+      "bytes": 6884,
+      "sha256": "5e9a79f3ad59984f6e063fd591ede39c145183d1117e1a3278f5aca0dd19447a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR467_AOI02_DEL_PRODUCT.tif",
+      "bytes": 203207,
+      "sha256": "332844bf4757f0ef87d170e64e0db833e7bd667e7ddfa4b19086b8957bf4ac39"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR467_AOI02_FEP_PRODUCT.tif",
+      "bytes": 178922,
+      "sha256": "2955e8de3a98469946ce7db6f93c4524cf77b4e9d732e511b2d24757b4c7ca35"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR467_AOI03_DEL_PRODUCT.tif",
+      "bytes": 305726,
+      "sha256": "20c33d7924cb20f1c10b1bf4a1078210d502272e69a8a5e2a19d22bd338be356"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR467_AOI04_GRA_PRODUCT.tif",
+      "bytes": 15628,
+      "sha256": "9e98904fb3ac3aecc42a42ed34facf4b91a46a8af5ec3215c43c5992b1b36052"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR467_AOI05_GRA_PRODUCT.tif",
+      "bytes": 17357,
+      "sha256": "f8b0dc3e531dec8fe65e8948e38d84d885176ea2e7441e11c6b67e9607f7ffe5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR468_AOI01_FEP_PRODUCT.tif",
+      "bytes": 724280,
+      "sha256": "48a4418e5b5b97c13d7f089c63741bd8134092109160d222ff8eb2026b2143d2"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR468_AOI02_DEL_PRODUCT.tif",
+      "bytes": 354722,
+      "sha256": "98c47b635649bd19ddea25be3af3a82450b423ebe5d54dbe4195dd90e82df18f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR468_AOI04_GRA_PRODUCT.tif",
+      "bytes": 12964,
+      "sha256": "83999297a4c58a161165adb83e303045e9df31c43ab27e7ca959f5fe8c07c19d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR468_AOI05_DEL_PRODUCT.tif",
+      "bytes": 180782,
+      "sha256": "deec433f7aea7d21bdb49bf27000b938b35a91a3ed38bc6992150f8555c9726f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR468_AOI06_GRA_PRODUCT.tif",
+      "bytes": 7328,
+      "sha256": "73dae1ee96d9e38bb6727ec4b3b14131608af6307f9e547047eaeb1b1aa3e3c8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR470_AOI01_DEL_MONIT01.tif",
+      "bytes": 1171258,
+      "sha256": "abdf877c0357fdbf45a6e6a626a3884083646e1621c9f028048d6e47d1c9f9c3"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR470_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1829180,
+      "sha256": "6e1e25d4a87dd22bfb232ac31bdf70b9d32adc2bab95e7b341e969f6101464fb"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR470_AOI04_GRA_PRODUCT.tif",
+      "bytes": 5866,
+      "sha256": "fd9e2445d9045798d2ae1cd9f55ef35d4ad66679e2ce3058afde03ea6f707ed1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR472_AOI03_DEL_MONIT01.tif",
+      "bytes": 1477128,
+      "sha256": "0fc2dfb1fd85b54543da7092bf7fc55b3c65ac0cca8fcc11b9f62253b8a173db"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR472_AOI03_DEL_MONIT02.tif",
+      "bytes": 1472396,
+      "sha256": "298d74751c69311aa0bdcc6dff7404ee9c3b554b499b08912fc09f171467eb23"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR472_AOI04_DEL_MONIT01.tif",
+      "bytes": 2556903,
+      "sha256": "a2c1b94acb66964be9b0787940865ff9d1dbd7ba8a04639bec17efe786f6fe6e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI01_DEL_PRODUCT.tif",
+      "bytes": 213649,
+      "sha256": "3e6a1c394cd395f68e185f625178a3eb2bb07aeec00d1a806a6d2e433af002e1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI02_DEL_PRODUCT.tif",
+      "bytes": 31419,
+      "sha256": "8dfbb52c320bdf223ee435a1a60234d4ff845a2e7143e54bf099f404b933c3d1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI05_DEL_PRODUCT.tif",
+      "bytes": 502501,
+      "sha256": "79c42133bab527316c9bb9aef1b2ab1d2c08abba6cf8cab2fbe41278b61452d2"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI06_DEL_MONIT01.tif",
+      "bytes": 551652,
+      "sha256": "7c62f9b2ee3c07221ecd12f389992cadbe5c79997b5ea4b38c9ff6982d426a53"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI06_DEL_PRODUCT.tif",
+      "bytes": 503957,
+      "sha256": "28cfc5414abc12d83a686f3613c7806c961782a44ed08744575907943fa9026b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI07_DEL_MONIT01.tif",
+      "bytes": 688121,
+      "sha256": "cddc81f47daa47408e11888354849ccb7fa6b173a2caf202d7c2e2aa5195be89"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI07_DEL_PRODUCT.tif",
+      "bytes": 476197,
+      "sha256": "c94f8a346e267ea967cbb4da11ebf1349b9e6cca0fde081b823b9abc2bdf8c7a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI08_DEL_PRODUCT.tif",
+      "bytes": 54550,
+      "sha256": "6881de97c2e614c6eae68d87e40c5302f830df9c84909871f29751541e5e8faa"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR475_AOI09_DEL_PRODUCT.tif",
+      "bytes": 123126,
+      "sha256": "56e0ea091d818e543ebd29e90939ce27c012c94dea6b1ef78e129e56cbd71711"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR478_AOI01_GRA_PRODUCT.tif",
+      "bytes": 4928,
+      "sha256": "917d5fec1a987df086bb8b3532cd6ec599dbfedb209438f266037f95b3e2b5b0"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR478_AOI03_GRA_PRODUCT.tif",
+      "bytes": 6207,
+      "sha256": "f7c4a91f845942e3e7d6a84cfdac990d51b4981cc2c56cd3a34ef93f2ed6413f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR479_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1283446,
+      "sha256": "f4d05ded3ef2076007ca86535f3ab9ec6fad649ebf7312f5d3e7d3248a2fd2c1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR480_AOI01_GRA_PRODUCT.tif",
+      "bytes": 55451,
+      "sha256": "2cd9a0c6b673792519ba74d4811be46e6ef23ce38104886a70206e92ebe8b4bb"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR480_AOI03_GRA_PRODUCT.tif",
+      "bytes": 23491,
+      "sha256": "49d3c771a909ff47bf706d1901f7efd89a28e3edf1b10a509013c01d06544fed"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR480_AOI04_GRA_PRODUCT.tif",
+      "bytes": 10577,
+      "sha256": "3b0f75089c0355923273aa60f469e84ca7278b28f89987fe6aa574c765315844"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR481_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1161270,
+      "sha256": "570c94f70495f0b5a1515de0259abfa425140f024f30d266cc2d9ec5834afc48"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR481_AOI02_DEL_PRODUCT.tif",
+      "bytes": 274400,
+      "sha256": "745369a590344e58ad0f8f80e12ca4bcfa82754e9136ca94c329a5e7bc809e4e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI02_DEL_PRODUCT.tif",
+      "bytes": 309267,
+      "sha256": "34df75e089bec2de8ededbc44459ee0b71c27b9994f0f2c53703647faf2cb9c0"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI03_DEL_PRODUCT.tif",
+      "bytes": 1142983,
+      "sha256": "ec4e7b1555d9687e0a1123e37b353ee51df3ce7dd81e5861267041f35af97276"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI03_FEP_PRODUCT.tif",
+      "bytes": 1142983,
+      "sha256": "ec4e7b1555d9687e0a1123e37b353ee51df3ce7dd81e5861267041f35af97276"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI04_FEP_PRODUCT.tif",
+      "bytes": 508910,
+      "sha256": "cd7cdb3b74748cc885cced59b56b32a3337b78f6b10a5540d00c2b646ad373c1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI05_DEL_PRODUCT.tif",
+      "bytes": 661015,
+      "sha256": "a97a17a93f2a8275d96d5fc5613859c050919010dd9e0f570c249ce7343aa325"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI05_FEP_PRODUCT.tif",
+      "bytes": 497641,
+      "sha256": "dc9362ab9831006963cd4c63da22e1bda074b1d8d0593f79010184d0f964b11e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI06_DEL_PRODUCT.tif",
+      "bytes": 1136827,
+      "sha256": "41200ae38737c7fb294203871efd3bce59ed75e96a74184f2496379a29e88d9c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI06_FEP_PRODUCT.tif",
+      "bytes": 1136794,
+      "sha256": "de30f3e649a131bde9c19a5e201a43016abb77a6b702968efd9bb80c88d67eac"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI07_DEL_PRODUCT.tif",
+      "bytes": 795575,
+      "sha256": "0529863f2f3dc2385aa153c6cd87dd494117de54d75ec9c56015a0dd5c3fb04f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI07_FEP_PRODUCT.tif",
+      "bytes": 863119,
+      "sha256": "468bf4352c16a2fedb14534427c0ec4fb39f35a0c8417cefedc49f4155dd564d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI08_DEL_PRODUCT.tif",
+      "bytes": 802890,
+      "sha256": "9f6f67d25c2a2d0da2f9b2c666cce78acd46af62018a222735c12c19bb9ebdf4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI08_FEP_PRODUCT.tif",
+      "bytes": 526541,
+      "sha256": "48fa0ab4d2a6a131c5009d11113d0226d25852f78f9ec652349a480832b8bd9d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI09_DEL_PRODUCT.tif",
+      "bytes": 423718,
+      "sha256": "c39fd0d598710d034c60e764f884076e1f29b6d1014f3459de701532dcf51937"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI09_FEP_PRODUCT.tif",
+      "bytes": 423531,
+      "sha256": "43cff7ccce069393b31ca16253b4263fb649789020e75c8356eb2fecd434364d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR482_AOI12_DEL_PRODUCT.tif",
+      "bytes": 562977,
+      "sha256": "de8557c520c045b595d95a6748c30d392796aefcf91cbd8e6567d74980fe9159"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR483_AOI03_GRA_PRODUCT.tif",
+      "bytes": 427496,
+      "sha256": "b4ed3488dfe4b08f620460621fec99c13e39b1736f84efa6032c3530fe3b0f13"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR485_AOI02_GRA_PRODUCT.tif",
+      "bytes": 19849,
+      "sha256": "5d04213ecee3f810a8bf04ae9de6567ebc2e3da2ced272337b180463032412e6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR485_AOI03_GRA_PRODUCT.tif",
+      "bytes": 6700,
+      "sha256": "f1e976766871f5c182ed3451b1d810e762e65b089b7d7fc42b14bc53bb274760"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR486_AOI02_DEL_PRODUCT.tif",
+      "bytes": 503636,
+      "sha256": "0c92aa0d77a6bf64ce6b897f6abb59a2c2f5dcd862499defaa23880c8b344295"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR495_AOI02_DEL_PRODUCT.tif",
+      "bytes": 553497,
+      "sha256": "378239cdce20bbab2ccd21f1249f46cf2ba7a8a6c70714a0729f947a6bc9ec33"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_MONIT01.tif",
+      "bytes": 820068,
+      "sha256": "9e69a04d79ea53134753830e77ec820532f8cc3d1aae89ceb7c9f0a1f5a4f099"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_MONIT02.tif",
+      "bytes": 816082,
+      "sha256": "2ef9fdebd4a8ded69515c1ff25eb57fdbf950632772ea455f16a458ce9c37936"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_MONIT03.tif",
+      "bytes": 826054,
+      "sha256": "b0920628e41799f707f6a971badf71a4602866d934657c831478b5ee6a9eecd5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_MONIT04.tif",
+      "bytes": 838555,
+      "sha256": "f1cad6c19950e701bd3b0f7a1146d0f4372015f9058d23c1462849e2b2a05004"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_MONIT05.tif",
+      "bytes": 826908,
+      "sha256": "22e1a5f3c1062b0f556d97a44f8ba0976b25860d19d207f2bcb83d2fabf2f440"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_MONIT06.tif",
+      "bytes": 683291,
+      "sha256": "acf4c7a13181b4ca16ab04e64421c1ecdf4d269ab36c193c0c9f10eef6eddc53"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_DEL_PRODUCT.tif",
+      "bytes": 819517,
+      "sha256": "dcdbc8776924efdd1467b06a2702754dd58dac03ff8148f9067f3a1b9c8b0f0e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR497_AOI01_FEP_PRODUCT.tif",
+      "bytes": 706551,
+      "sha256": "492ae4b9ef644b75e021b36b4c83df781100f79b904e854f294a16062d5974f3"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR501_AOI01_DEL_MONIT01.tif",
+      "bytes": 656968,
+      "sha256": "d13f5588628004d92cb032768a930d27216a556e47c211096f05112691093061"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR501_AOI01_DEL_MONIT02.tif",
+      "bytes": 552113,
+      "sha256": "a8cf81316a60e25fbda2cc306f4b8716b3a5967ca52b22ca28d14afde5198bf5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR501_AOI01_DEL_PRODUCT.tif",
+      "bytes": 656980,
+      "sha256": "b3f758f3d87afbfab607a273259e4dbcbbfc325983f8e8f4d4a757ad42e00776"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR502_AOI04_DEL_MONIT01.tif",
+      "bytes": 139405,
+      "sha256": "54d8bd48ab77e7bce95b848497ea7067f99346c9c1e5f7c717cbff84a87b200b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR502_AOI04_DEL_PRODUCT.tif",
+      "bytes": 139329,
+      "sha256": "fdc6c425eb4d55c21081df461e10467fa7f85664c3d38779f3f0c4d8045b7d24"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI01_DEL_MONIT02.tif",
+      "bytes": 57067,
+      "sha256": "b38aeb6eacdac079e24f16e4e95a6b23955cb9d0239b4bddab94df1b42c12abe"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI01_DEL_PRODUCT.tif",
+      "bytes": 51610,
+      "sha256": "0d4f49e14e6299982caa5fa46ffec2ee8869e22b010084b17c24c7fe4fea33ca"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI01_GRA_PRODUCT.tif",
+      "bytes": 49848,
+      "sha256": "e366ddabf7bf0e0164dd2e9a0c09c5f0d7dabc7dd3cc6f7e11281a37720c2b7e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI02_GRA_PRODUCT.tif",
+      "bytes": 120484,
+      "sha256": "9edb845089b535ff34c6856b663f7eba550e35abf7f32879a981e5643dfd78d7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI04_DEL_MONIT01.tif",
+      "bytes": 46678,
+      "sha256": "20f6cf20fe0cc3131ab90d9ef368988b14ea52323bb73477ddeed716114f6f99"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI04_DEL_PRODUCT.tif",
+      "bytes": 39560,
+      "sha256": "2429114668c985332cacd181aa6e06554576388224a3afd34f987497c7f656c1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI04_GRA_PRODUCT.tif",
+      "bytes": 32755,
+      "sha256": "a9db48057cc10999d241f4df5d02cfc9a7f983b29bc75fc0c2992a3250a19813"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI05_DEL_MONIT01.tif",
+      "bytes": 275337,
+      "sha256": "ab65ba19fe41476ba9e55e3e949e881c72afd66f2cc4a8357976dcec8bf24159"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI05_DEL_MONIT02.tif",
+      "bytes": 276536,
+      "sha256": "8b1479eba1f24d1066c78b26b8395ede2967227b5afe0bf6a9b033b103776295"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI05_DEL_MONIT03.tif",
+      "bytes": 270640,
+      "sha256": "bb3bb65229fd94fb7f2ac0b65e72324f3ac6119baea11d1fe1473b0eefde2c33"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI06_DEL_MONIT01.tif",
+      "bytes": 443238,
+      "sha256": "42d0e2749b67d12a90bf1b8b053d6a7632b2b3544e0b172a56e263c1ac934c81"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI06_DEL_MONIT02.tif",
+      "bytes": 392823,
+      "sha256": "53a372f7fb0a4002e37a13a94f95c9e4adedc442e68b992d6fc52f46e36c9548"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI06_DEL_PRODUCT.tif",
+      "bytes": 419147,
+      "sha256": "4d264e51195a03bbced046f95755f39baf5e27b97ecaae058342385be68452d6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI07_GRA_PRODUCT.tif",
+      "bytes": 34564,
+      "sha256": "62670b7bd22718be12cdbdc06ca1bc92b143f2445ae815058ba92fbe5d7a6fa2"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI08_DEL_PRODUCT.tif",
+      "bytes": 300485,
+      "sha256": "217c86a52e4dc770a775054899c63e7a4bc4ec0fe08180257ba934975687a77e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI09_DEL_PRODUCT.tif",
+      "bytes": 89293,
+      "sha256": "b7b4175a14e3c011e44da30862c3dc4e1d9a4972ac7fbdbd7d71efcea37c70b3"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR504_AOI12_GRA_PRODUCT.tif",
+      "bytes": 281119,
+      "sha256": "4d9026aece11701eafeef0338f184a2b2fe8226074484f7a82076927cd340756"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR507_AOI01_DEL_PRODUCT.tif",
+      "bytes": 7321,
+      "sha256": "b08d24426619a11a398a4b26fc1c60505dd44c360515a805a13d48ce844b6b4c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR507_AOI02_DEL_PRODUCT.tif",
+      "bytes": 60898,
+      "sha256": "0975996c2d5dd6f4ec828efab9bb22f3f013ea3de5ec7ad1517baaf10707fe53"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR507_AOI03_DEL_PRODUCT.tif",
+      "bytes": 157029,
+      "sha256": "9ac6da28421321c3e43af0ba67a270fe6cf13b8ca0cf9994b3f779c9b9229a12"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR507_AOI05_DEL_PRODUCT.tif",
+      "bytes": 136936,
+      "sha256": "1aa7b0b390e61bb72f7e13944dabace98dcd742c822f683b7d98507c3d43c39d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR507_AOI07_GRA_PRODUCT.tif",
+      "bytes": 9323,
+      "sha256": "e95edfa99d8973f0d84a308335ecaebfdc9619fe2a68a40b049a36b50b42f5f4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR511_AOI03_DEL_MONIT01.tif",
+      "bytes": 122757,
+      "sha256": "f071a154bcf669ea778142fc09d651d87aad13156f22857f76b0ec167ced705f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR511_AOI03_DEL_PRODUCT.tif",
+      "bytes": 111397,
+      "sha256": "5394f69d0b7b720a8440e50cdd475772e8066f7563b0996367bdf390cf30f9f5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR514_AOI01_DEL_MONIT01.tif",
+      "bytes": 1272851,
+      "sha256": "c386cefe3a7c40d0344fcffa7c2fc6373cdfa05555d3e51f3a14d9ded6090fc9"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR514_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1265478,
+      "sha256": "d75097de1130f278c8e65b8a1bc0e8f03c93324bc33f2f4ff76c372e6841f720"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR514_AOI02_DEL_PRODUCT.tif",
+      "bytes": 546634,
+      "sha256": "3bc567eff99f5f0f9e2ffd68c06a8a1fb6213460627617940f7857c69249e869"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR514_AOI03_DEL_PRODUCT.tif",
+      "bytes": 656649,
+      "sha256": "31ef2ae914a9a1dc26716a919b5c6de88b388da9d8cbb43858fcb3114883bfad"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI01_DEL_MONIT01.tif",
+      "bytes": 595255,
+      "sha256": "ff95499229a3503ae1635b858c679d2996e980cbf9cdde18489960fe5381fcee"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI01_DEL_PRODUCT.tif",
+      "bytes": 587584,
+      "sha256": "af5a7b2d6f27fd7417fdec08dd85878c1cc0a45489cdc3679eff528fb195a4ab"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI05_DEL_MONIT01.tif",
+      "bytes": 997061,
+      "sha256": "7fc0503baa55814536a0be3c2cb8e8b7c51d82a1e813c8e3c91a8b211cd85bf7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI05_DEL_PRODUCT.tif",
+      "bytes": 994348,
+      "sha256": "aec06299b6593ccbd8a1c3a3db85240e831594d7648dcb3c871232996a9ac191"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI06_DEL_MONIT01.tif",
+      "bytes": 443252,
+      "sha256": "af2eff177f3220fc3da1cfc9d383145387dee3ffd29f5963a837ec4a7aa6ee34"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI06_DEL_PRODUCT.tif",
+      "bytes": 443633,
+      "sha256": "3509c2054046f0caa64a69348b94e08715ee200d852daa646f83176be9a67a4a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI11_GRA_PRODUCT.tif",
+      "bytes": 41338,
+      "sha256": "444c0f19638c649201dd949ecb54e0dfa04d07dc85d0d1ba686010647c684d18"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI14_GRA_PRODUCT.tif",
+      "bytes": 103041,
+      "sha256": "af7a362250f72a79e7d10a1d2fc6920639fff0001cef96072a2c90bca511c44f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR517_AOI15_GRA_PRODUCT.tif",
+      "bytes": 69539,
+      "sha256": "6d5f7237c9a75f843da7c8a346270fcffc09dc124f296ecbd7895a5b0f223891"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR518_AOI01_DEL_MONIT01.tif",
+      "bytes": 1214650,
+      "sha256": "e4192d04e71f3d81194e484dd677bd76a280ed1fe09749f6e9958d1f6a14bdcd"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR518_AOI01_DEL_PRODUCT.tif",
+      "bytes": 801096,
+      "sha256": "e19093d19d032c4b9681911ab6ce10afb50dfeb29c94f32db53002cf7b582909"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR520_AOI01_DEL_PRODUCT.tif",
+      "bytes": 243726,
+      "sha256": "3a3f5e5c24013dbf57bcb98f7411bceb9e0f0e59be77f2e67ecd4dfdb98c84d0"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR548_AOI01_DEL_MONIT01.tif",
+      "bytes": 530387,
+      "sha256": "72c465e9acb7a53a2764c03908346381d631d6d41ba5b9ba8426c20fb1626355"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR548_AOI02_DEL_MONIT01.tif",
+      "bytes": 248433,
+      "sha256": "d6d0abee9ae41242db0fc0f40ef22be9a1c50671b3c8eba57d27e77b1eb71f9e"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR548_AOI02_DEL_MONIT02.tif",
+      "bytes": 253272,
+      "sha256": "eca7187cf7fe8940930d0f977666aa6e59717cd5b33d522851ec4cb92a0aa027"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR548_AOI02_DEL_MONIT04.tif",
+      "bytes": 245872,
+      "sha256": "4d01118c980dfc6602737e7cacc9ce7887ad5758e6797b9c8ff1f78828c45f26"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR548_AOI02_DEL_MONIT05.tif",
+      "bytes": 250630,
+      "sha256": "4882bd5628a891043426f1da8aec236677b921b28a44f47b13bdaec06702efa8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR548_AOI02_FEP_PRODUCT.tif",
+      "bytes": 173641,
+      "sha256": "4dc1b2f525ec77d1c5d839605931120748750f682414e3ced70da5881c5ce8c8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR550_AOI11_DEL_MONIT01.tif",
+      "bytes": 49985,
+      "sha256": "84e0c1c76423efb8fdbad65d283b17d85a2540d35f7f5293157f5ef6e7964879"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR554_AOI02_DEL_MONIT03.tif",
+      "bytes": 900953,
+      "sha256": "125627ce0e4ba87ae1358cb95d1b11ecac7c907523cc967d18d79e13dc65d0f1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR554_AOI03_DEL_MONIT01.tif",
+      "bytes": 212601,
+      "sha256": "cd1a99a5f08e8f984db24128418139cd760f3a9c2149cb9ae58ca672c30d80e8"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR559_AOI01_DEL_PRODUCT.tif",
+      "bytes": 1149854,
+      "sha256": "1830fbad6f8add60171bca8b633f059a2c3277d1c26f5d2806538a4a6c280e76"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR561_AOI02_DEL_PRODUCT.tif",
+      "bytes": 277223,
+      "sha256": "dab674cedded4f432c5bc919274d6abe685120cb556ba97b957ea272d27deb24"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR561_AOI02_GRA_PRODUCT.tif",
+      "bytes": 268708,
+      "sha256": "690546d547862a26f4e42d8efdefeb69247cacede95aabf7b980895b4d59635f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR561_AOI03_DEL_PRODUCT.tif",
+      "bytes": 213720,
+      "sha256": "91b6d6da51396ac5b452a04e0a75e7a29b5762d87c0d40493053fbd019e74191"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR561_AOI03_GRA_PRODUCT.tif",
+      "bytes": 206322,
+      "sha256": "a7dd7766f931a9be0d0a9a85e2590449b3b54f46be7c5ef709be1f6191379b09"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR564_AOI07_GRA_MONIT01.tif",
+      "bytes": 18635,
+      "sha256": "7cc265875258d16fc48d2c246da5e05b958bb505817d74c75b38058478d57185"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR564_AOI08_GRA_PRODUCT.tif",
+      "bytes": 21649,
+      "sha256": "30f0dcc748da20be7d75541137e304471f456d16578dae3e717ac792414a49a5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR565_AOI02_DEL_PRODUCT.tif",
+      "bytes": 52876,
+      "sha256": "d17f30e6504b78bfe8602f4492f3625fa254277e9fd1347ec963ccbc99778a82"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR565_AOI04_DEL_MONIT01.tif",
+      "bytes": 162257,
+      "sha256": "ac29a70c95f0ed1aba49e448aec55a05f345f373f026c39505cc06cf82f97d70"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR565_AOI04_DEL_PRODUCT.tif",
+      "bytes": 171198,
+      "sha256": "3f713da67267dbabc8a635a69380ae0e8a0fb2304dc9bc42a4ef25e2935f2ded"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR565_AOI05_DEL_PRODUCT.tif",
+      "bytes": 211591,
+      "sha256": "18ca98d9a0224da4aadf103b3c54670b4a1cd2e2196a0b9206e4e496a5e538ac"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR565_AOI06_DEL_MONIT01.tif",
+      "bytes": 191947,
+      "sha256": "2a94697689ae2d1bcf1d11befeb98d462a115b9c261ba3a67396a1eb4d688a55"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR565_AOI06_DEL_PRODUCT.tif",
+      "bytes": 115930,
+      "sha256": "bc75e9396a09bbef0d047458f157d81dc74d5745882b684a8a6e8723d0c246b4"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI01_DEL_PRODUCT.tif",
+      "bytes": 100353,
+      "sha256": "1b1fb33c1b9cc224e06a8c96d28f43f1dfb0465bbdce0d0627c8eda34e3c964a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI02_DEL_PRODUCT.tif",
+      "bytes": 60463,
+      "sha256": "7e51084c0255671f4ea6391189b2017fc3f09a3276cf37292dda36c540fa87d1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI05_DEL_PRODUCT.tif",
+      "bytes": 32083,
+      "sha256": "d40732c25504cd765636ab3a77da2819c98000430728763fd84ed5f7a583e90f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI07_DEL_MONIT01.tif",
+      "bytes": 93135,
+      "sha256": "3332fd96f6af1be28008083d0758bc325b71dedc1d74c5f72628468a1f173469"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI07_DEL_PRODUCT.tif",
+      "bytes": 93171,
+      "sha256": "22b897a7a0d560acee65e1a6f5e954514275baf94d397a02c9344f1910605d8d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI08_DEL_PRODUCT.tif",
+      "bytes": 168858,
+      "sha256": "3c78707b563314d735d521d29aa04e780425b307a3d11da3259523bdad4e2445"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI09_DEL_PRODUCT.tif",
+      "bytes": 54900,
+      "sha256": "3b3a451d02e969f32ad65d4f64cb969009ca5669bf77ec978e9f5dc0c9ee353a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI12_DEL_MONIT01.tif",
+      "bytes": 318408,
+      "sha256": "88fe7b3c8684a82d3b0ec6cb6f5eb29f6290ad8511b1a6a011a726ef0c39621b"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI13_DEL_MONIT01.tif",
+      "bytes": 730639,
+      "sha256": "1825d81dac5e0b396b4824f1930aa7a66b942fc23d5ea3d9a54d2a877130bd02"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR567_AOI13_DEL_PRODUCT.tif",
+      "bytes": 730521,
+      "sha256": "66718408e594dadbe339e0ee2e4a7983e379faef025bcf7b8043dadfc23e17b1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR568_AOI01_DEL_PRODUCT.tif",
+      "bytes": 4221407,
+      "sha256": "b841d8f74d79181e8de9b576b29692e2e6bc77867462050550a8ff392f48c127"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR570_AOI01_DEL_MONIT01.tif",
+      "bytes": 190965,
+      "sha256": "aff20e9b5786183c51b81ce85213f11fbdcaaacc8e35cec4fef60753087ef72d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR570_AOI01_DEL_MONIT02.tif",
+      "bytes": 254610,
+      "sha256": "9586cf6e8fad0b5b7a4ca5de0edcf521dae9fae6ea79e97105efb5c929d42754"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR570_AOI01_DEL_PRODUCT.tif",
+      "bytes": 179689,
+      "sha256": "1c2f37bb95066ccf3708b0b20ae896049787250ecf3e43c50131946824c08d09"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR570_AOI02_DEL_MONIT01.tif",
+      "bytes": 155435,
+      "sha256": "7e9bb353c066166ff1b862179adc7b671008ac94ab07233fdd2c4ad4e11684ad"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR570_AOI02_DEL_MONIT02.tif",
+      "bytes": 146021,
+      "sha256": "d280e9dd99e746b5a67faabc3721666d972f0910f66b9eeda608e9a4c705c4ec"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR570_AOI02_DEL_PRODUCT.tif",
+      "bytes": 131991,
+      "sha256": "88531e9838bfce5a4dc70d13ca9cae36e69570711d1eea68a7a4f8fd73c30e79"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR586_AOI02_DEL_PRODUCT.tif",
+      "bytes": 500774,
+      "sha256": "cfc82ef47875951122f8174f79913c5a03f63527d9268b1f343d5e4173fa5a9d"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR631_AOI01_GRA_PRODUCT.tif",
+      "bytes": 16714,
+      "sha256": "0efbbc306acc54a04790dde5bcb93afe8bae2361dc8652f871e86f499542c454"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR631_AOI02_GRA_PRODUCT.tif",
+      "bytes": 148455,
+      "sha256": "f06348261c1eeb5b723ac4f38888dbbc3fade465ca547e072ff69ad4ba0ce5e6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR636_AOI05_GRA_PRODUCT.tif",
+      "bytes": 5764,
+      "sha256": "86ef53e09147b0cf7f325f99a514ebee0448117e6de07ecf5235e2e1c926974c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR636_AOI07_GRA_PRODUCT.tif",
+      "bytes": 30964,
+      "sha256": "37cd9ab52ecc94ef1737dd3a1bd6b6edad6cb2d80a52818b886e46f688cbcf96"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR636_AOI09_GRA_PRODUCT.tif",
+      "bytes": 75392,
+      "sha256": "f1b77cf86fe59c0fcdcf88e44fa0b91505435fe4ea009284ddff92f4d03d2162"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR637_AOI04_DEL_PRODUCT.tif",
+      "bytes": 99886,
+      "sha256": "06e28e69feff978bcbf674cada3e254a60a50280901813e405bc3141778e897f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR645_AOI04_DEL_PRODUCT.tif",
+      "bytes": 154586,
+      "sha256": "90ac6eab3808b5bf8ee79d58ce306e26153a17cd930d389baf5057f24eaa6620"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR645_AOI04_GRA_PRODUCT.tif",
+      "bytes": 139829,
+      "sha256": "a197a529ef23b1106879f13926288c49206c6c19bd9550968867fcde4210ef3a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR645_AOI06_DEL_PRODUCT.tif",
+      "bytes": 387188,
+      "sha256": "963e78e22c9277a042276b4d8ae408ef03a8ab562c754d0eecb4e27b1e639f5f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR645_AOI06_FEP_PRODUCT.tif",
+      "bytes": 387188,
+      "sha256": "963e78e22c9277a042276b4d8ae408ef03a8ab562c754d0eecb4e27b1e639f5f"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR645_AOI08_DEL_PRODUCT.tif",
+      "bytes": 426298,
+      "sha256": "8d06b09e45f9b966c7fcc094b010b2fc80c1c99b0c3a35d2b79e8c1ae9153692"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR649_AOI01_GRA_PRODUCT.tif",
+      "bytes": 275097,
+      "sha256": "385b55e73a0d934ae182f591b2106287f1fed1cd1630abbca8c03bf39977135a"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR649_AOI02_GRA_PRODUCT.tif",
+      "bytes": 51662,
+      "sha256": "b6aa55460ff6b8de0d9ce65f64e43525f1919512e95dbce386aa55e189facea1"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/EMSR650_AOI03_DEL_PRODUCT.tif",
+      "bytes": 94765,
+      "sha256": "ee2b8831815a4268617db14d5ccdeb0e9446936a47bff7537c45836de893c560"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/LS20170416_SouthUrmiaLake_SatelliteDetectedWaterExtent.tif",
+      "bytes": 65858,
+      "sha256": "ba8e124afaa0dc2f1b541b60649700c215b0d46a0489a01b15d3f1754eddbae5"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/RS2_20170122_WaterExtent_SaveRiver.tif",
+      "bytes": 5182793,
+      "sha256": "23e823dbadc0bdea10a62066ec483cbdc7317c0fe646ca57e836e5266170acc6"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/ST20180507_WaterExtent_Moibalo_Somali.tif",
+      "bytes": 1282912,
+      "sha256": "2706f3872730252f4f31d5b2ac0b3e190eccaae29742a0a040b5f02fddfdc153"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/ST20180522_WaterExtent_Teknaf.tif",
+      "bytes": 37426,
+      "sha256": "9ad099c8c798b1d8804eb04fa44b327218ff5df98034c4ca5407660a4208225c"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/ST_20170426_WaterExtent_LesCayes_Cavaillon.tif",
+      "bytes": 276541,
+      "sha256": "d8e331d8f4213781fa366dd25595e01a58d35f75d27a3fa882ddf5069675d1f2"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/ST_20170811_WaterExtent_Khamkeuth.tif",
+      "bytes": 2107093,
+      "sha256": "ebb4558fcb09f8fe272a2cf4045a449a5d2ed45cd29ec5ae2615fbf931882be7"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/ST_20170823_WaterExtent_AmuruAndAdjumaniDistricts.tif",
+      "bytes": 462993,
+      "sha256": "b9fab324b037045eabd9c5ed4954772a0091f9a63ade332bf945ba73462f5bbb"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/ST_20170826_WaterExtent_Niamey.tif",
+      "bytes": 2209580,
+      "sha256": "8b17e5292053e893872f14fcf1c44d3c602a20c67826b281cd226f88609ae678"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/TSX_20170308_WaterExtent_Maroantsetra.tif",
+      "bytes": 1331136,
+      "sha256": "1d6c9de08af2d9b99a1b290dbf54296e9795ea2426bc9dea878b3328d5044933"
+    },
+    {
+      "path": "/content/worldfloods/train/gt/TX_20160811_WaterExtent_WetSoil_Khartoum.tif",
+      "bytes": 952673,
+      "sha256": "ac831cd53c649a43a69002f447d0501194d510538133e97abae0344a079ff585"
+    }
+  ],
+  "rule": "Candidate WF2_finetune_v1; released baseline is immutable. Target >=0.90 pooled water IoU over all valid pixels on the same test tiles; this is an aim, not a promised result. Train only from pinned WorldFloodsv2 train split, excluding exact eval scene names and all train EMSR activations represented in val/test. No val/test labels or masks used for gradient updates. Fine-tune all UNet weights from the released checkpoint. Train grid256/stride256, >=50% valid labels; dihedral transforms and modest radiometric augmentation; masked water BCE+soft Dice and auxiliary cloud BCE. AdamW, encoder LR5e-6/decoderLR5e-5, cosine decay, batch8, seed42. Up to16 epochs,512 optimizer steps per epoch, validation after each; early stop after4 epochs without eligible improvement. Select highest validation pooled water IoU, provided clear/cloudy validation IoU each stays within1 point of the frozen baseline. Fixed threshold0.5; no test-based checkpoint or threshold selection. Once selection is locked, evaluate test once and run composition, same-tile cloud/non-cloud paste and named scene aggregation controls. Existing test data were inspected in the earlier audit; they are not a newly blind benchmark. All new JSON under results/finetune_v1; new weights under checkpoints/finetune_v1."
+}

@@ -1,0 +1,1471 @@
+{
+  "rule": "Registered before census/strata results. Same frozen WF2 baseline and 256px/512 grid. Brightness=sqrt(B2^2+B3^2+B4^2)/10000, per official ml4floods get_brightness at commit 192426c7286315b59a2f52c7a9cdebe589242de2; cuts .3 and .35; count GT-cloud pixels above/below each cut, with water counts, on valid water-label pixels. JRC strata: permanent JRC==3; nonpermanent JRC in {1,2}; unknown JRC==0 excluded from strata but counted. Compute binary water IoU within each spatial stratum, confusion pooled within scenes; report unweighted scene mean and 5000 scene-bootstrap CI seed42, plus pooled IoU explicitly as secondary. Nonpermanent water is a JRC-based proxy, not independently confirmed flood water. Also report raw separate per-scene IoU for Campo Galliano and Ituango South; within-scene tile bootstrap 5000 draws seed42 is descriptive and not an event interval. Never add these to existing gap means.",
+  "rows": [
+    {
+      "split": "val",
+      "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 247253,
+            "water_pixels": 58
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1954,
+            "water_pixels": 0
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 248084,
+            "water_pixels": 58
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1123,
+            "water_pixels": 0
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR271_02FARKADONA_DEL_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1233809,
+            "water_pixels": 99974
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 13841,
+            "water_pixels": 1065
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1243041,
+            "water_pixels": 100852
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 4609,
+            "water_pixels": 187
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR274_05TOAMASINA_DEL_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 99162,
+            "water_pixels": 5545
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 42654,
+            "water_pixels": 3682
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1177702,
+            "water_pixels": 293486
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 15964,
+            "water_pixels": 3169
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 125614,
+            "water_pixels": 7290
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 16202,
+            "water_pixels": 1937
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1184039,
+            "water_pixels": 294455
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 9627,
+            "water_pixels": 2200
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 3783251,
+            "water_pixels": 40022
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 915528,
+            "water_pixels": 115248
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 4476888,
+            "water_pixels": 115866
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 221891,
+            "water_pixels": 39404
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_11TORTOSA_DEL_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 2707,
+            "water_pixels": 2
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 1645,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 6645494,
+            "water_pixels": 2794240
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 439728,
+            "water_pixels": 641
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 3548,
+            "water_pixels": 2
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 804,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 7012679,
+            "water_pixels": 2794759
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 72543,
+            "water_pixels": 122
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 313454,
+            "water_pixels": 27109
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 95671,
+            "water_pixels": 7984
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2838711,
+            "water_pixels": 492715
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 33407,
+            "water_pixels": 2277
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 395541,
+            "water_pixels": 33829
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 13584,
+            "water_pixels": 1264
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2858869,
+            "water_pixels": 494169
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 13249,
+            "water_pixels": 823
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR293_03OZUN_GRA_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 636035,
+            "water_pixels": 22409
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1222,
+            "water_pixels": 40
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 637075,
+            "water_pixels": 22437
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 182,
+            "water_pixels": 12
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 29225,
+            "water_pixels": 2755
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 15022,
+            "water_pixels": 320
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1773033,
+            "water_pixels": 481004
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 20989,
+            "water_pixels": 11327
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 37987,
+            "water_pixels": 2920
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 6260,
+            "water_pixels": 155
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1784585,
+            "water_pixels": 487606
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 9437,
+            "water_pixels": 4725
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR329_05CASTIADAS_GRA_v3",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 36,
+            "water_pixels": 23
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 1,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 257027,
+            "water_pixels": 5236
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 2455,
+            "water_pixels": 309
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 37,
+            "water_pixels": 23
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 258657,
+            "water_pixels": 5286
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 825,
+            "water_pixels": 259
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR358_AOI01_FEP_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 266,
+            "water_pixels": 238
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 104787,
+            "water_pixels": 16852
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 30,
+            "water_pixels": 1
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 266,
+            "water_pixels": 238
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 104810,
+            "water_pixels": 16853
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7,
+            "water_pixels": 0
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR427_AOI03_DEL_MONIT02",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 11100013,
+            "water_pixels": 1043593
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 8658,
+            "water_pixels": 65
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 11103995,
+            "water_pixels": 1043616
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 4676,
+            "water_pixels": 42
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR442_AOI03_DEL_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 42001,
+            "water_pixels": 1140
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1245,
+            "water_pixels": 0
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 42337,
+            "water_pixels": 1140
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 909,
+            "water_pixels": 0
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI01_DEL_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 206,
+            "water_pixels": 72
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 147,
+            "water_pixels": 100
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2167494,
+            "water_pixels": 1553821
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 60454,
+            "water_pixels": 13922
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 241,
+            "water_pixels": 89
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 112,
+            "water_pixels": 83
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2210908,
+            "water_pixels": 1565673
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 17040,
+            "water_pixels": 2070
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI02_DEL_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 242,
+            "water_pixels": 126
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 192,
+            "water_pixels": 173
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2197587,
+            "water_pixels": 1681675
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 63651,
+            "water_pixels": 38748
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 308,
+            "water_pixels": 174
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 126,
+            "water_pixels": 125
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2249294,
+            "water_pixels": 1714634
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 11944,
+            "water_pixels": 5789
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 211529,
+            "water_pixels": 19537
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7405,
+            "water_pixels": 999
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 217756,
+            "water_pixels": 20310
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1178,
+            "water_pixels": 226
+          }
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 754829,
+            "water_pixels": 32319
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 16266,
+            "water_pixels": 977
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 768200,
+            "water_pixels": 33168
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 2895,
+            "water_pixels": 128
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 198846,
+            "water_pixels": 33489
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 85998,
+            "water_pixels": 26449
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2845468,
+            "water_pixels": 1369885
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 44341,
+            "water_pixels": 24853
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 256892,
+            "water_pixels": 49439
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 27952,
+            "water_pixels": 10499
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2861919,
+            "water_pixels": 1380173
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 27890,
+            "water_pixels": 14565
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 467552,
+            "water_pixels": 51480
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 66227,
+            "water_pixels": 26141
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 512850,
+            "water_pixels": 69111
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 20929,
+            "water_pixels": 8510
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 251094,
+            "water_pixels": 91599
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 2821,
+            "water_pixels": 1399
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 252750,
+            "water_pixels": 92183
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1165,
+            "water_pixels": 815
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 85645,
+            "water_pixels": 26
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 53595,
+            "water_pixels": 65
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1253438,
+            "water_pixels": 51749
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 20621,
+            "water_pixels": 8661
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 125045,
+            "water_pixels": 91
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 14195,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1266173,
+            "water_pixels": 58970
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7886,
+            "water_pixels": 1440
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 61380,
+            "water_pixels": 252
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 50377,
+            "water_pixels": 913
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1258567,
+            "water_pixels": 11784
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 22737,
+            "water_pixels": 3209
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 95597,
+            "water_pixels": 972
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 16160,
+            "water_pixels": 193
+          },
+          "gt_clear_le_cut": {
+            "pixels": 1271463,
+            "water_pixels": 14848
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 9841,
+            "water_pixels": 145
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 328370,
+            "water_pixels": 76214
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 18032,
+            "water_pixels": 12854
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 341114,
+            "water_pixels": 85712
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 5288,
+            "water_pixels": 3356
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 396635,
+            "water_pixels": 12350
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 23893,
+            "water_pixels": 11966
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 412875,
+            "water_pixels": 21374
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7653,
+            "water_pixels": 2942
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 473081,
+            "water_pixels": 164455
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 237982,
+            "water_pixels": 189520
+          },
+          "gt_clear_le_cut": {
+            "pixels": 4317974,
+            "water_pixels": 1208108
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1064836,
+            "water_pixels": 933799
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 677184,
+            "water_pixels": 334974
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 33879,
+            "water_pixels": 19001
+          },
+          "gt_clear_le_cut": {
+            "pixels": 4763593,
+            "water_pixels": 1620723
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 619217,
+            "water_pixels": 521184
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 11585,
+            "water_pixels": 1787
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 20143,
+            "water_pixels": 2724
+          },
+          "gt_clear_le_cut": {
+            "pixels": 6464635,
+            "water_pixels": 3442915
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1313620,
+            "water_pixels": 1156089
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 23448,
+            "water_pixels": 2574
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 8280,
+            "water_pixels": 1937
+          },
+          "gt_clear_le_cut": {
+            "pixels": 7310783,
+            "water_pixels": 4178808
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 467472,
+            "water_pixels": 420196
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_06MWANZA_DEL_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 113777,
+            "water_pixels": 53
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 87288,
+            "water_pixels": 2
+          },
+          "gt_clear_le_cut": {
+            "pixels": 11094655,
+            "water_pixels": 196418
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 18575,
+            "water_pixels": 133
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 172509,
+            "water_pixels": 55
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 28556,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 11106027,
+            "water_pixels": 196535
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7203,
+            "water_pixels": 16
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2190502,
+            "water_pixels": 933349
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 18451,
+            "water_pixels": 14865
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2201269,
+            "water_pixels": 941570
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7684,
+            "water_pixels": 6644
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_v2",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 232536,
+            "water_pixels": 16729
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 20,
+            "water_pixels": 0
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 232549,
+            "water_pixels": 16729
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 7,
+            "water_pixels": 0
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR419_AOI01_DEL_MONIT01",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 421538,
+            "water_pixels": 246986
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 386527,
+            "water_pixels": 25926
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 650837,
+            "water_pixels": 267843
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 157228,
+            "water_pixels": 5069
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR422_AOI06_DEL_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 357,
+            "water_pixels": 37
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 19,
+            "water_pixels": 2
+          },
+          "gt_clear_le_cut": {
+            "pixels": 211780,
+            "water_pixels": 174664
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 2496,
+            "water_pixels": 1022
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 375,
+            "water_pixels": 39
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 1,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 213728,
+            "water_pixels": 175495
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 548,
+            "water_pixels": 191
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI02_DEL_MONIT03",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 21068,
+            "water_pixels": 1376
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 12582,
+            "water_pixels": 638
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2864246,
+            "water_pixels": 1261888
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 8338,
+            "water_pixels": 1469
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 30095,
+            "water_pixels": 1732
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 3555,
+            "water_pixels": 282
+          },
+          "gt_clear_le_cut": {
+            "pixels": 2869029,
+            "water_pixels": 1262621
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 3555,
+            "water_pixels": 736
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI06_DEL_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 676,
+            "water_pixels": 71
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 511,
+            "water_pixels": 8
+          },
+          "gt_clear_le_cut": {
+            "pixels": 214718,
+            "water_pixels": 137077
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 1268,
+            "water_pixels": 162
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 1046,
+            "water_pixels": 78
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 141,
+            "water_pixels": 1
+          },
+          "gt_clear_le_cut": {
+            "pixels": 215686,
+            "water_pixels": 137199
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 300,
+            "water_pixels": 40
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR466_AOI01_DEL_PRODUCT",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 2031,
+            "water_pixels": 107
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 6816,
+            "water_pixels": 277
+          },
+          "gt_clear_le_cut": {
+            "pixels": 501885,
+            "water_pixels": 122295
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 343919,
+            "water_pixels": 78440
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 5317,
+            "water_pixels": 290
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 3530,
+            "water_pixels": 94
+          },
+          "gt_clear_le_cut": {
+            "pixels": 722642,
+            "water_pixels": 174603
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 123162,
+            "water_pixels": 26132
+          }
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+      "cuts": {
+        "0.3": {
+          "gt_cloud_le_cut": {
+            "pixels": 4,
+            "water_pixels": 1
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 716508,
+            "water_pixels": 93105
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 478,
+            "water_pixels": 79
+          }
+        },
+        "0.35": {
+          "gt_cloud_le_cut": {
+            "pixels": 4,
+            "water_pixels": 1
+          },
+          "gt_cloud_gt_cut": {
+            "pixels": 0,
+            "water_pixels": 0
+          },
+          "gt_clear_le_cut": {
+            "pixels": 716923,
+            "water_pixels": 93184
+          },
+          "gt_clear_gt_cut": {
+            "pixels": 63,
+            "water_pixels": 0
+          }
+        }
+      }
+    }
+  ],
+  "total": {
+    "0.3": {
+      "gt_cloud_le_cut": {
+        "pixels": 1413748,
+        "water_pixels": 237524
+      },
+      "gt_cloud_gt_cut": {
+        "pixels": 710643,
+        "water_pixels": 232857
+      },
+      "gt_clear_le_cut": {
+        "pixels": 71202656,
+        "water_pixels": 18076676
+      },
+      "gt_clear_gt_cut": {
+        "pixels": 4959997,
+        "water_pixels": 2489855
+      }
+    },
+    "0.35": {
+      "gt_cloud_le_cut": {
+        "pixels": 1951054,
+        "water_pixels": 434810
+      },
+      "gt_cloud_gt_cut": {
+        "pixels": 173337,
+        "water_pixels": 35571
+      },
+      "gt_clear_le_cut": {
+        "pixels": 74323427,
+        "water_pixels": 19498563
+      },
+      "gt_clear_gt_cut": {
+        "pixels": 1839226,
+        "water_pixels": 1067968
+      }
+    }
+  }
+}

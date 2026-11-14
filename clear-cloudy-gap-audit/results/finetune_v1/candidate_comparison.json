@@ -1,0 +1,313 @@
+{
+  "selection": {
+    "chosen": {
+      "source": {
+        "name": "best_eligible",
+        "epoch": 2,
+        "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/best_eligible_model.pt",
+        "validation": {
+          "all": 0.9162587023504096,
+          "clear": 0.9187518608710733,
+          "cloudy": 0.7663126308361057
+        }
+      },
+      "threshold": 0.5,
+      "validation": {
+        "all": 0.9162587023504096,
+        "clear": 0.9187518608710733,
+        "cloudy": 0.7663126308361057
+      },
+      "eligible": true,
+      "scene_mean_iou": 0.718205389481352,
+      "confusions": {
+        "all": [
+          8423355,
+          378208,
+          391643
+        ],
+        "clear": [
+          7967429,
+          362793,
+          341792
+        ],
+        "cloudy": [
+          129221,
+          9602,
+          29804
+        ]
+      }
+    },
+    "checkpoint": "/content/Reproducing-research-/clear-cloudy-gap-audit/checkpoints/finetune_v1/calibrated_selected_model.pt",
+    "checkpoint_sha256": "f8ed2fb50a788279e38c3f0d0c6f895aafe8cc3afb7bd018a5f608050a2bcdce",
+    "source_sha256": "d303b6e6305dc18aaa767ee24486b19e090a2bc61524b2d4d9cd59633cee9a1b",
+    "water_bias_before": -0.06642302125692368,
+    "water_bias_shift": -0.0,
+    "water_bias_after": -0.06642302125692368,
+    "prediction_threshold": 0.5,
+    "test_opened": false,
+    "target_test_iou": 0.9
+  },
+  "comparison": {
+    "val": {
+      "all": {
+        "baseline_iou": 0.8651451103384014,
+        "candidate_iou": 0.9162587023504096
+      },
+      "clear": {
+        "baseline_iou": 0.8671038269617226,
+        "candidate_iou": 0.9187518608710733
+      },
+      "cloudy": {
+        "baseline_iou": 0.6746440927636234,
+        "candidate_iou": 0.7663126308361057
+      }
+    },
+    "test": {
+      "all": {
+        "baseline_iou": 0.7836493970690738,
+        "candidate_iou": 0.7928193855368155
+      },
+      "clear": {
+        "baseline_iou": 0.7955315465347755,
+        "candidate_iou": 0.794322786718164
+      },
+      "cloudy": {
+        "baseline_iou": 0.7667548616804217,
+        "candidate_iou": 0.7390338550118456
+      }
+    }
+  },
+  "paired_scene_comparison": {
+    "val": {
+      "rows": [
+        {
+          "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+          "baseline_iou": 0.19791666666666666,
+          "candidate_iou": 0.5573770491803278,
+          "delta_pts": 35.94603825136612
+        },
+        {
+          "scene": "EMSR271_02FARKADONA_DEL_v1",
+          "baseline_iou": 0.866683339354026,
+          "candidate_iou": 0.7503440141537252,
+          "delta_pts": -11.633932520030077
+        },
+        {
+          "scene": "EMSR274_05TOAMASINA_DEL_v1",
+          "baseline_iou": 0.9049616255042803,
+          "candidate_iou": 0.9205185173345268,
+          "delta_pts": 1.5556891830246555
+        },
+        {
+          "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+          "baseline_iou": 0.5499224333954339,
+          "candidate_iou": 0.7317331067525785,
+          "delta_pts": 18.181067335714463
+        },
+        {
+          "scene": "EMSR279_11TORTOSA_DEL_v1",
+          "baseline_iou": 0.9620768439275754,
+          "candidate_iou": 0.98724409682731,
+          "delta_pts": 2.516725289973454
+        },
+        {
+          "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+          "baseline_iou": 0.8455579624347451,
+          "candidate_iou": 0.8795752401241684,
+          "delta_pts": 3.401727768942331
+        },
+        {
+          "scene": "EMSR293_03OZUN_GRA_v1",
+          "baseline_iou": 0.284134803346626,
+          "candidate_iou": 0.4831372871596611,
+          "delta_pts": 19.90024838130351
+        },
+        {
+          "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+          "baseline_iou": 0.9473767262993635,
+          "candidate_iou": 0.9585363131164141,
+          "delta_pts": 1.1159586817050537
+        },
+        {
+          "scene": "EMSR329_05CASTIADAS_GRA_v3",
+          "baseline_iou": 0.5379310344827586,
+          "candidate_iou": 0.5526128688233203,
+          "delta_pts": 1.4681834340561695
+        },
+        {
+          "scene": "EMSR358_AOI01_FEP_PRODUCT",
+          "baseline_iou": 0.661372384196788,
+          "candidate_iou": 0.3208703120526768,
+          "delta_pts": -34.050207214411124
+        },
+        {
+          "scene": "EMSR427_AOI03_DEL_MONIT02",
+          "baseline_iou": 0.8857314584314517,
+          "candidate_iou": 0.9069363149965268,
+          "delta_pts": 2.120485656507509
+        },
+        {
+          "scene": "EMSR442_AOI03_DEL_PRODUCT",
+          "baseline_iou": 0.1216097987751531,
+          "candidate_iou": 0.0061403508771929825,
+          "delta_pts": -11.546944789796012
+        },
+        {
+          "scene": "EMSR629_AOI01_DEL_PRODUCT",
+          "baseline_iou": 0.7914181835817028,
+          "candidate_iou": 0.8897158493628166,
+          "delta_pts": 9.829766578111377
+        },
+        {
+          "scene": "EMSR629_AOI02_DEL_PRODUCT",
+          "baseline_iou": 0.8324244820327089,
+          "candidate_iou": 0.8807237930219737,
+          "delta_pts": 4.829931098926476
+        },
+        {
+          "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+          "baseline_iou": 0.8786247612432714,
+          "candidate_iou": 0.7864256018563279,
+          "delta_pts": -9.219915938694346
+        },
+        {
+          "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+          "baseline_iou": 0.8256631832797428,
+          "candidate_iou": 0.8793955160620853,
+          "delta_pts": 5.373233278234258
+        }
+      ],
+      "summary": {
+        "scenes": 16,
+        "mean_gap_pts": 2.486753404683364,
+        "ci95": [
+          -4.802228207557765,
+          9.957636232011343
+        ]
+      }
+    },
+    "test": {
+      "rows": [
+        {
+          "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+          "baseline_iou": 0.8907048628360104,
+          "candidate_iou": 0.9669911757254287,
+          "delta_pts": 7.628631288941834
+        },
+        {
+          "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+          "baseline_iou": 0.636644587266124,
+          "candidate_iou": 0.5739327450512759,
+          "delta_pts": -6.271184221484816
+        },
+        {
+          "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+          "baseline_iou": 0.9171716323079993,
+          "candidate_iou": 0.9171814569536424,
+          "delta_pts": 0.0009824645643141672
+        },
+        {
+          "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+          "baseline_iou": 0.8178489253044503,
+          "candidate_iou": 0.8874945980120684,
+          "delta_pts": 6.964567270761812
+        },
+        {
+          "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+          "baseline_iou": 0.7203674344866176,
+          "candidate_iou": 0.8329827021972884,
+          "delta_pts": 11.261526771067087
+        },
+        {
+          "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+          "baseline_iou": 0.9065858419808898,
+          "candidate_iou": 0.9460423415464153,
+          "delta_pts": 3.945649956552555
+        },
+        {
+          "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+          "baseline_iou": 0.6832698941358392,
+          "candidate_iou": 0.7717930806279643,
+          "delta_pts": 8.85231864921251
+        },
+        {
+          "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+          "baseline_iou": 0.8162693654927691,
+          "candidate_iou": 0.8062656851358214,
+          "delta_pts": -1.0003680356947653
+        },
+        {
+          "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+          "baseline_iou": 0.695407462629981,
+          "candidate_iou": 0.6837579477574307,
+          "delta_pts": -1.1649514872550282
+        },
+        {
+          "scene": "EMSR347_06MWANZA_DEL_v1",
+          "baseline_iou": 0.5657195011781361,
+          "candidate_iou": 0.40934361014420684,
+          "delta_pts": -15.637589103392923
+        },
+        {
+          "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+          "baseline_iou": 0.8426611946155774,
+          "candidate_iou": 0.8525609051084532,
+          "delta_pts": 0.9899710492875746
+        },
+        {
+          "scene": "EMSR347_07ZOMBA_DEL_v2",
+          "baseline_iou": 0.7452140619561434,
+          "candidate_iou": 0.3764333492594362,
+          "delta_pts": -36.87807126967071
+        },
+        {
+          "scene": "EMSR419_AOI01_DEL_MONIT01",
+          "baseline_iou": 0.8761210743705535,
+          "candidate_iou": 0.8854297931386014,
+          "delta_pts": 0.9308718768047841
+        },
+        {
+          "scene": "EMSR422_AOI06_DEL_PRODUCT",
+          "baseline_iou": 0.9717123670956911,
+          "candidate_iou": 0.9788449081176912,
+          "delta_pts": 0.7132541022000116
+        },
+        {
+          "scene": "EMSR438_AOI02_DEL_MONIT03",
+          "baseline_iou": 0.9163887608860081,
+          "candidate_iou": 0.9648227132024578,
+          "delta_pts": 4.843395231644976
+        },
+        {
+          "scene": "EMSR438_AOI06_DEL_PRODUCT",
+          "baseline_iou": 0.9294664028847638,
+          "candidate_iou": 0.9306573295310977,
+          "delta_pts": 0.11909266463339119
+        },
+        {
+          "scene": "EMSR466_AOI01_DEL_PRODUCT",
+          "baseline_iou": 0.6761730901129963,
+          "candidate_iou": 0.7577675987329368,
+          "delta_pts": 8.159450861994044
+        },
+        {
+          "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+          "baseline_iou": 0.7820460221191581,
+          "candidate_iou": 0.7749963229886748,
+          "delta_pts": -0.7049699130483256
+        }
+      ],
+      "summary": {
+        "scenes": 18,
+        "mean_gap_pts": -0.4026345468267597,
+        "ci95": [
+          -5.988669374462191,
+          3.8530393481277763
+        ]
+      }
+    }
+  },
+  "target_met": false,
+  "test_reused": "Existing test was previously inspected for the original research audit; not a fresh blind benchmark.",
+  "no_test_selection": true
+}

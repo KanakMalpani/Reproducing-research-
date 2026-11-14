@@ -1,0 +1,10 @@
+{
+  "repo_commit": "fab107d0a544955301ade6fa2e900447269f57b6",
+  "python": "3.13.16",
+  "numpy": "2.4.6",
+  "torch": "2.14.1+cu130",
+  "gpu": "Tesla T4",
+  "dataset_revision": "1f3faa2989e69930ac31d5c0a79fd224461123f8",
+  "prithvi_revision": "91ce9d38086a80b078a192b374df758b8855b732",
+  "tracked_files_unchanged": true
+}

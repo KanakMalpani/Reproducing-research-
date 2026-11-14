@@ -1,0 +1,118 @@
+{
+ "val": {
+  "summary": {
+   "scenes": 3,
+   "mean_gap_pts": 55.258060538781855,
+   "median_gap_pts": 47.0187814131077,
+   "ci95": [
+    26.693694820399884,
+    92.06170538283799
+   ],
+   "frac_scenes_clear_better": 1.0,
+   "verdict": "PASS (headroom >=5 pts)"
+  }
+ },
+ "test": {
+  "summary": {
+   "scenes": 5,
+   "mean_gap_pts": 52.14820515469012,
+   "median_gap_pts": 33.29880565009803,
+   "ci95": [
+    28.276575861724872,
+    79.6260144291347
+   ],
+   "frac_scenes_clear_better": 1.0,
+   "verdict": "PASS (headroom >=5 pts)"
+  }
+ },
+ "test_val": {
+  "summary": {
+   "scenes": 8,
+   "mean_gap_pts": 53.31440092372452,
+   "median_gap_pts": 40.15879353160287,
+   "ci95": [
+    34.99744104251187,
+    73.33665025631761
+   ],
+   "frac_scenes_clear_better": 1.0,
+   "verdict": "PASS (headroom >=5 pts)"
+  },
+  "per_scene": [
+   {
+    "scene": "EMSR274_05TOAMASINA_DEL_v1",
+    "n_clear": 3,
+    "n_cloudy": 13,
+    "iou_clear": 0.9932769073773936,
+    "iou_cloudy": 0.5230890932463166,
+    "gap": 47.0187814131077
+   },
+   {
+    "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+    "n_clear": 27,
+    "n_cloudy": 18,
+    "iou_clear": 0.882326569863145,
+    "iou_cloudy": 0.6153896216591461,
+    "gap": 26.693694820399884
+   },
+   {
+    "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+    "n_clear": 19,
+    "n_cloudy": 3,
+    "iou_clear": 0.9353426227708163,
+    "iou_cloudy": 0.014725568942436412,
+    "gap": 92.06170538283799
+   },
+   {
+    "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+    "n_clear": 14,
+    "n_cloudy": 22,
+    "iou_clear": 0.9946164585910062,
+    "iou_cloudy": 0.23862016418424029,
+    "gap": 75.5996294406766
+   },
+   {
+    "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+    "n_clear": 6,
+    "n_cloudy": 11,
+    "iou_clear": 0.8770773372945874,
+    "iou_cloudy": 0.5440892807936071,
+    "gap": 33.29880565009803
+   },
+   {
+    "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+    "n_clear": 42,
+    "n_cloudy": 34,
+    "iou_clear": 0.8367920110473284,
+    "iou_cloudy": 0.5460347122844657,
+    "gap": 29.07572987628627
+   },
+   {
+    "scene": "EMSR347_06MWANZA_DEL_v1",
+    "n_clear": 117,
+    "n_cloudy": 11,
+    "iou_clear": 0.4471614237101507,
+    "iou_cloudy": 0.19749835418038184,
+    "gap": 24.96630695297689
+   },
+   {
+    "scene": "EMSR438_AOI02_DEL_MONIT03",
+    "n_clear": 41,
+    "n_cloudy": 3,
+    "iou_clear": 0.9798320225523928,
+    "iou_cloudy": 0.0018264840182648401,
+    "gap": 97.8005538534128
+   }
+  ],
+  "summary_cloudy_tiles_visible_px_only": {
+   "scenes": 8,
+   "mean_gap_pts": 45.492068252442365,
+   "median_gap_pts": 33.38857118690121,
+   "ci95": [
+    22.89288469309709,
+    69.41593775561432
+   ],
+   "frac_scenes_clear_better": 1.0,
+   "verdict": "PASS (headroom >=5 pts)"
+  }
+ }
+}

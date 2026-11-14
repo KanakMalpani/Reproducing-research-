@@ -1,0 +1,3725 @@
+{
+  "rule": "Frozen released WF2. Original256px grid stride512 and >=50% valid GT. JRC YearlyHistory codes0=no observations,1=not water,2=seasonal,3=permanent. Separate binary-water IoUs on code3 permanent, code1 historically-nonwater flood proxy, code2 seasonal, code0 unknown; never label code0 flood. All/clear/cloud pixels reported. Pool confusion within scene; unweighted scene means with >=200 GT-water gate and5000 scene-bootstrap draws seed42. Also report secondary pooled IoU and GT-water coverage. JRC is used to build released GT, so permanent-water scores are label-dependent. Nonpermanent water is not independently confirmed flood; whole-image genuine flood split remains unidentifiable without labels for unknown regions.",
+  "rows": [
+    {
+      "split": "val",
+      "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 249193,
+          "gt_water_pixels": 51
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 14,
+          "gt_water_pixels": 7
+        },
+        "permanent": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            50,
+            225,
+            1
+          ],
+          "clear": [
+            50,
+            225,
+            1
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            7,
+            5,
+            0
+          ],
+          "clear": [
+            7,
+            5,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR271_02FARKADONA_DEL_v1",
+      "tiles": 20,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1247565,
+          "gt_water_pixels": 100954
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 85,
+          "gt_water_pixels": 85
+        },
+        "permanent": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            93483,
+            6922,
+            7471
+          ],
+          "clear": [
+            93483,
+            6922,
+            7471
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            85,
+            0,
+            0
+          ],
+          "clear": [
+            85,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR274_05TOAMASINA_DEL_v1",
+      "tiles": 25,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1046855,
+          "gt_water_pixels": 20426
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 481,
+          "gt_water_pixels": 346
+        },
+        "seasonal": {
+          "valid_pixels": 6545,
+          "gt_water_pixels": 3509
+        },
+        "permanent": {
+          "valid_pixels": 281601,
+          "gt_water_pixels": 281601
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            9606,
+            16255,
+            10820
+          ],
+          "clear": [
+            8285,
+            12048,
+            9648
+          ],
+          "cloud": [
+            1321,
+            4207,
+            1172
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            295,
+            108,
+            51
+          ],
+          "clear": [
+            262,
+            103,
+            46
+          ],
+          "cloud": [
+            33,
+            5,
+            5
+          ]
+        },
+        "seasonal": {
+          "all": [
+            3040,
+            2971,
+            469
+          ],
+          "clear": [
+            2945,
+            2888,
+            419
+          ],
+          "cloud": [
+            95,
+            83,
+            50
+          ]
+        },
+        "permanent": {
+          "all": [
+            281367,
+            0,
+            234
+          ],
+          "clear": [
+            274896,
+            0,
+            154
+          ],
+          "cloud": [
+            6471,
+            0,
+            80
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+      "tiles": 87,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 4649979,
+          "gt_water_pixels": 112448
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 7872,
+          "gt_water_pixels": 5007
+        },
+        "seasonal": {
+          "valid_pixels": 30113,
+          "gt_water_pixels": 27000
+        },
+        "permanent": {
+          "valid_pixels": 10815,
+          "gt_water_pixels": 10815
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            112448,
+            121503,
+            0
+          ],
+          "clear": [
+            112448,
+            121503,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            5007,
+            2587,
+            0
+          ],
+          "clear": [
+            5007,
+            2587,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            27000,
+            2978,
+            0
+          ],
+          "clear": [
+            27000,
+            2978,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            10809,
+            0,
+            6
+          ],
+          "clear": [
+            10809,
+            0,
+            6
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_11TORTOSA_DEL_v1",
+      "tiles": 116,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 3921092,
+          "gt_water_pixels": 83732
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 142220,
+          "gt_water_pixels": 2748
+        },
+        "seasonal": {
+          "valid_pixels": 353612,
+          "gt_water_pixels": 35753
+        },
+        "permanent": {
+          "valid_pixels": 2672650,
+          "gt_water_pixels": 2672650
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            83719,
+            50555,
+            13
+          ],
+          "clear": [
+            83718,
+            50555,
+            13
+          ],
+          "cloud": [
+            1,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            2748,
+            15382,
+            0
+          ],
+          "clear": [
+            2748,
+            15382,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            35652,
+            44107,
+            101
+          ],
+          "clear": [
+            35651,
+            44107,
+            101
+          ],
+          "cloud": [
+            1,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            2672644,
+            0,
+            6
+          ],
+          "clear": [
+            2672644,
+            0,
+            6
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+      "tiles": 54,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 2809926,
+          "gt_water_pixels": 71734
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 16432,
+          "gt_water_pixels": 8380
+        },
+        "seasonal": {
+          "valid_pixels": 26743,
+          "gt_water_pixels": 21829
+        },
+        "permanent": {
+          "valid_pixels": 428142,
+          "gt_water_pixels": 428142
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            49296,
+            53505,
+            22438
+          ],
+          "clear": [
+            46723,
+            41894,
+            18220
+          ],
+          "cloud": [
+            2573,
+            11611,
+            4218
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            8218,
+            6752,
+            162
+          ],
+          "clear": [
+            7761,
+            6217,
+            43
+          ],
+          "cloud": [
+            457,
+            535,
+            119
+          ]
+        },
+        "seasonal": {
+          "all": [
+            21305,
+            4250,
+            524
+          ],
+          "clear": [
+            20554,
+            3840,
+            91
+          ],
+          "cloud": [
+            751,
+            410,
+            433
+          ]
+        },
+        "permanent": {
+          "all": [
+            423943,
+            0,
+            4199
+          ],
+          "clear": [
+            401319,
+            0,
+            281
+          ],
+          "cloud": [
+            22624,
+            0,
+            3918
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR293_03OZUN_GRA_v1",
+      "tiles": 12,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 635441,
+          "gt_water_pixels": 20639
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 22,
+          "gt_water_pixels": 21
+        },
+        "seasonal": {
+          "valid_pixels": 302,
+          "gt_water_pixels": 297
+        },
+        "permanent": {
+          "valid_pixels": 1492,
+          "gt_water_pixels": 1492
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            16366,
+            41490,
+            4273
+          ],
+          "clear": [
+            16366,
+            41490,
+            4273
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            14,
+            1,
+            7
+          ],
+          "clear": [
+            14,
+            1,
+            7
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            297,
+            5,
+            0
+          ],
+          "clear": [
+            297,
+            5,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            1492,
+            0,
+            0
+          ],
+          "clear": [
+            1492,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+      "tiles": 30,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1365060,
+          "gt_water_pixels": 27097
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 5680,
+          "gt_water_pixels": 1923
+        },
+        "seasonal": {
+          "valid_pixels": 6681,
+          "gt_water_pixels": 5538
+        },
+        "permanent": {
+          "valid_pixels": 460848,
+          "gt_water_pixels": 460848
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            18096,
+            15714,
+            9001
+          ],
+          "clear": [
+            17700,
+            14721,
+            8725
+          ],
+          "cloud": [
+            396,
+            993,
+            276
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            1823,
+            1059,
+            100
+          ],
+          "clear": [
+            1823,
+            1059,
+            100
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            5530,
+            1130,
+            8
+          ],
+          "clear": [
+            5502,
+            1130,
+            8
+          ],
+          "cloud": [
+            28,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            460848,
+            0,
+            0
+          ],
+          "clear": [
+            458473,
+            0,
+            0
+          ],
+          "cloud": [
+            2375,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR329_05CASTIADAS_GRA_v3",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 256259,
+          "gt_water_pixels": 2349
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 120,
+          "gt_water_pixels": 79
+        },
+        "permanent": {
+          "valid_pixels": 3140,
+          "gt_water_pixels": 3140
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            243,
+            653,
+            2106
+          ],
+          "clear": [
+            243,
+            653,
+            2106
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            79,
+            14,
+            0
+          ],
+          "clear": [
+            79,
+            14,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            3032,
+            0,
+            108
+          ],
+          "clear": [
+            3009,
+            0,
+            108
+          ],
+          "cloud": [
+            23,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR358_AOI01_FEP_PRODUCT",
+      "tiles": 2,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 103982,
+          "gt_water_pixels": 16020
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 18,
+          "gt_water_pixels": 18
+        },
+        "seasonal": {
+          "valid_pixels": 973,
+          "gt_water_pixels": 943
+        },
+        "permanent": {
+          "valid_pixels": 110,
+          "gt_water_pixels": 110
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            13878,
+            5482,
+            2142
+          ],
+          "clear": [
+            13766,
+            5466,
+            2107
+          ],
+          "cloud": [
+            112,
+            16,
+            35
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            18,
+            0,
+            0
+          ],
+          "clear": [
+            17,
+            0,
+            0
+          ],
+          "cloud": [
+            1,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            943,
+            30,
+            0
+          ],
+          "clear": [
+            853,
+            30,
+            0
+          ],
+          "cloud": [
+            90,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            110,
+            0,
+            0
+          ],
+          "clear": [
+            110,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR427_AOI03_DEL_MONIT02",
+      "tiles": 172,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 10155049,
+          "gt_water_pixels": 102273
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 8930,
+          "gt_water_pixels": 4022
+        },
+        "seasonal": {
+          "valid_pixels": 34346,
+          "gt_water_pixels": 27017
+        },
+        "permanent": {
+          "valid_pixels": 910346,
+          "gt_water_pixels": 910346
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            46359,
+            60387,
+            55914
+          ],
+          "clear": [
+            46359,
+            60387,
+            55914
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            3933,
+            4181,
+            89
+          ],
+          "clear": [
+            3933,
+            4181,
+            89
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            26920,
+            6499,
+            97
+          ],
+          "clear": [
+            26920,
+            6499,
+            97
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            910135,
+            0,
+            211
+          ],
+          "clear": [
+            910135,
+            0,
+            211
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR442_AOI03_DEL_PRODUCT",
+      "tiles": 1,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 43201,
+          "gt_water_pixels": 1095
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 3,
+          "gt_water_pixels": 3
+        },
+        "seasonal": {
+          "valid_pixels": 6,
+          "gt_water_pixels": 6
+        },
+        "permanent": {
+          "valid_pixels": 36,
+          "gt_water_pixels": 36
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            95,
+            3,
+            1000
+          ],
+          "clear": [
+            95,
+            3,
+            1000
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            2,
+            0,
+            1
+          ],
+          "clear": [
+            2,
+            0,
+            1
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            6,
+            0,
+            0
+          ],
+          "clear": [
+            6,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            36,
+            0,
+            0
+          ],
+          "clear": [
+            36,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI01_DEL_PRODUCT",
+      "tiles": 35,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1779883,
+          "gt_water_pixels": 1145334
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 204425,
+          "gt_water_pixels": 184318
+        },
+        "seasonal": {
+          "valid_pixels": 221379,
+          "gt_water_pixels": 215649
+        },
+        "permanent": {
+          "valid_pixels": 22614,
+          "gt_water_pixels": 22614
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            1144203,
+            390839,
+            1131
+          ],
+          "clear": [
+            1144042,
+            390778,
+            1127
+          ],
+          "cloud": [
+            161,
+            61,
+            4
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            184156,
+            15132,
+            162
+          ],
+          "clear": [
+            184150,
+            15124,
+            162
+          ],
+          "cloud": [
+            6,
+            8,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            215648,
+            5625,
+            1
+          ],
+          "clear": [
+            215647,
+            5624,
+            1
+          ],
+          "cloud": [
+            1,
+            1,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            22614,
+            0,
+            0
+          ],
+          "clear": [
+            22614,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI02_DEL_PRODUCT",
+      "tiles": 35,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1961738,
+          "gt_water_pixels": 1427511
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 91280,
+          "gt_water_pixels": 86377
+        },
+        "seasonal": {
+          "valid_pixels": 195061,
+          "gt_water_pixels": 193241
+        },
+        "permanent": {
+          "valid_pixels": 13593,
+          "gt_water_pixels": 13593
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            1415473,
+            326160,
+            12038
+          ],
+          "clear": [
+            1415250,
+            326058,
+            12038
+          ],
+          "cloud": [
+            223,
+            102,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            86330,
+            3972,
+            47
+          ],
+          "clear": [
+            86330,
+            3972,
+            47
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            193231,
+            1737,
+            10
+          ],
+          "clear": [
+            193163,
+            1736,
+            10
+          ],
+          "cloud": [
+            68,
+            1,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            13593,
+            0,
+            0
+          ],
+          "clear": [
+            13585,
+            0,
+            0
+          ],
+          "cloud": [
+            8,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 209483,
+          "gt_water_pixels": 13187
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 9451,
+          "gt_water_pixels": 7349
+        },
+        "permanent": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            12914,
+            2144,
+            273
+          ],
+          "clear": [
+            12914,
+            2144,
+            273
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            7326,
+            356,
+            23
+          ],
+          "clear": [
+            7326,
+            356,
+            23
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "val",
+      "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+      "tiles": 14,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 720511,
+          "gt_water_pixels": 2466
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 1816,
+          "gt_water_pixels": 622
+        },
+        "seasonal": {
+          "valid_pixels": 27853,
+          "gt_water_pixels": 9293
+        },
+        "permanent": {
+          "valid_pixels": 20915,
+          "gt_water_pixels": 20915
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            2441,
+            3234,
+            25
+          ],
+          "clear": [
+            2441,
+            3234,
+            25
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            617,
+            312,
+            5
+          ],
+          "clear": [
+            617,
+            312,
+            5
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            9102,
+            2966,
+            191
+          ],
+          "clear": [
+            9102,
+            2966,
+            191
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            20708,
+            0,
+            207
+          ],
+          "clear": [
+            20708,
+            0,
+            207
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+      "tiles": 55,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1719846,
+          "gt_water_pixels": 13472
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 4140,
+          "gt_water_pixels": 2207
+        },
+        "seasonal": {
+          "valid_pixels": 21004,
+          "gt_water_pixels": 9334
+        },
+        "permanent": {
+          "valid_pixels": 1429663,
+          "gt_water_pixels": 1429663
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            11250,
+            163070,
+            2222
+          ],
+          "clear": [
+            10064,
+            154187,
+            1990
+          ],
+          "cloud": [
+            1186,
+            8883,
+            232
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            2179,
+            1532,
+            28
+          ],
+          "clear": [
+            2000,
+            1489,
+            22
+          ],
+          "cloud": [
+            179,
+            43,
+            6
+          ]
+        },
+        "seasonal": {
+          "all": [
+            9236,
+            11252,
+            98
+          ],
+          "clear": [
+            8127,
+            10159,
+            42
+          ],
+          "cloud": [
+            1109,
+            1093,
+            56
+          ]
+        },
+        "permanent": {
+          "all": [
+            1429656,
+            0,
+            7
+          ],
+          "clear": [
+            1372486,
+            0,
+            7
+          ],
+          "cloud": [
+            57170,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+      "tiles": 9,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 434651,
+          "gt_water_pixels": 13751
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 49746,
+          "gt_water_pixels": 19705
+        },
+        "seasonal": {
+          "valid_pixels": 30806,
+          "gt_water_pixels": 25589
+        },
+        "permanent": {
+          "valid_pixels": 18576,
+          "gt_water_pixels": 18576
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            8659,
+            14850,
+            5092
+          ],
+          "clear": [
+            8659,
+            14850,
+            5092
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            12574,
+            5929,
+            7131
+          ],
+          "clear": [
+            12574,
+            5929,
+            7131
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            24886,
+            3203,
+            703
+          ],
+          "clear": [
+            24886,
+            3203,
+            703
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            18566,
+            0,
+            10
+          ],
+          "clear": [
+            18566,
+            0,
+            10
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 172981,
+          "gt_water_pixels": 12354
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 410,
+          "gt_water_pixels": 348
+        },
+        "seasonal": {
+          "valid_pixels": 4407,
+          "gt_water_pixels": 4179
+        },
+        "permanent": {
+          "valid_pixels": 76117,
+          "gt_water_pixels": 76117
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            6691,
+            1933,
+            5663
+          ],
+          "clear": [
+            6691,
+            1933,
+            5663
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            347,
+            62,
+            1
+          ],
+          "clear": [
+            347,
+            62,
+            1
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            4179,
+            228,
+            0
+          ],
+          "clear": [
+            4179,
+            228,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            76117,
+            0,
+            0
+          ],
+          "clear": [
+            76117,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+      "tiles": 26,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1404278,
+          "gt_water_pixels": 51480
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 6685,
+          "gt_water_pixels": 6685
+        },
+        "permanent": {
+          "valid_pixels": 2336,
+          "gt_water_pixels": 2336
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            49272,
+            10775,
+            2208
+          ],
+          "clear": [
+            49181,
+            4160,
+            2208
+          ],
+          "cloud": [
+            91,
+            6615,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            6685,
+            0,
+            0
+          ],
+          "clear": [
+            6685,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            2336,
+            0,
+            0
+          ],
+          "clear": [
+            2336,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+      "tiles": 25,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1385055,
+          "gt_water_pixels": 8503
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 652,
+          "gt_water_pixels": 396
+        },
+        "seasonal": {
+          "valid_pixels": 4216,
+          "gt_water_pixels": 4121
+        },
+        "permanent": {
+          "valid_pixels": 3138,
+          "gt_water_pixels": 3138
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            7797,
+            5035,
+            706
+          ],
+          "clear": [
+            7151,
+            3443,
+            485
+          ],
+          "cloud": [
+            646,
+            1592,
+            221
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            396,
+            175,
+            0
+          ],
+          "clear": [
+            396,
+            175,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            4118,
+            78,
+            3
+          ],
+          "clear": [
+            3971,
+            78,
+            3
+          ],
+          "cloud": [
+            147,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            3138,
+            0,
+            0
+          ],
+          "clear": [
+            2987,
+            0,
+            0
+          ],
+          "cloud": [
+            151,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "tiles": 6,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 259905,
+          "gt_water_pixels": 3179
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 98,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 510,
+          "gt_water_pixels": 0
+        },
+        "permanent": {
+          "valid_pixels": 85889,
+          "gt_water_pixels": 85889
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            2349,
+            7661,
+            830
+          ],
+          "clear": [
+            2349,
+            7661,
+            830
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            98,
+            0
+          ],
+          "clear": [
+            0,
+            98,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            0,
+            503,
+            0
+          ],
+          "clear": [
+            0,
+            503,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            85889,
+            0,
+            0
+          ],
+          "clear": [
+            85889,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "tiles": 8,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 420415,
+          "gt_water_pixels": 24244
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 57,
+          "gt_water_pixels": 51
+        },
+        "seasonal": {
+          "valid_pixels": 37,
+          "gt_water_pixels": 2
+        },
+        "permanent": {
+          "valid_pixels": 19,
+          "gt_water_pixels": 19
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            22926,
+            9311,
+            1318
+          ],
+          "clear": [
+            22926,
+            9311,
+            1318
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            51,
+            1,
+            0
+          ],
+          "clear": [
+            51,
+            1,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            0,
+            0,
+            2
+          ],
+          "clear": [
+            0,
+            0,
+            2
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            0,
+            0,
+            19
+          ],
+          "clear": [
+            0,
+            0,
+            19
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+      "tiles": 101,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 4675580,
+          "gt_water_pixels": 1272698
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 99158,
+          "gt_water_pixels": 74602
+        },
+        "seasonal": {
+          "valid_pixels": 1088240,
+          "gt_water_pixels": 917687
+        },
+        "permanent": {
+          "valid_pixels": 230895,
+          "gt_water_pixels": 230895
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            1191315,
+            331721,
+            81383
+          ],
+          "clear": [
+            968292,
+            277713,
+            56875
+          ],
+          "cloud": [
+            223023,
+            54008,
+            24508
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            72236,
+            11424,
+            2366
+          ],
+          "clear": [
+            56485,
+            9000,
+            1895
+          ],
+          "cloud": [
+            15751,
+            2424,
+            471
+          ]
+        },
+        "seasonal": {
+          "all": [
+            900669,
+            95187,
+            17018
+          ],
+          "clear": [
+            842071,
+            87051,
+            15656
+          ],
+          "cloud": [
+            58598,
+            8136,
+            1362
+          ]
+        },
+        "permanent": {
+          "all": [
+            230889,
+            0,
+            6
+          ],
+          "clear": [
+            200627,
+            0,
+            6
+          ],
+          "cloud": [
+            30262,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+      "tiles": 121,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 7503362,
+          "gt_water_pixels": 4302677
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 41958,
+          "gt_water_pixels": 41453
+        },
+        "seasonal": {
+          "valid_pixels": 258532,
+          "gt_water_pixels": 253254
+        },
+        "permanent": {
+          "valid_pixels": 6131,
+          "gt_water_pixels": 6131
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            3844922,
+            1351993,
+            457755
+          ],
+          "clear": [
+            3841288,
+            1347136,
+            456938
+          ],
+          "cloud": [
+            3634,
+            4857,
+            817
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            41439,
+            283,
+            14
+          ],
+          "clear": [
+            41398,
+            283,
+            14
+          ],
+          "cloud": [
+            41,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            252875,
+            5271,
+            379
+          ],
+          "clear": [
+            252856,
+            5271,
+            379
+          ],
+          "cloud": [
+            19,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            6131,
+            0,
+            0
+          ],
+          "clear": [
+            6131,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_06MWANZA_DEL_v1",
+      "tiles": 180,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 11297851,
+          "gt_water_pixels": 180973
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 5138,
+          "gt_water_pixels": 4773
+        },
+        "seasonal": {
+          "valid_pixels": 8617,
+          "gt_water_pixels": 8171
+        },
+        "permanent": {
+          "valid_pixels": 2689,
+          "gt_water_pixels": 2689
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            105944,
+            17576,
+            75029
+          ],
+          "clear": [
+            105905,
+            16909,
+            75013
+          ],
+          "cloud": [
+            39,
+            667,
+            16
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            4707,
+            208,
+            66
+          ],
+          "clear": [
+            4707,
+            208,
+            66
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            8146,
+            356,
+            25
+          ],
+          "clear": [
+            8146,
+            356,
+            25
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            2689,
+            0,
+            0
+          ],
+          "clear": [
+            2689,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+      "tiles": 41,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1363008,
+          "gt_water_pixels": 121647
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 87154,
+          "gt_water_pixels": 72921
+        },
+        "seasonal": {
+          "valid_pixels": 424498,
+          "gt_water_pixels": 419353
+        },
+        "permanent": {
+          "valid_pixels": 334293,
+          "gt_water_pixels": 334293
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            73963,
+            95976,
+            47684
+          ],
+          "clear": [
+            73963,
+            95976,
+            47684
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            63759,
+            8612,
+            9162
+          ],
+          "clear": [
+            63759,
+            8612,
+            9162
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            419095,
+            4693,
+            258
+          ],
+          "clear": [
+            419095,
+            4693,
+            258
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            334293,
+            0,
+            0
+          ],
+          "clear": [
+            334293,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_v2",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 227960,
+          "gt_water_pixels": 12586
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 2865,
+          "gt_water_pixels": 2427
+        },
+        "seasonal": {
+          "valid_pixels": 890,
+          "gt_water_pixels": 875
+        },
+        "permanent": {
+          "valid_pixels": 841,
+          "gt_water_pixels": 841
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            8820,
+            471,
+            3766
+          ],
+          "clear": [
+            8820,
+            471,
+            3766
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            2338,
+            30,
+            89
+          ],
+          "clear": [
+            2338,
+            30,
+            89
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            850,
+            8,
+            25
+          ],
+          "clear": [
+            850,
+            8,
+            25
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            838,
+            0,
+            3
+          ],
+          "clear": [
+            838,
+            0,
+            3
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR419_AOI01_DEL_MONIT01",
+      "tiles": 14,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 558014,
+          "gt_water_pixels": 25849
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 1313,
+          "gt_water_pixels": 315
+        },
+        "seasonal": {
+          "valid_pixels": 8597,
+          "gt_water_pixels": 6607
+        },
+        "permanent": {
+          "valid_pixels": 240141,
+          "gt_water_pixels": 240141
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            19074,
+            26564,
+            6775
+          ],
+          "clear": [
+            19074,
+            26564,
+            6775
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            200,
+            168,
+            115
+          ],
+          "clear": [
+            200,
+            168,
+            115
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            5989,
+            1295,
+            618
+          ],
+          "clear": [
+            5989,
+            1295,
+            618
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            238396,
+            0,
+            1745
+          ],
+          "clear": [
+            238396,
+            0,
+            1745
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR422_AOI06_DEL_PRODUCT",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 42761,
+          "gt_water_pixels": 4120
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 206,
+          "gt_water_pixels": 66
+        },
+        "seasonal": {
+          "valid_pixels": 879,
+          "gt_water_pixels": 733
+        },
+        "permanent": {
+          "valid_pixels": 170806,
+          "gt_water_pixels": 170806
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            2040,
+            2756,
+            2080
+          ],
+          "clear": [
+            2020,
+            2721,
+            2075
+          ],
+          "cloud": [
+            20,
+            35,
+            5
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            66,
+            83,
+            0
+          ],
+          "clear": [
+            66,
+            83,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            733,
+            136,
+            0
+          ],
+          "clear": [
+            727,
+            135,
+            0
+          ],
+          "cloud": [
+            6,
+            1,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            170806,
+            0,
+            0
+          ],
+          "clear": [
+            170798,
+            0,
+            0
+          ],
+          "cloud": [
+            8,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI02_DEL_MONIT03",
+      "tiles": 47,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 1662527,
+          "gt_water_pixels": 34860
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 10935,
+          "gt_water_pixels": 1491
+        },
+        "seasonal": {
+          "valid_pixels": 28635,
+          "gt_water_pixels": 24883
+        },
+        "permanent": {
+          "valid_pixels": 1204137,
+          "gt_water_pixels": 1204137
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            28365,
+            100183,
+            6495
+          ],
+          "clear": [
+            27615,
+            98708,
+            6285
+          ],
+          "cloud": [
+            750,
+            1475,
+            210
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            1453,
+            4470,
+            38
+          ],
+          "clear": [
+            1436,
+            4468,
+            38
+          ],
+          "cloud": [
+            17,
+            2,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            24862,
+            3643,
+            21
+          ],
+          "clear": [
+            24831,
+            3640,
+            21
+          ],
+          "cloud": [
+            31,
+            3,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            1204133,
+            0,
+            4
+          ],
+          "clear": [
+            1203127,
+            0,
+            4
+          ],
+          "cloud": [
+            1006,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI06_DEL_PRODUCT",
+      "tiles": 4,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 92826,
+          "gt_water_pixels": 13427
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        },
+        "seasonal": {
+          "valid_pixels": 2643,
+          "gt_water_pixels": 2187
+        },
+        "permanent": {
+          "valid_pixels": 121704,
+          "gt_water_pixels": 121704
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            8597,
+            4771,
+            4830
+          ],
+          "clear": [
+            8532,
+            4501,
+            4830
+          ],
+          "cloud": [
+            65,
+            270,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            2187,
+            453,
+            0
+          ],
+          "clear": [
+            2187,
+            453,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            121704,
+            0,
+            0
+          ],
+          "clear": [
+            121690,
+            0,
+            0
+          ],
+          "cloud": [
+            14,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR466_AOI01_DEL_PRODUCT",
+      "tiles": 15,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 846363,
+          "gt_water_pixels": 193930
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 2379,
+          "gt_water_pixels": 1385
+        },
+        "seasonal": {
+          "valid_pixels": 5909,
+          "gt_water_pixels": 5804
+        },
+        "permanent": {
+          "valid_pixels": 0,
+          "gt_water_pixels": 0
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            188151,
+            86481,
+            5779
+          ],
+          "clear": [
+            188066,
+            84945,
+            5485
+          ],
+          "cloud": [
+            85,
+            1536,
+            294
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            1262,
+            977,
+            123
+          ],
+          "clear": [
+            1259,
+            977,
+            121
+          ],
+          "cloud": [
+            3,
+            0,
+            2
+          ]
+        },
+        "seasonal": {
+          "all": [
+            5786,
+            105,
+            18
+          ],
+          "clear": [
+            5786,
+            100,
+            18
+          ],
+          "cloud": [
+            0,
+            5,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            0,
+            0,
+            0
+          ],
+          "clear": [
+            0,
+            0,
+            0
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+      "tiles": 12,
+      "coverage": {
+        "unknown": {
+          "valid_pixels": 663606,
+          "gt_water_pixels": 42546
+        },
+        "flood_proxy_historically_nonwater": {
+          "valid_pixels": 471,
+          "gt_water_pixels": 425
+        },
+        "seasonal": {
+          "valid_pixels": 13911,
+          "gt_water_pixels": 11212
+        },
+        "permanent": {
+          "valid_pixels": 39002,
+          "gt_water_pixels": 39002
+        }
+      },
+      "confusions": {
+        "unknown": {
+          "all": [
+            37348,
+            16227,
+            5198
+          ],
+          "clear": [
+            37347,
+            16225,
+            5198
+          ],
+          "cloud": [
+            1,
+            2,
+            0
+          ]
+        },
+        "flood_proxy_historically_nonwater": {
+          "all": [
+            262,
+            38,
+            163
+          ],
+          "clear": [
+            262,
+            38,
+            163
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seasonal": {
+          "all": [
+            11078,
+            2670,
+            134
+          ],
+          "clear": [
+            11078,
+            2670,
+            134
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        },
+        "permanent": {
+          "all": [
+            38995,
+            0,
+            7
+          ],
+          "clear": [
+            38995,
+            0,
+            7
+          ],
+          "cloud": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "summary": {
+    "val_test": {
+      "unknown": {
+        "all": {
+          "pooled_confusion": [
+            8636153,
+            3342425,
+            843459
+          ],
+          "pooled_iou_secondary": 0.6735398595402587,
+          "eligible_scenes": 33,
+          "scene_mean_iou": 0.4835095702366997,
+          "ci95_scene_bootstrap": [
+            0.40542653338896134,
+            0.5629346430677318
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            8401826,
+            3245495,
+            811451
+          ],
+          "pooled_iou_secondary": 0.6743703151482345,
+          "eligible_scenes": 33,
+          "scene_mean_iou": 0.4906589548651177,
+          "ci95_scene_bootstrap": [
+            0.41107061538500084,
+            0.5714921728467833
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            234327,
+            96930,
+            32008
+          ],
+          "pooled_iou_secondary": 0.6450580154983276,
+          "eligible_scenes": 10,
+          "scene_mean_iou": 0.31212477459697807,
+          "ci95_scene_bootstrap": [
+            0.18551927841995444,
+            0.4589064377801913
+          ]
+        }
+      },
+      "flood_proxy_historically_nonwater": {
+        "all": {
+          "pooled_confusion": [
+            496430,
+            83576,
+            19920
+          ],
+          "pooled_iou_secondary": 0.82748538986475,
+          "eligible_scenes": 22,
+          "scene_mean_iou": 0.6598319962632228,
+          "ci95_scene_bootstrap": [
+            0.5636548043777049,
+            0.7574807625114237
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            479942,
+            80559,
+            19317
+          ],
+          "pooled_iou_secondary": 0.8277459478663994,
+          "eligible_scenes": 22,
+          "scene_mean_iou": 0.6589867063129762,
+          "ci95_scene_bootstrap": [
+            0.5627143012069107,
+            0.7565425579792794
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            16488,
+            3017,
+            603
+          ],
+          "pooled_iou_secondary": 0.8199721503879053,
+          "eligible_scenes": 2,
+          "scene_mean_iou": 0.6280399760452287,
+          "ci95_scene_bootstrap": [
+            0.41134113411341133,
+            0.844738817977046
+          ]
+        }
+      },
+      "seasonal": {
+        "all": {
+          "pooled_confusion": [
+            2227545,
+            201754,
+            20726
+          ],
+          "pooled_iou_secondary": 0.9091927633391496,
+          "eligible_scenes": 28,
+          "scene_mean_iou": 0.856120843286062,
+          "ci95_scene_bootstrap": [
+            0.7931034029233424,
+            0.9088180472997666
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            2166601,
+            192021,
+            18825
+          ],
+          "pooled_iou_secondary": 0.9113141113135225,
+          "eligible_scenes": 28,
+          "scene_mean_iou": 0.856741041411057,
+          "ci95_scene_bootstrap": [
+            0.7932848459315069,
+            0.9093164869670669
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            60944,
+            9733,
+            1901
+          ],
+          "pooled_iou_secondary": 0.8397034914161317,
+          "eligible_scenes": 3,
+          "scene_mean_iou": 0.6076016091616768,
+          "ci95_scene_bootstrap": [
+            0.4711417816813049,
+            0.8605204417293232
+          ]
+        }
+      },
+      "permanent": {
+        "all": {
+          "pooled_confusion": [
+            8785907,
+            0,
+            6772
+          ],
+          "pooled_iou_secondary": 0.9992298138030514,
+          "eligible_scenes": 27,
+          "scene_mean_iou": 0.9975072173600821,
+          "ci95_scene_bootstrap": [
+            0.994613863041197,
+            0.9995048042461155
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            8665795,
+            0,
+            2774
+          ],
+          "pooled_iou_secondary": 0.9996799933183896,
+          "eligible_scenes": 27,
+          "scene_mean_iou": 0.9978450297631986,
+          "ci95_scene_bootstrap": [
+            0.9950055061353149,
+            0.999729725373621
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            120112,
+            0,
+            3998
+          ],
+          "pooled_iou_secondary": 0.9677866408830876,
+          "eligible_scenes": 6,
+          "scene_mean_iou": 0.9733621705592098,
+          "ci95_scene_bootstrap": [
+            0.9241571370274487,
+            1.0
+          ]
+        }
+      }
+    },
+    "val": {
+      "unknown": {
+        "all": {
+          "pooled_confusion": [
+            3018670,
+            1095071,
+            128646
+          ],
+          "pooled_iou_secondary": 0.7115498892486706,
+          "eligible_scenes": 15,
+          "scene_mean_iou": 0.4821832986135782,
+          "ci95_scene_bootstrap": [
+            0.3529087922704618,
+            0.6090099234395339
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            3013883,
+            1078081,
+            122941
+          ],
+          "pooled_iou_secondary": 0.7150536014453469,
+          "eligible_scenes": 15,
+          "scene_mean_iou": 0.48654082675960214,
+          "ci95_scene_bootstrap": [
+            0.35760362683472285,
+            0.6122598046362433
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            4787,
+            16990,
+            5705
+          ],
+          "pooled_iou_secondary": 0.174186740411906,
+          "eligible_scenes": 4,
+          "scene_mean_iou": 0.31524440540016796,
+          "ci95_scene_bootstrap": [
+            0.16432577833784226,
+            0.5639064293915039
+          ]
+        }
+      },
+      "flood_proxy_historically_nonwater": {
+        "all": {
+          "pooled_confusion": [
+            293161,
+            49486,
+            624
+          ],
+          "pooled_iou_secondary": 0.8540220408948033,
+          "eligible_scenes": 9,
+          "scene_mean_iou": 0.6260005087993353,
+          "ci95_scene_bootstrap": [
+            0.47196357107339465,
+            0.7687895615524185
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            292664,
+            48938,
+            500
+          ],
+          "pooled_iou_secondary": 0.8554875446504259,
+          "eligible_scenes": 9,
+          "scene_mean_iou": 0.6257965017829714,
+          "ci95_scene_bootstrap": [
+            0.4723328798002861,
+            0.7680017389675725
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            497,
+            548,
+            124
+          ],
+          "pooled_iou_secondary": 0.4251497005988024,
+          "eligible_scenes": 1,
+          "scene_mean_iou": 0.41134113411341133,
+          "ci95_scene_bootstrap": [
+            0.41134113411341133,
+            0.41134113411341133
+          ]
+        }
+      },
+      "seasonal": {
+        "all": {
+          "pooled_confusion": [
+            546171,
+            72673,
+            1424
+          ],
+          "pooled_iou_secondary": 0.8805403470757801,
+          "eligible_scenes": 12,
+          "scene_mean_iou": 0.8231010678827797,
+          "ci95_scene_bootstrap": [
+            0.715224244885864,
+            0.9141884303630609
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            545137,
+            72178,
+            941
+          ],
+          "pooled_iou_secondary": 0.8817334566910794,
+          "eligible_scenes": 12,
+          "scene_mean_iou": 0.8248146001535206,
+          "ci95_scene_bootstrap": [
+            0.7166211642770977,
+            0.9150256096235807
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            1034,
+            495,
+            483
+          ],
+          "pooled_iou_secondary": 0.5139165009940357,
+          "eligible_scenes": 1,
+          "scene_mean_iou": 0.4711417816813049,
+          "ci95_scene_bootstrap": [
+            0.4711417816813049,
+            0.4711417816813049
+          ]
+        }
+      },
+      "permanent": {
+        "all": {
+          "pooled_confusion": [
+            4821331,
+            0,
+            4971
+          ],
+          "pooled_iou_secondary": 0.9989700188674476,
+          "eligible_scenes": 11,
+          "scene_mean_iou": 0.9949346023504699,
+          "ci95_scene_bootstrap": [
+            0.9879364410132818,
+            0.9997063196669572
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            4789830,
+            0,
+            973
+          ],
+          "pooled_iou_secondary": 0.9997969025234392,
+          "eligible_scenes": 11,
+          "scene_mean_iou": 0.9957641533616504,
+          "ci95_scene_bootstrap": [
+            0.9894091435171056,
+            0.9998429409699703
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            31501,
+            0,
+            3998
+          ],
+          "pooled_iou_secondary": 0.8873771092143441,
+          "eligible_scenes": 3,
+          "scene_mean_iou": 0.9467243411184197,
+          "ci95_scene_bootstrap": [
+            0.8523848994047171,
+            1.0
+          ]
+        }
+      }
+    },
+    "test": {
+      "unknown": {
+        "all": {
+          "pooled_confusion": [
+            5617483,
+            2247354,
+            714813
+          ],
+          "pooled_iou_secondary": 0.6547450070807084,
+          "eligible_scenes": 18,
+          "scene_mean_iou": 0.48461479658930107,
+          "ci95_scene_bootstrap": [
+            0.38761939148249075,
+            0.5743271783089327
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            5387943,
+            2167414,
+            688510
+          ],
+          "pooled_iou_secondary": 0.6535698598728,
+          "eligible_scenes": 18,
+          "scene_mean_iou": 0.4940907282863807,
+          "ci95_scene_bootstrap": [
+            0.39259853154970004,
+            0.588000727824361
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            229540,
+            79940,
+            26303
+          ],
+          "pooled_iou_secondary": 0.6835962511502964,
+          "eligible_scenes": 6,
+          "scene_mean_iou": 0.31004502072818485,
+          "ci95_scene_bootstrap": [
+            0.1482930639154912,
+            0.50540113758751
+          ]
+        }
+      },
+      "flood_proxy_historically_nonwater": {
+        "all": {
+          "pooled_confusion": [
+            203269,
+            34090,
+            19296
+          ],
+          "pooled_iou_secondary": 0.7919931425454404,
+          "eligible_scenes": 13,
+          "scene_mean_iou": 0.6832537952766834,
+          "ci95_scene_bootstrap": [
+            0.5600600626703323,
+            0.8019808659777536
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            187278,
+            31621,
+            18817
+          ],
+          "pooled_iou_secondary": 0.7878224435881472,
+          "eligible_scenes": 13,
+          "scene_mean_iou": 0.6819645402183642,
+          "ci95_scene_bootstrap": [
+            0.5574521017468592,
+            0.800750956691245
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            15991,
+            2469,
+            479
+          ],
+          "pooled_iou_secondary": 0.8443423623211362,
+          "eligible_scenes": 1,
+          "scene_mean_iou": 0.844738817977046,
+          "ci95_scene_bootstrap": [
+            0.844738817977046,
+            0.844738817977046
+          ]
+        }
+      },
+      "seasonal": {
+        "all": {
+          "pooled_confusion": [
+            1681374,
+            129081,
+            19302
+          ],
+          "pooled_iou_secondary": 0.9189056251731788,
+          "eligible_scenes": 16,
+          "scene_mean_iou": 0.8808856748385239,
+          "ci95_scene_bootstrap": [
+            0.8080300430471895,
+            0.93720984468121
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            1621464,
+            119843,
+            17884
+          ],
+          "pooled_iou_secondary": 0.9217100360336087,
+          "eligible_scenes": 16,
+          "scene_mean_iou": 0.880685872354209,
+          "ci95_scene_bootstrap": [
+            0.8073152729367244,
+            0.9373305669996644
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            59910,
+            9238,
+            1418
+          ],
+          "pooled_iou_secondary": 0.8489924326162741,
+          "eligible_scenes": 2,
+          "scene_mean_iou": 0.6758315229018628,
+          "ci95_scene_bootstrap": [
+            0.49114260407440213,
+            0.8605204417293233
+          ]
+        }
+      },
+      "permanent": {
+        "all": {
+          "pooled_confusion": [
+            3964576,
+            0,
+            1801
+          ],
+          "pooled_iou_secondary": 0.9995459332282333,
+          "eligible_scenes": 16,
+          "scene_mean_iou": 0.9992758901791905,
+          "ci95_scene_bootstrap": [
+            0.998168670626035,
+            0.9999756351220335
+          ]
+        },
+        "clear": {
+          "pooled_confusion": [
+            3875965,
+            0,
+            1801
+          ],
+          "pooled_iou_secondary": 0.9995355573286269,
+          "eligible_scenes": 16,
+          "scene_mean_iou": 0.999275632289263,
+          "ci95_scene_bootstrap": [
+            0.9981686573912671,
+            0.9999753774057059
+          ]
+        },
+        "cloud": {
+          "pooled_confusion": [
+            88611,
+            0,
+            0
+          ],
+          "pooled_iou_secondary": 1.0,
+          "eligible_scenes": 3,
+          "scene_mean_iou": 1.0,
+          "ci95_scene_bootstrap": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "coverage": {
+    "unknown": {
+      "valid_pixels": 65886206,
+      "gt_water_pixels": 9479612
+    },
+    "flood_proxy_historically_nonwater": {
+      "valid_pixels": 785859,
+      "gt_water_pixels": 516350
+    },
+    "seasonal": {
+      "valid_pixels": 2822300,
+      "gt_water_pixels": 2248271
+    },
+    "permanent": {
+      "valid_pixels": 8792679,
+      "gt_water_pixels": 8792679
+    }
+  },
+  "unknown_gt_water_fraction": 0.45061803747622275,
+  "full_genuine_flood_split": "not identifiable from supplied JRC0 pixels; additional independent water-history/flood labels required",
+  "released_checkpoint_sha256": "ef52e243cea1c659895d05440932b7ec0ef473f63a52283b1c9bd459bf1982b7",
+  "released_checkpoint_unchanged": true
+}

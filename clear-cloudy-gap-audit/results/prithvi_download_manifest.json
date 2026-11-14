@@ -1,0 +1,22 @@
+{
+  "model_id": "ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL-Sen1Floods11",
+  "revision": "91ce9d38086a80b078a192b374df758b8855b732",
+  "files": [
+    {
+      "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/prithvi_assets/config.yaml",
+      "bytes": 3668,
+      "sha256": "ca2fa45885b85afac9400c57f7ca3b711526cbad3af285f8b67de74ba2db404a"
+    },
+    {
+      "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/prithvi_assets/requirements.txt",
+      "bytes": 57,
+      "sha256": "d947c9669e63f8702ef501afb345ad4218f9d0f07033e8c62ac9e49f3d14e158"
+    },
+    {
+      "path": "/content/Reproducing-research-/clear-cloudy-gap-audit/prithvi_assets/Prithvi-EO-V2-300M-TL-Sen1Floods11.pt",
+      "bytes": 1276843350,
+      "sha256": "76eed77d8bd543ae441308b80e8408502243a871cb8a338ddc8220ed96dfc270"
+    }
+  ],
+  "complete": true
+}

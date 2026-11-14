@@ -1,0 +1,105 @@
+{
+  "config": {
+    "seed": 42,
+    "epochs": 16,
+    "steps_per_epoch": 512,
+    "batch_size": 8,
+    "encoder_lr": 5e-06,
+    "decoder_lr": 5e-05,
+    "weight_decay": 0.0001,
+    "water_bce_weight": 0.5,
+    "water_dice_weight": 0.5,
+    "cloud_bce_weight": 0.1,
+    "patience": 4,
+    "min_delta": 0.0001,
+    "water_threshold": 0.5,
+    "selection": "maximum eligible validation pooled water IoU; clear and cloudy each >=baseline minus1 point",
+    "target_test_iou": 0.9,
+    "train_only": true,
+    "training_stride": 256,
+    "evaluation_stride": 512,
+    "precision": "AMP fp16 training; fp32 validation",
+    "augmentation": "random right-angle rotations/flips; gain0.9..1.1 and per-band Gaussian offset std20DN",
+    "sampler": "inverse scene tile-count times (1+2*cloudy+mixed-water); replacement",
+    "training_events": "exclude evaluation EMSR activations"
+  },
+  "baseline": {
+    "all": 0.8651451103384014,
+    "clear": 0.8671038269617226,
+    "cloudy": 0.6746440927636234
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 0.2172522429973469,
+      "validation": {
+        "all": 0.9124635870886183,
+        "clear": 0.9146218093707998,
+        "cloudy": 0.7652584855497304
+      },
+      "eligible": true,
+      "max_weight_change": 0.01037454605102539,
+      "seconds": 225.8671293258667
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.2089968397121993,
+      "validation": {
+        "all": 0.9162587023504096,
+        "clear": 0.9187518608710733,
+        "cloudy": 0.7663126308361057
+      },
+      "eligible": true,
+      "max_weight_change": 0.022805213928222656,
+      "seconds": 221.5025510787964
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.19948510247922968,
+      "validation": {
+        "all": 0.9141493367427513,
+        "clear": 0.9163773680884983,
+        "cloudy": 0.7666932234115026
+      },
+      "eligible": true,
+      "max_weight_change": 0.03408202528953552,
+      "seconds": 221.72505903244019
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.2038183361510164,
+      "validation": {
+        "all": 0.9130618842905251,
+        "clear": 0.9152562884004004,
+        "cloudy": 0.7656027011034147
+      },
+      "eligible": true,
+      "max_weight_change": 0.04316675662994385,
+      "seconds": 220.3360617160797
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.2000331968665705,
+      "validation": {
+        "all": 0.913304585404105,
+        "clear": 0.915768867041932,
+        "cloudy": 0.7625620976513126
+      },
+      "eligible": true,
+      "max_weight_change": 0.052502602338790894,
+      "seconds": 220.86399388313293
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.20339946589956526,
+      "validation": {
+        "all": 0.9067183563358482,
+        "clear": 0.9092028465857706,
+        "cloudy": 0.7631001836432685
+      },
+      "eligible": true,
+      "max_weight_change": 0.060248613357543945,
+      "seconds": 220.99664640426636
+    }
+  ]
+}

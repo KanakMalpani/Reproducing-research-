@@ -1,0 +1,37 @@
+{
+  "rule": "Registered before census/strata results. Same frozen WF2 baseline and 256px/512 grid. Brightness=sqrt(B2^2+B3^2+B4^2)/10000, per official ml4floods get_brightness at commit 192426c7286315b59a2f52c7a9cdebe589242de2; cuts .3 and .35; count GT-cloud pixels above/below each cut, with water counts, on valid water-label pixels. JRC strata: permanent JRC==3; nonpermanent JRC in {1,2}; unknown JRC==0 excluded from strata but counted. Compute binary water IoU within each spatial stratum, confusion pooled within scenes; report unweighted scene mean and 5000 scene-bootstrap CI seed42, plus pooled IoU explicitly as secondary. Nonpermanent water is a JRC-based proxy, not independently confirmed flood water. Also report raw separate per-scene IoU for Campo Galliano and Ituango South; within-scene tile bootstrap 5000 draws seed42 is descriptive and not an event interval. Never add these to existing gap means.",
+  "scenes": [
+    {
+      "split": "val",
+      "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+      "tiles": 4,
+      "iou": 0.19791666666666666,
+      "ci95_tile_bootstrap": [
+        0.0,
+        0.43846153846153846
+      ],
+      "uncertainty": "within-scene tile bootstrap; descriptive; not event uncertainty",
+      "confusion": [
+        57,
+        230,
+        1
+      ]
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+      "tiles": 25,
+      "iou": 0.7203674344866176,
+      "ci95_tile_bootstrap": [
+        0.3091348449185786,
+        0.7989451716324231
+      ],
+      "uncertainty": "within-scene tile bootstrap; descriptive; not event uncertainty",
+      "confusion": [
+        15449,
+        5288,
+        709
+      ]
+    }
+  ]
+}

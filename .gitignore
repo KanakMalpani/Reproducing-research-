@@ -1,0 +1,8 @@
+# Rebuildable environments and Python caches.
+**/__pycache__/
+**/.venv*/
+
+# Preserve full checkpoints locally; publish the selected candidate only.
+clear-cloudy-gap-audit/checkpoints/**/*.pt
+!clear-cloudy-gap-audit/checkpoints/finetune_v1/calibrated_selected_model.pt
+clear-cloudy-gap-audit/prithvi_assets/*.pt

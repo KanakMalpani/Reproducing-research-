@@ -1,0 +1,114 @@
+{
+ "rule": "NDVI_COMATCH_RULE.md",
+ "seed": 0,
+ "n_bootstrap": 5000,
+ "tolerances": {
+  "abs_water_frac": 0.05,
+  "abs_ndvi": 0.05
+ },
+ "min_water_px": 200,
+ "n_paired_scenes_unmatched_gate": 8,
+ "water_only": {
+  "n_scenes": 7,
+  "per_scene": [
+   {
+    "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+    "pairs": 17,
+    "gap": 6.785605434453357
+   },
+   {
+    "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+    "pairs": 3,
+    "gap": 0.08680555555555555
+   },
+   {
+    "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+    "pairs": 5,
+    "gap": 3.459371841161918
+   },
+   {
+    "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+    "pairs": 4,
+    "gap": 0.9883179070159565
+   },
+   {
+    "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+    "pairs": 27,
+    "gap": 16.609919546878636
+   },
+   {
+    "scene": "EMSR347_06MWANZA_DEL_v1",
+    "pairs": 11,
+    "gap": -3.5238132402530846
+   },
+   {
+    "scene": "EMSR438_AOI02_DEL_MONIT03",
+    "pairs": 3,
+    "gap": 43.76083612438968
+   }
+  ],
+  "mean_gap": 9.738149024171717,
+  "reference_mean_ci": "8.85 [-0.66, 17.78] from method1_results.json"
+ },
+ "ndvi_comatch": {
+  "n_scenes": 5,
+  "per_scene": [
+   {
+    "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+    "pairs": 11,
+    "gap": 1.5788376675825888,
+    "mean_abs_dw": 0.013627034300092024,
+    "mean_abs_dn": 0.02423150718889453
+   },
+   {
+    "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+    "pairs": 2,
+    "gap": 39.991353220925205,
+    "mean_abs_dw": 0.01520294607817534,
+    "mean_abs_dn": 0.03751635551452637
+   },
+   {
+    "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+    "pairs": 5,
+    "gap": 3.49774649289859,
+    "mean_abs_dw": 0.002351698679778802,
+    "mean_abs_dn": 0.010602214932441711
+   },
+   {
+    "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+    "pairs": 18,
+    "gap": 22.692428985622005,
+    "mean_abs_dw": 0.011491101118570393,
+    "mean_abs_dn": 0.02542047991624309
+   },
+   {
+    "scene": "EMSR347_06MWANZA_DEL_v1",
+    "pairs": 9,
+    "gap": -46.286472148541115,
+    "mean_abs_dw": 0.0020411796480616032,
+    "mean_abs_dn": 0.034097363551457725
+   }
+  ],
+  "mean_gap": 4.294778843697456,
+  "ci95": [
+   -22.53384819342055,
+   25.7730621811986
+  ],
+  "verdict": "DROP",
+  "scenes_surviving_vs_water_only": {
+   "water_only_n": 7,
+   "ndvi_comatch_n": 5,
+   "dropped_scenes": [
+    "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+    "EMSR438_AOI02_DEL_MONIT03"
+   ],
+   "retained_scenes": [
+    "EMSR280_03FALUN_DEL_MONIT06_v2",
+    "EMSR312_08CANDON_DEL_MONIT01_v1",
+    "EMSR264_08VATOMANDRY_DEL_v2",
+    "EMSR342_06NORTHNORMANTON_DEL_v1",
+    "EMSR347_06MWANZA_DEL_v1"
+   ]
+  }
+ }
+}

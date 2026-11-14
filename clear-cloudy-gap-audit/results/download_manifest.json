@@ -1,0 +1,522 @@
+{
+  "dataset_sha": "1f3faa2989e69930ac31d5c0a79fd224461123f8",
+  "checkpoint_sha": "3f52941fbb01b6f66eed71449b7586d6e168e035",
+  "files": [
+    {
+      "path": "/content/wf-models/model.pt",
+      "bytes": 31160841,
+      "sha256": "ef52e243cea1c659895d05440932b7ec0ef473f63a52283b1c9bd459bf1982b7"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR264_08VATOMANDRY_DEL_v2.tif",
+      "bytes": 136950,
+      "sha256": "d76ffafd5b577572245006bf474153a5e96bb67303723bc70c8e14e80f6baccc"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR264_18MIANDRIVAZODETAIL_DEL_v2.tif",
+      "bytes": 44801,
+      "sha256": "905eeed276d3d2a76a8bba459457eac3d530ad9ace5f85cd197444241057ee4d"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR273_01GRILE_DEL_MONIT04_v2.tif",
+      "bytes": 8468,
+      "sha256": "ab0880fcd5b62096d1f13a0a75bc29f60773a9bc79129d24c4ff72164d8b9386"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR286_08ITUANGONORTH_DEL_MONIT02_v1.tif",
+      "bytes": 27786,
+      "sha256": "48d532f66a6e2c9846a09669118aade21cdba6afa625de293a1df3a7c533ed1b"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1.tif",
+      "bytes": 29373,
+      "sha256": "465a91098cb05a3e150bd8e01c743a49261c3bfe4bbbe22242b60526b2a6d137"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR333_01RATTALORO_DEL_MONIT01_v1.tif",
+      "bytes": 12982,
+      "sha256": "0ddc26ddadeda34e2949c557d3c62f2e5c0ee8aa1098b72c9799622b7601d231"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR333_02PORTOPALO_DEL_MONIT01_v1.tif",
+      "bytes": 6857,
+      "sha256": "0bb0805a27335fe565726e106b9b80b71f8b0fbae113d151088540c0d7673d1f"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR342_06NORTHNORMANTON_DEL_v1.tif",
+      "bytes": 557918,
+      "sha256": "fcea2b57da57d9b56e0e5ea3c05d6bd77247d5909a0c9657094f3a8ff673b29b"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2.tif",
+      "bytes": 283756,
+      "sha256": "7240635fe5a34ccc6dd741b222c114095be5072555e1fea3cb3073654e1cd9b0"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR347_06MWANZA_DEL_v1.tif",
+      "bytes": 133499,
+      "sha256": "4bf51927a696fd5223d924710e818ad61434b384c27db556a75005ced9a43341"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR347_07ZOMBA_DEL_MONIT01_v1.tif",
+      "bytes": 369788,
+      "sha256": "2678105395d5f02ee492fce948e79cebbae034da0d2788407b52fe81ff770986"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR347_07ZOMBA_DEL_v2.tif",
+      "bytes": 369788,
+      "sha256": "2678105395d5f02ee492fce948e79cebbae034da0d2788407b52fe81ff770986"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR419_AOI01_DEL_MONIT01.tif",
+      "bytes": 37874,
+      "sha256": "329467536b33f6db625d844248b04d4c242519ee1e11c54915cdd08d3ec91f3b"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR422_AOI06_DEL_PRODUCT.tif",
+      "bytes": 51229,
+      "sha256": "795deda416ec23635f378e6c84d360cd6354bcb8ae5effe7d33a85e2dae87597"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR438_AOI02_DEL_MONIT03.tif",
+      "bytes": 144494,
+      "sha256": "10d9e857363e3b3daa5785a6da6a734cfe250ed6189b3d51f3dd67ea43fbc8f3"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR438_AOI06_DEL_PRODUCT.tif",
+      "bytes": 11685,
+      "sha256": "b0c28f1a746e77ae291c9fd67c41af1286846dbf447cdffcce08bc50331777fe"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR466_AOI01_DEL_PRODUCT.tif",
+      "bytes": 23854,
+      "sha256": "566879cb2daaf8119a5f3ff868fc1a43f66b1ef48c273d28eb296bf1dd5ba62b"
+    },
+    {
+      "path": "/content/worldfloods/test/PERMANENTWATERJRC/EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1.tif",
+      "bytes": 42070,
+      "sha256": "0f50c2d8c611ac47121b1879504da84a81c4d5b8dbb132ac5146911241dccea9"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR264_08VATOMANDRY_DEL_v2.tif",
+      "bytes": 238395719,
+      "sha256": "7a795984b5589b4ff2e2f6d9198fb14ed15c85db77ff08a9224769c7ee10ef40"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR264_18MIANDRIVAZODETAIL_DEL_v2.tif",
+      "bytes": 25152518,
+      "sha256": "3532b05fe3507fba2a6bc197471e4fb7d54f7bd243a4ecaa2e461b6ee4c32d4f"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR273_01GRILE_DEL_MONIT04_v2.tif",
+      "bytes": 8716426,
+      "sha256": "6124e8765cbb3995a223bf39759c2fbcf43111d76a615330d2bb8dae056cf076"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR286_08ITUANGONORTH_DEL_MONIT02_v1.tif",
+      "bytes": 104062056,
+      "sha256": "d443cafa4010a396b96c67775f6181611846b8c767a9b2ccc12f88bacd6b9851"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1.tif",
+      "bytes": 105629951,
+      "sha256": "b0244dcb87de10609e08e148d540a330ac2846d4ec61a6743a844439887a8860"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR333_01RATTALORO_DEL_MONIT01_v1.tif",
+      "bytes": 23539055,
+      "sha256": "e17ca15be7847e0df84b9764d3d2f81e7c009a1fe6a6c60b376b0af685103557"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR333_02PORTOPALO_DEL_MONIT01_v1.tif",
+      "bytes": 27668303,
+      "sha256": "a4b89e862e5083e7eafc2119777b631fba42922451320f2e232364757880657c"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR342_06NORTHNORMANTON_DEL_v1.tif",
+      "bytes": 354524442,
+      "sha256": "f72f7c784e0ab077e20b203b3ef8da3f22a1f3c099ad72c9f846c7214faa13e2"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2.tif",
+      "bytes": 339020492,
+      "sha256": "471e47c7a43de6000ed000a956df46118682857c82c9cede0cbfbd254a86b17d"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR347_06MWANZA_DEL_v1.tif",
+      "bytes": 547237889,
+      "sha256": "9fa9d487517205e6ace70df4fdc6934380475ea82f76d6b3b1a94fb9f5f2a4c7"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR347_07ZOMBA_DEL_MONIT01_v1.tif",
+      "bytes": 460101878,
+      "sha256": "d86c7eda8830350cc5e1f47b26d8febb57a0537cb70f01e8afce4fa0189043e5"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR347_07ZOMBA_DEL_v2.tif",
+      "bytes": 323826382,
+      "sha256": "5d2b2e89d6026e38373b718dc1818d7a4f38ef64f8bd77ca7aa55143d894d201"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR419_AOI01_DEL_MONIT01.tif",
+      "bytes": 55900389,
+      "sha256": "de9b65ed20a71839f8e4735c86361b8298c75685b7268f290e143ffef99b2848"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR422_AOI06_DEL_PRODUCT.tif",
+      "bytes": 73592923,
+      "sha256": "a2250929e73b21037d09f5e0af268cbaa5c06d22679e49609aaf2e3107a9603c"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR438_AOI02_DEL_MONIT03.tif",
+      "bytes": 260385978,
+      "sha256": "c75cc205b3477f4dfcdb8c5642645d06b1e1fc816c7f6dbd8a1f52bfa62db807"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR438_AOI06_DEL_PRODUCT.tif",
+      "bytes": 18731881,
+      "sha256": "f7e698b54ca812d60603a935a79ccdf5450c7bdf353f86d14678ef2c9a72a298"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR466_AOI01_DEL_PRODUCT.tif",
+      "bytes": 71869162,
+      "sha256": "1f128e80b84c52c487fe7e62bcaa17987dd67d143eb3ea1ee862ecc9edd663ff"
+    },
+    {
+      "path": "/content/worldfloods/test/S2/EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1.tif",
+      "bytes": 35322539,
+      "sha256": "7eaa679f096161fc8279cd8be0e4d0dafcdae7e263a57720af6f2da6c6716709"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR264_08VATOMANDRY_DEL_v2.tif",
+      "bytes": 1065818,
+      "sha256": "29f14c0f5af011c2a45f84a89cc8b2f49f789baaddb2b932540339b0218b653b"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR264_18MIANDRIVAZODETAIL_DEL_v2.tif",
+      "bytes": 85286,
+      "sha256": "13d234b88d93aea3ebfc49cecdb9c485642c9cae29d1e0488a891c8fd5b72fa4"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR273_01GRILE_DEL_MONIT04_v2.tif",
+      "bytes": 21745,
+      "sha256": "9dd3c1468b30208e8f215274e57970515a5f8d2bb3b52b50c60a38d4836c505c"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR286_08ITUANGONORTH_DEL_MONIT02_v1.tif",
+      "bytes": 472845,
+      "sha256": "17106b3596ad2b43285ab82947fdac1d0ec90a176bc0538b8fc9389462418d07"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1.tif",
+      "bytes": 546952,
+      "sha256": "d5a705546d4b430f06835f51d25254d714a53283325e13e44811b31449ba30c3"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR333_01RATTALORO_DEL_MONIT01_v1.tif",
+      "bytes": 44817,
+      "sha256": "1897b05d75b4e2c7bf0daaef58bbe100e09b8060881797fcc2a9cdfc2af0f0e8"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR333_02PORTOPALO_DEL_MONIT01_v1.tif",
+      "bytes": 61712,
+      "sha256": "9910ac21417fc202f5fc7490dd77467ad868650fac9e2911ea5ce2cc56975abd"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR342_06NORTHNORMANTON_DEL_v1.tif",
+      "bytes": 1546887,
+      "sha256": "08c578545822f51c22e86a134b8de5372b886391b95ab7fb2867a62837adefdf"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2.tif",
+      "bytes": 549666,
+      "sha256": "eff427ee9fcc8b5569dea1c2976fd8d7b2488fa8e3a2c880e56c275d9437aed5"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR347_06MWANZA_DEL_v1.tif",
+      "bytes": 1113564,
+      "sha256": "2e7777d0983bd5fcecdce60f02e8b7dc88c9ef4699ecc2e1957e69019ecbed8a"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR347_07ZOMBA_DEL_MONIT01_v1.tif",
+      "bytes": 582853,
+      "sha256": "87cc2e9d1ea514574de1b91ed2650eeb2626e2e57fa613c98311285fd27620cf"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR347_07ZOMBA_DEL_v2.tif",
+      "bytes": 231152,
+      "sha256": "c5366bbf64d0e9dfa2718398480b228f68c2e032a1670dcfc1597e0649921c26"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR419_AOI01_DEL_MONIT01.tif",
+      "bytes": 80740,
+      "sha256": "2776b37349f49b517c4be8e05984e3550549585a5271f1c6d8c1fb7958dadb4e"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR422_AOI06_DEL_PRODUCT.tif",
+      "bytes": 79611,
+      "sha256": "29e16e574ae6aeb42af81b857a8301a929804d98e21bf065560a9ab4bb650abc"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR438_AOI02_DEL_MONIT03.tif",
+      "bytes": 356679,
+      "sha256": "f841b6ee02afe8b3505dbd9233c1cbeaa89f4230b494200adaf453c9810dd93f"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR438_AOI06_DEL_PRODUCT.tif",
+      "bytes": 40371,
+      "sha256": "7466b8a9483e8cbb95f6c10523159216cc2939611ce9d0860cdc99e0faff8782"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR466_AOI01_DEL_PRODUCT.tif",
+      "bytes": 148469,
+      "sha256": "0d1024b24b906e2904a0d36737d659a6410cfefcb17b133655662bdcb4bde29f"
+    },
+    {
+      "path": "/content/worldfloods/test/gt/EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1.tif",
+      "bytes": 75439,
+      "sha256": "3edb31e79cf72dc5cde1864f14ec4404cc2c9bdc90c48351ccb8bb8b443d2b13"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1.tif",
+      "bytes": 4710,
+      "sha256": "8dbbac79fd8fd8bb79d30cd68450eaf4c79d3f0cc90fdab14ced55c0781cd684"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR271_02FARKADONA_DEL_v1.tif",
+      "bytes": 19103,
+      "sha256": "8c8b752f8f830a198b48c7d63fc7881a84e065f50a21532cdbea7e98020f9cdc"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR274_05TOAMASINA_DEL_v1.tif",
+      "bytes": 55184,
+      "sha256": "e7f6995ccdff28170318944f8bbcbb0a7b13a0e713ae443587eb8189572b6265"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR279_05ZARAGOZA_DEL_v2.tif",
+      "bytes": 102727,
+      "sha256": "3ea05d6719e0e89b00847e7b58aeda2a90e0f89356f4bc1d6d289186ab30594b"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR279_11TORTOSA_DEL_v1.tif",
+      "bytes": 371276,
+      "sha256": "66178b2e6997a3f0607fa2522bdcb0d9d0c035042cc74703aaa6539942f16b6d"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR280_03FALUN_DEL_MONIT06_v2.tif",
+      "bytes": 208338,
+      "sha256": "0141c3055ecdd120f194d2aab42b0fec199f49bf0648f4207b9af9356fa2e2fb"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR293_03OZUN_GRA_v1.tif",
+      "bytes": 29695,
+      "sha256": "f8a4aaa85b9e05d7fceec055fb748ecccaa0bde75cd6ff33799463c84ce13969"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR312_08CANDON_DEL_MONIT01_v1.tif",
+      "bytes": 36683,
+      "sha256": "a906d5473188ccdf5939361323f80f67074858db0d09b1e7b578dfdd006694c0"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR329_05CASTIADAS_GRA_v3.tif",
+      "bytes": 5786,
+      "sha256": "d87f6a3d20811a6ee6a386f23e02ec1fedf9c5b43c3eefa6c4f780eaa8ac63b2"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR358_AOI01_FEP_PRODUCT.tif",
+      "bytes": 7623,
+      "sha256": "f09d6d80854d88ddf3eb9461726a4b298f034cc99ba1adddc6ce413cd9353fa8"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR427_AOI03_DEL_MONIT02.tif",
+      "bytes": 470805,
+      "sha256": "8c6ec8390d8ffcfc0d820e7bd0b9a1e09a286ee13086fe8df94751a6481c70e7"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR442_AOI03_DEL_PRODUCT.tif",
+      "bytes": 6057,
+      "sha256": "f8d2166a8b791cc2362da1bef32e151d442265b2a5c18a6816bd6d36ce2890ae"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR629_AOI01_DEL_PRODUCT.tif",
+      "bytes": 249987,
+      "sha256": "e6c9f0e6ddd2b1f4cea86a306a9df43820e75575c9d3b0daf54b63dabdbf7b45"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/EMSR629_AOI02_DEL_PRODUCT.tif",
+      "bytes": 198017,
+      "sha256": "4ac5c937671b250ee8c4c8c3a8eed5ae1e97b470022d2b9f768672308382c238"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/RS2_20161008_Water_Extent_Corail_Pestel.tif",
+      "bytes": 5389,
+      "sha256": "4c12519d77d17760be280871d3b2967441d1479881f729333ef08f8ba9dd7aa3"
+    },
+    {
+      "path": "/content/worldfloods/val/PERMANENTWATERJRC/ST1_20161014_WaterExtent_BinhDinh_Lake.tif",
+      "bytes": 22847,
+      "sha256": "67a216cfcec6e0c1a5d905a6120aeacc67c3e988defa6576fc7f487b281861f2"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1.tif",
+      "bytes": 14013075,
+      "sha256": "7a0bcf26b9097b0b03901e963d29d13cd05aee6247a1b3894e9583fc67958038"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR271_02FARKADONA_DEL_v1.tif",
+      "bytes": 70891146,
+      "sha256": "23d0b35aea07cb975147ac6cc10593415148596adb3e164888b5c57c64db478c"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR274_05TOAMASINA_DEL_v1.tif",
+      "bytes": 92570580,
+      "sha256": "2277f560c77a1b7450a0601f3695e67a445337d47ae03b559138c89fdd526a78"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR279_05ZARAGOZA_DEL_v2.tif",
+      "bytes": 312497910,
+      "sha256": "3e5e2a5a929e4fb3b2fe64650cd8135e66da290bc583c012b6bc66a2e59948e7"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR279_11TORTOSA_DEL_v1.tif",
+      "bytes": 307104173,
+      "sha256": "ac1acff96a8cbf05cf3f60d04e280d06585e46473f2045fc7af39e69772cea55"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR280_03FALUN_DEL_MONIT06_v2.tif",
+      "bytes": 225786614,
+      "sha256": "f4ce4bacf76e95820b6126d141ee0ac9ce6cb99900938da6208b7edf7bad9c87"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR293_03OZUN_GRA_v1.tif",
+      "bytes": 126880856,
+      "sha256": "c6837a827f1b171c7c47347959b91fd5d95f96306b7400aade3d0bc635c533d8"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR312_08CANDON_DEL_MONIT01_v1.tif",
+      "bytes": 86032489,
+      "sha256": "9c9bdb3c3392602233d7eebddad260cbcf0403392e5f18ddd4b864a575785ef3"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR329_05CASTIADAS_GRA_v3.tif",
+      "bytes": 11233376,
+      "sha256": "964f16495b17f2a974074205d7bffd79ea7a0f8e8f07498a12cacd0f267dac55"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR358_AOI01_FEP_PRODUCT.tif",
+      "bytes": 9679737,
+      "sha256": "d418c45e3e28699b946c36a7991b635fb919afc8d9362ab3c498200fb9d1bb7a"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR427_AOI03_DEL_MONIT02.tif",
+      "bytes": 996894518,
+      "sha256": "219b041a4bb1ec59c327424b6cf43b4623bd393d48df94ac16ec483bc685bd99"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR442_AOI03_DEL_PRODUCT.tif",
+      "bytes": 3570661,
+      "sha256": "689f36ba0a8c3068c3fbf4ef38a5b80e1282f55f8958ba227cebcf4ff5f5a5aa"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR629_AOI01_DEL_PRODUCT.tif",
+      "bytes": 111363762,
+      "sha256": "5600f7b2e47615b720d0b2f32084a0d0f7f6ed7c57647faa97c77d4c57267c3a"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/EMSR629_AOI02_DEL_PRODUCT.tif",
+      "bytes": 113903136,
+      "sha256": "99e19601d9176b3238bcc7f1fe880b63b075e0552394495a3843e9b86e5c5315"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/RS2_20161008_Water_Extent_Corail_Pestel.tif",
+      "bytes": 11805518,
+      "sha256": "bf77ced7269f6ee4f4721e5dde4131984acdca50128bcd56af416c08280f9b3d"
+    },
+    {
+      "path": "/content/worldfloods/val/S2/ST1_20161014_WaterExtent_BinhDinh_Lake.tif",
+      "bytes": 36552636,
+      "sha256": "fbdf30a7cc0eaf2146e5e268bbd3b25b008f697e388bc9ccf40464edf83f973c"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1.tif",
+      "bytes": 16912,
+      "sha256": "9c6933833da376f033b4d5c2fa2fe66582eac7a78a045b6865bc0431b09dec5a"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR271_02FARKADONA_DEL_v1.tif",
+      "bytes": 135597,
+      "sha256": "692e04a39dc7c31724bf14550af7ad1aba46d12e3aa9b768fe34967bf7f47a77"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR274_05TOAMASINA_DEL_v1.tif",
+      "bytes": 481709,
+      "sha256": "26ae2a161987856f26839dc6a95a39ff37152422e85216b65117680d06b11f01"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR279_05ZARAGOZA_DEL_v2.tif",
+      "bytes": 897191,
+      "sha256": "2caf7986895c03a1fcaff97518990877ab24f97c5d08cb439455d2e28b93c4e4"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR279_11TORTOSA_DEL_v1.tif",
+      "bytes": 342093,
+      "sha256": "c1f890ef7f48b87fdeefe3cae21d5491b680ac2c78c0bc47307ac428852d6910"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR280_03FALUN_DEL_MONIT06_v2.tif",
+      "bytes": 1000364,
+      "sha256": "16131236f49b6b7f8426ff9060b1373e9df5af5820d47709abbc8c54411a1c52"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR293_03OZUN_GRA_v1.tif",
+      "bytes": 108121,
+      "sha256": "44e2341852a5a305ee95ac6e70fc241b9b2f48eba067e2f8850db34b4862a442"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR312_08CANDON_DEL_MONIT01_v1.tif",
+      "bytes": 254703,
+      "sha256": "d009f494969a6cccdab2ffb5220df8b491c674c2d6940c4383a4b6483a442e7f"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR329_05CASTIADAS_GRA_v3.tif",
+      "bytes": 27260,
+      "sha256": "803f78a050ce53aadf2f09edc91d23e6ef9d49a147f7857ab211bf20a8c29937"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR358_AOI01_FEP_PRODUCT.tif",
+      "bytes": 28303,
+      "sha256": "0dfab82d58a8ae669d965f0baa644fce0afb094a718088f01d9513476f132722"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR427_AOI03_DEL_MONIT02.tif",
+      "bytes": 846225,
+      "sha256": "cc7deb5d82ccdc8e2208d9ca8422aa3855e205221398e8dc5eb6f04b055e9500"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR442_AOI03_DEL_PRODUCT.tif",
+      "bytes": 11868,
+      "sha256": "4e56621868d33a3e17ef73dcd6109c25e2cd2b84646373f140bb2bed5822ece8"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR629_AOI01_DEL_PRODUCT.tif",
+      "bytes": 631182,
+      "sha256": "1e71583879a60d53d985f26594cdacff2ce99ee6dd010848bc67220d38c55bd5"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/EMSR629_AOI02_DEL_PRODUCT.tif",
+      "bytes": 613228,
+      "sha256": "86436d1fa99bae1f376516694bbf4bcdbb2da0050903e55ad7f449db47542a11"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/RS2_20161008_Water_Extent_Corail_Pestel.tif",
+      "bytes": 39457,
+      "sha256": "d6973e65ef428c01ffe96ed0dcc87c2540f32acad05b0e35ee7595119de7406b"
+    },
+    {
+      "path": "/content/worldfloods/val/gt/ST1_20161014_WaterExtent_BinhDinh_Lake.tif",
+      "bytes": 94678,
+      "sha256": "6ea44dd277a159a8b556ac6265956c3eeff4ade90c909be44755442119a52f43"
+    }
+  ],
+  "complete": true
+}

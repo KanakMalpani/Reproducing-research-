@@ -1,0 +1,1260 @@
+{
+  "rule": "Registered before census/strata results. Same frozen WF2 baseline and 256px/512 grid. Brightness=sqrt(B2^2+B3^2+B4^2)/10000, per official ml4floods get_brightness at commit 192426c7286315b59a2f52c7a9cdebe589242de2; cuts .3 and .35; count GT-cloud pixels above/below each cut, with water counts, on valid water-label pixels. JRC strata: permanent JRC==3; nonpermanent JRC in {1,2}; unknown JRC==0 excluded from strata but counted. Compute binary water IoU within each spatial stratum, confusion pooled within scenes; report unweighted scene mean and 5000 scene-bootstrap CI seed42, plus pooled IoU explicitly as secondary. Nonpermanent water is a JRC-based proxy, not independently confirmed flood water. Also report raw separate per-scene IoU for Campo Galliano and Ituango South; within-scene tile bootstrap 5000 draws seed42 is descriptive and not an event interval. Never add these to existing gap means.",
+  "rows": [
+    {
+      "split": "val",
+      "scene": "EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 249193,
+        "2": 14
+      },
+      "confusions": {
+        "permanent": [
+          0,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          7,
+          5,
+          0
+        ],
+        "all": [
+          57,
+          230,
+          1
+        ]
+      },
+      "iou": {
+        "permanent": null,
+        "nonpermanent": 0.5833333333333334,
+        "all": 0.19791666666666666
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR271_02FARKADONA_DEL_v1",
+      "n_tiles": 20,
+      "jrc_pixel_counts": {
+        "0": 1247565,
+        "2": 85
+      },
+      "confusions": {
+        "permanent": [
+          0,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          85,
+          0,
+          0
+        ],
+        "all": [
+          93568,
+          6922,
+          7471
+        ]
+      },
+      "iou": {
+        "permanent": null,
+        "nonpermanent": 1.0,
+        "all": 0.866683339354026
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR274_05TOAMASINA_DEL_v1",
+      "n_tiles": 25,
+      "jrc_pixel_counts": {
+        "0": 1046855,
+        "1": 481,
+        "2": 6545,
+        "3": 281601
+      },
+      "confusions": {
+        "permanent": [
+          281367,
+          0,
+          234
+        ],
+        "nonpermanent": [
+          3335,
+          3079,
+          520
+        ],
+        "all": [
+          294308,
+          19334,
+          11574
+        ]
+      },
+      "iou": {
+        "permanent": 0.9991690370417718,
+        "nonpermanent": 0.4809633689068359,
+        "all": 0.9049616255042803
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_05ZARAGOZA_DEL_v2",
+      "n_tiles": 87,
+      "jrc_pixel_counts": {
+        "0": 4649979,
+        "1": 7872,
+        "2": 30113,
+        "3": 10815
+      },
+      "confusions": {
+        "permanent": [
+          10809,
+          0,
+          6
+        ],
+        "nonpermanent": [
+          32007,
+          5565,
+          0
+        ],
+        "all": [
+          155264,
+          127068,
+          6
+        ]
+      },
+      "iou": {
+        "permanent": 0.9994452149791956,
+        "nonpermanent": 0.8518843819865858,
+        "all": 0.5499224333954339
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR279_11TORTOSA_DEL_v1",
+      "n_tiles": 116,
+      "jrc_pixel_counts": {
+        "0": 3921092,
+        "1": 142220,
+        "2": 353612,
+        "3": 2672650
+      },
+      "confusions": {
+        "permanent": [
+          2672644,
+          0,
+          6
+        ],
+        "nonpermanent": [
+          38400,
+          59489,
+          101
+        ],
+        "all": [
+          2794763,
+          110044,
+          120
+        ]
+      },
+      "iou": {
+        "permanent": 0.9999977550371354,
+        "nonpermanent": 0.3918767221145015,
+        "all": 0.9620768439275754
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR280_03FALUN_DEL_MONIT06_v2",
+      "n_tiles": 54,
+      "jrc_pixel_counts": {
+        "0": 2809926,
+        "1": 16432,
+        "2": 26743,
+        "3": 428142
+      },
+      "confusions": {
+        "permanent": [
+          423943,
+          0,
+          4199
+        ],
+        "nonpermanent": [
+          29523,
+          11002,
+          686
+        ],
+        "all": [
+          502762,
+          64507,
+          27323
+        ]
+      },
+      "iou": {
+        "permanent": 0.9901925062245703,
+        "nonpermanent": 0.7163864016888695,
+        "all": 0.8455579624347451
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR293_03OZUN_GRA_v1",
+      "n_tiles": 12,
+      "jrc_pixel_counts": {
+        "0": 635441,
+        "2": 302,
+        "1": 22,
+        "3": 1492
+      },
+      "confusions": {
+        "permanent": [
+          1492,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          311,
+          6,
+          7
+        ],
+        "all": [
+          18169,
+          41496,
+          4280
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9598765432098766,
+        "all": 0.284134803346626
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR312_08CANDON_DEL_MONIT01_v1",
+      "n_tiles": 30,
+      "jrc_pixel_counts": {
+        "3": 460848,
+        "0": 1365060,
+        "1": 5680,
+        "2": 6681
+      },
+      "confusions": {
+        "permanent": [
+          460848,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          7353,
+          2189,
+          108
+        ],
+        "all": [
+          486297,
+          17903,
+          9109
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.7619689119170985,
+        "all": 0.9473767262993635
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR329_05CASTIADAS_GRA_v3",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 256259,
+        "2": 120,
+        "3": 3140
+      },
+      "confusions": {
+        "permanent": [
+          3032,
+          0,
+          108
+        ],
+        "nonpermanent": [
+          79,
+          14,
+          0
+        ],
+        "all": [
+          3354,
+          667,
+          2214
+        ]
+      },
+      "iou": {
+        "permanent": 0.9656050955414013,
+        "nonpermanent": 0.8494623655913979,
+        "all": 0.5379310344827586
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR358_AOI01_FEP_PRODUCT",
+      "n_tiles": 2,
+      "jrc_pixel_counts": {
+        "0": 103982,
+        "2": 973,
+        "3": 110,
+        "1": 18
+      },
+      "confusions": {
+        "permanent": [
+          110,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          961,
+          30,
+          0
+        ],
+        "all": [
+          14949,
+          5512,
+          2142
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9697275479313825,
+        "all": 0.661372384196788
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR427_AOI03_DEL_MONIT02",
+      "n_tiles": 172,
+      "jrc_pixel_counts": {
+        "0": 10155049,
+        "1": 8930,
+        "2": 34346,
+        "3": 910346
+      },
+      "confusions": {
+        "permanent": [
+          910135,
+          0,
+          211
+        ],
+        "nonpermanent": [
+          30853,
+          10680,
+          186
+        ],
+        "all": [
+          987347,
+          71067,
+          56311
+        ]
+      },
+      "iou": {
+        "permanent": 0.9997682199954743,
+        "nonpermanent": 0.7395431338239171,
+        "all": 0.8857314584314517
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR442_AOI03_DEL_PRODUCT",
+      "n_tiles": 1,
+      "jrc_pixel_counts": {
+        "0": 43201,
+        "1": 3,
+        "2": 6,
+        "3": 36
+      },
+      "confusions": {
+        "permanent": [
+          36,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          8,
+          0,
+          1
+        ],
+        "all": [
+          139,
+          3,
+          1001
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.8888888888888888,
+        "all": 0.1216097987751531
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI01_DEL_PRODUCT",
+      "n_tiles": 35,
+      "jrc_pixel_counts": {
+        "0": 1779883,
+        "1": 204425,
+        "2": 221379,
+        "3": 22614
+      },
+      "confusions": {
+        "permanent": [
+          22614,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          399804,
+          20757,
+          163
+        ],
+        "all": [
+          1566621,
+          411596,
+          1294
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9502761905667373,
+        "all": 0.7914181835817028
+      }
+    },
+    {
+      "split": "val",
+      "scene": "EMSR629_AOI02_DEL_PRODUCT",
+      "n_tiles": 35,
+      "jrc_pixel_counts": {
+        "0": 1961738,
+        "1": 91280,
+        "2": 195061,
+        "3": 13593
+      },
+      "confusions": {
+        "permanent": [
+          13593,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          279561,
+          5709,
+          57
+        ],
+        "all": [
+          1708627,
+          331869,
+          12095
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9797916075239987,
+        "all": 0.8324244820327089
+      }
+    },
+    {
+      "split": "val",
+      "scene": "RS2_20161008_Water_Extent_Corail_Pestel",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 209483,
+        "2": 9451
+      },
+      "confusions": {
+        "permanent": [
+          0,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          7326,
+          356,
+          23
+        ],
+        "all": [
+          20240,
+          2500,
+          296
+        ]
+      },
+      "iou": {
+        "permanent": null,
+        "nonpermanent": 0.9508111615833874,
+        "all": 0.8786247612432714
+      }
+    },
+    {
+      "split": "val",
+      "scene": "ST1_20161014_WaterExtent_BinhDinh_Lake",
+      "n_tiles": 14,
+      "jrc_pixel_counts": {
+        "0": 720511,
+        "1": 1816,
+        "2": 27853,
+        "3": 20915
+      },
+      "confusions": {
+        "permanent": [
+          20708,
+          0,
+          207
+        ],
+        "nonpermanent": [
+          9719,
+          3278,
+          196
+        ],
+        "all": [
+          32868,
+          6512,
+          428
+        ]
+      },
+      "iou": {
+        "permanent": 0.9901027970356203,
+        "nonpermanent": 0.7366785416508754,
+        "all": 0.8256631832797428
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_08VATOMANDRY_DEL_v2",
+      "n_tiles": 55,
+      "jrc_pixel_counts": {
+        "0": 1719846,
+        "2": 21004,
+        "1": 4140,
+        "3": 1429663
+      },
+      "confusions": {
+        "permanent": [
+          1429656,
+          0,
+          7
+        ],
+        "nonpermanent": [
+          11415,
+          12784,
+          126
+        ],
+        "all": [
+          1452321,
+          175854,
+          2355
+        ]
+      },
+      "iou": {
+        "permanent": 0.9999951037412314,
+        "nonpermanent": 0.4692702980472765,
+        "all": 0.8907048628360104
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+      "n_tiles": 9,
+      "jrc_pixel_counts": {
+        "0": 434651,
+        "1": 49746,
+        "2": 30806,
+        "3": 18576
+      },
+      "confusions": {
+        "permanent": [
+          18566,
+          0,
+          10
+        ],
+        "nonpermanent": [
+          37460,
+          9132,
+          7834
+        ],
+        "all": [
+          64685,
+          23982,
+          12936
+        ]
+      },
+      "iou": {
+        "permanent": 0.9994616709732989,
+        "nonpermanent": 0.6882739866975343,
+        "all": 0.636644587266124
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR273_01GRILE_DEL_MONIT04_v2",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 172981,
+        "1": 410,
+        "2": 4407,
+        "3": 76117
+      },
+      "confusions": {
+        "permanent": [
+          76117,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          4526,
+          290,
+          1
+        ],
+        "all": [
+          87334,
+          2223,
+          5664
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9395889557816068,
+        "all": 0.9171716323079993
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_08ITUANGONORTH_DEL_MONIT02_v1",
+      "n_tiles": 26,
+      "jrc_pixel_counts": {
+        "0": 1404278,
+        "2": 6685,
+        "3": 2336
+      },
+      "confusions": {
+        "permanent": [
+          2336,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          6685,
+          0,
+          0
+        ],
+        "all": [
+          58293,
+          10775,
+          2208
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 1.0,
+        "all": 0.8178489253044503
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1",
+      "n_tiles": 25,
+      "jrc_pixel_counts": {
+        "0": 1385055,
+        "2": 4216,
+        "3": 3138,
+        "1": 652
+      },
+      "confusions": {
+        "permanent": [
+          3138,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          4514,
+          253,
+          3
+        ],
+        "all": [
+          15449,
+          5288,
+          709
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9463312368972746,
+        "all": 0.7203674344866176
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "n_tiles": 6,
+      "jrc_pixel_counts": {
+        "0": 259905,
+        "2": 510,
+        "3": 85889,
+        "1": 98
+      },
+      "confusions": {
+        "permanent": [
+          85889,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          0,
+          601,
+          0
+        ],
+        "all": [
+          88238,
+          8262,
+          830
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.0,
+        "all": 0.9065858419808898
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "n_tiles": 8,
+      "jrc_pixel_counts": {
+        "0": 420415,
+        "1": 57,
+        "2": 37,
+        "3": 19
+      },
+      "confusions": {
+        "permanent": [
+          0,
+          0,
+          19
+        ],
+        "nonpermanent": [
+          51,
+          1,
+          2
+        ],
+        "all": [
+          22977,
+          9312,
+          1339
+        ]
+      },
+      "iou": {
+        "permanent": 0.0,
+        "nonpermanent": 0.9444444444444444,
+        "all": 0.6832698941358392
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_06NORTHNORMANTON_DEL_v1",
+      "n_tiles": 101,
+      "jrc_pixel_counts": {
+        "3": 230895,
+        "0": 4675580,
+        "1": 99158,
+        "2": 1088240
+      },
+      "confusions": {
+        "permanent": [
+          230889,
+          0,
+          6
+        ],
+        "nonpermanent": [
+          972905,
+          106611,
+          19384
+        ],
+        "all": [
+          2395109,
+          438332,
+          100773
+        ]
+      },
+      "iou": {
+        "permanent": 0.9999740141622816,
+        "nonpermanent": 0.8853444353444353,
+        "all": 0.8162693654927691
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+      "n_tiles": 121,
+      "jrc_pixel_counts": {
+        "0": 7503362,
+        "2": 258532,
+        "1": 41958,
+        "3": 6131
+      },
+      "confusions": {
+        "permanent": [
+          6131,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          294314,
+          5554,
+          393
+        ],
+        "all": [
+          4145367,
+          1357547,
+          458148
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.980193897975428,
+        "all": 0.695407462629981
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_06MWANZA_DEL_v1",
+      "n_tiles": 180,
+      "jrc_pixel_counts": {
+        "0": 11297851,
+        "2": 8617,
+        "1": 5138,
+        "3": 2689
+      },
+      "confusions": {
+        "permanent": [
+          2689,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          12853,
+          564,
+          91
+        ],
+        "all": [
+          121486,
+          18140,
+          75120
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9515102161681966,
+        "all": 0.5657195011781361
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_MONIT01_v1",
+      "n_tiles": 41,
+      "jrc_pixel_counts": {
+        "1": 87154,
+        "2": 424498,
+        "3": 334293,
+        "0": 1363008
+      },
+      "confusions": {
+        "permanent": [
+          334293,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          482854,
+          13305,
+          9420
+        ],
+        "all": [
+          891110,
+          109281,
+          57104
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.9550515349727738,
+        "all": 0.8426611946155774
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR347_07ZOMBA_DEL_v2",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 227960,
+        "1": 2865,
+        "2": 890,
+        "3": 841
+      },
+      "confusions": {
+        "permanent": [
+          838,
+          0,
+          3
+        ],
+        "nonpermanent": [
+          3188,
+          38,
+          114
+        ],
+        "all": [
+          12846,
+          509,
+          3883
+        ]
+      },
+      "iou": {
+        "permanent": 0.9964328180737217,
+        "nonpermanent": 0.9544910179640719,
+        "all": 0.7452140619561434
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR419_AOI01_DEL_MONIT01",
+      "n_tiles": 14,
+      "jrc_pixel_counts": {
+        "0": 558014,
+        "1": 1313,
+        "2": 8597,
+        "3": 240141
+      },
+      "confusions": {
+        "permanent": [
+          238396,
+          0,
+          1745
+        ],
+        "nonpermanent": [
+          6189,
+          1463,
+          733
+        ],
+        "all": [
+          263659,
+          28027,
+          9253
+        ]
+      },
+      "iou": {
+        "permanent": 0.99273343577315,
+        "nonpermanent": 0.7381037567084079,
+        "all": 0.8761210743705535
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR422_AOI06_DEL_PRODUCT",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 42761,
+        "1": 206,
+        "2": 879,
+        "3": 170806
+      },
+      "confusions": {
+        "permanent": [
+          170806,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          799,
+          219,
+          0
+        ],
+        "all": [
+          173645,
+          2975,
+          2080
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.7848722986247544,
+        "all": 0.9717123670956911
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI02_DEL_MONIT03",
+      "n_tiles": 47,
+      "jrc_pixel_counts": {
+        "0": 1662527,
+        "1": 10935,
+        "2": 28635,
+        "3": 1204137
+      },
+      "confusions": {
+        "permanent": [
+          1204133,
+          0,
+          4
+        ],
+        "nonpermanent": [
+          26315,
+          8113,
+          59
+        ],
+        "all": [
+          1258813,
+          108296,
+          6558
+        ]
+      },
+      "iou": {
+        "permanent": 0.999996678118852,
+        "nonpermanent": 0.7630411459390495,
+        "all": 0.9163887608860081
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR438_AOI06_DEL_PRODUCT",
+      "n_tiles": 4,
+      "jrc_pixel_counts": {
+        "0": 92826,
+        "2": 2643,
+        "3": 121704
+      },
+      "confusions": {
+        "permanent": [
+          121704,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          2187,
+          453,
+          0
+        ],
+        "all": [
+          132488,
+          5224,
+          4830
+        ]
+      },
+      "iou": {
+        "permanent": 1.0,
+        "nonpermanent": 0.8284090909090909,
+        "all": 0.9294664028847638
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR466_AOI01_DEL_PRODUCT",
+      "n_tiles": 15,
+      "jrc_pixel_counts": {
+        "0": 846363,
+        "1": 2379,
+        "2": 5909
+      },
+      "confusions": {
+        "permanent": [
+          0,
+          0,
+          0
+        ],
+        "nonpermanent": [
+          7048,
+          1082,
+          141
+        ],
+        "all": [
+          195199,
+          87563,
+          5920
+        ]
+      },
+      "iou": {
+        "permanent": null,
+        "nonpermanent": 0.8521339620360295,
+        "all": 0.6761730901129963
+      }
+    },
+    {
+      "split": "test",
+      "scene": "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1",
+      "n_tiles": 12,
+      "jrc_pixel_counts": {
+        "0": 663606,
+        "1": 471,
+        "2": 13911,
+        "3": 39002
+      },
+      "confusions": {
+        "permanent": [
+          38995,
+          0,
+          7
+        ],
+        "nonpermanent": [
+          11340,
+          2708,
+          297
+        ],
+        "all": [
+          87683,
+          18935,
+          5502
+        ]
+      },
+      "iou": {
+        "permanent": 0.9998205220245115,
+        "nonpermanent": 0.7905193447194144,
+        "all": 0.7820460221191581
+      }
+    }
+  ],
+  "summary": {
+    "val_test": {
+      "permanent": {
+        "scenes": 27,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.9975072173600821,
+        "ci95_scene_bootstrap": [
+          0.994613863041197,
+          0.9995048042461155
+        ],
+        "pooled_iou_secondary": 0.9992298138030514,
+        "pooled_confusion": [
+          8785907,
+          0,
+          6772
+        ]
+      },
+      "nonpermanent": {
+        "scenes": 28,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.8220328461317645,
+        "ci95_scene_bootstrap": [
+          0.7586067461798516,
+          0.8778227035712103
+        ],
+        "pooled_iou_secondary": 0.8931209058768486,
+        "pooled_confusion": [
+          2723975,
+          285330,
+          40646
+        ]
+      },
+      "all": {
+        "scenes": 33,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.766220045513495,
+        "ci95_scene_bootstrap": [
+          0.6977750307694166,
+          0.8243175764005567
+        ],
+        "pooled_iou_secondary": 0.8167973644241782,
+        "pooled_confusion": [
+          20146035,
+          3627755,
+          890877
+        ]
+      }
+    },
+    "val": {
+      "permanent": {
+        "scenes": 11,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.9949346023504699,
+        "ci95_scene_bootstrap": [
+          0.9879364410132818,
+          0.9997063196669572
+        ],
+        "pooled_iou_secondary": 0.9989700188674476,
+        "pooled_confusion": [
+          4821331,
+          0,
+          4971
+        ]
+      },
+      "nonpermanent": {
+        "scenes": 12,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.7908153760753388,
+        "ci95_scene_bootstrap": [
+          0.6793500087801945,
+          0.8859986757359055
+        ],
+        "pooled_iou_secondary": 0.8710929189166189,
+        "pooled_confusion": [
+          839332,
+          122159,
+          2048
+        ]
+      },
+      "all": {
+        "scenes": 15,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.7263659346857084,
+        "ci95_scene_bootstrap": [
+          0.5905750829006821,
+          0.8396732796044596
+        ],
+        "pooled_iou_secondary": 0.8651451103384014,
+        "pooled_confusion": [
+          8679333,
+          1217230,
+          135665
+        ]
+      }
+    },
+    "test": {
+      "permanent": {
+        "scenes": 16,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.9992758901791905,
+        "ci95_scene_bootstrap": [
+          0.998168670626035,
+          0.9999756351220335
+        ],
+        "pooled_iou_secondary": 0.9995459332282333,
+        "pooled_confusion": [
+          3964576,
+          0,
+          1801
+        ]
+      },
+      "nonpermanent": {
+        "scenes": 16,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.845445948674084,
+        "ci95_scene_bootstrap": [
+          0.7743142785603379,
+          0.9053404819272254
+        ],
+        "pooled_iou_secondary": 0.9032937885710013,
+        "pooled_confusion": [
+          1884643,
+          163171,
+          38598
+        ]
+      },
+      "all": {
+        "scenes": 18,
+        "scene_gate": ">=200 GT-water pixels in stratum",
+        "scene_mean_iou": 0.7994318045366504,
+        "ci95_scene_bootstrap": [
+          0.7464910259607598,
+          0.8498539140954795
+        ],
+        "pooled_iou_secondary": 0.7836493970690738,
+        "pooled_confusion": [
+          11466702,
+          2410525,
+          755212
+        ]
+      }
+    }
+  }
+}

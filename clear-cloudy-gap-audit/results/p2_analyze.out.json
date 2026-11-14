@@ -1,0 +1,41 @@
+{
+ "headline_val_test": {
+  "scenes": 32,
+  "mean_gap_pts": 5.591926866199563,
+  "median_gap_pts": 2.3267855165010953,
+  "ci95": [
+   2.998640579764672,
+   8.514629983818702
+  ],
+  "frac_scenes_drop": 0.75,
+  "mean_iou_painted_px": 0.37747311289599594,
+  "mean_iou_orig_unpainted": 0.7796602249801167,
+  "verdict": "KILL"
+ },
+ "val": {
+  "scenes": 15,
+  "mean_gap_pts": 7.584698511103072,
+  "median_gap_pts": 3.489599597389126,
+  "ci95": [
+   3.008656987636851,
+   12.418198567845502
+  ],
+  "frac_scenes_drop": 0.8,
+  "mean_iou_painted_px": 0.3160752583624526,
+  "mean_iou_orig_unpainted": 0.7284052419116424,
+  "verdict": "KILL"
+ },
+ "test": {
+  "scenes": 17,
+  "mean_gap_pts": 3.8335989442258778,
+  "median_gap_pts": 1.8993680321419681,
+  "ci95": [
+   1.4694386340747394,
+   6.891950167978441
+  ],
+  "frac_scenes_drop": 0.7058823529411765,
+  "mean_iou_painted_px": 0.43164769042559303,
+  "mean_iou_orig_unpainted": 0.8248852100405353,
+  "verdict": "INCONCLUSIVE"
+ }
+}
