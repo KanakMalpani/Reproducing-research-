@@ -43,6 +43,7 @@ else:
     task.model.load_state_dict(weights, strict=True)
 del weights
 model = task.model.cuda().eval()
+model.requires_grad_(False)
 assert not model.training
 bands = cfg['data']['init_args']['bands']
 means = np.asarray([MEANS[b] for b in bands], np.float32)[:, None, None]
@@ -53,6 +54,7 @@ def predict(raws):
     x = np.stack([(raw.astype(np.float32) / 10000. - means) / stds for raw in raws])
     output = model(torch.from_numpy(x).cuda(), temporal_coords=None, location_coords=None).output
     assert output.shape == (len(raws), 2, 256, 256), str(output.shape)
+    assert torch.isfinite(output).all(), 'STOP nonfinite frozen-model logits'
     return (output.argmax(1).cpu().numpy() == 1)
 
 def tile_data(row):
