@@ -4,7 +4,9 @@ Locked before download/label inspection or predictions. Dataset: **Landsat 8 SPA
 
 ## Source and complete sample
 
-Use the full official USGS archive https://landsat.usgs.gov/cloud-validation/sparcs/l8cloudmasks.zip (80 manually annotated 1000x1000 subscenes). Require matching `_data.tif`, `_mask.png`, and case-insensitive `_mtl.txt` for every scene; stop on missing inputs, unexpected labels, geometry or metadata. Record archive size, SHA256, ZIP CRC checks, all extracted member sizes/checksums and actual counts. No fallback imagery, labels or fabricated metadata. Do not require an unverified expected archive checksum; distinguish observed SHA256 from publisher-certified integrity.
+Use the full official USGS archive https://landsat.usgs.gov/cloud-validation/sparcs/l8cloudmasks.zip (80 manually annotated 1000x1000 subscenes). Require matching subscene `_data.tif`, `_mask.png`, and the original acquisition's case-insensitive `_mtl.txt` for every scene; stop on missing inputs, unexpected labels, geometry or metadata. Record archive size, SHA256, ZIP CRC checks, all extracted member sizes/checksums and actual counts. No fallback imagery, labels or fabricated metadata. Do not require an unverified expected archive checksum; distinguish observed SHA256 from publisher-certified integrity.
+
+Technical filename correction, before label census or predictions: the official archive names metadata by acquisition (`LC8..._mtl.txt`), while imagery/masks append a numeric chip suffix (`LC8..._18_data.tif`). The initial downloader stopped at that mismatch. The existing archive is resumed explicitly with fresh CRC/SHA checks; no sample, label, model or statistical rule changes.
 
 ## Explicit sensor and label adaptations
 
