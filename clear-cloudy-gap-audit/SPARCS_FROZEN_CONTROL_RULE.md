@@ -1,0 +1,29 @@
+# SPARCS: frozen cross-sensor three-control stress test
+
+Locked before download/label inspection or predictions. Dataset: **Landsat 8 SPARCS**, DOI **10.5066/F7FB5146**. This is an additional water/cloud stress test, not a flood-event benchmark or direct Sentinel-2 replication. No training, fine-tuning, new segmenter, model selection, threshold optimization, fabricated labels or changes to any existing JSON are permitted.
+
+## Source and complete sample
+
+Use the full official USGS archive https://landsat.usgs.gov/cloud-validation/sparcs/l8cloudmasks.zip (80 manually annotated 1000x1000 subscenes). Require matching `_data.tif`, `_mask.png`, and case-insensitive `_mtl.txt` for every scene; stop on missing inputs, unexpected labels, geometry or metadata. Record archive size, SHA256, ZIP CRC checks, all extracted member sizes/checksums and actual counts. No fallback imagery, labels or fabricated metadata. Do not require an unverified expected archive checksum; distinguish observed SHA256 from publisher-certified integrity.
+
+## Explicit sensor and label adaptations
+
+The Sentinel-2 fine-tuned Prithvi checkpoint remains revision `91ce9d38086a80b078a192b374df758b8855b732`, SHA256 `76eed77d8bd543ae441308b80e8408502243a871cb8a338ddc8220ed96dfc270`. Reuse the existing isolated Colab environment and strictly load its unchanged state, eval/no gradients, FP32, batch2, argmax, no temporal/location metadata or TTA.
+
+Map Landsat B2,B3,B4,B5,B6,B7 to model blue,green,red,NIR,SWIR1,SWIR2 positions. Convert original DN to TOA reflectance with each supplied MTL band's REFLECTANCE_MULT/ADD coefficients and divide by sin(SUN_ELEVATION), per USGS. No clipping, fitting, sensor harmonization, spatial resampling or pretending Landsat is Sentinel-2. Retain native 30m support; a 256px input covers a different physical extent. Use the unchanged official Sen1Floods11 model normalization. Record calibration and band metadata.
+
+Manual labels: 0 shadow, 1 shadow over water, 2 water, 3 snow/ice, 4 land, 5 cloud, 6 flooded. Water-positive is codes2/6, negative code4. Exclude codes0/1/3 from water scoring and clear/cloud grouping; exclude code5 from water scoring because surface water under cloud is unknown. Never interpret cloud as dry land. Clear cloud-label class consists of2/4/6, cloud is5. Image validity requires nonzero original six-band DN and finite calibrated reflectance. Cloud fraction uses image-valid2/4/5/6 independently of scoreable water. This natural comparison is **visible labelled surface only** on clear versus cloudy windows; it cannot measure hidden water accuracy, and is not the all-label C2S-MS estimand.
+
+## Windows, matching, fill, aggregation
+
+Use nonoverlapping 256px windows from offsets0/256/512/768, padding only bottom/right outside the actual1000px image with zero reflectance. Padded pixels are always invalid, excluded from fractions and score. Keep fixed 50% image+cloud-label and50% visible water-label gates relative to the 256x256 tensor, recording every exclusion. Clear fraction<.01; cloudy>=.1; intermediate excluded from the contrast.
+
+Scene unit: original acquisition identifier (filename before `_data` with final numeric chip suffix removed); retain subscene IDs separately. Pool confusion within acquisition, unweighted mean across eligible acquisitions. Verify actual unique acquisition counts, do not impose80 as an eligible contrast count. Within-acquisition greedy water-fraction matching tolerance.05, then co-match NDVI tolerance.05, exactly as the fixed C2S-MS control implementation. NDVI=(L8B5-L8B4)/(L8B5+L8B4+1e-6) on visible labelled pixels; denominators<=1e-6 excluded. Both clear/cloudy groups require200 GT-water pixels; undefined or absent groups are excluded with reasons.
+
+Same-tile comparison: exact per-band median calibrated reflectance from image-valid manual cloud5 versus land4 in each acquisition. Require1000 class pixels; if absent, use the full-dataset pooled exact median of that class. Stop if pooled support is insufficient. Donor windows have cloud fraction[.1,.6], own acquisition in fixed cyclic order, otherwise lexicographic global pool[(i+42)%N]. Both fills use exactly the same cloud5 donor mask. Original/cloud/land predictions are scored on the same image-valid, unpainted2/4/6 surface; minimum200 GT-water pixels per acquisition. These are constructed constant fills on clear windows, not natural cloud.
+
+Primary aggregator is the unweighted mean of eligible acquisition-level values;5000 bootstrap draws, seed0 composition,42 fills. Record degenerate one-scene or null zero-scene cases without revising the rule. Retain secondary pixel-pool estimates separately; no separate event-weighted mean without event IDs. No pseudo-events inferred from geography or dates.
+
+New JSON only under `results/`, exclusive creation: `sparcs_input_manifest.json`, `sparcs_label_preflight.json`, `sparcs_prithvi_composition.json`, `sparcs_prithvi_same_tile.json`, `sparcs_prithvi_aggregator.json`, `sparcs_prithvi_tiles.json`, and runtime provenance. Each names dataset and DOI; no old JSON is replaced. Lock and publish source before execution. Report cross-sensor/radiometric/spatial/label differences and unknown checkpoint-pretraining overlap. Do not claim independent blind evaluation, general cloud robustness, or a better model.
+
+Primary sources: [USGS dataset](https://www.usgs.gov/landsat-missions/spatial-procedures-automated-removal-cloud-and-shadow-sparcs-validation-data), [original laboratory description](https://emapr.ceoas.oregonstate.edu/sparcs/), [USGS DN calibration](https://www.usgs.gov/landsat-missions/using-usgs-landsat-level-1-data-product). Other candidates were rejected for this protocol: S1S2-Water merges cloud/shadow/no-data in its valid mask; STTORM-CD-Floods supplies change rather than total-water labels. No missing label was synthesized to make them fit.
