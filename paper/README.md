@@ -4,7 +4,7 @@
 
 The source keeps printed frozen WorldFloods quantities unchanged, names composition/same-tile/aggregation controls, includes corrected placebo and activation intervals separately, distinguishes Prithvi and the failed candidate, and quotes the brightness census without naming a thin-cloud class. C2S-MS results are inserted only from the measured output JSON after execution.
 
-The additional requested SPARCS test is included in `sec/sparcs.tex`: frozen Prithvi, native Landsat30m, MTL calibration and manual visible-water support, with all adaptation limits stated. Its unmatched/matched samples differ and all composition intervals include zero; no equivalence or universal-gap claim is made. The paired cloud-minus-land interval also includes zero. No previous JSON or printed estimate was replaced.
+A third collection was inconclusive and is omitted from this source. No previous JSON or printed WorldFloods estimate was replaced. Printed WorldFloods values stay 39.3, 8.9, 1.4, 5.6 [3.0, 8.5] on 32 scenes, and test 3.8 [1.5, 6.9].
 
 Official style files `cvpr.sty` and `ieeenat_fullname.bst` are unchanged copies from https://github.com/cvpr-org/author-kit at commit `a2369342011145be8c85e5ad21a9b61f9fa53473` (CVPR2027 author kit, retrieved2026-11-15). Their original notices are preserved. The template choice does not claim submission, acceptance, or a reserved conference paper identifier.
 
@@ -19,4 +19,4 @@ pdflatex main
 
 The optional WorldFloods real-tile figure remains absent because its rasters are missing. No substitute figure is presented. Genuine flood-versus-permanent recognition remains blocked by missing independent labels for JRC0 pixels. Review `clear-cloudy-gap-audit/REMAINING.md` for those open boundaries.
 
-Validation: compiled successfully with official portable Tectonic 0.17.0, bibliography resolved, four PDF pages rendered and visually inspected. Times-compatible fonts are embedded through T1 encoding. The bundled `lineno.sty` emits a legacy source-encoding warning; no replacement characters appear in the PDF. No numerical computation was performed by the compiler. The review watermark is supplied by the official style and does not mean the paper has been submitted.
+Validation: rebuilt with pdfLaTeX (TeX Live 2023), bibliography resolved, four PDF pages. The body, including the conclusion, ends on page 4. Times-compatible fonts are embedded through T1 encoding. The bundled `lineno.sty` emits a legacy source-encoding warning; no replacement characters appear in the PDF. No numerical computation was performed by the compiler. The review watermark is supplied by the official style and does not mean the paper has been submitted.

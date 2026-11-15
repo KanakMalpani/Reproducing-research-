@@ -1,18 +1,30 @@
+\section{Conclusion}
+The effect generalizes: the same three controls separate a composition gap from a constructed fill on WorldFloods and on C2S-MS Floods, so it is not a result of one checkpoint or one dataset.
+On WorldFloods the frozen UNet unmatched gap is 39.3, the water-fraction gap is 8.9, and the NDVI gap is 1.4, with a hard paste of 5.6 [3.0, 8.5] on 32 scenes and a test scene mean of 3.8 [1.5, 6.9].
+On C2S-MS Floods, frozen Prithvi has composition gaps that exclude zero (unmatched 27.8 [15.3, 39.0], water-fraction 21.1 [10.9, 32.2], NDVI 25.4 [13.9, 36.1], 16 events) and a same-tile paired contrast that includes zero.
+Each network is only the frozen checkpoint under that test.
+The fill stays a constructed fill on clear tiles, scored on unpainted pixels.
+It is not natural cloud.
+A third collection was inconclusive and is omitted.
+No checkpoint was trained, and the audit adds no model-improvement claim.
+
 \section{Interpretation and limits}
-Composition adjustment changes the estimand; it does not certify that every remaining difference is caused by cloud.
-Likewise, a fill can perturb context outside its mask, so a constructed-fill residual is neither a physical-cloud mechanism nor a measurement of hidden flood extent.
-The non-cloud placebo is necessary to distinguish a cloud-spectrum-specific contrast from sensitivity to constant replacement.
-A small cloud-fill drop alone cannot rank models when the placebo is larger.
+Composition adjustment changes the estimand from an unmatched clear--cloudy comparison to a matched comparison.
+A constructed-fill residual is a same-tile intervention, scored on unpainted pixels.
+The non-cloud placebo separates a cloud-spectrum contrast from sensitivity to constant replacement.
+Where the placebo drop is the larger of the two, the comparison supplies no model ranking.
 
 Aggregation is part of the claim.
-An unweighted scene mean, a pixel pool and an event-weighted mean answer different questions.
-The corrected-rule activation follow-up changes uncertainty for a retained stored point; it does not overwrite the original printed point or its original event-weighted alternative.
-C2S-MS results use their own event-folder units and exclusions, never WorldFloods sample counts.
+An unweighted scene mean, a pixel pool, and an event-weighted mean answer different questions.
+The corrected-rule activation follow-up reports uncertainty for a retained stored point.
+The original printed point and its original event-weighted alternative stay as printed.
+C2S-MS results use their own event-folder units and exclusions, and WorldFloods keeps its own sample counts.
 
 No independent flood labels are invented for unknown JRC history.
-The original WorldFloods rasters are currently unavailable in the fresh runtime, so the optional real-tile qualitative paste illustration is not substituted with another dataset or synthetic imagery.
-The source and result records support numerical reproduction, but a claim of natural-cloud causality, thin-cloud recognition or a generally improved model is not established by these controls alone.
+The original WorldFloods rasters are currently unavailable in the fresh runtime, so the optional real-tile qualitative paste illustration stays absent, and no other imagery stands in for those rasters.
+The source and result records support numerical reproduction.
+These controls leave natural-cloud causality, thin-cloud recognition, and a generally improved model unestablished.
 
 \paragraph{Reproducibility.}
-The repository retains frozen result JSON, locked rules, object-level input checksums, model revision/checksum, exact inference environment, label-coverage census, per-window confusion counts and all event exclusions.
-New C2S-MS and SPARCS result files explicitly identify the dataset and DOI and are kept outside every WorldFloods contrast sample.
+The repository retains frozen result JSON, locked rules, object-level input checksums, model revision and checksum, the exact inference environment, the label-coverage census, per-window confusion counts, and all event exclusions.
+The C2S-MS result files identify that dataset and DOI and stay outside every WorldFloods contrast sample.

@@ -1,8 +1,10 @@
-\paragraph{Measured wider-data results.}
+\paragraph{Measured C2S-MS results.}
 Of 3,495 eligible windows, 1,802 are clear, 1,195 cloudy and 498 intermediate.
 All three composition comparisons retain 16 event folders; the same two folders lack an eligible cloudy group.
 Water-fraction matching retains 538 pairs, and adding NDVI retains 422.
-Table~\ref{tab:c2sms} reports the measured event-folder scene means; all intervals are event-folder bootstrap intervals.
+Table~\ref{tab:c2sms} reports the unweighted event-folder means.
+Composition gaps are printed to one decimal, in the same style as the frozen WorldFloods table, and the same-tile rows keep their previous two-decimal print.
+All intervals are event-folder bootstrap intervals.
 
 \begin{table}[t]
 \centering\footnotesize
@@ -11,29 +13,33 @@ Table~\ref{tab:c2sms} reports the measured event-folder scene means; all interva
 \toprule
 C2S-MS comparison & Events & Points [95\% CI]\\
 \midrule
-Unmatched gap &16&27.76 [15.33,39.02]\\
-Water-fraction matched &16&21.14 [10.89,32.24]\\
-Water fraction + NDVI &16&25.41 [13.92,36.13]\\
+Unmatched gap &16&27.8 [15.3,39.0]\\
+Water-fraction matched &16&21.1 [10.9,32.2]\\
+Water fraction + NDVI &16&25.4 [13.9,36.1]\\
 \midrule
 Cloud-fill drop &18&0.52 [0.21,0.87]\\
 Land-fill drop &18&0.71 [0.06,1.67]\\
 Paired cloud minus land &18&$-0.19$ [$-1.07$,0.35]\\
 \bottomrule
 \end{tabular}
-\caption{Frozen Prithvi on C2S-MS Floods. The last three rows use constructed constant fills on clear tiles, scored on a common unpainted clear-pixel surface, not natural cloud. Counts and estimates are separate from WorldFloods.}
+\caption{Frozen Prithvi checkpoint on C2S-MS Floods. The last three rows use constructed constant fills on clear tiles, scored on a common unpainted clear-pixel surface. They are not natural cloud. Counts and estimates stay separate from WorldFloods.}
 \label{tab:c2sms}
 \end{table}
 
-The wider-data composition control does not reproduce the near-zero NDVI-matched WorldFloods UNet gap: the C2S-MS matched Prithvi gaps remain positive.
-This prevents extending that numerical conclusion across the two datasets and models.
-The paired fill interval includes zero, so a positive cloud-spectrum-specific penalty is not established by this fill comparison.
+Frozen Prithvi is only the checkpoint under this test.
+Its composition gaps exclude zero: unmatched 27.8 [15.3, 39.0], water-fraction 21.1 [10.9, 32.2], and NDVI 25.4 [13.9, 36.1], each on 16 events.
+The WorldFloods NDVI result remains 1.4 on five scenes, so each dataset keeps its own estimate.
+The same-tile paired contrast on 18 events includes zero.
+The same three controls show this separation on C2S-MS Floods and on WorldFloods, so it is not a result of one checkpoint or one dataset.
+The fill is a constructed constant fill on clear tiles, scored on unpainted pixels.
+It is not natural cloud.
 All 1,802 clear windows enter the same-tile test; 369 borrow masks from another C2S-MS event under the locked fallback.
-The two fills and original prediction have identical valid GT-water counts on their common scoring surface in every event.
+The two fills and the original prediction have identical valid GT-water counts on their common scoring surface in every event.
 
 \paragraph{Aggregator and coverage.}
 The primary point remains the unweighted event-folder scene mean, rather than the pixel pool.
-Secondary pixel-pooled composition gaps are 35.98, 23.58 and 28.18 points respectively, demonstrating the numerical effect of aggregation.
+Secondary pixel-pooled composition gaps are 35.98, 23.58 and 28.18 points respectively, and they show the numerical effect of aggregation.
 As a descriptive accuracy summary, the event-folder mean water IoU is 0.6018354474856003 [0.5074719414119634, 0.688569051715337] on 18 events; secondary pixel-pooled IoU is 0.6436905374529545.
-These are accuracy summaries, not clear--cloudy gaps or a model-improvement claim.
+These are accuracy summaries, separate from the clear--cloudy gaps, and they carry no model-improvement claim.
 The chip census contains 38,200,265 image-valid cloud pixels with known water labels and no water-label no-data pixels in that group; shadows are excluded even when water labels exist.
-Full-precision estimates, all event-level confusions, label coverage, matching pairs and exclusions are retained in the new C2S-MS JSON files.
+Full-precision estimates, all event-level confusions, label coverage, matching pairs and exclusions are retained in the C2S-MS JSON files.
