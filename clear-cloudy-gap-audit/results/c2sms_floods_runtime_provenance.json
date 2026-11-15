@@ -1,0 +1,16 @@
+{
+  "dataset": "C2S-MS Floods",
+  "doi": "10.34911/rdnt.oz32gz",
+  "completed_utc": "2026-11-15T00:02:32.716229+00:00",
+  "code_commit": "e79db6acacae62c405ccd3daf2d1d12ea343bc41",
+  "protocol_commit": "4b15a07ae5ad1491aa78a4dbca9bd2213a13bacf",
+  "execution": "Google Colab browser; frozen inference and bootstrap; no training",
+  "gpu": "Tesla T4, 580.82.07, 15360 MiB",
+  "script_sha256": {
+    "c2sms_controls.py": "097905c19e0c246e4f5dcabb08f265dc64972102878a43de6e7f7c0c6ee8ad8d",
+    "c2sms_data.py": "84110fd1e0acce4c242f3bac480e517b19fc432c8fc0974af1b5b5efb346ae8c",
+    "c2sms_prithvi_evaluate.py": "97ee13595112fc1b87853093f140ec1d84ba53534121c6fed37e1ad2580f6a51",
+    "c2sms_environment.py": "a888ba2af429190a13ddd0308369a69f299dca5b5b31799b85dccb22d9768399",
+    "c2sms_download.py": "40712427d1fe7b20e7ef286dbe5a7ae7adeab76babe1ea54209a1f0c334646ab"
+  }
+}

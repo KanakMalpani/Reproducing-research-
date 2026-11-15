@@ -42,3 +42,18 @@ Scene gate: at least200 GT-water pixels; confusion pooled within scenes, unweigh
 - Optional event bootstrap: completed in reconnected Colab using uploaded saved JSON; all source hashes and stored scene intervals verified, means unchanged. See results/EVENT_BOOTSTRAP_FOLLOWUP.md and results/corrected_paste_event_cluster_2026_11_15.json.
 - Optional qualitative figure: not produced. The fresh reconnected Colab runtime explicitly reports the old raster and checkpoint paths absent. No raw rasters are stored locally. Stopped at this missing-input boundary; no substitute imagery used.
 - Full genuine flood split remains blocked exactly as before.
+
+
+## Wider data and paper source — completed 2026-11-15
+
+| Requested addition | Status | Evidence |
+|---|---|---|
+| Actual IEEE-CVF CVPR manuscript source | Complete; newly assembled, not recovered historical source | `../paper/main.tex`, four-page compiled PDF, `../paper/README.md` |
+| Preserve every printed frozen quantity and add corrected WF2/activation, Prithvi and brightness sentences | Complete in actual manuscript | `../paper/sec/worldfloods.tex` |
+| C2S-MS Sentinel-2 inputs and cloud/water labels | Complete; 900 chips, 8,100 integrity-verified objects, 3,495 eligible windows | `results/c2sms_floods_download_manifest.json`, `results/c2sms_floods_label_preflight.json` |
+| Frozen Prithvi composition control | Complete; n=16 event folders for each contrast | `results/c2sms_floods_prithvi_composition.json` |
+| C2S-MS constructed cloud versus land fill | Complete; n=18 event folders, paired interval includes zero | `results/c2sms_floods_prithvi_same_tile.json` |
+| Explicit unweighted event-folder scene aggregator and intervals | Complete | `results/c2sms_floods_prithvi_aggregator.json` |
+| Preserve old JSON and released weights | Verified; all 65 pre-existing tracked JSON unchanged; checkpoint SHA256 unchanged | `results/C2SMS_VERIFICATION.md`, runtime/execution records |
+
+The C2S-MS NDVI-matched gap remains positive, unlike the frozen WorldFloods UNet result; no cross-dataset near-zero-gap claim is made. No training was performed. See `results/C2SMS_FROZEN_RUN_REPORT.md` for full-precision results, event exclusions and limits. Only the optional missing-raster WorldFloods figure and independently labelled genuine-flood split remain unresolved.

@@ -1,0 +1,311 @@
+{
+  "dataset": "C2S-MS Floods",
+  "doi": "10.34911/rdnt.oz32gz",
+  "primary_aggregator": "unweighted mean of eligible event-folder scene values",
+  "scene_definition": "one event folder; not one chip or one source acquisition",
+  "bootstrap_unit": "event folder; all dependent chip/windows retained within event",
+  "event_folders": 18,
+  "composition": {
+    "unmatched": {
+      "scene_count": 16,
+      "scene_mean": 27.758077975674098,
+      "ci95": [
+        15.334126064499115,
+        39.016190238008484
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed0",
+      "limitation": null
+    },
+    "water_fraction_match": {
+      "scene_count": 16,
+      "scene_mean": 21.141924169417972,
+      "ci95": [
+        10.89209165835164,
+        32.240721035769106
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed0",
+      "limitation": null
+    },
+    "water_fraction_plus_ndvi_match": {
+      "scene_count": 16,
+      "scene_mean": 25.40583933039207,
+      "ci95": [
+        13.919263631579188,
+        36.133004262915804
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed0",
+      "limitation": null
+    }
+  },
+  "same_tile": {
+    "gap_cloud_pts": {
+      "scene_count": 18,
+      "scene_mean": 0.5202762097675461,
+      "ci95": [
+        0.21480288916273826,
+        0.8747717819543489
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed42",
+      "limitation": null
+    },
+    "gap_land_pts": {
+      "scene_count": 18,
+      "scene_mean": 0.7116918145604925,
+      "ci95": [
+        0.059713091840471764,
+        1.6704480408301774
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed42",
+      "limitation": null
+    },
+    "cloud_minus_land_pts": {
+      "scene_count": 18,
+      "scene_mean": -0.19141560479294636,
+      "ci95": [
+        -1.0693382967417622,
+        0.35248639400358794
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed42",
+      "limitation": null
+    }
+  },
+  "water_accuracy": {
+    "rows": [
+      {
+        "event": "0c7daa97-37f6-4862-867f-b3843f298d9e",
+        "scene": "0c7daa97-37f6-4862-867f-b3843f298d9e",
+        "eligible": true,
+        "tiles": 104,
+        "confusion": [
+          305378,
+          587977,
+          85589
+        ],
+        "water_iou": 0.31194634218096234
+      },
+      {
+        "event": "3e71513a-ec54-4e9b-aae6-93a8a3648763",
+        "scene": "3e71513a-ec54-4e9b-aae6-93a8a3648763",
+        "eligible": true,
+        "tiles": 120,
+        "confusion": [
+          1616401,
+          354094,
+          251582
+        ],
+        "water_iou": 0.7274279874189779
+      },
+      {
+        "event": "4567c2a2-b5f3-4a88-90ba-119bfb3eee9e",
+        "scene": "4567c2a2-b5f3-4a88-90ba-119bfb3eee9e",
+        "eligible": true,
+        "tiles": 245,
+        "confusion": [
+          2261910,
+          940700,
+          469537
+        ],
+        "water_iou": 0.6159639034058277
+      },
+      {
+        "event": "55d43c77-9955-4b4f-b6f0-b21e7f50a039",
+        "scene": "55d43c77-9955-4b4f-b6f0-b21e7f50a039",
+        "eligible": true,
+        "tiles": 252,
+        "confusion": [
+          702545,
+          59626,
+          85982
+        ],
+        "water_iou": 0.8283234274948034
+      },
+      {
+        "event": "5ef4fb15-6f38-49a8-848a-82ebef8ec6f7",
+        "scene": "5ef4fb15-6f38-49a8-848a-82ebef8ec6f7",
+        "eligible": true,
+        "tiles": 212,
+        "confusion": [
+          541463,
+          2452560,
+          129119
+        ],
+        "water_iou": 0.17337123960421907
+      },
+      {
+        "event": "749aca10-a39b-4321-8322-100dd6f976d4",
+        "scene": "749aca10-a39b-4321-8322-100dd6f976d4",
+        "eligible": true,
+        "tiles": 241,
+        "confusion": [
+          10620520,
+          1748830,
+          257689
+        ],
+        "water_iou": 0.8410934661720773
+      },
+      {
+        "event": "89b504aa-e913-46ce-9d9f-b9c48ca9b602",
+        "scene": "89b504aa-e913-46ce-9d9f-b9c48ca9b602",
+        "eligible": true,
+        "tiles": 57,
+        "confusion": [
+          346794,
+          232492,
+          218363
+        ],
+        "water_iou": 0.43477018086902885
+      },
+      {
+        "event": "8fcb3e59-7b1b-49c9-92c4-f4ddea14d4e4",
+        "scene": "8fcb3e59-7b1b-49c9-92c4-f4ddea14d4e4",
+        "eligible": true,
+        "tiles": 250,
+        "confusion": [
+          894932,
+          148591,
+          65462
+        ],
+        "water_iou": 0.806982961897591
+      },
+      {
+        "event": "95eff095-c3e9-4c12-bfde-1708b7e19bae",
+        "scene": "95eff095-c3e9-4c12-bfde-1708b7e19bae",
+        "eligible": true,
+        "tiles": 166,
+        "confusion": [
+          1083197,
+          383694,
+          248682
+        ],
+        "water_iou": 0.6313907947956747
+      },
+      {
+        "event": "975ecc1f-bc34-4005-b2df-ef45775f116d",
+        "scene": "975ecc1f-bc34-4005-b2df-ef45775f116d",
+        "eligible": true,
+        "tiles": 72,
+        "confusion": [
+          823967,
+          356713,
+          79302
+        ],
+        "water_iou": 0.6539514056550014
+      },
+      {
+        "event": "befccce4-79c0-47a2-a43b-a0915486dfa4",
+        "scene": "befccce4-79c0-47a2-a43b-a0915486dfa4",
+        "eligible": true,
+        "tiles": 262,
+        "confusion": [
+          1170870,
+          306934,
+          866180
+        ],
+        "water_iou": 0.4995213277906334
+      },
+      {
+        "event": "c19f5f27-2b3b-4b83-8f4a-cf9275d94cdd",
+        "scene": "c19f5f27-2b3b-4b83-8f4a-cf9275d94cdd",
+        "eligible": true,
+        "tiles": 108,
+        "confusion": [
+          329003,
+          475567,
+          134637
+        ],
+        "water_iou": 0.3502987094431792
+      },
+      {
+        "event": "d89b6d2c-ded5-463e-81cc-13c1764df616",
+        "scene": "d89b6d2c-ded5-463e-81cc-13c1764df616",
+        "eligible": true,
+        "tiles": 269,
+        "confusion": [
+          1492762,
+          1051149,
+          1094085
+        ],
+        "water_iou": 0.41032535494816375
+      },
+      {
+        "event": "dc70be79-da19-47ee-bdee-4614bc46d610",
+        "scene": "dc70be79-da19-47ee-bdee-4614bc46d610",
+        "eligible": true,
+        "tiles": 252,
+        "confusion": [
+          1562085,
+          383051,
+          73760
+        ],
+        "water_iou": 0.7737322774427212
+      },
+      {
+        "event": "e7d1917e-c069-45cf-a392-42e24aa2f4ac",
+        "scene": "e7d1917e-c069-45cf-a392-42e24aa2f4ac",
+        "eligible": true,
+        "tiles": 248,
+        "confusion": [
+          257258,
+          164870,
+          75971
+        ],
+        "water_iou": 0.5164796556507842
+      },
+      {
+        "event": "e7e6e693-aec9-44b2-928d-80ba818b647e",
+        "scene": "e7e6e693-aec9-44b2-928d-80ba818b647e",
+        "eligible": true,
+        "tiles": 120,
+        "confusion": [
+          1044330,
+          78964,
+          179183
+        ],
+        "water_iou": 0.801803026080307
+      },
+      {
+        "event": "e92c811f-ba53-4df2-aad0-afea8b733621",
+        "scene": "e92c811f-ba53-4df2-aad0-afea8b733621",
+        "eligible": true,
+        "tiles": 246,
+        "confusion": [
+          300424,
+          61848,
+          48147
+        ],
+        "water_iou": 0.7319934018649235
+      },
+      {
+        "event": "f59da1a3-a2f1-45b8-b975-57af1b344252",
+        "scene": "f59da1a3-a2f1-45b8-b975-57af1b344252",
+        "eligible": true,
+        "tiles": 271,
+        "confusion": [
+          678734,
+          42031,
+          217150
+        ],
+        "water_iou": 0.7236625920259299
+      }
+    ],
+    "summary": {
+      "scene_count": 18,
+      "scene_mean": 0.6018354474856003,
+      "ci95": [
+        0.5074719414119634,
+        0.688569051715337
+      ],
+      "uncertainty": "event-folder scene bootstrap; 5000 draws; seed0",
+      "limitation": null,
+      "pixel_pooled_water_iou_secondary": 0.6436905374529545
+    }
+  },
+  "event_weighted_mean": null,
+  "event_weighted_mean_reason": "primary scene unit already is an event folder; not a separately estimated point",
+  "pixel_pool_role": "secondary pooled confusion; never substituted for scene mean",
+  "worldfloods_results_modified": false,
+  "source_acquisitions_observed": 62,
+  "eligible_windows": 3495,
+  "checkpoint_unchanged": true,
+  "runtime_seconds": 681.4900999069214
+}

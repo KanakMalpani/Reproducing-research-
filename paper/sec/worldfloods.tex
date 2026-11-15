@@ -1,0 +1,65 @@
+\section{WorldFloods: frozen quantities and separate checks}
+\label{sec:worldfloods}
+The WorldFloods audit reproduces the committed analyses and the frozen UNet confusion counts on 1,291 sampled tiles from 34 scenes.
+The contrast samples below have their own eligibility gates and must not be equated with that inventory.
+Table~\ref{tab:frozen} preserves the printed frozen values.
+
+\begin{table}[t]
+\centering\footnotesize
+\begin{tabular}{lrr}
+\toprule
+Composition comparison & Scenes & Gap [95\% CI], points\\
+\midrule
+Unmatched &8&39.3 [22.4,57.6]\\
+Water-fraction matched &7&8.9 [$-0.7$,17.8]\\
+Water fraction + NDVI &5&1.4 [$-24.5$,24.5]\\
+\bottomrule
+\end{tabular}
+\caption{Frozen UNet composition results. The unmatched gap is not a cloud cost. All entries are unweighted means of eligible within-scene gaps.}
+\label{tab:frozen}
+\end{table}
+
+\paragraph{Original same-tile result and aggregator.}
+The printed hard paste remains \textbf{5.6 [3.0,8.5], $n=32$}, with median 2.3, and the printed test scene mean remains \textbf{3.8 [1.5,6.9]}.
+These are unweighted scene means, distinct from the pixel-pool 2.8, original event interval [3.1,8.5], and original event-weighted mean 6.0.
+Those original quantities were not recomputed for the corrected-rule check below.
+The original hard paste was confirmatory under its registered five-point bar; its test-only interval was inconclusive against that bar.
+These statements do not identify natural-cloud causality.
+
+\paragraph{Corrected pooled-median placebo check.}
+On frozen WF2, seed 42, identical masks, constant fills on clear tiles and unpainted valid-pixel scoring, the separate corrected-rule cloud-fill drop on 32 scenes is 5.401824562730654 [3.0395970810675137, 8.131108851983626] points, and the non-cloud placebo (land-fill comparison) is 1.875462012891159 [0.7947312280281873, 3.0859464397899936].
+Their paired cloud-minus-placebo contrast is 3.5263625498394946 [1.4732143046767636, 5.72402744697899].
+The paired activation interval is [1.4415350645592608, 5.984003104125222], using 32 scenes in 24 clusters, including singleton non-EMSR scenes.
+Its upper bound 5.984003104125222 is not the event-weighted 6.0.
+The cloud-fill activation interval [3.075068940840618, 8.185912766151164] is not the original event interval [3.1,8.5].
+The stored cloud mean remains 5.401824562730654; it does not replace printed 5.6.
+
+On 17 test scenes, the corrected cloud fill is 4.444186880094727 [1.6715664311563256, 8.530741356636542], the placebo is 2.3272143974326833 [0.7203564862910251, 4.1754992673787115], and the paired contrast is 2.1169724826620437 [$-0.3760086187473995$, 5.187757191515272].
+The paired activation interval on 11 test activations is [$-0.38313817636896463$, 5.5367285405207305], which still includes zero.
+The corrected test mean 4.444186880094727 does not replace printed test 3.8.
+All scene and activation intervals in this paragraph are separately labelled follow-ups; the printed original paste and original event quantities remain unchanged.
+The WorldFloods placebo uses the median of valid GT-clear pixels, rather than a separately verified land-only class.
+
+\paragraph{Frozen Prithvi is a separate comparison.}
+The printed NDVI 1.4 [$-24.5$,24.5], $n=5$, belongs to this released UNet.
+Frozen Prithvi~\cite{prithvi} on the same five scenes instead has mean 26.413202413471293 [$-2.479672216469317$, 56.2720287818474].
+Its 32-scene cloud-fill drop is 1.48590782566094 [0.4696010095725278, 2.557471004375826]; the non-cloud fill drop is larger, 2.6482709365569335 [1.8216041771839329, 3.552474710682945], with paired contrast $-1.1623631108959933$ [$-2.2004243456862635$, $-0.15842118822902607$].
+The smaller cloud-fill drop is therefore not a better-model claim.
+Prithvi's unmatched 53.31440092372452 is not the frozen UNet's 39.3, and its NDVI 26.413202413471293 is not 1.4.
+
+\paragraph{Brightness is a census, not a thin-cloud class.}
+Brightness is $\sqrt{B_2^2+B_3^2+B_4^2}/10000$.
+At 0.3, GT-cloud at or below the cut contains 1413748 pixels, 237524 water; above it contains 710643 pixels, 232857 water.
+GT-clear at or below contains 71202656 pixels, 18076676 water; above contains 4959997 pixels, 2489855 water.
+At 0.35, GT-cloud at or below contains 1951054 pixels, 434810 water; above contains 173337 pixels, 35571 water.
+GT-clear at or below contains 74323427 pixels, 19498563 water; above contains 1839226 pixels, 1067968 water.
+These are sampled-grid valid-pixel counts, followed by water counts in each bin; they do not define a thin-cloud class.
+
+\paragraph{Separate scenes, strata and failed corrections.}
+Campo Galliano (\path{EMSR260_07CAMPOGALLIANO_DEL_MONIT01_v1}, IoU 0.19791666666666666) and Ituango South (\path{EMSR286_09ITUANGOSOUTH_DEL_MONIT02_v1}, IoU 0.7203674344866176) have no stored clear--cloudy gap and stay outside both $n=8$ and $n=32$.
+Permanent-water scene-mean IoU 0.9975072173600821 is a label-dependent stratum score, not the unmatched 39.3 or any cloud gap: JRC permanent-water information was incorporated into the released labels.
+The genuine permanent-versus-flood split remains unidentified for JRC code 0; unknown history is never relabelled as flood.
+Previously recorded correction arms changed cloudy-test IoU by $-0.24$ and $+0.44$ points and did not meet their registered improvement criterion.
+The later six-epoch candidate is separate again: its unmatched 34.59240223938893 and NDVI 4.294778843697456 are not frozen 39.3 and 1.4.
+It missed its 0.9 test-IoU target, while cloudy-test IoU fell from 0.7667548616804217 to 0.7390338550118456.
+No further model is trained here, and that candidate is not a paper improvement.

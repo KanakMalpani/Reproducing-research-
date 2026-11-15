@@ -1,0 +1,29 @@
+\section{Wider-data test: C2S-MS Floods}
+\label{sec:c2sms}
+C2S-MS Floods~\cite{c2sms} provides distinct Sentinel-2 chips with LabelCloud and LabelWater.
+The complete public inventory supports 900 Sentinel-2 chip folders in 18 event folders and 62 source acquisitions; these are inventory counts, not the number of eligible contrasts.
+All 8,100 selected band/label files passed size and ETag checks.
+The pre-inference census retained 3,495 of 3,600 nonoverlapping 256-pixel windows under the fixed 50\% validity gates.
+
+\paragraph{Frozen model and labels.}
+Only the released Prithvi-EO-2.0-300M-TL-Sen1Floods11 checkpoint~\cite{prithvi} is evaluated, without training, fine-tuning, threshold selection or an additional segmenter.
+Inputs are B2,B3,B4,B8A,B11,B12 divided by 10000 and standardized with the official Sen1Floods11 statistics; predictions use two-class argmax at 256 pixels, with no temporal/location metadata or test-time augmentation.
+LabelCloud 0 and 1 identify clear/background and cloud.
+Shadow 2 and no-data 255 are excluded from both groups; LabelWater 0/1 provide the scored classes, and 255 is excluded.
+The cloud fraction denominator is independent of water-label availability, so missing water labels beneath clouds cannot silently turn a cloudy tile into a clear one.
+Input label availability is counted explicitly, rather than inferred or filled.
+
+\paragraph{Three controls and scoring units.}
+Clear tiles have cloud fraction below 0.01 and cloudy tiles at least 0.1; intermediate tiles remain outside the contrast.
+Water-fraction matching and water-fraction-plus-NDVI matching use the same fixed 0.05 tolerances and greedy rules, now within C2S-MS event folders.
+NDVI uses B8 and B4 on jointly scoreable clear pixels.
+The same-tile test uses C2S-MS cloud spectra and explicitly land-only spectra (LabelCloud 0 and LabelWater 0), with identical donor masks and a common unpainted clear-pixel scoring surface.
+No WorldFloods spectrum, mask, label, IoU, scene count or interval is reused.
+The fill is a constructed constant fill on clear tiles, scored on unpainted pixels; it is not natural cloud.
+
+Our primary scene unit here is an \emph{event folder}, pooling its chip/window confusions before each contrast; it is not a chip or an independent source acquisition.
+We report the unweighted mean over eligible event-folder values and an event-folder bootstrap interval, keeping the pixel pool secondary.
+This grouping accommodates dependence among chips in an event, but within-event matching is broader than within-acquisition matching and does not remove every date/location difference.
+Possible event overlap with Sen1Floods11 training data has not been ruled out; this is descriptive cross-dataset evaluation, not a claimed independent blind benchmark.
+
+\input{sec/c2sms_results}

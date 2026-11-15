@@ -1,0 +1,28 @@
+\section{Question and controlled measurements}
+\label{sec:controls}
+An image group can be easier because it contains more open water or less vegetation, even when the groups are called clear and cloudy.
+Our question is therefore what a clear--cloudy gap measures, rather than whether a new segmenter wins a benchmark.
+The study uses released WorldFloods data and checkpoints~\cite{worldfloods,prithvi}, and stored scene-level confusions with locked analysis rules.
+We report a composition control, a same-tile control and the aggregator together; none can substitute for the other two.
+
+For predictions $P$, binary water labels $W$ and an explicitly specified valid scoring surface $V$, water IoU is $TP/(TP+FP+FN)$ on $V$.
+Undefined denominators and insufficient labelled water are recorded as exclusions, rather than assigned perfect or zero scores.
+The natural contrast for scoring unit $s$ is
+\begin{equation}
+ \Delta_s=100\,[\mathrm{IoU}_{s,\mathrm{clear}}-\mathrm{IoU}_{s,\mathrm{cloudy}}].
+\end{equation}
+The \textbf{composition control} compares unmatched tiles, then greedy within-unit pairs with absolute water-fraction difference at most 0.05, then pairs also satisfying an absolute mean clear-pixel NDVI difference at most 0.05.
+The clear and cloudy groups must each contain at least 200 labelled water pixels.
+Missing NDVI, unmatched tiles and dropped units remain visible in the accounting.
+
+The \textbf{same-tile control} holds the target tile, transplanted mask and unpainted scoring surface fixed while comparing original predictions with constant cloud and non-cloud fills.
+The paired cloud-minus-placebo contrast subtracts the two IoU drops on the identical scoring surface.
+Painting is an intervention on the model input, not a physical cloud model or an independent water label beneath clouds.
+Both fills are constructed fills on clear tiles, scored on unpainted pixels; they are not natural cloud.
+
+The \textbf{aggregator} is the unweighted mean of eligible unit-level values, after pooling confusion within each unit.
+It is named separately from pixel-pooled confusion and from any event-weighted point estimate.
+Scene-bootstrap intervals use 5,000 draws, with seed 0 for composition and 42 for paste.
+Activation-clustered follow-ups resample complete activations, retaining all included scenes and the same stored scene-mean point.
+Their intervals do not change the statistic into an event-weighted mean.
+No new decision threshold is introduced for the follow-ups.

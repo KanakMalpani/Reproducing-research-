@@ -1,0 +1,39 @@
+\paragraph{Measured wider-data results.}
+Of 3,495 eligible windows, 1,802 are clear, 1,195 cloudy and 498 intermediate.
+All three composition comparisons retain 16 event folders; the same two folders lack an eligible cloudy group.
+Water-fraction matching retains 538 pairs, and adding NDVI retains 422.
+Table~\ref{tab:c2sms} reports the measured event-folder scene means; all intervals are event-folder bootstrap intervals.
+
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrr}
+\toprule
+C2S-MS comparison & Events & Points [95\% CI]\\
+\midrule
+Unmatched gap &16&27.76 [15.33,39.02]\\
+Water-fraction matched &16&21.14 [10.89,32.24]\\
+Water fraction + NDVI &16&25.41 [13.92,36.13]\\
+\midrule
+Cloud-fill drop &18&0.52 [0.21,0.87]\\
+Land-fill drop &18&0.71 [0.06,1.67]\\
+Paired cloud minus land &18&$-0.19$ [$-1.07$,0.35]\\
+\bottomrule
+\end{tabular}
+\caption{Frozen Prithvi on C2S-MS Floods. The last three rows use constructed constant fills on clear tiles, scored on a common unpainted clear-pixel surface, not natural cloud. Counts and estimates are separate from WorldFloods.}
+\label{tab:c2sms}
+\end{table}
+
+The wider-data composition control does not reproduce the near-zero NDVI-matched WorldFloods UNet gap: the C2S-MS matched Prithvi gaps remain positive.
+This prevents extending that numerical conclusion across the two datasets and models.
+The paired fill interval includes zero, so a positive cloud-spectrum-specific penalty is not established by this fill comparison.
+All 1,802 clear windows enter the same-tile test; 369 borrow masks from another C2S-MS event under the locked fallback.
+The two fills and original prediction have identical valid GT-water counts on their common scoring surface in every event.
+
+\paragraph{Aggregator and coverage.}
+The primary point remains the unweighted event-folder scene mean, rather than the pixel pool.
+Secondary pixel-pooled composition gaps are 35.98, 23.58 and 28.18 points respectively, demonstrating the numerical effect of aggregation.
+As a descriptive accuracy summary, the event-folder mean water IoU is 0.6018354474856003 [0.5074719414119634, 0.688569051715337] on 18 events; secondary pixel-pooled IoU is 0.6436905374529545.
+These are accuracy summaries, not clear--cloudy gaps or a model-improvement claim.
+The chip census contains 38,200,265 image-valid cloud pixels with known water labels and no water-label no-data pixels in that group; shadows are excluded even when water labels exist.
+Full-precision estimates, all event-level confusions, label coverage, matching pairs and exclusions are retained in the new C2S-MS JSON files.

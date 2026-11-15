@@ -83,3 +83,8 @@ Unweighted scene means of Prithvi minus WF2 IoU, points; 5,000 scene-bootstrap d
 ## Corrected-rule activation-cluster follow-up (2026-11-15)
 
 The existing corrected-paste/placebo JSON has now been activation-cluster bootstrapped in Colab, retaining all stored point estimates and scene intervals. These are new, separately labelled intervals, not replacements for any original printed paste/event quantity. The combined WF2 paired contrast uses32 scenes in24 activation clusters (including non-EMSR singleton clusters) and has interval[1.4415350645592608,5.984003104125222]; its17-scene,11-activation test-only interval[-0.38313817636896463,5.5367285405207305] includes zero. Full results for both frozen models, validation/test splits and all three contrasts are in EVENT_BOOTSTRAP_FOLLOWUP.md and corrected_paste_event_cluster_2026_11_15.json. No new point-estimate mean, model inference, training, or event-weighted point was computed. The qualitative image remains blocked by absent raw tiles in the fresh Colab runtime.
+
+
+## C2S-MS wider-data run and actual paper source
+
+The requested wider-data frozen run completed in Colab without training. See [C2SMS_FROZEN_RUN_REPORT.md](C2SMS_FROZEN_RUN_REPORT.md) for all three controls, measured results and limitations. Actual CVPR-format source now exists at `../../paper/main.tex`, with original WorldFloods numbers preserved and separate corrected/activation/Prithvi/brightness/C2S-MS additions. The optional WorldFloods tile figure and genuine flood split remain blocked by their documented missing inputs.

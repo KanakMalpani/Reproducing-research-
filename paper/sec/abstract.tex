@@ -1,0 +1,11 @@
+\begin{abstract}
+A clear--cloudy segmentation gap can mix cloud sensitivity with differences in water fraction, vegetation and aggregation.
+We audit the released WorldFloods WF2 UNet using a composition control, a same-tile constructed-fill control and an explicitly named aggregator.
+The unmatched scene-mean water-IoU gap is 39.3 points [22.4, 57.6], while water-fraction matching yields 8.9 [$-0.7$, 17.8] and water-fraction-plus-NDVI matching yields 1.4 [$-24.5$, 24.5].
+The original hard-paste drop is 5.6 [3.0, 8.5] on 32 scenes, measured on unpainted pixels; it is a constructed-fill result, not a natural-cloud effect.
+Separate corrected-median cloud and non-cloud placebo checks expose sensitivity to the fill itself.
+A smaller cloud-fill drop for frozen Prithvi does not establish a better model because its non-cloud placebo drop is larger.
+We also apply the three controls to frozen Prithvi on C2S-MS Floods, keeping that dataset's event-folder units and all estimates separate from WorldFloods.
+There, NDVI-matched gaps remain positive across 16 eligible event folders, while the paired cloud-minus-land fill interval across 18 events includes zero.
+Neither a failed fine-tuning candidate nor a brightness threshold establishes a new cloud-robustness claim.
+\end{abstract}
