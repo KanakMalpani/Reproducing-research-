@@ -109,3 +109,12 @@ Composition means are 27.758077975674098 unmatched, 21.141924169417972 water-mat
 Actual source is now newly assembled at `../paper/main.tex` using the unchanged official CVPR author-kit style. It preserves the printed frozen numbers and contains all four requested numerical additions, the activation intervals, and measured wider-data results. It compiled to a four-page PDF and was visually checked. This is newly built paper source, not a recovered historical manuscript or a claimed conference submission. No PDF was required as an input. All 65 previously tracked JSON files were verified unchanged, and the frozen Prithvi checkpoint hash is unchanged.
 
 The optional WorldFloods qualitative figure remains open due to absent rasters. The genuine flood split remains blocked by missing independent labels. No training, substitute imagery or invented flood labels were introduced.
+
+
+## Additional requested dataset — SPARCS completed 2026-11-15
+
+At the user's request, an additional frozen Prithvi test ran in Colab on Landsat 8 SPARCS (DOI10.5066/F7FB5146), all80 subscenes/acquisitions,910 eligible windows. This is a separately labelled cross-sensor, visible-water stress test; it does not replace the Sentinel-2 flood experiments.
+
+All three controls completed. Unmatched10.327575483130197 [-1.646243507476738,22.72633927445182], n=25; water-matched-8.343762771367127 [-24.072823614667662,5.2871293459313335], n=9; NDVI-matched-6.79222020686342 [-21.025566522896437,2.6992338951401873], n=8. Paired cloud-minus-land fill0.8509463980033569 [-0.2382887005613511,2.4214038171739944], n=45. All these intervals include zero; differing retained samples prevent interpreting the point changes as an adjustment effect on one fixed population. No equivalence or universal-effect claim is made.
+
+See `results/SPARCS_FROZEN_RUN_REPORT.md`, `results/SPARCS_VERIFICATION.md`, the new `sparcs_*.json`, `SPARCS_RUN.md` and `../paper/sec/sparcs.tex`. All72 previously tracked JSON files and earlier numerical manuscript sections remain unchanged. Updated actual paper/PDF compiled and was visually checked. No training. Missing-input WorldFloods figure and genuine flood split boundaries are unchanged.

@@ -1,0 +1,16 @@
+{
+  "dataset": "Landsat 8 SPARCS",
+  "doi": "10.5066/F7FB5146",
+  "completed_utc": "2026-11-15T00:37:37.058085+00:00",
+  "code_commit": "9a21da9",
+  "protocol_commit": "b43794d",
+  "filename_correction_before_census": "9a21da9",
+  "execution": "Google Colab browser; frozen inference/bootstrap; no training",
+  "gpu": "Tesla T4, 580.82.07, 15360 MiB",
+  "script_sha256": {
+    "sparcs_prithvi_evaluate.py": "340a0ee6efd114bf4a921c7c641e340bfc9b2e13bc008e0e5e178125b8df412f",
+    "sparcs_data.py": "3bdda8909a20fa5cd12f82aa269fa87c44e8be4e26065f248a3149a4777a02e5",
+    "sparcs_download.py": "1a75542d09763b4fceadcae652b728a19c47770bd9aa329f827c213615b5f11c"
+  },
+  "shared_controls_sha256": "097905c19e0c246e4f5dcabb08f265dc64972102878a43de6e7f7c0c6ee8ad8d"
+}

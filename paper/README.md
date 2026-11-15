@@ -4,6 +4,8 @@
 
 The source keeps printed frozen WorldFloods quantities unchanged, names composition/same-tile/aggregation controls, includes corrected placebo and activation intervals separately, distinguishes Prithvi and the failed candidate, and quotes the brightness census without naming a thin-cloud class. C2S-MS results are inserted only from the measured output JSON after execution.
 
+The additional requested SPARCS test is included in `sec/sparcs.tex`: frozen Prithvi, native Landsat30m, MTL calibration and manual visible-water support, with all adaptation limits stated. Its unmatched/matched samples differ and all composition intervals include zero; no equivalence or universal-gap claim is made. The paired cloud-minus-land interval also includes zero. No previous JSON or printed estimate was replaced.
+
 Official style files `cvpr.sty` and `ieeenat_fullname.bst` are unchanged copies from https://github.com/cvpr-org/author-kit at commit `a2369342011145be8c85e5ad21a9b61f9fa53473` (CVPR2027 author kit, retrieved2026-11-15). Their original notices are preserved. The template choice does not claim submission, acceptance, or a reserved conference paper identifier.
 
 Build from this directory with a TeX installation containing the official style dependencies:

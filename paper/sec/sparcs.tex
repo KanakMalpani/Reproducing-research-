@@ -1,0 +1,27 @@
+\section{Additional cross-sensor stress test: SPARCS}
+\label{sec:sparcs}
+We further test the unchanged frozen Prithvi checkpoint on Landsat 8 SPARCS~\cite{sparcs}, a manual cloud/water validation dataset rather than an independent flood-event benchmark.
+The complete inventory contains 80 subscenes from 80 original acquisitions; 910 of 1280 fixed windows pass the validity gates.
+Landsat B2--B7 map to the six model positions after MTL-based TOA calibration and scene-center sun-angle correction. The original model normalization remains fixed. We retain native 30m support, with no spatial or spectral harmonization; the physical input footprint differs from Sentinel-2.
+Manual codes 2 (water) and 6 (flooded) are positive and code 4 (land) negative. Code 5 (cloud), codes 0/1 (shadow) and code 3 (snow) are excluded from water scoring. Cloud fraction uses clear codes 2/4/6 versus cloud code 5 independently of water-label availability. This tests visible labelled surfaces on clear versus cloudy windows, not hidden-water accuracy or the all-label C2S-MS contrast.
+All three controls retain their locked tolerances, support gates and paired common-surface scoring; spectra and donor masks come only from SPARCS. Original acquisition is the primary pooling/bootstrap unit. The fills remain constructed constant fills on clear windows, scored on unpainted pixels, not natural cloud.
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrr}
+\toprule
+SPARCS comparison & Scenes & Points [95\% CI]\\
+\midrule
+Unmatched visible gap &25&10.33 [-1.65,22.73]\\
+Water-fraction matched &9&-8.34 [-24.07,5.29]\\
+Water fraction + NDVI &8&-6.79 [-21.03,2.70]\\
+Cloud-fill drop &45&2.24 [0.79,4.16]\\
+Land-fill drop &45&1.39 [0.68,2.28]\\
+Paired cloud minus land &45&0.85 [-0.24,2.42]\\
+\bottomrule
+\end{tabular}
+\caption{Frozen Prithvi cross-sensor stress test. Primary values are unweighted original-acquisition means with acquisition-bootstrap intervals. Visible-water labels and 30m Landsat inputs differ from the Sentinel-2 experiments.}
+\label{tab:sparcs}
+\end{table}
+All three composition intervals include zero, so this run establishes neither a positive clear--cloudy gap nor equivalence to zero. The retained samples differ (25 unmatched, 9 water-matched, 8 with NDVI); their point changes must not be interpreted as adjustment effects on one fixed population. The paired cloud-minus-land fill interval on 45 acquisitions also includes zero, leaving a positive cloud-specific replacement penalty unresolved.
+These results are reported separately: sensor responses, resolution, calibration and label support change together, so this experiment cannot isolate their effects. Matching does not certify cloud causality, and the paired-fill contrast does not measure physical cloud effects. No training, threshold fitting or revision of the earlier estimates was performed. Full-precision outputs, exclusions, class census and calibration are retained in the new SPARCS JSON files.

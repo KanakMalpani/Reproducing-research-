@@ -57,3 +57,12 @@ Scene gate: at least200 GT-water pixels; confusion pooled within scenes, unweigh
 | Preserve old JSON and released weights | Verified; all 65 pre-existing tracked JSON unchanged; checkpoint SHA256 unchanged | `results/C2SMS_VERIFICATION.md`, runtime/execution records |
 
 The C2S-MS NDVI-matched gap remains positive, unlike the frozen WorldFloods UNet result; no cross-dataset near-zero-gap claim is made. No training was performed. See `results/C2SMS_FROZEN_RUN_REPORT.md` for full-precision results, event exclusions and limits. Only the optional missing-raster WorldFloods figure and independently labelled genuine-flood split remain unresolved.
+
+
+## Additional requested dataset — SPARCS completed 2026-11-15
+
+At the user's request, an additional frozen Prithvi test ran in Colab on Landsat 8 SPARCS (DOI10.5066/F7FB5146), all80 subscenes/acquisitions,910 eligible windows. This is a separately labelled cross-sensor, visible-water stress test; it does not replace the Sentinel-2 flood experiments.
+
+All three controls completed. Unmatched10.327575483130197 [-1.646243507476738,22.72633927445182], n=25; water-matched-8.343762771367127 [-24.072823614667662,5.2871293459313335], n=9; NDVI-matched-6.79222020686342 [-21.025566522896437,2.6992338951401873], n=8. Paired cloud-minus-land fill0.8509463980033569 [-0.2382887005613511,2.4214038171739944], n=45. All these intervals include zero; differing retained samples prevent interpreting the point changes as an adjustment effect on one fixed population. No equivalence or universal-effect claim is made.
+
+See `results/SPARCS_FROZEN_RUN_REPORT.md`, `results/SPARCS_VERIFICATION.md`, the new `sparcs_*.json`, `SPARCS_RUN.md` and `../paper/sec/sparcs.tex`. All72 previously tracked JSON files and earlier numerical manuscript sections remain unchanged. Updated actual paper/PDF compiled and was visually checked. No training. Missing-input WorldFloods figure and genuine flood split boundaries are unchanged.

@@ -1,0 +1,512 @@
+SPARCS DOWNLOAD 134217728
+SPARCS DOWNLOAD 268435456
+SPARCS DOWNLOAD 402653184
+SPARCS DOWNLOAD 536870912
+SPARCS DOWNLOAD 671088640
+SPARCS DOWNLOAD 805306368
+SPARCS DOWNLOAD 939524096
+SPARCS DOWNLOAD 1073741824
+SPARCS DOWNLOAD 1207959552
+SPARCS DOWNLOAD 1342177280
+SPARCS DOWNLOAD 1476395008
+Traceback (most recent call last):
+  File "/content/sparcs_run/clear-cloudy-gap-audit/sparcs_download.py", line 42, in <module>
+    assert mask.exists() and len(mtls)==1,('STOP missing mask/MTL',stem)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('STOP missing mask/MTL', 'LC80010812013365LGN00_18')
+SPARCS RESUMING EXISTING ARCHIVE; rechecking CRC and recording SHA256 1555733976
+SPARCS INPUTS COMPLETE 80 80 1555733976 5cde604615ee241950b5a0b641ae5de82b27738b51e39aa724d18faec0bbaa9a
+SPARCS PREFLIGHT LC80010812013365LGN00 windows 16
+SPARCS PREFLIGHT LC80020622013244LGN00 windows 32
+SPARCS PREFLIGHT LC80050152014172LGN00 windows 48
+SPARCS PREFLIGHT LC80050562014076LGN00 windows 64
+SPARCS PREFLIGHT LC80150242014146LGN00 windows 80
+SPARCS PREFLIGHT LC80190352014078LGN01 windows 96
+SPARCS PREFLIGHT LC80200462014213LGN00 windows 112
+SPARCS PREFLIGHT LC80250402013245LGN00 windows 128
+SPARCS PREFLIGHT LC80250482014072LGN00 windows 144
+SPARCS PREFLIGHT LC80310432013207LGN00 windows 160
+SPARCS PREFLIGHT LC80320282013182LGN00 windows 176
+SPARCS PREFLIGHT LC80340412013132LGN01 windows 192
+SPARCS PREFLIGHT LC80380362013144LGN00 windows 208
+SPARCS PREFLIGHT LC80390152013215LGN00 windows 224
+SPARCS PREFLIGHT LC80430352013243LGN00 windows 240
+SPARCS PREFLIGHT LC80470252014226LGN00 windows 256
+SPARCS PREFLIGHT LC80500162014247LGN00 windows 272
+SPARCS PREFLIGHT LC80630462013191LGN00 windows 288
+SPARCS PREFLIGHT LC80750722014022LGN00 windows 304
+SPARCS PREFLIGHT LC80750962014038LGN00 windows 320
+SPARCS PREFLIGHT LC80760912014013LGN00 windows 336
+SPARCS PREFLIGHT LC80800142014169LGN00 windows 352
+SPARCS PREFLIGHT LC80900832013220LGN00 windows 368
+SPARCS PREFLIGHT LC80910892014006LGN00 windows 384
+SPARCS PREFLIGHT LC80940802014092LGN00 windows 400
+SPARCS PREFLIGHT LC80980732014008LGN00 windows 416
+SPARCS PREFLIGHT LC81020642014004LGN00 windows 432
+SPARCS PREFLIGHT LC81060772014064LGN00 windows 448
+SPARCS PREFLIGHT LC81110822013288LGN00 windows 464
+SPARCS PREFLIGHT LC81130672013142LGN01 windows 480
+SPARCS PREFLIGHT LC81140272013261LGN00 windows 496
+SPARCS PREFLIGHT LC81140622013277LGN00 windows 512
+SPARCS PREFLIGHT LC81180602014116LGN00 windows 528
+SPARCS PREFLIGHT LC81220242014240LGN00 windows 544
+SPARCS PREFLIGHT LC81230362013276LGN00 windows 560
+SPARCS PREFLIGHT LC81250542014181LGN00 windows 576
+SPARCS PREFLIGHT LC81250622013178LGN01 windows 592
+SPARCS PREFLIGHT LC81280422014074LGN00 windows 608
+SPARCS PREFLIGHT LC81330492014141LGN00 windows 624
+SPARCS PREFLIGHT LC81340422013257LGN00 windows 640
+SPARCS PREFLIGHT LC81360162013159LGN00 windows 656
+SPARCS PREFLIGHT LC81360162014210LGN00 windows 672
+SPARCS PREFLIGHT LC81370412014105LGN00 windows 688
+SPARCS PREFLIGHT LC81370452014073LGN00 windows 704
+SPARCS PREFLIGHT LC81400372014158LGN00 windows 720
+SPARCS PREFLIGHT LC81460442013293LGN00 windows 736
+SPARCS PREFLIGHT LC81480352013195LGN00 windows 752
+SPARCS PREFLIGHT LC81490372013362LGN00 windows 768
+SPARCS PREFLIGHT LC81500412014244LGN00 windows 784
+SPARCS PREFLIGHT LC81500442013145LGN00 windows 800
+SPARCS PREFLIGHT LC81540102013205LGN00 windows 816
+SPARCS PREFLIGHT LC81550232014135LGN00 windows 832
+SPARCS PREFLIGHT LC81580442014140LGN00 windows 848
+SPARCS PREFLIGHT LC81610712013222LGN00 windows 864
+SPARCS PREFLIGHT LC81660432014100LGN00 windows 880
+SPARCS PREFLIGHT LC81670512014091LGN00 windows 896
+SPARCS PREFLIGHT LC81700252014080LGN00 windows 912
+SPARCS PREFLIGHT LC81700802014016LGN00 windows 928
+SPARCS PREFLIGHT LC81720642014334LGN00 windows 944
+SPARCS PREFLIGHT LC81730542014277LGN00 windows 960
+SPARCS PREFLIGHT LC81730742014085LGN00 windows 976
+SPARCS PREFLIGHT LC81750832014067LGN00 windows 992
+SPARCS PREFLIGHT LC81800332013147LGN00 windows 1008
+SPARCS PREFLIGHT LC81810592013218LGN00 windows 1024
+SPARCS PREFLIGHT LC81830242014091LGN00 windows 1040
+SPARCS PREFLIGHT LC81830642014203LGN00 windows 1056
+SPARCS PREFLIGHT LC81860432014224LGN00 windows 1072
+SPARCS PREFLIGHT LC81950282013156LGN00 windows 1088
+SPARCS PREFLIGHT LC81950502014223LGN00 windows 1104
+SPARCS PREFLIGHT LC82010332014105LGN00 windows 1120
+SPARCS PREFLIGHT LC82151102013360LGN00 windows 1136
+SPARCS PREFLIGHT LC82160662014146LGN00 windows 1152
+SPARCS PREFLIGHT LC82170152014249LGN00 windows 1168
+SPARCS PREFLIGHT LC82210662014229LGN00 windows 1184
+SPARCS PREFLIGHT LC82260732013357LGN00 windows 1200
+SPARCS PREFLIGHT LC82290562014157LGN00 windows 1216
+SPARCS PREFLIGHT LC82290782013282LGN00 windows 1232
+SPARCS PREFLIGHT LC82290872014013LGN00 windows 1248
+SPARCS PREFLIGHT LC82310942013344LGN00 windows 1264
+SPARCS PREFLIGHT LC82320772014306LGN00 windows 1280
+SPARCS PREFLIGHT COMPLETE {"chip_count": 80, "acquisition_count": 80, "tile_candidates": 1280, "eligible_tiles": 910, "exclusion_counts": {"less_than_half_visible_water_label_valid": 370, "less_than_half_image_and_cloud_label_valid": 81}}
+WARNING:rasterio._env:CPLE_AppDefined in LC80010812013365LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80020622013244LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80050562014076LGN00_33_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80150242014146LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80190352014078LGN01_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80200462014213LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80250402013245LGN00_45_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80250482014072LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 100 / 910 seconds 9.1
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80320282013182LGN00_30_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80340412013132LGN01_20_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80380362013144LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80390152013215LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80430352013243LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80470252014226LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80500162014247LGN00_21_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80630462013191LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80750722014022LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 200 / 910 seconds 17.9
+WARNING:rasterio._env:CPLE_AppDefined in LC80750962014038LGN00_14_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80760912014013LGN00_25_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80800142014169LGN00_05_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80900832013220LGN00_28_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80910892014006LGN00_44_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80940802014092LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80980732014008LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81020642014004LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 300 / 910 seconds 26.0
+WARNING:rasterio._env:CPLE_AppDefined in LC81060772014064LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81110822013288LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81130672013142LGN01_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81140272013261LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81140622013277LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81180602014116LGN00_29_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81220242014240LGN00_25_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81230362013276LGN00_19_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81250542014181LGN00_39_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 400 / 910 seconds 34.5
+WARNING:rasterio._env:CPLE_AppDefined in LC81250622013178LGN01_08_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81280422014074LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81330492014141LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81340422013257LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81360162013159LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81360162014210LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81370452014073LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81400372014158LGN00_27_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81460442013293LGN00_38_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 500 / 910 seconds 43.1
+WARNING:rasterio._env:CPLE_AppDefined in LC81480352013195LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81490372013362LGN00_39_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81500412014244LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81500442013145LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81540102013205LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81550232014135LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81580442014140LGN00_21_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 600 / 910 seconds 51.3
+WARNING:rasterio._env:CPLE_AppDefined in LC81610712013222LGN00_09_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81660432014100LGN00_35_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81670512014091LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81700252014080LGN00_27_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81700802014016LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81720642014334LGN00_25_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81730542014277LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81730742014085LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 700 / 910 seconds 60.0
+WARNING:rasterio._env:CPLE_AppDefined in LC81750832014067LGN00_24_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81800332013147LGN00_33_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81810592013218LGN00_05_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81830642014203LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81860432014224LGN00_19_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81950282013156LGN00_33_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81950502014223LGN00_22_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82010332014105LGN00_34_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 800 / 910 seconds 68.8
+WARNING:rasterio._env:CPLE_AppDefined in LC82160662014146LGN00_14_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82170152014249LGN00_38_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82210662014229LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82260732013357LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82290562014157LGN00_24_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82290782013282LGN00_12_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82290872014013LGN00_20_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82310942013344LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82320772014306LGN00_38_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS NATURAL 900 / 910 seconds 77.6
+SPARCS NATURAL 910 / 910 seconds 78.4
+WARNING:rasterio._env:CPLE_AppDefined in LC80010812013365LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80010812013365LGN00 eligible True seconds 80.7
+WARNING:rasterio._env:CPLE_AppDefined in LC80020622013244LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80020622013244LGN00 eligible True seconds 81.2
+SPARCS FILL LC80050152014172LGN00 eligible False seconds 81.2
+WARNING:rasterio._env:CPLE_AppDefined in LC80050562014076LGN00_33_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80050562014076LGN00 eligible True seconds 83.1
+SPARCS FILL LC80150242014146LGN00 eligible False seconds 83.1
+WARNING:rasterio._env:CPLE_AppDefined in LC80190352014078LGN01_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80190352014078LGN01 eligible True seconds 83.6
+WARNING:rasterio._env:CPLE_AppDefined in LC80200462014213LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80200462014213LGN00 eligible False seconds 84.1
+SPARCS FILL LC80250402013245LGN00 eligible False seconds 84.1
+WARNING:rasterio._env:CPLE_AppDefined in LC80250482014072LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80250482014072LGN00 eligible False seconds 85.1
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80310432013207LGN00 eligible False seconds 85.6
+SPARCS FILL LC80320282013182LGN00 eligible False seconds 85.6
+WARNING:rasterio._env:CPLE_AppDefined in LC80340412013132LGN01_20_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80320282013182LGN00_30_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80380362013144LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80390152013215LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80430352013243LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80340412013132LGN01 eligible True seconds 88.8
+WARNING:rasterio._env:CPLE_AppDefined in LC80380362013144LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80380362013144LGN00 eligible True seconds 89.4
+SPARCS FILL LC80390152013215LGN00 eligible False seconds 89.4
+WARNING:rasterio._env:CPLE_AppDefined in LC80430352013243LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80430352013243LGN00 eligible True seconds 90.6
+WARNING:rasterio._env:CPLE_AppDefined in LC80470252014226LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80470252014226LGN00 eligible True seconds 90.9
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80500162014247LGN00_21_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80500162014247LGN00 eligible True seconds 91.8
+WARNING:rasterio._env:CPLE_AppDefined in LC80630462013191LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80630462013191LGN00 eligible True seconds 92.4
+WARNING:rasterio._env:CPLE_AppDefined in LC80750722014022LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80750722014022LGN00 eligible True seconds 94.0
+WARNING:rasterio._env:CPLE_AppDefined in LC80750962014038LGN00_14_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80750962014038LGN00 eligible True seconds 94.4
+WARNING:rasterio._env:CPLE_AppDefined in LC80760912014013LGN00_25_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80760912014013LGN00 eligible True seconds 95.1
+WARNING:rasterio._env:CPLE_AppDefined in LC80800142014169LGN00_05_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80800142014169LGN00 eligible True seconds 96.5
+WARNING:rasterio._env:CPLE_AppDefined in LC80900832013220LGN00_28_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80900832013220LGN00 eligible False seconds 98.0
+WARNING:rasterio._env:CPLE_AppDefined in LC80910892014006LGN00_44_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80910892014006LGN00 eligible True seconds 99.4
+WARNING:rasterio._env:CPLE_AppDefined in LC80940802014092LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80940802014092LGN00 eligible True seconds 100.8
+WARNING:rasterio._env:CPLE_AppDefined in LC80980732014008LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC80980732014008LGN00 eligible False seconds 102.7
+WARNING:rasterio._env:CPLE_AppDefined in LC81020642014004LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81020642014004LGN00 eligible True seconds 103.5
+WARNING:rasterio._env:CPLE_AppDefined in LC81060772014064LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81060772014064LGN00 eligible False seconds 104.9
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81110822013288LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80320282013182LGN00_30_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80380362013144LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80390152013215LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80430352013243LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81110822013288LGN00 eligible True seconds 108.8
+WARNING:rasterio._env:CPLE_AppDefined in LC81130672013142LGN01_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81130672013142LGN01 eligible True seconds 109.2
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81140272013261LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80320282013182LGN00_30_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80380362013144LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80390152013215LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80430352013243LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81140272013261LGN00 eligible True seconds 112.5
+SPARCS FILL LC81140622013277LGN00 eligible False seconds 112.5
+WARNING:rasterio._env:CPLE_AppDefined in LC81180602014116LGN00_29_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81180602014116LGN00 eligible True seconds 113.1
+SPARCS FILL LC81220242014240LGN00 eligible False seconds 113.1
+WARNING:rasterio._env:CPLE_AppDefined in LC81230362013276LGN00_19_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81230362013276LGN00 eligible True seconds 114.1
+SPARCS FILL LC81250542014181LGN00 eligible False seconds 114.1
+WARNING:rasterio._env:CPLE_AppDefined in LC81250622013178LGN01_08_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81250622013178LGN01 eligible True seconds 114.7
+WARNING:rasterio._env:CPLE_AppDefined in LC81280422014074LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81280422014074LGN00 eligible True seconds 116.6
+SPARCS FILL LC81330492014141LGN00 eligible False seconds 116.6
+WARNING:rasterio._env:CPLE_AppDefined in LC81340422013257LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81340422013257LGN00 eligible False seconds 117.0
+SPARCS FILL LC81360162013159LGN00 eligible False seconds 117.0
+WARNING:rasterio._env:CPLE_AppDefined in LC81360162014210LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81360162014210LGN00 eligible True seconds 117.4
+SPARCS FILL LC81370412014105LGN00 eligible False seconds 117.4
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81370452014073LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80320282013182LGN00_30_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80380362013144LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80390152013215LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC80430352013243LGN00_31_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81370452014073LGN00 eligible True seconds 121.3
+WARNING:rasterio._env:CPLE_AppDefined in LC81400372014158LGN00_27_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81400372014158LGN00 eligible True seconds 121.8
+WARNING:rasterio._env:CPLE_AppDefined in LC81460442013293LGN00_38_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81460442013293LGN00 eligible True seconds 122.9
+SPARCS FILL LC81480352013195LGN00 eligible False seconds 122.9
+WARNING:rasterio._env:CPLE_AppDefined in LC81490372013362LGN00_39_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81490372013362LGN00 eligible False seconds 123.2
+WARNING:rasterio._env:CPLE_AppDefined in LC81500412014244LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81500412014244LGN00 eligible True seconds 124.7
+WARNING:rasterio._env:CPLE_AppDefined in LC81500442013145LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81500442013145LGN00 eligible True seconds 126.4
+WARNING:rasterio._env:CPLE_AppDefined in LC81540102013205LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81540102013205LGN00 eligible True seconds 127.3
+WARNING:rasterio._env:CPLE_AppDefined in LC81550232014135LGN00_26_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81550232014135LGN00 eligible True seconds 129.4
+WARNING:rasterio._env:CPLE_AppDefined in LC81580442014140LGN00_21_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81580442014140LGN00 eligible False seconds 131.3
+WARNING:rasterio._env:CPLE_AppDefined in LC81610712013222LGN00_09_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81610712013222LGN00 eligible True seconds 132.0
+WARNING:rasterio._env:CPLE_AppDefined in LC81660432014100LGN00_35_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81660432014100LGN00 eligible False seconds 132.6
+WARNING:rasterio._env:CPLE_AppDefined in LC81670512014091LGN00_32_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81670512014091LGN00 eligible False seconds 134.0
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81700252014080LGN00_27_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81700252014080LGN00 eligible True seconds 135.4
+WARNING:rasterio._env:CPLE_AppDefined in LC81700802014016LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81700802014016LGN00 eligible False seconds 136.2
+WARNING:rasterio._env:CPLE_AppDefined in LC81720642014334LGN00_25_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81720642014334LGN00 eligible True seconds 137.2
+WARNING:rasterio._env:CPLE_AppDefined in LC81730542014277LGN00_23_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81730542014277LGN00 eligible False seconds 137.5
+WARNING:rasterio._env:CPLE_AppDefined in LC81730742014085LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81730742014085LGN00 eligible True seconds 139.7
+WARNING:rasterio._env:CPLE_AppDefined in LC81750832014067LGN00_24_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81750832014067LGN00 eligible True seconds 140.6
+WARNING:rasterio._env:CPLE_AppDefined in LC81800332013147LGN00_33_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81800332013147LGN00 eligible True seconds 142.8
+SPARCS FILL LC81810592013218LGN00 eligible False seconds 142.8
+SPARCS FILL LC81830242014091LGN00 eligible False seconds 142.8
+WARNING:rasterio._env:CPLE_AppDefined in LC81830642014203LGN00_16_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81830642014203LGN00 eligible True seconds 144.6
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC81860432014224LGN00_19_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81860432014224LGN00 eligible False seconds 145.8
+SPARCS FILL LC81950282013156LGN00 eligible False seconds 145.8
+WARNING:rasterio._env:CPLE_AppDefined in LC81950502014223LGN00_22_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC81950502014223LGN00 eligible True seconds 146.2
+WARNING:rasterio._env:CPLE_AppDefined in LC82010332014105LGN00_34_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82010332014105LGN00 eligible True seconds 147.0
+SPARCS FILL LC82151102013360LGN00 eligible False seconds 147.0
+WARNING:rasterio._env:CPLE_AppDefined in LC82160662014146LGN00_14_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82160662014146LGN00 eligible True seconds 147.5
+WARNING:rasterio._env:CPLE_AppDefined in LC80310432013207LGN00_11_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in LC82170152014249LGN00_38_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82170152014249LGN00 eligible False seconds 149.0
+WARNING:rasterio._env:CPLE_AppDefined in LC82210662014229LGN00_18_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82210662014229LGN00 eligible False seconds 149.7
+SPARCS FILL LC82260732013357LGN00 eligible False seconds 149.7
+SPARCS FILL LC82290562014157LGN00 eligible False seconds 149.7
+WARNING:rasterio._env:CPLE_AppDefined in LC82290782013282LGN00_12_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82290782013282LGN00 eligible False seconds 151.9
+WARNING:rasterio._env:CPLE_AppDefined in LC82290872014013LGN00_20_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82290872014013LGN00 eligible True seconds 153.4
+WARNING:rasterio._env:CPLE_AppDefined in LC82310942013344LGN00_17_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82310942013344LGN00 eligible True seconds 154.1
+WARNING:rasterio._env:CPLE_AppDefined in LC82320772014306LGN00_38_data.tif: TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+WARNING:rasterio._env:CPLE_AppDefined in TIFFReadDirectory:Sum of Photometric type-related color channels and ExtraSamples doesn't match SamplesPerPixel. Defining non-color channels as ExtraSamples.
+SPARCS FILL LC82320772014306LGN00 eligible True seconds 155.9
+SPARCS THREE CONTROLS COMPLETE {"composition": {"unmatched": {"scene_count": 25, "scene_mean": 10.327575483130197, "ci95": [-1.646243507476738, 22.72633927445182], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0", "limitation": null}, "water_fraction_match": {"scene_count": 9, "scene_mean": -8.343762771367127, "ci95": [-24.072823614667662, 5.2871293459313335], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0", "limitation": null}, "water_fraction_plus_ndvi_match": {"scene_count": 8, "scene_mean": -6.79222020686342, "ci95": [-21.025566522896437, 2.6992338951401873], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0", "limitation": null}}, "same_tile": {"gap_cloud_pts": {"scene_count": 45, "scene_mean": 2.2375298353549113, "ci95": [0.790032331068722, 4.164813926239308], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed42", "limitation": null}, "gap_land_pts": {"scene_count": 45, "scene_mean": 1.3865834373515544, "ci95": [0.6806836616869414, 2.2788597823701027], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed42", "limitation": null}, "cloud_minus_land_pts": {"scene_count": 45, "scene_mean": 0.8509463980033569, "ci95": [-0.2382887005613511, 2.4214038171739944], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed42", "limitation": null}}, "accuracy": {"scene_count": 62, "scene_mean": 0.5185537355563729, "ci95": [0.43726768253741155, 0.598654200380362], "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0", "limitation": null, "pixel_pooled_water_iou_secondary": 0.7210599831494662}}

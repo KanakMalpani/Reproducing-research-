@@ -88,3 +88,8 @@ The existing corrected-paste/placebo JSON has now been activation-cluster bootst
 ## C2S-MS wider-data run and actual paper source
 
 The requested wider-data frozen run completed in Colab without training. See [C2SMS_FROZEN_RUN_REPORT.md](C2SMS_FROZEN_RUN_REPORT.md) for all three controls, measured results and limitations. Actual CVPR-format source now exists at `../../paper/main.tex`, with original WorldFloods numbers preserved and separate corrected/activation/Prithvi/brightness/C2S-MS additions. The optional WorldFloods tile figure and genuine flood split remain blocked by their documented missing inputs.
+
+
+## Third-dataset SPARCS stress test
+
+Completed frozen Colab evaluation on80 Landsat subscenes,910 eligible windows. Composition samples25/9/8 and paired fills45; all composition/paired-fill intervals include zero. Native30m and visible-label differences prevent treating this as an exact Sentinel-2 replication. See [SPARCS_FROZEN_RUN_REPORT.md](SPARCS_FROZEN_RUN_REPORT.md) and [SPARCS_VERIFICATION.md](SPARCS_VERIFICATION.md). Previous numerical results are preserved; no training.

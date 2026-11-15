@@ -1,0 +1,1054 @@
+{
+  "dataset": "Landsat 8 SPARCS",
+  "doi": "10.5066/F7FB5146",
+  "primary_aggregator": "unweighted mean of eligible original-acquisition scene values",
+  "scene_definition": "original Landsat acquisition, not subscene/window",
+  "bootstrap_unit": "original acquisition; all dependent windows retained",
+  "composition": {
+    "unmatched": {
+      "scene_count": 25,
+      "scene_mean": 10.327575483130197,
+      "ci95": [
+        -1.646243507476738,
+        22.72633927445182
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0",
+      "limitation": null
+    },
+    "water_fraction_match": {
+      "scene_count": 9,
+      "scene_mean": -8.343762771367127,
+      "ci95": [
+        -24.072823614667662,
+        5.2871293459313335
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0",
+      "limitation": null
+    },
+    "water_fraction_plus_ndvi_match": {
+      "scene_count": 8,
+      "scene_mean": -6.79222020686342,
+      "ci95": [
+        -21.025566522896437,
+        2.6992338951401873
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0",
+      "limitation": null
+    }
+  },
+  "same_tile": {
+    "gap_cloud_pts": {
+      "scene_count": 45,
+      "scene_mean": 2.2375298353549113,
+      "ci95": [
+        0.790032331068722,
+        4.164813926239308
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed42",
+      "limitation": null
+    },
+    "gap_land_pts": {
+      "scene_count": 45,
+      "scene_mean": 1.3865834373515544,
+      "ci95": [
+        0.6806836616869414,
+        2.2788597823701027
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed42",
+      "limitation": null
+    },
+    "cloud_minus_land_pts": {
+      "scene_count": 45,
+      "scene_mean": 0.8509463980033569,
+      "ci95": [
+        -0.2382887005613511,
+        2.4214038171739944
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed42",
+      "limitation": null
+    }
+  },
+  "water_accuracy": {
+    "rows": [
+      {
+        "event": "LC80010812013365LGN00",
+        "scene": "LC80010812013365LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          31757,
+          224,
+          1215
+        ],
+        "water_iou": 0.9566514037835884
+      },
+      {
+        "event": "LC80020622013244LGN00",
+        "scene": "LC80020622013244LGN00",
+        "eligible": true,
+        "tiles": 11,
+        "confusion": [
+          2835,
+          1759,
+          489
+        ],
+        "water_iou": 0.5577414912453276
+      },
+      {
+        "event": "LC80050152014172LGN00",
+        "scene": "LC80050152014172LGN00",
+        "eligible": false,
+        "tiles": 0,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC80050562014076LGN00",
+        "scene": "LC80050562014076LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          23754,
+          3484,
+          4323
+        ],
+        "water_iou": 0.7526377491207503
+      },
+      {
+        "event": "LC80150242014146LGN00",
+        "scene": "LC80150242014146LGN00",
+        "eligible": true,
+        "tiles": 7,
+        "confusion": [
+          26566,
+          3973,
+          8985
+        ],
+        "water_iou": 0.6721485679587086
+      },
+      {
+        "event": "LC80190352014078LGN01",
+        "scene": "LC80190352014078LGN01",
+        "eligible": true,
+        "tiles": 10,
+        "confusion": [
+          5619,
+          3478,
+          2718
+        ],
+        "water_iou": 0.4755818874312315
+      },
+      {
+        "event": "LC80200462014213LGN00",
+        "scene": "LC80200462014213LGN00",
+        "eligible": false,
+        "tiles": 16,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC80250402013245LGN00",
+        "scene": "LC80250402013245LGN00",
+        "eligible": true,
+        "tiles": 13,
+        "confusion": [
+          1829,
+          1268,
+          3465
+        ],
+        "water_iou": 0.27872599817128924
+      },
+      {
+        "event": "LC80250482014072LGN00",
+        "scene": "LC80250482014072LGN00",
+        "eligible": false,
+        "tiles": 16,
+        "confusion": [
+          0,
+          117,
+          20
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC80310432013207LGN00",
+        "scene": "LC80310432013207LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          0,
+          96,
+          795
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC80320282013182LGN00",
+        "scene": "LC80320282013182LGN00",
+        "eligible": true,
+        "tiles": 9,
+        "confusion": [
+          353,
+          518,
+          1740
+        ],
+        "water_iou": 0.13519724243584832
+      },
+      {
+        "event": "LC80340412013132LGN01",
+        "scene": "LC80340412013132LGN01",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          1501,
+          1258,
+          3073
+        ],
+        "water_iou": 0.2573731138545953
+      },
+      {
+        "event": "LC80380362013144LGN00",
+        "scene": "LC80380362013144LGN00",
+        "eligible": true,
+        "tiles": 7,
+        "confusion": [
+          0,
+          0,
+          1153
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC80390152013215LGN00",
+        "scene": "LC80390152013215LGN00",
+        "eligible": true,
+        "tiles": 1,
+        "confusion": [
+          1082,
+          186,
+          1841
+        ],
+        "water_iou": 0.34802187198456097
+      },
+      {
+        "event": "LC80430352013243LGN00",
+        "scene": "LC80430352013243LGN00",
+        "eligible": true,
+        "tiles": 13,
+        "confusion": [
+          23,
+          91,
+          1405
+        ],
+        "water_iou": 0.015141540487162607
+      },
+      {
+        "event": "LC80470252014226LGN00",
+        "scene": "LC80470252014226LGN00",
+        "eligible": true,
+        "tiles": 6,
+        "confusion": [
+          2977,
+          1734,
+          1245
+        ],
+        "water_iou": 0.4998321020819342
+      },
+      {
+        "event": "LC80500162014247LGN00",
+        "scene": "LC80500162014247LGN00",
+        "eligible": true,
+        "tiles": 3,
+        "confusion": [
+          14178,
+          566,
+          2926
+        ],
+        "water_iou": 0.802376910016978
+      },
+      {
+        "event": "LC80630462013191LGN00",
+        "scene": "LC80630462013191LGN00",
+        "eligible": true,
+        "tiles": 10,
+        "confusion": [
+          168809,
+          18646,
+          10063
+        ],
+        "water_iou": 0.8546512216608106
+      },
+      {
+        "event": "LC80750722014022LGN00",
+        "scene": "LC80750722014022LGN00",
+        "eligible": true,
+        "tiles": 15,
+        "confusion": [
+          644876,
+          1314,
+          3102
+        ],
+        "water_iou": 0.9931987457107125
+      },
+      {
+        "event": "LC80750962014038LGN00",
+        "scene": "LC80750962014038LGN00",
+        "eligible": true,
+        "tiles": 2,
+        "confusion": [
+          99673,
+          0,
+          1658
+        ],
+        "water_iou": 0.9836377811331182
+      },
+      {
+        "event": "LC80760912014013LGN00",
+        "scene": "LC80760912014013LGN00",
+        "eligible": true,
+        "tiles": 11,
+        "confusion": [
+          5665,
+          9294,
+          4433
+        ],
+        "water_iou": 0.29213077557755773
+      },
+      {
+        "event": "LC80800142014169LGN00",
+        "scene": "LC80800142014169LGN00",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          10111,
+          2498,
+          21281
+        ],
+        "water_iou": 0.2983475951608144
+      },
+      {
+        "event": "LC80900832013220LGN00",
+        "scene": "LC80900832013220LGN00",
+        "eligible": false,
+        "tiles": 14,
+        "confusion": [
+          0,
+          8490,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC80910892014006LGN00",
+        "scene": "LC80910892014006LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          23190,
+          333,
+          4611
+        ],
+        "water_iou": 0.8242695670718704
+      },
+      {
+        "event": "LC80940802014092LGN00",
+        "scene": "LC80940802014092LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          0,
+          7,
+          579
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC80980732014008LGN00",
+        "scene": "LC80980732014008LGN00",
+        "eligible": false,
+        "tiles": 16,
+        "confusion": [
+          0,
+          3,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81020642014004LGN00",
+        "scene": "LC81020642014004LGN00",
+        "eligible": true,
+        "tiles": 12,
+        "confusion": [
+          487335,
+          2263,
+          3413
+        ],
+        "water_iou": 0.9884870722965613
+      },
+      {
+        "event": "LC81060772014064LGN00",
+        "scene": "LC81060772014064LGN00",
+        "eligible": false,
+        "tiles": 15,
+        "confusion": [
+          0,
+          1,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81110822013288LGN00",
+        "scene": "LC81110822013288LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          17894,
+          2771,
+          4722
+        ],
+        "water_iou": 0.7048489384330563
+      },
+      {
+        "event": "LC81130672013142LGN01",
+        "scene": "LC81130672013142LGN01",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          6112,
+          159,
+          937
+        ],
+        "water_iou": 0.8479467258601554
+      },
+      {
+        "event": "LC81140272013261LGN00",
+        "scene": "LC81140272013261LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          106616,
+          10177,
+          18241
+        ],
+        "water_iou": 0.7895492986951435
+      },
+      {
+        "event": "LC81140622013277LGN00",
+        "scene": "LC81140622013277LGN00",
+        "eligible": true,
+        "tiles": 2,
+        "confusion": [
+          0,
+          86,
+          647
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81180602014116LGN00",
+        "scene": "LC81180602014116LGN00",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          507,
+          88,
+          3847
+        ],
+        "water_iou": 0.11413777577667718
+      },
+      {
+        "event": "LC81220242014240LGN00",
+        "scene": "LC81220242014240LGN00",
+        "eligible": true,
+        "tiles": 4,
+        "confusion": [
+          1019,
+          556,
+          4249
+        ],
+        "water_iou": 0.17496565934065933
+      },
+      {
+        "event": "LC81230362013276LGN00",
+        "scene": "LC81230362013276LGN00",
+        "eligible": true,
+        "tiles": 15,
+        "confusion": [
+          349,
+          557,
+          2283
+        ],
+        "water_iou": 0.10943869551583568
+      },
+      {
+        "event": "LC81250542014181LGN00",
+        "scene": "LC81250542014181LGN00",
+        "eligible": true,
+        "tiles": 7,
+        "confusion": [
+          67038,
+          5868,
+          61008
+        ],
+        "water_iou": 0.5006048658094001
+      },
+      {
+        "event": "LC81250622013178LGN01",
+        "scene": "LC81250622013178LGN01",
+        "eligible": true,
+        "tiles": 12,
+        "confusion": [
+          254,
+          834,
+          4164
+        ],
+        "water_iou": 0.04836252856054836
+      },
+      {
+        "event": "LC81280422014074LGN00",
+        "scene": "LC81280422014074LGN00",
+        "eligible": true,
+        "tiles": 15,
+        "confusion": [
+          592,
+          675,
+          331
+        ],
+        "water_iou": 0.3704630788485607
+      },
+      {
+        "event": "LC81330492014141LGN00",
+        "scene": "LC81330492014141LGN00",
+        "eligible": true,
+        "tiles": 4,
+        "confusion": [
+          114728,
+          1828,
+          2584
+        ],
+        "water_iou": 0.9629679368809804
+      },
+      {
+        "event": "LC81340422013257LGN00",
+        "scene": "LC81340422013257LGN00",
+        "eligible": true,
+        "tiles": 9,
+        "confusion": [
+          0,
+          67,
+          497
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81360162013159LGN00",
+        "scene": "LC81360162013159LGN00",
+        "eligible": true,
+        "tiles": 7,
+        "confusion": [
+          0,
+          3,
+          707
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81360162014210LGN00",
+        "scene": "LC81360162014210LGN00",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          10738,
+          2569,
+          9192
+        ],
+        "water_iou": 0.47726565625138895
+      },
+      {
+        "event": "LC81370412014105LGN00",
+        "scene": "LC81370412014105LGN00",
+        "eligible": false,
+        "tiles": 0,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC81370452014073LGN00",
+        "scene": "LC81370452014073LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          544846,
+          9495,
+          41242
+        ],
+        "water_iou": 0.9148112017972306
+      },
+      {
+        "event": "LC81400372014158LGN00",
+        "scene": "LC81400372014158LGN00",
+        "eligible": true,
+        "tiles": 15,
+        "confusion": [
+          2255,
+          122,
+          928
+        ],
+        "water_iou": 0.6822995461422088
+      },
+      {
+        "event": "LC81460442013293LGN00",
+        "scene": "LC81460442013293LGN00",
+        "eligible": true,
+        "tiles": 13,
+        "confusion": [
+          8559,
+          1838,
+          3853
+        ],
+        "water_iou": 0.6006315789473684
+      },
+      {
+        "event": "LC81480352013195LGN00",
+        "scene": "LC81480352013195LGN00",
+        "eligible": true,
+        "tiles": 11,
+        "confusion": [
+          5354,
+          8472,
+          832
+        ],
+        "water_iou": 0.3652612907627234
+      },
+      {
+        "event": "LC81490372013362LGN00",
+        "scene": "LC81490372013362LGN00",
+        "eligible": false,
+        "tiles": 10,
+        "confusion": [
+          0,
+          69177,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81500412014244LGN00",
+        "scene": "LC81500412014244LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          601,
+          68,
+          509
+        ],
+        "water_iou": 0.5101867572156197
+      },
+      {
+        "event": "LC81500442013145LGN00",
+        "scene": "LC81500442013145LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          394468,
+          618,
+          399931
+        ],
+        "water_iou": 0.49617555347873066
+      },
+      {
+        "event": "LC81540102013205LGN00",
+        "scene": "LC81540102013205LGN00",
+        "eligible": true,
+        "tiles": 8,
+        "confusion": [
+          34576,
+          3784,
+          18713
+        ],
+        "water_iou": 0.6058206157026965
+      },
+      {
+        "event": "LC81550232014135LGN00",
+        "scene": "LC81550232014135LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          21494,
+          12388,
+          9658
+        ],
+        "water_iou": 0.4936610013780432
+      },
+      {
+        "event": "LC81580442014140LGN00",
+        "scene": "LC81580442014140LGN00",
+        "eligible": false,
+        "tiles": 15,
+        "confusion": [
+          3,
+          347,
+          39
+        ],
+        "water_iou": 0.007712082262210797
+      },
+      {
+        "event": "LC81610712013222LGN00",
+        "scene": "LC81610712013222LGN00",
+        "eligible": true,
+        "tiles": 11,
+        "confusion": [
+          6908,
+          339,
+          2730
+        ],
+        "water_iou": 0.6923925027563396
+      },
+      {
+        "event": "LC81660432014100LGN00",
+        "scene": "LC81660432014100LGN00",
+        "eligible": false,
+        "tiles": 10,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC81670512014091LGN00",
+        "scene": "LC81670512014091LGN00",
+        "eligible": false,
+        "tiles": 14,
+        "confusion": [
+          0,
+          4039,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81700252014080LGN00",
+        "scene": "LC81700252014080LGN00",
+        "eligible": true,
+        "tiles": 10,
+        "confusion": [
+          43095,
+          23810,
+          28065
+        ],
+        "water_iou": 0.453774876276719
+      },
+      {
+        "event": "LC81700802014016LGN00",
+        "scene": "LC81700802014016LGN00",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          431,
+          28,
+          462
+        ],
+        "water_iou": 0.46796959826275786
+      },
+      {
+        "event": "LC81720642014334LGN00",
+        "scene": "LC81720642014334LGN00",
+        "eligible": true,
+        "tiles": 13,
+        "confusion": [
+          455507,
+          700,
+          1240
+        ],
+        "water_iou": 0.9957590715427143
+      },
+      {
+        "event": "LC81730542014277LGN00",
+        "scene": "LC81730542014277LGN00",
+        "eligible": false,
+        "tiles": 13,
+        "confusion": [
+          0,
+          177,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC81730742014085LGN00",
+        "scene": "LC81730742014085LGN00",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          86693,
+          2418,
+          26043
+        ],
+        "water_iou": 0.7528440175764628
+      },
+      {
+        "event": "LC81750832014067LGN00",
+        "scene": "LC81750832014067LGN00",
+        "eligible": true,
+        "tiles": 15,
+        "confusion": [
+          506,
+          400,
+          430
+        ],
+        "water_iou": 0.3787425149700599
+      },
+      {
+        "event": "LC81800332013147LGN00",
+        "scene": "LC81800332013147LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          9874,
+          650,
+          2439
+        ],
+        "water_iou": 0.7617063951245854
+      },
+      {
+        "event": "LC81810592013218LGN00",
+        "scene": "LC81810592013218LGN00",
+        "eligible": true,
+        "tiles": 15,
+        "confusion": [
+          48056,
+          3059,
+          5016
+        ],
+        "water_iou": 0.8561401008355454
+      },
+      {
+        "event": "LC81830242014091LGN00",
+        "scene": "LC81830242014091LGN00",
+        "eligible": false,
+        "tiles": 0,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC81830642014203LGN00",
+        "scene": "LC81830642014203LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          247178,
+          11256,
+          15544
+        ],
+        "water_iou": 0.9021819270160378
+      },
+      {
+        "event": "LC81860432014224LGN00",
+        "scene": "LC81860432014224LGN00",
+        "eligible": false,
+        "tiles": 16,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC81950282013156LGN00",
+        "scene": "LC81950282013156LGN00",
+        "eligible": true,
+        "tiles": 4,
+        "confusion": [
+          353,
+          1020,
+          257
+        ],
+        "water_iou": 0.2165644171779141
+      },
+      {
+        "event": "LC81950502014223LGN00",
+        "scene": "LC81950502014223LGN00",
+        "eligible": true,
+        "tiles": 16,
+        "confusion": [
+          28923,
+          3317,
+          3198
+        ],
+        "water_iou": 0.8161577967153902
+      },
+      {
+        "event": "LC82010332014105LGN00",
+        "scene": "LC82010332014105LGN00",
+        "eligible": true,
+        "tiles": 12,
+        "confusion": [
+          18613,
+          180,
+          746
+        ],
+        "water_iou": 0.9526076053022161
+      },
+      {
+        "event": "LC82151102013360LGN00",
+        "scene": "LC82151102013360LGN00",
+        "eligible": false,
+        "tiles": 0,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC82160662014146LGN00",
+        "scene": "LC82160662014146LGN00",
+        "eligible": true,
+        "tiles": 13,
+        "confusion": [
+          29944,
+          2394,
+          5363
+        ],
+        "water_iou": 0.7942494894034641
+      },
+      {
+        "event": "LC82170152014249LGN00",
+        "scene": "LC82170152014249LGN00",
+        "eligible": false,
+        "tiles": 7,
+        "confusion": [
+          0,
+          380919,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC82210662014229LGN00",
+        "scene": "LC82210662014229LGN00",
+        "eligible": false,
+        "tiles": 14,
+        "confusion": [
+          0,
+          66,
+          0
+        ],
+        "water_iou": 0.0
+      },
+      {
+        "event": "LC82260732013357LGN00",
+        "scene": "LC82260732013357LGN00",
+        "eligible": true,
+        "tiles": 12,
+        "confusion": [
+          218004,
+          1575,
+          229589
+        ],
+        "water_iou": 0.4853506928365333
+      },
+      {
+        "event": "LC82290562014157LGN00",
+        "scene": "LC82290562014157LGN00",
+        "eligible": true,
+        "tiles": 7,
+        "confusion": [
+          182916,
+          1733,
+          1890
+        ],
+        "water_iou": 0.98057778802288
+      },
+      {
+        "event": "LC82290782013282LGN00",
+        "scene": "LC82290782013282LGN00",
+        "eligible": false,
+        "tiles": 13,
+        "confusion": [
+          0,
+          0,
+          0
+        ],
+        "water_iou": null
+      },
+      {
+        "event": "LC82290872014013LGN00",
+        "scene": "LC82290872014013LGN00",
+        "eligible": true,
+        "tiles": 13,
+        "confusion": [
+          532,
+          213,
+          556
+        ],
+        "water_iou": 0.4089162182936203
+      },
+      {
+        "event": "LC82310942013344LGN00",
+        "scene": "LC82310942013344LGN00",
+        "eligible": true,
+        "tiles": 6,
+        "confusion": [
+          11588,
+          18219,
+          2078
+        ],
+        "water_iou": 0.3634310804453505
+      },
+      {
+        "event": "LC82320772014306LGN00",
+        "scene": "LC82320772014306LGN00",
+        "eligible": true,
+        "tiles": 14,
+        "confusion": [
+          751,
+          5559,
+          197
+        ],
+        "water_iou": 0.11541416935607807
+      }
+    ],
+    "summary": {
+      "scene_count": 62,
+      "scene_mean": 0.5185537355563729,
+      "ci95": [
+        0.43726768253741155,
+        0.598654200380362
+      ],
+      "uncertainty": "acquisition scene bootstrap; 5000 draws; seed0",
+      "limitation": null,
+      "pixel_pooled_water_iou_secondary": 0.7210599831494662
+    }
+  },
+  "event_weighted_mean": null,
+  "event_weighted_mean_reason": "not estimated; no flood-event identifiers are supplied",
+  "pixel_pool_role": "secondary pooled confusion; never substituted for scene mean",
+  "worldfloods_results_modified": false,
+  "acquisitions": 80,
+  "eligible_windows": 910,
+  "runtime_seconds": 156.40666317939758,
+  "checkpoint_unchanged": true
+}
