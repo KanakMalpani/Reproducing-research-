@@ -1,0 +1,8 @@
+Input checks computed on 2026-11-17; no raster or model was loaded for inference.
+Both frozen checkpoint files are present. The released UNet hash below was computed by reading bytes, not loading model weights.
+The two JSON comparisons match their recorded hashes. No raster hash is reported because no raster was read.
+
+4915af733e3e749b3e76a1111b1a4041794b8cc524b740da8925adc8878981e5  17099 bytes  clear-cloudy-gap-audit/p2_results.json
+077327eccc8f20081e233c3797cba50523e409cd3ab71099091160736c8480b3  42545 bytes  clear-cloudy-gap-audit/results/pooled_cloud_noncloud_placebo.json
+6be6213788daff7cf88c70d8c52be6dc459079356542f963fc08e82879c022e1  23800 bytes  clear-cloudy-gap-audit/results/prithvi_same_protocol.json
+ef52e243cea1c659895d05440932b7ec0ef473f63a52283b1c9bd459bf1982b7  31160841 bytes  clear-cloudy-gap-audit/checkpoints/released_frozen\model.pt
